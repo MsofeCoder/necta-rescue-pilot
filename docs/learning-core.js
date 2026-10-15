@@ -59,5 +59,5 @@
       b.records.length <= 3000 && b.records.every(validLegacyRecord) &&
       (!own(b, 'learning') || validProgress(b.learning));
   }
-  return {validCard, eligibleCards, validProgress, validLegacyRecord, validBackup};
+  return {validCard, eligibleCards, validProgress, validLegacyRecord, validBackup, MAX_BACKUP_BYTES:16 * 1024 * 1024};
 }));

@@ -6,6 +6,7 @@
   const cards = core.eligibleCards(window.NECTA_CIVICS);
   const topics = [...new Set(cards.map(c => c.topic))];
   const KEY = 'necta-rescue-learning-v1', LEGACY = 'necta-rescue-pilot-v1';
+  const EXPECTED_CACHE = 'necta-rescue-static-v6';
   let progress = {version:1, records:[]}, storageBlocked = false;
   let topic = '', index = 0, selection = [], revealed = false;
   const make = (tag, value, className) => { const el = document.createElement(tag); if (value !== undefined) el.textContent = value; if (className) el.className = className; return el; };
@@ -74,6 +75,8 @@
     $('kindBadge').className = 'badge' + (original ? '' : ' concept');
     $('questionRef').textContent = original ? 'Civics ' + c.year + ' · Q' + c.reference : c.command + ' · Practice prompt';
     $('questionTitle').textContent = c.question; $('answerStyle').textContent = 'How to answer: ' + c.style;
+    $('conceptContext').hidden = original;
+    $('conceptContext').textContent = original ? '' : 'Example from the source question: ' + cards.find(item => item.id === c.derivedFrom).question.split('. ')[0] + '.';
     $('choices').hidden = c.type !== 'mcq';
     if (c.type === 'mcq') for (const option of c.options) {
       const label = make('label', undefined, 'choice');
@@ -155,11 +158,19 @@
       $('backupStatus').textContent = 'Backup download started. It includes your self-checks and original paper-practice notes.';
     } catch (err) { $('backupStatus').textContent = 'Cannot export: ' + err.message; }
   });
+  $('exportRecovery').addEventListener('click', () => {
+    try {
+      download({format:'necta-rescue-recovery',version:1,exported_at:new Date().toISOString(),raw:{
+        paper_practice:localStorage.getItem(LEGACY),learning:localStorage.getItem(KEY)
+      }}, 'necta-rescue-recovery-' + new Date().toISOString().slice(0,10) + '.json');
+      $('backupStatus').textContent = 'Recovery copy downloaded without changing saved data. This raw copy needs repair before normal import; keep it private.';
+    } catch (_) { $('backupStatus').textContent = 'Browser storage could not be read. Your existing saved data has not been changed.'; }
+  });
   $('importProgress').addEventListener('click', () => $('backupFile').click());
   $('backupFile').addEventListener('change', async e => {
     const file = e.target.files && e.target.files[0]; if (!file) return;
     try {
-      if (file.size > 3e6) throw Error('Backup is too large (maximum 3 MB).');
+      if (file.size > core.MAX_BACKUP_BYTES) throw Error('Backup is too large (maximum 16 MB).');
       const backup = JSON.parse(await file.text());
       if (!core.validBackup(backup)) throw Error('Unsupported or invalid backup. Nothing was changed.');
       const hasLearning = Object.prototype.hasOwnProperty.call(backup, 'learning');
@@ -192,13 +203,17 @@
     const channel = new MessageChannel();
     const timer = setTimeout(() => channel.port1.close(), 5000);
     channel.port1.onmessage = event => {
-      if (event.data && event.data.type === 'offline-ready' && event.data.cache === 'necta-rescue-static-v4') {
+      if (event.data && event.data.type === 'offline-ready' && event.data.cache === EXPECTED_CACHE) {
         offlineReady = true; offlineMessage();
+      } else if (event.data && event.data.type === 'offline-ready' && /^necta-rescue-static-v\d+$/.test(event.data.cache) &&
+          Number(event.data.cache.split('-v')[1]) > Number(EXPECTED_CACHE.split('-v')[1])) {
+        $('updateNotice').hidden = false;
       }
       clearTimeout(timer); channel.port1.close();
     };
     worker.postMessage({type:'offline-ready'}, [channel.port2]);
   }
+  $('reloadUpdate').addEventListener('click', () => location.reload());
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
     navigator.serviceWorker.addEventListener('controllerchange', () => confirmOfflineBundle(navigator.serviceWorker.controller));
     navigator.serviceWorker.register('./sw.js').then(registration => {

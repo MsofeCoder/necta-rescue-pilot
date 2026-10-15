@@ -15,8 +15,8 @@ Before public release:
 1. Have the owner/subject reviewer accept the seven historical items and seven authored variations using the ledger and original pages. Resolve any new objection by withholding the affected card and its dependent variations.
 2. Review and accept the feature PR into `develop`; keep PR #2 out of the release unless separately approved.
 3. Run core and browser suites on the exact release candidate. Test question/reveal/navigation, complete MCQs, source gates, empty states, keyboard/focus, 360/390px widths, offline operation, legacy notes/backups and cache upgrade.
-4. Check a physical Android phone and, if supported for release, iOS Safari: reading, touch, installation and return offline. Emulation is not a physical-device test.
+4. Physical Android reading, touch, persistence and offline return have passed on the candidate. Recheck if public files change; verify home-screen installation and iOS Safari if included in the release scope. Emulation is not a physical-device test.
 5. Export a current combined backup. Open a separate `develop` -> `main` release PR and obtain explicit owner approval before merging. Leave Pages on `main` `/docs`.
-6. After the approved merge, verify the Pages build SHA, live file fingerprints, v4 worker, first-load offline-ready state, actual offline use and existing progress on the live origin. Record the production SHA and rollback target.
+6. After the approved merge, verify the Pages build SHA, live file fingerprints, v6 worker, first-load offline-ready state, actual offline use and existing progress on the live origin. Record the production SHA and rollback target. The tested release ZIP and manifest are reproducible with `npm run package:release`; CI checks the public file hashes before packaging.
 
 Rollback target for this change: `d0df839621f6ef4ec09625eb5f21edfea1087343`. Use a reviewed revert of the release commit; the older shell leaves the additive learning key intact. Releasing the feature again recovers those self-checks. Never erase browser data as part of rollback.

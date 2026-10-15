@@ -3,10 +3,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
+import {createHash} from 'node:crypto';
 import {spawn,execFileSync} from 'node:child_process';
 import {startPreview,root,docs,prefix} from '../tools/preview.mjs';
 const baseline='d0df839621f6ef4ec09625eb5f21edfea1087343';
-const out=path.join(root,'.workbuddy-ai','browser-evidence');
+const out=path.join(root,'.workbuddy-ai',process.env.NECTA_EVIDENCE_SUBDIR||'browser-evidence');
 fs.mkdirSync(out,{recursive:true});
 // Keep Chrome's profile path short: deeply nested Windows paths break CacheStorage.
 const run=fs.mkdtempSync(path.join(os.tmpdir(),'necta-civics-'));
@@ -19,7 +20,7 @@ const prod=new Map();
 for(const name of execFileSync('git',['ls-tree','--name-only',baseline+':docs'],{cwd:root,encoding:'utf8'}).trim().split('\n')){
   prod.set(name,execFileSync('git',['show',baseline+':docs/'+name],{cwd:root}));
 }
-let phase='baseline', fixture=null,server,chrome,c,bc;
+let phase='baseline', fixture=null,server,chrome,c,bc,browserVersion;
 const cert=process.env.NECTA_TEST_CERT,key=process.env.NECTA_TEST_KEY;
 if(!cert||!key)throw Error('Provide existing local HTTPS test certificate and key via NECTA_TEST_CERT and NECTA_TEST_KEY.');
 class CDP {
@@ -61,9 +62,11 @@ try{
   if(!fs.existsSync(portFile))throw Error('Chrome did not start');
   const debugPort=fs.readFileSync(portFile,'utf8').split('\n')[0],cdp='http://127.0.0.1:'+debugPort;
   const version=await(await fetch(cdp+'/json/version')).json();
+  browserVersion=version.Browser;
   bc=await connect(version.webSocketDebuggerUrl);await bc.send('Browser.setDownloadBehavior',{behavior:'allow',downloadPath:downloads,eventsEnabled:true});
   const target=await(await fetch(cdp+'/json/new?about:blank',{method:'PUT'})).json();c=await connect(target.webSocketDebuggerUrl);
   for(const domain of ['Runtime','Page','DOM','Network','ServiceWorker'])await c.send(domain+'.enable');
+  await c.send('Page.addScriptToEvaluateOnNewDocument',{source:"window.__cspViolations=[];document.addEventListener('securitypolicyviolation',event=>window.__cspViolations.push(event.violatedDirective))"});
   await navigate(app);
   await c.wait('!!navigator.serviceWorker.controller');
   demand('production baseline loads v2',await c.eval(`(async()=> (await caches.keys()).includes('necta-rescue-static-v2'))()`));
@@ -77,11 +80,13 @@ try{
   demand('pre-upgrade backup downloaded',fs.existsSync(oldBackup));
   await c.eval(`caches.open('unrelated-application-cache')`);
   await c.eval(`caches.open('necta-rescue-static-v3')`);
+  await c.eval(`caches.open('necta-rescue-static-v4')`);
   phase='candidate';await navigate(app);await c.wait(`!!document.getElementById('startCivics')&&document.getElementById('collectionCount').textContent.includes('14')`);
-  await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v4')&&!k.includes('necta-rescue-static-v2')})()`);
-  demand('v2 -> v4 upgrade preserves legacy bytes',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords);
+  await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v6')&&!k.includes('necta-rescue-static-v2')})()`);
+  demand('v2 -> v6 upgrade preserves legacy bytes',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords);
   check('cache upgrade preserves unrelated applications',await c.eval(`(async()=>(await caches.keys()).includes('unrelated-application-cache'))()`));
   check('cache upgrade also removes stale v3',await c.eval(`(async()=>!(await caches.keys()).includes('necta-rescue-static-v3'))()`));
+  check('cache upgrade also removes stale v4',await c.eval(`(async()=>!(await caches.keys()).includes('necta-rescue-static-v4'))()`));
   check('GitHub Pages subpath worker scope',await c.eval(`(async()=>(await navigator.serviceWorker.getRegistration()).scope)()` )===app);
   check('home has a clear Civics action and no PDF input',await c.eval(`!!document.getElementById('startCivics')&&!document.querySelector('input[type=file][accept*="pdf"]')`));
   for(const width of [360,390]){
@@ -136,6 +141,7 @@ try{
   await chooseTopic('Democracy');await input('#kindSelect','all');await c.click('#revealAnswer');await c.click('#nextQuestion');
   check('next question resets answer and focuses prompt',await c.eval(`document.getElementById('answerPanel').hidden&&!document.getElementById('answerBullets').textContent&&document.activeElement.id==='questionTitle'`));
   check('concept variation visibly distinguished',await c.eval(`document.getElementById('kindBadge').textContent==='Authored concept variation'&&document.getElementById('questionRef').textContent.includes('Define')`));
+  check('concept prompt includes its source example without requiring an earlier card',await c.eval(`!document.getElementById('conceptContext').hidden&&document.getElementById('conceptContext').textContent.includes('all adult citizens')`));
   await c.click('#previousQuestion');check('previous returns to original wording with answer hidden',await c.eval(`document.getElementById('kindBadge').textContent==='Original exam wording'&&document.getElementById('answerPanel').hidden`));
   await input('#kindSelect','authored_concept');check('concept filter has seven variations',await c.eval(`document.getElementById('position').textContent==='1 / 7'`));
   await c.click('#revealAnswer');await c.shot('concept-390');
@@ -169,15 +175,44 @@ try{
   await c.click('#timerStart');await sleep(1200);await c.click('#timerPause');check('legacy focus timer counts down',await c.eval(`document.getElementById('timer').textContent!=='25:00'`));
   const synthetic=path.join(run,'test-paper.pdf');fs.writeFileSync(synthetic,'%PDF-1.4\n1 0 obj <</Type /Catalog>> endobj\n%%EOF');await c.file('#pdfFile',synthetic);
   check('local PDF still uses blob without upload',await c.eval(`document.querySelector('#pdfholder iframe').src.startsWith('blob:')&&!document.getElementById('openPdf').disabled`));
+  check('paper practice runs under its content security policy',await c.eval(`window.__cspViolations.length===0`));
+  const legacyBeforeFailure=await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`);
+  await c.eval(`window.__saveSet=Storage.prototype.setItem;Storage.prototype.setItem=function(){throw new DOMException('Quota exceeded','QuotaExceededError')}`);
+  await c.click('#history .record button');
+  check('failed legacy deletion keeps the record visible and stored',await c.eval(`document.querySelectorAll('#history .record').length===1` )&&await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===legacyBeforeFailure);
+  await c.click('#clearBtn');
+  check('failed legacy clear never reports cleared history',await c.eval(`document.querySelectorAll('#history .record').length===1&&!document.getElementById('backupStatus').textContent.includes('Local history cleared')`));
+  await c.eval(`Storage.prototype.setItem=window.__saveSet`);
+  const corruptLegacy='[{"id":"keep-original"}, {"broken":true}]';
+  await c.eval(`localStorage.setItem('necta-rescue-pilot-v1',${JSON.stringify(corruptLegacy)})`);await navigate(app+'paper-practice.html');
+  check('legacy corrupted history is visibly locked instead of filtered away',await c.eval(`!document.getElementById('storageNotice').hidden&&document.getElementById('history').textContent.includes('has not been erased')`));
+  await input('#qref','safe-check');await c.click('#attemptForm button[type=submit]');
+  check('legacy attempt cannot overwrite unreadable history',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===corruptLegacy);
+  await c.click('#clearBtn');
+  check('legacy clear cannot discard unreadable history',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===corruptLegacy);
+  await navigate(app);await c.eval(`document.querySelector('.backup-tools').open=true`);await c.click('#exportRecovery');
+  const recoveryName=()=>fs.readdirSync(downloads).find(f=>f.startsWith('necta-rescue-recovery-')&&f.endsWith('.json'));
+  for(let i=0;i<50&&!recoveryName();i++)await sleep(100);
+  const recovery=JSON.parse(fs.readFileSync(path.join(downloads,recoveryName()||'missing'),'utf8'));
+  check('recovery export preserves unreadable raw history exactly',recovery.format==='necta-rescue-recovery'&&recovery.raw.paper_practice===corruptLegacy);
+  const large={format:'necta-rescue-pilot',version:1,records:Array.from({length:400},(_,i)=>({...JSON.parse(originalRecords)[0],id:'large-'+i,notes:'漢'.repeat(3000)}))};
+  const largePath=path.join(run,'large-backup.json');fs.writeFileSync(largePath,JSON.stringify(large));
+  demand('large-backup test genuinely exceeds former 3 MB ceiling',fs.statSync(largePath).size>3e6);
+  await c.file('#backupFile',largePath);await c.wait(`document.getElementById('backupStatus').textContent.includes('Old paper-practice backup accepted')`);
+  check('learning importer restores a valid backup over 3 MB',await c.eval(`JSON.parse(localStorage.getItem('necta-rescue-pilot-v1')).length===400`));
+  await navigate(app+'paper-practice.html');await c.file('#importFile',largePath);await c.wait(`document.getElementById('backupStatus').textContent.includes('Backup restored: 400')`);
+  check('legacy importer restores a valid backup over 3 MB',await c.eval(`document.querySelectorAll('#history .record').length===400`));
+  await c.eval(`localStorage.setItem('necta-rescue-pilot-v1',${JSON.stringify(originalRecords)})`);
   await navigate(app);await c.click('#startCivics');await c.click('.topic-button');
+  check('learning runs under its content security policy',await c.eval(`window.__cspViolations.length===0`));
   await c.wait(`document.getElementById('offlineStatus').textContent.includes('Ready to study offline')`);
-  const cachePaths=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v4');return(await cache.keys()).map(r=>new URL(r.url).pathname)})()`);
-  check('offline bundle caches all 11 explicit public assets',cachePaths.length===11&&cachePaths.every(p=>p.startsWith(prefix)));
+  const cachePaths=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v6');return(await cache.keys()).map(r=>new URL(r.url).pathname)})()`);
+  check('offline bundle caches all 12 explicit public assets',cachePaths.length===12&&cachePaths.every(p=>p.startsWith(prefix)));
   for(const name of ['questions.jsonl','answers.jsonl','review/civics-starter-ledger.json','.workbuddy-ai/memory/MEMORY.md','Civics-F4-2025.pdf']){
     const status=await c.eval(`(async()=>(await fetch(${JSON.stringify('./'+name)})).status)()`);check('private path HTTP 404: '+name,status===404);
   }
-  const afterProbe=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v4');return(await cache.keys()).length})()`);
-  check('unknown paths are never cached',afterProbe===11);
+  const afterProbe=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v6');return(await cache.keys()).length})()`);
+  check('unknown paths are never cached',afterProbe===12);
   await c.send('Network.emulateNetworkConditions',{offline:true,latency:0,downloadThroughput:0,uploadThroughput:0});
   // Stop the HTTPS server as well: the worker is the only possible source.
   await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});server=null;
@@ -195,6 +230,11 @@ try{
     return fs.readFileSync(path.join(docs,name));
   }});
   await c.send('Network.emulateNetworkConditions',{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
+  await c.send('Emulation.setCPUThrottlingRate',{rate:4});
+  await c.send('Network.emulateNetworkConditions',{offline:false,latency:400,downloadThroughput:128000,uploadThroughput:64000});
+  const warmStart=Date.now();await navigate(app);await c.wait(`document.getElementById('collectionCount').textContent.includes('14')`);
+  const warmMs=Date.now()-warmStart;check('cached learning loads within 5s on 4x CPU and slow network',warmMs<5000,{milliseconds:warmMs,cpu_slowdown:4,latency_ms:400,download_bytes_per_second:128000});
+  await c.send('Emulation.setCPUThrottlingRate',{rate:1});await c.send('Network.emulateNetworkConditions',{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
   await c.send('Network.setBypassServiceWorker',{bypass:true});
   const realBundle=await c.eval(`NECTA_CIVICS`);
   fixture={version:1,allowlist:[],cards:[]};await navigate(app);await c.click('#startCivics');
@@ -213,6 +253,9 @@ try{
   await c.eval(`window.__realSet=Storage.prototype.setItem;Storage.prototype.setItem=function(){throw new DOMException('Quota exceeded','QuotaExceededError')}`);await c.click('#understood');
   check('storage failure is reported without claiming saved',await c.eval(`document.getElementById('studyStatus').textContent.includes('not saved')`));
   await c.eval(`Storage.prototype.setItem=window.__realSet`);
+  await c.eval(`(()=>{const script=document.createElement('script');script.textContent='window.__inlineScriptExecuted=true';document.body.append(script)})()`);
+  await c.wait(`window.__cspViolations.includes('script-src-elem')`);
+  check('browser security policy blocks injected inline executable code',await c.eval(`!window.__inlineScriptExecuted`));
   const beforeRestore=await c.eval(`({legacy:localStorage.getItem('necta-rescue-pilot-v1'),learning:localStorage.getItem('necta-rescue-learning-v1')})`);
   await c.eval(`window.__realSet=Storage.prototype.setItem;window.__restoreFail=true;Storage.prototype.setItem=function(key,value){if(key==='necta-rescue-learning-v1'&&window.__restoreFail){window.__restoreFail=false;throw new DOMException('Quota exceeded','QuotaExceededError')}return window.__realSet.call(this,key,value)}`);
   await c.file('#backupFile',combined);await c.wait(`document.getElementById('backupStatus').textContent.includes('previous saved progress was restored')`);
@@ -224,7 +267,8 @@ try{
   console.log('Browser: '+version.Browser);
 } catch(err){check('browser suite completed',false,err.stack);}
 finally{
-  fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,checks,errors,requests:[...new Set(requests)],finished_at:new Date().toISOString()},null,2));
+  const tested_files=Object.fromEntries(fs.readdirSync(docs).map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(docs,name))).digest('hex')]));
+  fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,browser:browserVersion,checks,errors,requests:[...new Set(requests)],tested_files,finished_at:new Date().toISOString()},null,2));
   if(c)c.close();if(bc){try{await bc.send('Browser.close');}catch{}bc.close();}if(chrome)chrome.kill();
   if(server)await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});
 }

@@ -1,4 +1,6 @@
-# Executed QA - 15 October 2026
+# Executed QA - initial implementation, 15 October 2026
+
+This file preserves the initial 154-check implementation record. The expanded final candidate, real-phone evidence and current limits are in [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md); [qa-results.json](qa-results.json) now records the latest runs.
 
 **154 checks passed, zero remaining failures.** Machine-readable evidence: [qa-results.json](qa-results.json).
 
@@ -33,4 +35,4 @@ Code review additionally tightened malformed allowlist handling, made the offlin
 
 ## Limits and release work
 
-No physical Android/iOS device test, Safari/Firefox execution, large real-PDF timing, or live post-deployment smoke test has been performed. No production merge or deployment occurred. Academic review by a human subject expert and owner acceptance of the named collection remain pending; Codex source checking is explicitly documented as such. Follow [RELEASE_POLICY.md](../RELEASE_POLICY.md) before public release.
+At the initial implementation checkpoint, physical Android/iOS, Safari/Firefox, large real-PDF timing and live post-deployment tests had not been performed. The subsequent physical Android and Edge results are documented in the current readiness report. No production merge or deployment occurred. Academic review by a human subject expert and owner acceptance of the named collection remain pending; Codex source checking is explicitly documented as such. Follow [RELEASE_POLICY.md](../RELEASE_POLICY.md) before public release.

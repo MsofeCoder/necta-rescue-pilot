@@ -72,7 +72,7 @@ test('short explanations and six source-requested career points; no inferred mar
   const career=bundle.cards.find(c=>c.id.endsWith('-q03'));assert.equal(career.answer.length,6);assert.equal(career.requiredPoints,6);assert.equal(career.marks,null);
 });
 test('public directory contains only the static allowlist and no raw/private records',()=>{
-  const expected=['.nojekyll','civics-content.js','icon-192.png','icon-512.png','icon.svg','index.html','learning-core.js','learning.css','learning.js','manifest.webmanifest','paper-practice.html','sw.js'];
+  const expected=['.nojekyll','civics-content.js','icon-192.png','icon-512.png','icon.svg','index.html','learning-core.js','learning.css','learning.js','manifest.webmanifest','paper-practice.html','paper-practice.js','sw.js'];
   assert.deepEqual(fs.readdirSync(path.join(root,'docs')).sort(),expected.sort());
   for(const f of expected.filter(f=>/\.(js|html|css|webmanifest)$/.test(f))){
     const s=fs.readFileSync(path.join(root,'docs',f),'utf8');

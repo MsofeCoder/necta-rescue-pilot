@@ -551,8 +551,8 @@ window.NECTA_CIVICS = {
       "command": "State",
       "question": "State two features of direct democracy.",
       "answer": [
-        "Citizens take part directly in making decisions.",
-        "Citizens decide issues themselves rather than leaving those decisions to representatives."
+        "Adult citizens take part in the assembly.",
+        "The citizens participate directly in making decisions."
       ],
       "explanation": "State asks for concise facts. The number comes from this prompt, not from the word state.",
       "style": "Give two brief points because this practice prompt asks for two. Long explanations are unnecessary.",

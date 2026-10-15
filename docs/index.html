@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
   <meta name="theme-color" content="#14213d">
   <meta name="description" content="Study Civics one question at a time. Reveal short answers, understand the idea, and practise different question styles.">
   <title>NECTA Rescue • Learn Civics</title>
@@ -46,6 +48,7 @@
       <article id="questionCard" class="question-card">
         <div class="card-meta"><span id="kindBadge" class="badge"></span><span id="questionRef" class="muted"></span></div>
         <h2 id="questionTitle" tabindex="-1"></h2>
+        <p id="conceptContext" class="answer-style" hidden></p>
         <fieldset id="choices" hidden><legend class="sr-only">Choose an answer before revealing, if you wish</legend><div id="choiceList"></div></fieldset>
         <p id="answerStyle" class="answer-style"></p>
         <p id="thinkingHint" class="muted thinking">Take a moment. Say your answer or jot it on paper.</p>
@@ -69,7 +72,8 @@
     </section>
     <aside class="support">
       <p id="offlineStatus" class="offline" role="status">Preparing offline revision…</p>
-      <details class="backup-tools"><summary>Keep your progress safe</summary><p>Self-checks stay in this browser. They are your own reflection, not marks. Export a backup to keep them safe or move to another device.</p><div class="backup-actions"><button id="exportProgress" class="button secondary" type="button">Export backup</button><button id="importProgress" class="button secondary" type="button">Import backup</button></div><input id="backupFile" type="file" accept="application/json,.json" hidden><p id="backupStatus" role="status"></p></details>
+      <p id="updateNotice" class="notice" hidden>A new revision version is ready. <button id="reloadUpdate" class="button secondary" type="button">Use latest version</button></p>
+      <details class="backup-tools"><summary>Keep your progress safe</summary><p>Self-checks stay in this browser. They are your own reflection, not marks. Export a backup to keep them safe or move to another device.</p><div class="backup-actions"><button id="exportProgress" class="button secondary" type="button">Export backup</button><button id="importProgress" class="button secondary" type="button">Import backup</button><button id="exportRecovery" class="button secondary" type="button">Export recovery copy</button></div><input id="backupFile" type="file" accept="application/json,.json" hidden><p id="backupStatus" role="status"></p></details>
       <a class="paper-link" href="./paper-practice.html">Original-paper practice &amp; saved notes ↗</a>
     </aside>
   </main>
