@@ -1,0 +1,27 @@
+{
+  "approved_on": "2026-10-15",
+  "timezone": "Africa/Dar_es_Salaam",
+  "authority": "Project owner, explicit response in implementation chat",
+  "decision": "Approve the collection and publish",
+  "approved_scope": "Accept the 7 source-checked original Civics cards and 7 labelled authored variations; merge PR 3 through develop to main; publish and verify the live release.",
+  "reviewed_commit": "27439317db31ff5ff956bb614ffb5b61f976e261",
+  "source_baseline": "d0df839621f6ef4ec09625eb5f21edfea1087343",
+  "quality_run": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/38753614263",
+  "public_file_sha256": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "civics-content.js": "53cecb2e4905b0fbe40ccf21db699fa2cedd33e42c79cd4cb672c49664360a72",
+    "icon-192.png": "d130063c98f29991b75fffcfdcfb2083bc01e41cdb2788ad3659b4e3c0e29d92",
+    "icon-512.png": "9f027622a5aa6dadcd9ab34999f6a375ccd6d11e10dcf665a34707c32af570ab",
+    "icon.svg": "c440559c791db1ef7c75a281acb24c2c1f5411d1017f7bb0b909827c9d0ef8e1",
+    "index.html": "54dabc922b05dc1ccfed59ee2a2f899ae046086ee853c35d1b1215e19b7f5a28",
+    "learning-core.js": "ef683259c4f65ab93789f0b5e822546071ea115beb5481f00e561d54464bb148",
+    "learning.css": "f5f64182fecae2e5ce329987f855fd52ce44f66babb48a14b377cc50131efea5",
+    "learning.js": "b60a6aa27b0814df8b9d10938948e50e327776c69c267e30047a1a27c1bee554",
+    "manifest.webmanifest": "93d0bc62aa71eea0aca5777b8badfccca724028a64f0821a7a454b42b986a445",
+    "paper-practice.html": "e82696fd17f28e3a6655a6eb6d48db66e380c1e1e42a2f31f66ab886d6c0fd86",
+    "paper-practice.js": "daf575d499d9b5c2efded319e09216f1748f2600d1298639a0103b74f506cfa0",
+    "sw.js": "e398187c8e15423cf39868ef69995a2c7aa24b01c54ff0e221ccdda8ed8b1212"
+  },
+  "independent_human_subject_certification": "Not claimed. Owner accepted the Codex-reviewed pilot and its disclosed limits.",
+  "dashboard_pr_2": "Excluded"
+}
