@@ -8,7 +8,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q01i",
     "parent_question": "1",
@@ -72,7 +72,8 @@
     "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
     "independent_reasoning": "E includes economic AND social rights; C omits social rights. Work and necessities identify this rights category.",
     "correction": "Restored all five printed alternatives from exam page 2; the pipeline stored these under q01ii. No canonical record changed.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "civics-review-2026-10-15-iii",
@@ -83,7 +84,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q01iii",
     "parent_question": "1",
@@ -148,7 +149,8 @@
     "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
     "independent_reasoning": "The direction imports > exports defines a deficit, so B is the only matching option. No present-day trade claim is inferred.",
     "correction": "Printed stem and A–E alternatives checked directly. The extracted a01iii association is wrong; supplied answer taken from solution page 3.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "civics-review-2026-10-15-iv",
@@ -159,7 +161,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q01iv",
     "parent_question": "1",
@@ -217,7 +219,8 @@
     "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
     "independent_reasoning": "Inspiration and motivation are defining features of charismatic leadership. The other options describe fear, division or control.",
     "correction": "Full printed item and supplied key checked visually. Ambiguous pipeline answer associations were not used.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "civics-review-2026-10-15-vi",
@@ -228,7 +231,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q01vi",
     "parent_question": "1",
@@ -294,7 +297,8 @@
     "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
     "independent_reasoning": "Direct participation in decisions distinguishes direct/pure democracy from merely expressing views or separating powers.",
     "correction": "Complete printed question, labels and supplied answer B checked directly; no boundary correction required.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "civics-review-2026-10-15-ix",
@@ -305,7 +309,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q01ix",
     "parent_question": "1",
@@ -371,7 +375,8 @@
     "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
     "independent_reasoning": "Relative poverty compares standards within a society; absolute poverty concerns a basic-needs threshold rather than this comparison.",
     "correction": "Restored all five printed alternatives from exam page 3; the pipeline attached them to q01x. Canonical text preserved separately.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "civics-review-2026-10-15-x",
@@ -382,7 +387,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q01x",
     "parent_question": "1",
@@ -448,7 +453,8 @@
     "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
     "independent_reasoning": "Population denotes the people; land, sovereignty, culture and government do not themselves supply the people doing the work.",
     "correction": "Removed foreign q01ix alternatives only in the reviewed display copy. Restored the printed A–E order; raw extraction retained in ledger.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "civics-review-2026-10-15-q03",
@@ -459,7 +465,7 @@
     "reviewer": "Codex",
     "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "question_record_id": "civics-2025-p1-q03",
     "parent_question": null,
@@ -510,7 +516,8 @@
     "answer_treatment": "Six supplied solution paragraphs paraphrased into short educational bullets; not a verbatim marking scheme.",
     "independent_reasoning": "Each supplied point gives a distinct mechanism: skills, planning, productivity, adaptation, employment matching and ethics. Avoided a guaranteed-job claim.",
     "correction": "No question correction. Whitespace normalized. Answer paraphrase kept separate from source transcription.",
-    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending."
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-define",
@@ -520,7 +527,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "Define",
@@ -528,7 +535,8 @@
     "answer_bullets": [
       "Direct democracy is a system in which citizens take part in making decisions themselves."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-state",
@@ -538,7 +546,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "State",
@@ -547,7 +555,8 @@
       "Adult citizens take part in the assembly.",
       "The citizens participate directly in making decisions."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-mention",
@@ -557,7 +566,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "Mention",
@@ -565,7 +574,8 @@
     "answer_bullets": [
       "A village assembly in which all adult citizens take part in decision making."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-explain",
@@ -575,7 +585,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "Explain",
@@ -584,7 +594,8 @@
       "All adult citizens in the example participate in making decisions themselves.",
       "Their direct involvement makes it direct democracy, rather than decisions being left only to representatives."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-describe",
@@ -594,7 +605,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "Describe",
@@ -603,7 +614,8 @@
       "Adult citizens take part in the assembly.",
       "They participate directly in deciding issues affecting the village."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-reasons",
@@ -613,7 +625,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "Give reasons",
@@ -622,7 +634,8 @@
       "The adult citizens participate themselves, so their role is direct.",
       "They help make the decisions, so they do more than just express opinions."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   },
   {
     "review_id": "concept-review-2026-10-15-discuss",
@@ -632,7 +645,7 @@
     "reviewed_at": "2026-10-15",
     "reviewer": "Codex",
     "decision": "include_in_feature_candidate",
-    "owner_release_approval": "pending",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
     "independent_human_subject_review": "pending",
     "derived_from": "civics-2025-p1-q01vi",
     "command": "Discuss",
@@ -642,6 +655,7 @@
       "This makes direct democracy the best description of the situation in the question.",
       "The example does not tell us the detailed decision procedure or whether everyone actually attends."
     ],
-    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks."
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
   }
 ]

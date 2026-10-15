@@ -1,6 +1,6 @@
 # Civics starter collection - bounded source review
 
-Reviewed 15 October 2026 by Codex. **Feature candidate; not deployed.** This is an original-page comparison and independent conceptual assessment by the coding agent, not a human subject-expert certification. The owner must accept the collection before public release. No paper-level clearance is implied.
+Reviewed 15 October 2026 by Codex. This is an original-page comparison and independent conceptual assessment by the coding agent, not a human subject-expert certification. The owner subsequently accepted the collection and authorized publication, recorded in [RELEASE_ACCEPTANCE.json](RELEASE_ACCEPTANCE.json). No paper-level clearance is implied.
 
 Original documents were present, opened, hashed against the actual manifest, rendered and visually inspected:
 

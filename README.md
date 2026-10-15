@@ -2,7 +2,7 @@
 
 A mobile-first, dependency-free learning app: **Civics -> topic -> question -> Show Answer -> short bullets and explanation -> Understood / Revise Again -> next question**. The first activity needs no PDF, account or download. The original-paper viewer, timer and practice log remain at `docs/paper-practice.html`.
 
-This feature is a development candidate. Production stays on `main`; no merge or deployment is authorized by this branch.
+The owner accepted this fourteen-card pilot and authorized its release on 15 October 2026; [the acceptance record](review/RELEASE_ACCEPTANCE.json) identifies the exact public-file hashes. Production uses `main` `/docs`, through the reviewed release workflow.
 
 ## Preview and checks
 

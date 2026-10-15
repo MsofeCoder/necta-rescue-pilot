@@ -51,7 +51,9 @@ test('every bundled card has a matching explicit ledger decision and exact answe
     const l=ledger.find(l=>l.review_id===c.review.id&&l.card_id===c.id);
     assert(l);assert.equal(l.decision,'include_in_feature_candidate');assert.equal(l.status,c.review.status);
     assert.deepEqual(l.answer_bullets,c.answer);
-    assert.equal(l.owner_release_approval,'pending');
+    assert.equal(l.owner_release_approval,'approved_for_pilot_2026-10-15');
+    const acceptance=JSON.parse(fs.readFileSync(path.join(root,'review/RELEASE_ACCEPTANCE.json'),'utf8'));
+    assert.equal(acceptance.decision,'Approve the collection and publish');
     if(c.kind==='original_exam'){
       assert.equal(l.source_question_transcription,c.originalQuestion);assert.equal(l.corrected_display_question,c.question);
       assert(l.original_pipeline_question_text);assert(l.independent_reasoning);assert.deepEqual(l.exam,c.exam);assert.deepEqual(l.solution,c.solution);
