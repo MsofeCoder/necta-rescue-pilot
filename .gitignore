@@ -1,0 +1,11 @@
+# Local agent workspace and notes — never published to GitHub Pages.
+.workbuddy-ai/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local test artefacts (fixtures, renders, downloads) — never commit exam papers.
+test-fixtures/
+*.local.json
