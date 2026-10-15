@@ -23,8 +23,50 @@
     main{padding:20px 0 40px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}.stat{padding:16px;background:white;border:1px solid #dee5f0;border-radius:13px;min-height:98px}.stat strong{font-size:29px;display:block;line-height:1.3}.stat span{color:#52637c;font-size:13px}
     .layout{display:grid;grid-template-columns:1.2fr .8fr;gap:16px}.panel{background:white;border:1px solid #dee5f0;box-shadow:0 5px 20px #1c315008;border-radius:14px;padding:19px;min-width:0}.wide{grid-column:1/-1}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{display:flex;flex-direction:column;gap:5px;margin-bottom:11px}.field label{font-size:13px;color:#46556e;font-weight:700}.field input,.field select,.field textarea{width:100%;background:#fff;border:1px solid #b9c7dc;border-radius:9px;min-height:42px;padding:10px 11px;color:#152238}.field textarea{min-height:82px;resize:vertical}.hint{font-size:12px;color:#61728c}
     .btn{background:#14213d;color:white;border:0;padding:10px 14px;min-height:44px;border-radius:9px;font-weight:700}.btn:hover{filter:brightness(1.15)}.btn.gold{background:#fca311;color:#14213d}.btn.outline{background:white;color:#14213d;border:1px solid #b9c7dc}.btn.danger{color:#a21c2d;background:#fff;border:1px solid #edc5cb}.actionrow{display:flex;gap:9px;flex-wrap:wrap}.pdfbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:8px 0}.pdfholder{min-height:340px;display:grid;place-items:center;background:#f2f5fa;border:1px dashed #afbbcf;border-radius:10px;overflow:hidden}.pdfholder iframe{width:100%;height:540px;border:0;background:#fff}.pdfnote{border-left:4px solid #fca311;background:#fff8e8;border-radius:8px;margin-top:10px;padding:10px 13px;color:#574012;font-size:13px}.empty{text-align:center;padding:30px;color:#63728c;max-width:410px}.empty svg{width:55px;height:55px;opacity:.5}
-    .timer{font-size:42px;font-weight:800;letter-spacing:2px;font-variant-numeric:tabular-nums;margin:9px 0}.record{border:1px solid #dce5f0;border-radius:11px;padding:12px;margin-top:10px}.recordhead{display:flex;align-items:start;justify-content:space-between;gap:9px}.pill{font-size:12px;padding:3px 9px;background:#ebf2fb;border-radius:16px;color:#274574}.pill.strong{color:#156044;background:#e4f7ef}.pill.review{color:#87550a;background:#fff2d2}.record p{color:#52637c;font-size:13px;margin:7px 0;white-space:pre-wrap;overflow-wrap:anywhere}.record .mini{font-size:12px;color:#697a8f}.record button{font-size:12px;padding:7px 10px;min-height:34px}.results{max-height:440px;overflow:auto}.footnote{font-size:12px;color:#596a81;text-align:center;margin-top:20px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.divider{border:0;border-top:1px solid #e1e7f1;margin:17px 0}.status{font-size:13px;color:#36557d;min-height:19px}
-    @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.wide{grid-column:auto}.panel{padding:16px}.pdfholder iframe{height:420px}.formgrid{grid-template-columns:1fr}header{padding:16px 0 21px}.stat strong{font-size:26px}}
+    .timer{font-size:42px;font-weight:800;letter-spacing:2px;font-variant-numeric:tabular-nums;margin:9px 0}.record{border:1px solid #dce5f0;border-radius:11px;padding:12px;margin-top:10px}.recordhead{display:flex;align-items:start;justify-content:space-between;gap:9px}.pill{font-size:12px;padding:3px 9px;background:#ebf2fb;border-radius:16px;color:#274574}.pill.strong{color:#156044;background:#e4f7ef}.pill.review{color:#87550a;background:#fff2d2}.record p{color:#52637c;font-size:13px;margin:7px 0;white-space:pre-wrap;overflow-wrap:anywhere}.record .mini{font-size:12px;color:#697a8f}    .record button{font-size:12px;padding:7px 10px;min-height:34px}.results{max-height:440px;overflow:auto}.footnote{font-size:12px;color:#596a81;text-align:center;margin-top:20px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.divider{border:0;border-top:1px solid #e1e7f1;margin:17px 0}.status{font-size:13px;color:#36557d;min-height:19px}
+    /* --- Daily revision dashboard (P1). Read-only view over stored records; writes nothing. --- */
+    .dash{margin-bottom:16px;display:grid;gap:16px}.dashgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .dashcard{background:white;border:1px solid #dee5f0;box-shadow:0 5px 20px #1c315008;border-radius:14px;padding:18px;min-width:0}
+    .dashcard h2{font-size:18px;margin:0 0 4px}.dashcard h3{font-size:13px;margin:14px 0 6px;color:#46556e;text-transform:uppercase;letter-spacing:.04em}
+    .todayrow{display:flex;gap:18px;flex-wrap:wrap;align-items:baseline;margin:10px 0 2px}
+    .todaybig{font-size:38px;font-weight:800;line-height:1;color:#14213d;font-variant-numeric:tabular-nums}
+    .todaylbl{font-size:13px;color:#52637c;display:block;margin-top:5px}
+    .todaystat{min-width:82px}
+    .nextstep{border-left:4px solid #fca311;background:#fff8e8;border-radius:8px;padding:11px 14px;margin-top:14px;color:#574012;font-size:14px}
+    .nextstep strong{color:#3d2b06}
+    .focuslist{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:9px}
+    .focuslist li{border:1px solid #dce5f0;border-radius:10px;padding:10px 12px;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+    .focuslist .fname{font-weight:700;font-size:14px}
+    .focuslist .fmeta{font-size:12px;color:#61728c}
+    .evidence{font-size:11px;padding:3px 8px;border-radius:12px;background:#eef2f8;color:#4a5c78;white-space:nowrap}
+    .evidence.pattern{background:#fdeee9;color:#95351f}
+    .gridwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:4px}
+    table.coverage{border-collapse:separate;border-spacing:3px;font-size:12px;min-width:430px}
+    table.coverage th{font-weight:700;color:#46556e;font-size:11px;padding:2px 5px;text-align:left;white-space:nowrap}
+    table.coverage th.col,table.coverage td.cell{text-align:center;padding:0}
+    table.coverage td.rowh{font-weight:600;color:#3c4a63;font-size:11.5px;white-space:nowrap;padding-right:8px;text-align:left}
+    .cell span{display:grid;place-items:center;width:100%;min-width:34px;height:30px;border-radius:7px;border:1px solid transparent;font-variant-numeric:tabular-nums;font-weight:600;font-size:11.5px}
+    .cov-none span{background:#f2f5fa;border-color:#e3e9f3;color:#9aa8bd;font-weight:400}
+    .cov-practised span{background:#e8eefb;border-color:#cfdcf5;color:#274574}
+    .cov-review span{background:#fdeee9;border-color:#f3cfc4;color:#95351f}
+    .cov-confident span{background:#e4f7ef;border-color:#c4ecdb;color:#156044}
+    .cov-reviewed span{background:#fff2d2;border-color:#f4dfa8;color:#87550a}
+    .cov-reviewed::after,.cov-mixed::after{content:"";position:absolute}
+    .cov-reviewed span,.cov-mixed span{position:relative;box-shadow:inset 0 0 0 2px #fca311}
+    .legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:#52637c}
+    .legend span{display:inline-flex;align-items:center;gap:6px}
+    .swatch{width:14px;height:14px;border-radius:4px;border:1px solid #d5deeb;display:inline-block}
+    .covnote{font-size:12px;color:#61728c;margin-top:11px}
+    .daydots{display:flex;gap:5px;flex-wrap:wrap;margin:10px 0 4px}
+    .daydot{width:26px;height:26px;border-radius:8px;background:#f2f5fa;border:1px solid #e3e9f3;display:grid;place-items:center;font-size:10px;color:#9aa8bd}
+    .daydot.on{background:#e4f7ef;border-color:#c4ecdb;color:#156044;font-weight:700}
+    .daydot.today{outline:2px solid #fca311;outline-offset:1px}
+    .consistency{font-size:14px;color:#3c4a63;margin-top:6px}
+    .consistency strong{color:#14213d}
+    .emptyhelp{margin:4px 0 0;padding-left:20px;color:#52637c;font-size:14px}
+    .emptyhelp li{margin:5px 0}
+    .dash h3:first-child{margin-top:0}
+    @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.wide{grid-column:auto}.panel{padding:16px}.pdfholder iframe{height:420px}.formgrid{grid-template-columns:1fr}header{padding:16px 0 21px}.stat strong{font-size:26px}.dashgrid{grid-template-columns:1fr}.dashcard{padding:15px}.todaybig{font-size:32px}.daydot{width:24px;height:24px}}
   </style>
 </head>
 <body>
@@ -36,6 +78,45 @@
 </header>
 <div class="shell"><div class="notice"><strong>Source-first protection:</strong> This pilot does not publish an extracted question bank, answer keys, or automatic marking. Use the original exam PDF as your source of truth. It is an independent study tool, not an official NECTA service.</div></div>
 <main class="shell">
+  <section class="dash" id="dashboard" aria-labelledby="dashTitle">
+    <h2 id="dashTitle" class="sr-only">Daily revision dashboard</h2>
+    <div class="dashgrid">
+      <section class="dashcard" aria-labelledby="todayTitle">
+        <h2 id="todayTitle">Today’s revision</h2>
+        <p class="muted" id="todayDate"></p>
+        <div class="todayrow">
+          <div class="todaystat"><span class="todaybig" id="dashTodayCount">0</span><span class="todaylbl">attempts today</span></div>
+          <div class="todaystat"><span class="todaybig" id="dashWeekCount">0</span><span class="todaylbl">in the last 7 days</span></div>
+        </div>
+        <p class="hint" id="dashRecent"></p>
+        <div id="dashNextWrap"></div>
+      </section>
+      <section class="dashcard" aria-labelledby="focusTitle">
+        <h2 id="focusTitle">Areas needing more practice</h2>
+        <div id="dashFocus"></div>
+      </section>
+    </div>
+    <div class="dashgrid">
+      <section class="dashcard" aria-labelledby="covTitle">
+        <h2 id="covTitle">Subject and year coverage</h2>
+        <p class="hint">Subjects you have practised, by year. This shows where you have recorded activity — it is not a measure of mastery.</p>
+        <div class="gridwrap" id="dashCoverage"></div>
+        <div class="legend" aria-hidden="true">
+          <span><i class="swatch" style="background:#f2f5fa"></i>No activity</span>
+          <span><i class="swatch" style="background:#e8eefb"></i>Practised</span>
+          <span><i class="swatch" style="background:#fdeee9"></i>Needs review</span>
+          <span><i class="swatch" style="background:#e4f7ef"></i>Felt confident</span>
+          <span><i class="swatch" style="background:#fff2d2"></i>Mentor-reviewed</span>
+          <span><i class="swatch" style="background:#fff2d2;box-shadow:inset 0 0 0 2px #fca311"></i>Mixed</span>
+        </div>
+        <p class="covnote" id="dashCoverageNote"></p>
+      </section>
+      <section class="dashcard" aria-labelledby="consTitle">
+        <h2 id="consTitle">Revision consistency</h2>
+        <div id="dashConsistency"></div>
+      </section>
+    </div>
+  </section>
   <section class="stats" aria-label="Your revision statistics"><div class="stat"><strong id="statAttempts">0</strong><span>Question attempts</span></div><div class="stat"><strong id="statReviewed">0</strong><span>Reviewed attempts</span></div><div class="stat"><strong id="statConfident">0</strong><span>Confident attempts</span></div><div class="stat"><strong id="statSubjects">0</strong><span>Subjects practised</span></div></section>
   <div class="layout">
     <section class="panel" aria-labelledby="paperTitle"><h2 id="paperTitle">1. Open an original paper</h2><div class="formgrid"><div class="field"><label for="subject">Subject</label><select id="subject"><option value="kiswahili">Kiswahili (core)</option><option value="english">English (core)</option><option value="civics">Civics (core)</option><option value="geography">Geography (core)</option><option value="history">History (core)</option><option value="literature">Literature in English (core)</option><option value="biology">Biology</option><option value="basic_mathematics">Basic Mathematics</option></select></div><div class="field"><label for="year">Year</label><select id="year"><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option></select></div></div>
@@ -71,15 +152,242 @@
   function render(){ $('statAttempts').textContent=String(records.length);$('statReviewed').textContent=String(records.filter(r=>r.status==='reviewed').length);$('statConfident').textContent=String(records.filter(r=>r.status==='confident').length);$('statSubjects').textContent=String(new Set(records.map(r=>r.subject)).size);
     const list=$('history');list.replaceChildren(); if(records.length===0){list.appendChild(element('p','No attempts yet. Open an original paper and record your first question.','muted'));return;}
     for(const r of [...records].reverse()){const section=element('article',undefined,'record');const top=element('div',undefined,'recordhead');const title=element('strong',(subjects[r.subject]||r.subject)+' • '+r.year+' • Paper '+r.paper+' • Q'+r.question);const badge=element('span',statuses[r.status]||'Attempted','pill'+(r.status==='confident'||r.status==='reviewed'?' strong':r.status==='need_review'?' review':''));top.append(title,badge);section.append(top);
-      if(r.notes)section.appendChild(element('p',r.notes));const foot=element('div',undefined,'topline');foot.appendChild(element('span',new Date(r.created).toLocaleString()+' • Saved in this browser','mini'));const del=element('button','Delete','btn outline');del.type='button';del.addEventListener('click',()=>{if(confirm('Delete this practice attempt?')){records=records.filter(x=>x.id!==r.id);persist();render();}});foot.appendChild(del);section.append(foot);list.appendChild(section);}
+      if(r.notes)section.appendChild(element('p',r.notes));const foot=element('div',undefined,'topline');foot.appendChild(element('span',new Date(r.created).toLocaleString()+' • Saved in this browser','mini'));const del=element('button','Delete','btn outline');del.type='button';del.addEventListener('click',()=>{if(confirm('Delete this practice attempt?')){records=records.filter(x=>x.id!==r.id);persist();render();renderDashboard();}});foot.appendChild(del);section.append(foot);list.appendChild(section);}
   }
-  records=getSaved();render();
-  $('attemptForm').addEventListener('submit',e=>{e.preventDefault();const question=$('qref').value.trim();if(!question)return;const r={id:(self.crypto&&crypto.randomUUID?crypto.randomUUID():Date.now()+'-'+Math.random()),subject:$('subject').value,year:$('year').value,paper:$('paperNum').value.trim()||'1',question,status:$('outcome').value,notes:$('notes').value.trim(),created:new Date().toISOString()}; records.push(r);if(!persist()){records.pop();return;}render();$('qref').value='';$('notes').value='';$('formStatus').textContent='Saved locally. Remember to export a backup.';});
+  /* ------------------------------------------------------------------
+     P1 Daily Revision Dashboard — read-only.
+     Everything below is derived from `records` at render time. It writes
+     nothing to storage, adds no key and never mutates a record. Language is
+     deliberately careful: recorded activity is not mastery, and a single
+     attempt is not a pattern.
+     ------------------------------------------------------------------ */
+  const MIN_PATTERN = 3;   // attempts before a subject trend is called a pattern
+  const MIN_REVIEW_SIGNAL = 2; // need_review entries before a subject is flagged
+  const DAY = 864e5;
+
+  const dayKey = d => { const x = new Date(d); return x.getFullYear() + '-' + String(x.getMonth() + 1).padStart(2, '0') + '-' + String(x.getDate()).padStart(2, '0'); };
+  const startOfDay = d => { const x = new Date(d); x.setHours(0, 0, 0, 0); return x; };
+  const plural = (n, one, many) => n + ' ' + (n === 1 ? one : many);
+
+  function subjectCounts(sub){ // per-year tally for one subject
+    const per = {}; let total = 0, review = 0, conf = 0, rev = 0;
+    for (const r of records) { if (r.subject !== sub) continue; total++;
+      per[r.year] = per[r.year] || { total: 0, review: 0, conf: 0, rev: 0 };
+      per[r.year].total++;
+      if (r.status === 'need_review') { review++; per[r.year].review++; }
+      if (r.status === 'confident') { conf++; per[r.year].conf++; }
+      if (r.status === 'reviewed') { rev++; per[r.year].rev++; }
+    }
+    return { per, total, review, conf, rev };
+  }
+
+  function renderToday() {
+    const now = new Date();
+    $('todayDate').textContent = now.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' });
+    const todayK = dayKey(now);
+    const weekStart = startOfDay(new Date(Date.now() - 6 * DAY)).getTime();
+    const today = records.filter(r => dayKey(r.created) === todayK).length;
+    const week = records.filter(r => { const t = new Date(r.created).getTime(); return !isNaN(t) && t >= weekStart; }).length;
+    $('dashTodayCount').textContent = String(today);
+    $('dashWeekCount').textContent = String(week);
+
+    const recent = [...records].sort((a, b) => new Date(b.created) - new Date(a.created)).slice(0, 4);
+    const recentEl = $('dashRecent');
+    if (recent.length === 0) { recentEl.textContent = ''; }
+    else {
+      recentEl.textContent = 'Recent: ' + recent.map(r => (subjects[r.subject] || r.subject) + ' ' + r.year + ' · Q' + r.question).join('  •  ');
+    }
+
+    const wrap = $('dashNextWrap');
+    wrap.replaceChildren();
+    if (records.length === 0) return;
+
+    /* Suggest a next paper from the student's OWN history only.
+       We never invent paper availability. A paper becomes suggestable because
+       the student already recorded something against it. */
+    const byPaper = {};
+    for (const r of records) {
+      const k = r.subject + '|' + r.year + '|' + r.paper;
+      byPaper[k] = byPaper[k] || { subject: r.subject, year: r.year, paper: r.paper, n: 0, review: 0, last: 0, lastStatus: null };
+      byPaper[k].n++;
+      if (r.status === 'need_review') byPaper[k].review++;
+      const t = new Date(r.created).getTime();
+      if (!isNaN(t) && t >= byPaper[k].last) { byPaper[k].last = t; byPaper[k].lastStatus = r.status; }
+    }
+    const ranked = Object.values(byPaper).filter(p => p.review > 0).sort((a, b) => (b.review - a.review) || (b.n - a.n));
+    const box = element('div', undefined, 'nextstep');
+    if (ranked.length > 0) {
+      const p = ranked[0];
+      const label = (subjects[p.subject] || p.subject) + ' ' + p.year + ' Paper ' + p.paper;
+      box.append(element('strong', 'Suggested next: ' + label + '.'));
+      box.append(document.createTextNode(' You have marked ' + plural(p.review, 'question', 'questions') +
+        ' here as "Need to review" out of ' + plural(p.n, 'recorded attempt', 'recorded attempts') +
+        '. Open that original paper again and work through the ones you flagged.'));
+    } else {
+      /* No flagged work: acknowledge, and suggest continuing what they last did.
+         Never claim a paper exists that the student has not already used. */
+      const last = Object.values(byPaper).sort((a, b) => b.last - a.last)[0];
+      box.append(element('strong', 'Nothing is flagged for review right now.'));
+      if (last) {
+        box.append(document.createTextNode(' You last recorded work on ' +
+          (subjects[last.subject] || last.subject) + ' ' + last.year + ' Paper ' + last.paper +
+          '. Continue there, or start a fresh paper.'));
+      } else {
+        box.append(document.createTextNode(' Start a fresh original paper when you are ready.'));
+      }
+    }
+    wrap.appendChild(box);
+  }
+
+  function renderFocus() {
+    const host = $('dashFocus');
+    host.replaceChildren();
+    if (records.length === 0) {
+      host.appendChild(element('p', 'Record a few attempts and this will show which subjects need more of your attention. It will not judge you on a single question.', 'muted'));
+      return;
+    }
+    const rows = Object.keys(subjects).map(s => ({ key: s, name: subjects[s], ...subjectCounts(s) }))
+      .filter(x => x.total > 0 && x.review > 0)
+      .sort((a, b) => (b.review / b.total) - (a.review / a.total) || b.review - a.review);
+
+    if (rows.length === 0) {
+      host.appendChild(element('p', 'None of your recorded attempts are marked "Need to review". Keep going — and remember that feeling confident on a question is your own report, not a marked result.', 'muted'));
+      return;
+    }
+    const meaningful = rows.filter(x => x.review >= MIN_REVIEW_SIGNAL && x.total >= MIN_PATTERN);
+    const limited = rows.filter(x => !(x.review >= MIN_REVIEW_SIGNAL && x.total >= MIN_PATTERN));
+
+    if (meaningful.length > 0) {
+      host.appendChild(element('h3', 'Clearer patterns'));
+      const ul = element('ul', undefined, 'focuslist');
+      for (const x of meaningful.slice(0, 4)) {
+        const li = element('li');
+        const left = element('div');
+        left.appendChild(element('div', x.name, 'fname'));
+        left.appendChild(element('div', plural(x.review, 'question', 'questions') + ' flagged out of ' + plural(x.total, 'attempt', 'attempts'), 'fmeta'));
+        li.appendChild(left);
+        li.appendChild(element('span', x.review >= 4 ? 'worth prioritising' : 'developing pattern', 'evidence pattern'));
+        ul.appendChild(li);
+      }
+      host.appendChild(ul);
+    }
+    if (limited.length > 0) {
+      host.appendChild(element('h3', meaningful.length ? 'Early signals — not yet a pattern' : 'Early signals'));
+      const ul2 = element('ul', undefined, 'focuslist');
+      for (const x of limited.slice(0, 4)) {
+        const li = element('li');
+        const left = element('div');
+        left.appendChild(element('div', x.name, 'fname'));
+        left.appendChild(element('div', plural(x.review, 'flagged question', 'flagged questions') + ' from ' + plural(x.total, 'attempt', 'attempts'), 'fmeta'));
+        li.appendChild(left);
+        li.appendChild(element('span', 'limited evidence', 'evidence'));
+        ul2.appendChild(li);
+      }
+      host.appendChild(ul2);
+    }
+    host.appendChild(element('p', 'A single flagged question is not enough to call a subject weak. Record more attempts there first.', 'covnote'));
+  }
+
+  function renderCoverage() {
+    const host = $('dashCoverage');
+    host.replaceChildren();
+    const years = ['2020', '2021', '2022', '2023', '2024', '2025'];
+    const table = element('table', undefined, 'coverage');
+    const thead = element('thead'); const hr = element('tr');
+    hr.appendChild(element('th', 'Subject'));
+    for (const y of years) hr.appendChild(element('th', y, 'col'));
+    thead.appendChild(hr); table.appendChild(thead);
+    const tbody = element('tbody');
+
+    let cellsWithActivity = 0;
+    for (const s of Object.keys(subjects)) {
+      const counts = subjectCounts(s);
+      const tr = element('tr');
+      const th = element('th', subjects[s], 'rowh');
+      th.scope = 'row';
+      tr.appendChild(th);
+      for (const y of years) {
+        const c = counts.per[y];
+        const td = element('td', undefined, 'cell');
+        if (!c || c.total === 0) { td.className = 'cell cov-none'; td.appendChild(element('span', '·', '')); td.title = subjects[s] + ' ' + y + ': no recorded activity'; }
+        else {
+          cellsWithActivity++;
+          /* A cell can hold several statuses. Show the most actionable one, but
+             flag a mix with an amber ring so it is never read as pure success. */
+          const kinds = [c.review > 0, c.rev > 0, c.conf > 0].filter(Boolean).length;
+          let cls = 'cov-practised', label = String(c.total), hint = plural(c.total, 'attempt', 'attempts');
+          if (c.review > 0 && c.review >= c.conf + c.rev) { cls = 'cov-review'; hint += ', ' + c.review + ' flagged for review'; }
+          else if (c.rev > 0 && c.rev >= c.conf) { cls = 'cov-reviewed'; hint += ', ' + c.rev + ' mentor-reviewed'; }
+          else if (c.conf > 0) { cls = 'cov-confident'; hint += ', ' + c.conf + ' you felt confident on'; }
+          else { hint += ', not yet self-assessed beyond attempted'; }
+          if (kinds > 1) cls = 'cov-mixed';
+          td.className = 'cell ' + cls;
+          td.appendChild(element('span', label, ''));
+          td.title = subjects[s] + ' ' + y + ': ' + hint;
+        }
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+    table.appendChild(tbody);
+    host.appendChild(table);
+    const total = Object.keys(subjects).length * years.length;
+    $('dashCoverageNote').textContent = cellsWithActivity === 0
+      ? 'No subject/year activity recorded yet. Each cell fills in as you practise.'
+      : cellsWithActivity + ' of ' + total + ' subject–year combinations have recorded activity. Green does not mean mastered — it means you recorded feeling confident.';
+  }
+
+  function renderConsistency() {
+    const host = $('dashConsistency');
+    host.replaceChildren();
+    const daySet = {};
+    for (const r of records) daySet[dayKey(r.created)] = true;
+
+    /* Consecutive days ending today, or ending yesterday (so a student is not
+       "reset" simply because they have not practised yet today). */
+    let run = 0; const cursor = startOfDay(new Date());
+    if (!daySet[dayKey(cursor)]) cursor.setTime(cursor.getTime() - DAY);
+    while (daySet[dayKey(cursor)]) { run++; cursor.setTime(cursor.getTime() - DAY); }
+
+    const D = 14, dots = element('div', undefined, 'daydots');
+    let active = 0;
+    for (let i = D - 1; i >= 0; i--) {
+      const d = new Date(Date.now() - i * DAY);
+      const k = dayKey(d);
+      const on = !!daySet[k];
+      if (on) active++;
+      const dot = element('span', String(d.getDate()), 'daydot' + (on ? ' on' : '') + (i === 0 ? ' today' : ''));
+      dot.title = d.toLocaleDateString() + (on ? ' — practised' : ' — no record');
+      dots.appendChild(dot);
+    }
+    host.appendChild(element('h3', 'Last 14 days'));
+    host.appendChild(dots);
+
+    /* With no records the grid is still shown, so a new student can see the shape
+       of what they are about to fill in — then a plain instruction, no zeros-only wall. */
+    if (records.length === 0) {
+      host.appendChild(element('p', 'No practice days recorded yet. Your first attempt will light up today’s square — missing a day costs you nothing here.', 'consistency'));
+      return;
+    }
+
+    const activeDays = Object.keys(daySet).length;
+    const msg = element('p', undefined, 'consistency');
+    if (run >= 2) msg.appendChild(element('strong', plural(run, 'day', 'days') + ' in a row.'));
+    else if (active >= 2) msg.appendChild(element('strong', plural(active, 'active day', 'active days') + ' recently.'));
+    else msg.appendChild(element('strong', 'You have started.'));
+    msg.appendChild(document.createTextNode(' You have practised on ' + plural(activeDays, 'day', 'days') + ' in total' +
+      (active ? ', ' + active + ' of them in the last two weeks' : '') + '. Short, regular sessions beat one long one — and missing a day costs you nothing here.'));
+    host.appendChild(msg);
+  }
+
+  function renderDashboard(){ renderToday(); renderFocus(); renderCoverage(); renderConsistency(); }
+
+  records=getSaved();render();renderDashboard();$('attemptForm').addEventListener('submit',e=>{e.preventDefault();const question=$('qref').value.trim();if(!question)return;const r={id:(self.crypto&&crypto.randomUUID?crypto.randomUUID():Date.now()+'-'+Math.random()),subject:$('subject').value,year:$('year').value,paper:$('paperNum').value.trim()||'1',question,status:$('outcome').value,notes:$('notes').value.trim(),created:new Date().toISOString()}; records.push(r);if(!persist()){records.pop();return;}render();renderDashboard();$('qref').value='';$('notes').value='';$('formStatus').textContent='Saved locally. Remember to export a backup.';});
   $('pdfFile').addEventListener('change',e=>{const f=e.target.files?.[0];if(pdfUrl){URL.revokeObjectURL(pdfUrl);pdfUrl=null;}const holder=$('pdfholder');holder.replaceChildren();if(!f){$('fileName').textContent='No paper selected';$('openPdf').disabled=true;holder.appendChild(element('div','Select a PDF from your device to view it.','empty'));return;}if(!(/\.pdf$/i.test(f.name)||f.type==='application/pdf')){alert('Please choose a PDF file.');e.target.value='';return;}pdfUrl=URL.createObjectURL(f);$('fileName').textContent=f.name;$('openPdf').disabled=false;const frame=document.createElement('iframe');frame.src=pdfUrl;frame.title='Original examination paper PDF';holder.appendChild(frame);});
   $('openPdf').addEventListener('click',()=>{if(pdfUrl)window.open(pdfUrl,'_blank','noopener');});window.addEventListener('beforeunload',()=>{if(pdfUrl)URL.revokeObjectURL(pdfUrl);});
   $('exportBtn').addEventListener('click',()=>{const json=JSON.stringify({format:'necta-rescue-pilot',version:1,exported_at:new Date().toISOString(),records},null,2);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([json],{type:'application/json'}));a.download='necta-rescue-progress-'+new Date().toISOString().slice(0,10)+'.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);$('backupStatus').textContent='Backup download started. Keep it safe.';});
-  $('importBtn').addEventListener('click',()=>$('importFile').click());$('importFile').addEventListener('change',async e=>{const f=e.target.files?.[0];if(!f)return;if(f.size>3e6){alert('Backup is too large for this pilot.');e.target.value='';return;}try{const obj=JSON.parse(await f.text());if(obj.format!=='necta-rescue-pilot'||obj.version!==1||!Array.isArray(obj.records)||obj.records.length>3000||!obj.records.every(isValidRecord))throw Error('Unsupported or invalid backup');if(!confirm('Replace all locally saved attempts with '+obj.records.length+' imported attempts?'))return;const old=records;records=obj.records;if(!persist()){records=old;return;}render();$('backupStatus').textContent='Backup restored: '+records.length+' attempts.';}catch(err){alert('Cannot import: '+err.message);}finally{e.target.value='';}});
-  $('clearBtn').addEventListener('click',()=>{if(confirm('Permanently clear ALL practice attempts from this browser? Export your backup first.')){records=[];persist();render();$('backupStatus').textContent='Local history cleared.';}});
+  $('importBtn').addEventListener('click',()=>$('importFile').click());$('importFile').addEventListener('change',async e=>{const f=e.target.files?.[0];if(!f)return;if(f.size>3e6){alert('Backup is too large for this pilot.');e.target.value='';return;}try{const obj=JSON.parse(await f.text());if(obj.format!=='necta-rescue-pilot'||obj.version!==1||!Array.isArray(obj.records)||obj.records.length>3000||!obj.records.every(isValidRecord))throw Error('Unsupported or invalid backup');if(!confirm('Replace all locally saved attempts with '+obj.records.length+' imported attempts?'))return;const old=records;records=obj.records;if(!persist()){records=old;return;}render();renderDashboard();$('backupStatus').textContent='Backup restored: '+records.length+' attempts.';}catch(err){alert('Cannot import: '+err.message);}finally{e.target.value='';}});
+  $('clearBtn').addEventListener('click',()=>{if(confirm('Permanently clear ALL practice attempts from this browser? Export your backup first.')){records=[];persist();render();renderDashboard();$('backupStatus').textContent='Local history cleared.';}});
   let remaining=25*60*1000,until=0,ticker=null;function showTimer(){const sec=Math.max(0,Math.ceil(remaining/1000));$('timer').textContent=String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0');}
   function stop(){if(ticker!==null)clearInterval(ticker);ticker=null;}function tick(){remaining=Math.max(0,until-Date.now());showTimer();if(remaining===0){stop();$('formStatus').textContent='Focus sprint finished. Record your next question.';}}
   $('timerStart').addEventListener('click',()=>{if(ticker!==null)return;if(remaining<=0)remaining=25*60*1000;until=Date.now()+remaining;ticker=setInterval(tick,400);tick();});$('timerPause').addEventListener('click',()=>{if(ticker!==null){tick();stop();}});$('timerReset').addEventListener('click',()=>{stop();remaining=25*60*1000;showTimer();});showTimer();
