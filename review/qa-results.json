@@ -1,0 +1,594 @@
+{
+  "tested_on": "2026-10-15",
+  "browser": {
+    "passed": 79,
+    "failed": 0,
+    "command": "node tests/browser.mjs",
+    "checks": [
+      {
+        "name": "production baseline loads v2",
+        "pass": true
+      },
+      {
+        "name": "production writes a genuine legacy record",
+        "pass": true
+      },
+      {
+        "name": "pre-upgrade backup downloaded",
+        "pass": true
+      },
+      {
+        "name": "v2 -> v4 upgrade preserves legacy bytes",
+        "pass": true
+      },
+      {
+        "name": "cache upgrade preserves unrelated applications",
+        "pass": true
+      },
+      {
+        "name": "cache upgrade also removes stale v3",
+        "pass": true
+      },
+      {
+        "name": "GitHub Pages subpath worker scope",
+        "pass": true
+      },
+      {
+        "name": "home has a clear Civics action and no PDF input",
+        "pass": true
+      },
+      {
+        "name": "home fits 360",
+        "pass": true
+      },
+      {
+        "name": "home fits 390",
+        "pass": true
+      },
+      {
+        "name": "six topic choices",
+        "pass": true
+      },
+      {
+        "name": "question appears before answer",
+        "pass": true
+      },
+      {
+        "name": "concealed answer is absent from accessibility tree",
+        "pass": true
+      },
+      {
+        "name": "five printed MCQ labels in A-E order",
+        "pass": true
+      },
+      {
+        "name": "reveal shows E aligned to printed option text",
+        "pass": true
+      },
+      {
+        "name": "chosen option stays separate from supplied answer",
+        "pass": true
+      },
+      {
+        "name": "reveal moves keyboard focus to answer heading",
+        "pass": true
+      },
+      {
+        "name": "revealed answer is available to assistive technology",
+        "pass": true
+      },
+      {
+        "name": "Understood saved and acknowledged",
+        "pass": true
+      },
+      {
+        "name": "self-check never mutates legacy records",
+        "pass": true
+      },
+      {
+        "name": "answer fits 360",
+        "pass": true
+      },
+      {
+        "name": "primary actions meet 44px at 360",
+        "pass": true
+      },
+      {
+        "name": "answer fits 390",
+        "pass": true
+      },
+      {
+        "name": "primary actions meet 44px at 390",
+        "pass": true
+      },
+      {
+        "name": "try again hides and clears answer",
+        "pass": true
+      },
+      {
+        "name": "keyboard Enter reveals the answer",
+        "pass": true
+      },
+      {
+        "name": "Revise Again updates the same stable record",
+        "pass": true
+      },
+      {
+        "name": "self-check persists after reload",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q01i",
+        "pass": true
+      },
+      {
+        "name": "complete MCQ alternatives civics-2025-p1-q01i",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q01iii",
+        "pass": true
+      },
+      {
+        "name": "complete MCQ alternatives civics-2025-p1-q01iii",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q01iv",
+        "pass": true
+      },
+      {
+        "name": "complete MCQ alternatives civics-2025-p1-q01iv",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q01vi",
+        "pass": true
+      },
+      {
+        "name": "complete MCQ alternatives civics-2025-p1-q01vi",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q01ix",
+        "pass": true
+      },
+      {
+        "name": "complete MCQ alternatives civics-2025-p1-q01ix",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q01x",
+        "pass": true
+      },
+      {
+        "name": "complete MCQ alternatives civics-2025-p1-q01x",
+        "pass": true
+      },
+      {
+        "name": "source answer alignment civics-2025-p1-q03",
+        "pass": true
+      },
+      {
+        "name": "written answer has six explained points and source count guidance",
+        "pass": true
+      },
+      {
+        "name": "next question resets answer and focuses prompt",
+        "pass": true
+      },
+      {
+        "name": "concept variation visibly distinguished",
+        "pass": true
+      },
+      {
+        "name": "previous returns to original wording with answer hidden",
+        "pass": true
+      },
+      {
+        "name": "concept filter has seven variations",
+        "pass": true
+      },
+      {
+        "name": "empty filtered topic is helpful",
+        "pass": true
+      },
+      {
+        "name": "empty-state recovery restores question",
+        "pass": true
+      },
+      {
+        "name": "Revise Again filter handles zero matches",
+        "pass": true
+      },
+      {
+        "name": "Revise Again filter finds saved card",
+        "pass": true
+      },
+      {
+        "name": "old backup import keeps learning progress",
+        "pass": true
+      },
+      {
+        "name": "new export contains old notes and new self-checks",
+        "pass": true
+      },
+      {
+        "name": "combined backup restores Civics progress",
+        "pass": true
+      },
+      {
+        "name": "invalid backup preserves existing self-checks",
+        "pass": true
+      },
+      {
+        "name": "legacy page still displays production notes",
+        "pass": true
+      },
+      {
+        "name": "legacy importer accepts additive new backup",
+        "pass": true
+      },
+      {
+        "name": "legacy PDF guidance, timer and subject selectors retained",
+        "pass": true
+      },
+      {
+        "name": "legacy focus timer counts down",
+        "pass": true
+      },
+      {
+        "name": "local PDF still uses blob without upload",
+        "pass": true
+      },
+      {
+        "name": "offline bundle caches all 11 explicit public assets",
+        "pass": true
+      },
+      {
+        "name": "private path HTTP 404: questions.jsonl",
+        "pass": true
+      },
+      {
+        "name": "private path HTTP 404: answers.jsonl",
+        "pass": true
+      },
+      {
+        "name": "private path HTTP 404: review/civics-starter-ledger.json",
+        "pass": true
+      },
+      {
+        "name": "private path HTTP 404: .workbuddy-ai/memory/MEMORY.md",
+        "pass": true
+      },
+      {
+        "name": "private path HTTP 404: Civics-F4-2025.pdf",
+        "pass": true
+      },
+      {
+        "name": "unknown paths are never cached",
+        "pass": true
+      },
+      {
+        "name": "offline reload loads reviewed content with server stopped",
+        "pass": true
+      },
+      {
+        "name": "answer flow and persistence work offline",
+        "pass": true
+      },
+      {
+        "name": "offline unknown paths do not receive the app shell",
+        "pass": true
+      },
+      {
+        "name": "legacy records still unchanged after offline use",
+        "pass": true
+      },
+      {
+        "name": "zero-content collection gives an honest empty state",
+        "pass": true
+      },
+      {
+        "name": "single card collection is navigable",
+        "pass": true
+      },
+      {
+        "name": "question and answer markup are escaped as text",
+        "pass": true
+      },
+      {
+        "name": "held card never reaches topic count",
+        "pass": true
+      },
+      {
+        "name": "corrupt existing progress is never overwritten",
+        "pass": true
+      },
+      {
+        "name": "storage failure is reported without claiming saved",
+        "pass": true
+      },
+      {
+        "name": "failed two-key restore rolls back both records safely",
+        "pass": true
+      },
+      {
+        "name": "no JavaScript errors throughout browser scenarios",
+        "pass": true
+      },
+      {
+        "name": "no third-party network requests",
+        "pass": true
+      }
+    ]
+  },
+  "environment": "Hidden real headless Chrome; HTTPS /necta-rescue-pilot/ project subpath; mobile metrics 360x844 and 390x844; not physical hardware",
+  "baseline": "d0df839621f6ef4ec09625eb5f21edfea1087343",
+  "core": {
+    "passed": 16,
+    "failed": 0,
+    "command": "node --test tests/core.test.cjs"
+  },
+  "legacy_regression": {
+    "passed": 59,
+    "failed": 0,
+    "method": "Existing available probe.mjs, adapted only for paper-practice.html route, current manifest title, temporary paths and available test endpoints",
+    "checks": [
+      {
+        "name": "title loads from subpath",
+        "pass": true
+      },
+      {
+        "name": "no horizontal overflow at 1600px",
+        "pass": true
+      },
+      {
+        "name": "all 17 interactive elements present",
+        "pass": true
+      },
+      {
+        "name": "subject selector has 8 subjects",
+        "pass": true
+      },
+      {
+        "name": "year selector covers 2020-2025",
+        "pass": true
+      },
+      {
+        "name": "selectors accept a change",
+        "pass": true
+      },
+      {
+        "name": "PDF file input located",
+        "pass": true
+      },
+      {
+        "name": "PDF accepted and named",
+        "pass": true
+      },
+      {
+        "name": "filename label updated",
+        "pass": true
+      },
+      {
+        "name": "\"Open PDF in new tab\" enabled",
+        "pass": true
+      },
+      {
+        "name": "viewer iframe created with blob: URL",
+        "pass": true
+      },
+      {
+        "name": "open-in-new-tab uses a blob: URL",
+        "pass": true
+      },
+      {
+        "name": "non-PDF rejected with alert",
+        "pass": true
+      },
+      {
+        "name": "storage starts empty",
+        "pass": true
+      },
+      {
+        "name": "3 attempts saved",
+        "pass": true
+      },
+      {
+        "name": "reviewed / confident / subjects counters correct",
+        "pass": true
+      },
+      {
+        "name": "practice log renders 3 rows",
+        "pass": true
+      },
+      {
+        "name": "save confirmation shown to student",
+        "pass": true
+      },
+      {
+        "name": "localStorage key holds 3 valid records",
+        "pass": true
+      },
+      {
+        "name": "record captures the selected subject/year/paper",
+        "pass": true
+      },
+      {
+        "name": "attempts survive a reload",
+        "pass": true
+      },
+      {
+        "name": "note text survives a reload",
+        "pass": true
+      },
+      {
+        "name": "export produces a parseable backup",
+        "pass": true
+      },
+      {
+        "name": "export status message shown",
+        "pass": true
+      },
+      {
+        "name": "backup file is date-stamped",
+        "pass": true
+      },
+      {
+        "name": "export triggers a real browser download",
+        "pass": true
+      },
+      {
+        "name": "import restores the backup (3 -> 2)",
+        "pass": true
+      },
+      {
+        "name": "import status message shown",
+        "pass": true
+      },
+      {
+        "name": "malformed backup rejected, data untouched",
+        "pass": true
+      },
+      {
+        "name": "timer starts at 25:00",
+        "pass": true
+      },
+      {
+        "name": "timer counts down after Start",
+        "pass": true
+      },
+      {
+        "name": "timer freezes after Pause",
+        "pass": true
+      },
+      {
+        "name": "timer resets to 25:00",
+        "pass": true
+      },
+      {
+        "name": "service worker registers on HTTPS",
+        "pass": true
+      },
+      {
+        "name": "service worker scope is the repo subpath",
+        "pass": true
+      },
+      {
+        "name": "service worker script resolved at subpath",
+        "pass": true
+      },
+      {
+        "name": "static assets precached under the subpath",
+        "pass": true
+      },
+      {
+        "name": "no third-party requests",
+        "pass": true
+      },
+      {
+        "name": "no request carries the PDF to a server",
+        "pass": true
+      },
+      {
+        "name": "no console errors or exceptions (desktop)",
+        "pass": true
+      },
+      {
+        "name": "mobile viewport applied",
+        "pass": true
+      },
+      {
+        "name": "no horizontal overflow at 390px",
+        "pass": true
+      },
+      {
+        "name": "stats collapse to 2 columns on mobile",
+        "pass": true
+      },
+      {
+        "name": "main layout collapses to 1 column on mobile",
+        "pass": true
+      },
+      {
+        "name": "tap targets >= 44px high",
+        "pass": true
+      },
+      {
+        "name": "attempt can be recorded on mobile",
+        "pass": true
+      },
+      {
+        "name": "mobile PDF selection accepted",
+        "pass": true
+      },
+      {
+        "name": "mobile: inline viewer container sized",
+        "pass": true
+      },
+      {
+        "name": "mobile: blank-viewer fallback guidance is visible on screen",
+        "pass": true
+      },
+      {
+        "name": "fallback guidance present before a paper is chosen",
+        "pass": true
+      },
+      {
+        "name": "mobile iframe present in DOM",
+        "pass": true
+      },
+      {
+        "name": "no console errors or exceptions (mobile)",
+        "pass": true
+      },
+      {
+        "name": "manifest reachable from subpath",
+        "pass": true
+      },
+      {
+        "name": "manifest icons resolve at the subpath",
+        "pass": true
+      },
+      {
+        "name": "theme-color meta present",
+        "pass": true
+      },
+      {
+        "name": "viewport meta present",
+        "pass": true
+      },
+      {
+        "name": "iOS home-screen icon declared",
+        "pass": true
+      },
+      {
+        "name": "iOS standalone + app title declared",
+        "pass": true
+      },
+      {
+        "name": "SW cache generation bumped for this release",
+        "pass": true
+      }
+    ]
+  },
+  "total_passed": 154,
+  "total_failed": 0,
+  "javascript_errors": 0,
+  "third_party_requests": 0,
+  "screenshots": [
+    "home-360.png",
+    "topics-390.png",
+    "question-360.png",
+    "answer-390.png",
+    "concept-390.png",
+    "offline-390.png"
+  ],
+  "not_executed": [
+    "Physical Android and iOS devices",
+    "Safari/Firefox execution",
+    "Large real-PDF load performance",
+    "Production deployment/live post-release smoke test"
+  ]
+}

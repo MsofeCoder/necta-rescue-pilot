@@ -1,0 +1,9 @@
+{
+  "name": "necta-rescue-pilot",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "test:browser": "node tests/browser.mjs",
+    "preview": "node tools/preview.mjs"
+  }
+}

@@ -1,52 +1,53 @@
-# NECTA Rescue — immediate original-paper practice pilot
+# NECTA Rescue - Civics revision
 
-## What this package is
+A mobile-first, dependency-free learning app: **Civics -> topic -> question -> Show Answer -> short bullets and explanation -> Understood / Revise Again -> next question**. The first activity needs no PDF, account or download. The original-paper viewer, timer and practice log remain at `docs/paper-practice.html`.
 
-A mobile-friendly, dependency-free GitHub Pages site for **original-paper practice**, with eight subjects (2020–2025), the student's local PDF viewer, question-attempt notes, review status, a 25-minute timer, and JSON backup/restore. Notes and attempts are stored in the browser's localStorage. The PDF is read from the student's own device and is never uploaded. There is no login or cloud sync. Designed to operate on GitHub Pages without server-side code.
+This feature is a development candidate. Production stays on `main`; no merge or deployment is authorized by this branch.
 
-This pilot deliberately does **not** publish unreviewed questions, answers, automatic marking, or falsely imply NECTA endorsement. It does not ship any original PDFs. The user must supply the original examination PDF locally and ensure they have lawful access to it.
+## Preview and checks
 
-## Preview immediately
+Requires the available Node runtime; no package installation or build is needed.
 
-1. Extract this ZIP.
-2. Open `docs/index.html` in a current browser. Most features work from a local file; installation/offline caching requires HTTPS hosting.
-3. On the website, select subject/year, choose an original exam PDF from your device, and start recording attempts. Export a backup frequently.
+```sh
+npm run preview
+# http://127.0.0.1:4173/necta-rescue-pilot/
+npm test
+```
 
-## Publish on GitHub Pages (free for public repos)
+For the real Chrome HTTPS suite, set `NECTA_TEST_CERT` and `NECTA_TEST_KEY` to an existing local test certificate and private key, and optionally `CHROME_PATH` to the available Chrome executable. Then run `npm run test:browser`. Credentials and certificates must stay outside this repository. The suite launches an isolated, hidden headless browser and serves only the public files under the GitHub Pages project subpath. It tests a real production-baseline upgrade, creates synthetic progress, exports/imports actual backups, stops the server for offline checks, and saves reports/screenshots in ignored `.workbuddy-ai/browser-evidence/`.
 
-1. Create a public repo (suggested `necta-rescue-pilot`) **or carefully incorporate the `docs/` folder into an existing suitable repository**. Do not overwrite an existing site, history, or local work.
-2. Commit the `docs/` folder and `.nojekyll` into the default `main` branch (including the `docs/.nojekyll` file).
-3. GitHub repository → Settings → Pages → Build and deployment → Source **Deploy from a branch** → Branch **main** → Folder **/docs** → Save.
-4. Open the exact GitHub Pages URL supplied by GitHub; check the live status. The typical project URL pattern is `https://<owner>.github.io/<repo>/`, but it is not guaranteed until deployed.
-5. Create `develop` from `main`; build improvements there. Only merge a reviewed PR from `develop` (or feature branch) to `main` when explicitly approved. Keep the Pages publishing source set to `main` `/docs`.
+Open `docs/index.html` directly for a basic preview; offline installation needs HTTPS or localhost. On a normal deployment, wait for “Ready to study offline” after the first online load.
 
-## Branch and approval workflow
+## Bounded content collection
 
-| Stage | Branch | Behaviour |
-|---|---|---|
-| Production | `main` | GitHub Pages publishes `main` → `/docs`. A push here is a release. |
-| Development | `develop` | Features and corrections are implemented and tested here. Never auto-deploys. |
-| Approval | pull request | Every production change arrives as a reviewed PR from `develop` (or `feature/...`) and needs explicit owner approval before it is merged into `main`. |
+The candidate contains **7 original Civics 2025 items** checked by Codex against complete original examination and supplied solution pages, plus **7 independently authored democracy variations**. The latter are visibly labelled and demonstrate Define, State, Mention, Explain, Describe, Give reasons and Discuss. These practice prompts carry no examination marks.
 
-Rules that follow from this: never commit directly to `main`; never point the Pages source at `develop`; open the PR with the change description, the test evidence and the rollback commit SHA. Re-test saved browser progress on every release, and take a backup before any change to the storage schema or the published domain.
+Historical MCQs retain all five printed A-E alternatives. Written question 3 explicitly asks for six points; the app shows six short explanatory bullets. No individual marks are inferred from section totals. TETEA solutions are credited to **Maria Marco for TETEA**, not presented as official NECTA marking schemes.
 
-**Security/privacy:** GitHub Pages is public web hosting, not an authentication service. Do not add passwords, personal student progress, source PDFs without appropriate rights, full private manifests/paths, or unresolved answer-bank data to the published repo. Browser notes may contain personal information and are stored locally; encourage anonymised notes and regular backups. Browser data are device/browser-specific and can be deleted by clearing site data. Different GitHub Pages URLs are different storage origins.
+See [source review](review/SOURCE_REVIEW.md), [the auditable ledger](review/civics-starter-ledger.json) and [content/storage contracts](review/CONTENT_MODEL.md). Original pipeline text, source-page transcription, display text and answer paraphrases are separate ledger fields. The canonical source files and original PDFs are untouched.
 
-**Lifecycle:** Stable URL remains on `main`; `develop` is private development *workflow*, not a secret branch if the repo is public. To obtain a separate public preview URL, use a separate staging repo/site or a configured preview pipeline; merely making a development branch does NOT publish a second Pages site in the same repo.
+The loader requires an exact card ID + review ID + review status allowlist entry, complete provenance and a valid content shape. Pipeline `verified`, provisional, held, missing-source, incomplete-MCQ and misaligned-key records cannot pass. Authored variations also require their source concept to pass. **23 other Civics 2025 extraction records stay withheld**, including the contradictory supplied key for 1(v); the private queue is excluded from Git. Parent/stub/nested extraction records are included in that withheld count, so it is not a count of distinct usable questions. The other held papers and the remaining corpus are not bundled.
 
-## Release gate before importing review data
+## Progress and backups
 
-Any data-backed question feature must use an explicitly approved allowlist backed by review ledger record IDs and source page provenance. Verify the original exam source **and** supplied answer separately. Discard or hold any question record with boundary/hierarchy ambiguity, missing alternatives, image-only portions not represented, answer conflict, or an unapproved association. Never infer approval from `needs_review=false` or `verified`. Keep all corrections in the review ledger until authorised.
+- Existing key `necta-rescue-pilot-v1`, its original record shape and v1 paper-practice backups are preserved. Learning never writes that key during normal study.
+- Civics self-checks use a separate `necta-rescue-learning-v1` key, with stable card IDs and self-reported states. They are not marks or mastery scores.
+- The learning page exports the existing `necta-rescue-pilot` v1 envelope with an optional `learning` field. Its old `records` array remains compatible with the original importer.
+- Importing an old backup restores its paper records and keeps existing Civics self-checks. A combined backup restores both, with validation and rollback if a write fails.
+- Unreadable learning data is retained; saving pauses with a visible message. Full/unavailable storage never produces a false “Saved” message.
 
-## Files
+Browser storage remains specific to the device/browser/origin. Export regularly. The paper-practice page continues to export its original paper-only backup; use the learning page to include self-checks.
 
-- `docs/index.html`: self-contained app shell, local paper viewer, attempt log and timer
-- `docs/icon.svg`, `docs/icon-192.png`, `docs/icon-512.png`, `docs/manifest.webmanifest`: PWA metadata
-- `docs/sw.js`: static asset caching for HTTPS deployment; PDF files are not cached (user-selected local files must be reselected)
-- `docs/.nojekyll`: disable Jekyll asset handling
+## Offline and privacy
 
-## Limitations
+Service-worker generation `necta-rescue-static-v4` precaches the explicit public bundle, including the learning content and paper-practice page. Upgrade removes old NECTA generations and preserves unrelated caches. The offline-ready message requires confirmation from the current worker. Unknown URLs get no cached shell fallback and are never added to the cache.
 
-No PDF library, no server, no account sharing, no cloud backups, no answer engine, no progress synchronisation between devices, and no automatic marks. Embedded PDF rendering depends on the browser; use “Open PDF in new tab” if the embedded viewer is unsupported — the page says so directly beneath the viewer, because most phone and tablet browsers cannot display a PDF inside a web page. There is no dated timetable until the current examination date, daily study time and weakest subjects are reconfirmed.
+No accounts, analytics, external scripts, font requests, uploads, automatic marks or cloud sync. Source PDF links load only when explicitly followed; no PDFs are bundled. Only `docs/` is the Pages publishing surface. Review evidence and tests are outside it; private manifests, filesystem paths, canonical data, personal student progress and original PDFs are excluded from the repository.
 
-**Minimum browser:** the app needs a browser with `Element.replaceChildren()` (Chrome/Edge 86+, Firefox 78+, Safari 14+, i.e. 2020 or later). Everything else in the file uses older or guarded APIs so that a student's saved attempts are never hidden or overwritten on an outdated device.
+## Branch and release workflow
+
+`feature/* -> develop -> main`, with explicit owner approval before any production merge. `main` -> `/docs` is the existing Pages source; a development branch has no independent public preview site. PR #2 (dashboard) is separate and must not be merged accidentally into this product change. The candidate is based on verified production commit `d0df839621f6ef4ec09625eb5f21edfea1087343`.
+
+Before release: accept the named content collection, review the PR, back up progress, run the checks and phone acceptance in [the release policy](RELEASE_POLICY.md), then separately authorize the release PR. Roll back with an auditable revert through the same approval flow; no reset or force-push is necessary. A rollback does not delete either browser storage key.
+
+Minimum browser remains the original pilot floor: `Element.replaceChildren()` (Chrome/Edge 86+, Firefox 78+, Safari 14+). Optional CSS enhancements degrade without preventing study. Physical Android/iOS behavior and large real-PDF performance still require device checks.
