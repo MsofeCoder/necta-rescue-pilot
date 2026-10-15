@@ -67,6 +67,19 @@
     .emptyhelp li{margin:5px 0}
     .dash h3:first-child{margin-top:0}
     @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.wide{grid-column:auto}.panel{padding:16px}.pdfholder iframe{height:420px}.formgrid{grid-template-columns:1fr}header{padding:16px 0 21px}.stat strong{font-size:26px}.dashgrid{grid-template-columns:1fr}.dashcard{padding:15px}.todaybig{font-size:32px}.daydot{width:24px;height:24px}}
+    /* Narrow phones: make all six year columns fit instead of hiding 2023-2025
+       behind a horizontal scroll a student has no reason to look for. The grid
+       keeps its 8x6 shape; the cells just get tighter and the subject label is
+       allowed to wrap. */
+    @media(max-width:430px){
+      table.coverage{min-width:0;width:100%;border-spacing:2px;font-size:11px}
+      table.coverage th{font-size:10px;padding:1px 2px}
+      table.coverage th.col{font-size:9.5px}
+      table.coverage td.rowh{font-size:10px;white-space:normal;line-height:1.15;padding-right:2px;max-width:76px}
+      .cell span{min-width:0;height:28px;font-size:10.5px;border-radius:6px}
+      .legend{gap:9px;font-size:11px}
+      .covnote{font-size:11px}
+    }
   </style>
 </head>
 <body>
