@@ -1,0 +1,661 @@
+[
+  {
+    "review_id": "civics-review-2026-10-15-i",
+    "card_id": "civics-2025-p1-q01i",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q01i",
+    "parent_question": "1",
+    "subquestion": "i",
+    "original_pipeline_question_text": "How would you define the rights that protcct people's right to work and freedom to access\nnecessities of life?",
+    "source_question_transcription": "How would you define the rights that protect people’s right to work and freedom to access necessities of life?",
+    "corrected_display_question": "How would you define the rights that protect people’s right to work and freedom to access necessities of life?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Environmental and social rights"
+      },
+      {
+        "label": "B",
+        "text": "Civil and political rights"
+      },
+      {
+        "label": "C",
+        "text": "Economic and cultural rights"
+      },
+      {
+        "label": "D",
+        "text": "Environmental and development rights"
+      },
+      {
+        "label": "E",
+        "text": "Economic, social and cultural rights"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [],
+    "supplied_answer_transcription": "Correct answer: E Economic social and cultural rights",
+    "original_pipeline_associations": [
+      {
+        "solution_id": "civics-2025-p1-a01i",
+        "status": "exact",
+        "confidence": "provisional"
+      }
+    ],
+    "answer_bullets": [
+      "E. Economic, social and cultural rights"
+    ],
+    "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
+    "independent_reasoning": "E includes economic AND social rights; C omits social rights. Work and necessities identify this rights category.",
+    "correction": "Restored all five printed alternatives from exam page 2; the pipeline stored these under q01ii. No canonical record changed.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "civics-review-2026-10-15-iii",
+    "card_id": "civics-2025-p1-q01iii",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q01iii",
+    "parent_question": "1",
+    "subquestion": "iii",
+    "original_pipeline_question_text": "In most developing countries like Tanzania the value of the country's imports is greater\nthan the value of exports. What is the best term to describe such a situation?\nA Balance of payment B High trade deficit\nC Favourable balance of trade DLow per capita income\nE High Gross Domestic Product",
+    "source_question_transcription": "In most developing countries like Tanzania the value of the country’s imports is greater than the value of exports. What is the best term to describe such a situation?",
+    "corrected_display_question": "In most developing countries like Tanzania the value of the country’s imports is greater than the value of exports. What is the best term to describe such a situation?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Balance of payment"
+      },
+      {
+        "label": "B",
+        "text": "High trade deficit"
+      },
+      {
+        "label": "C",
+        "text": "Favourable balance of trade"
+      },
+      {
+        "label": "D",
+        "text": "Low per capita income"
+      },
+      {
+        "label": "E",
+        "text": "High Gross Domestic Product"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [],
+    "supplied_answer_transcription": "Correct answer: B High trade deficit",
+    "original_pipeline_associations": [
+      {
+        "solution_id": "civics-2025-p1-a01iii",
+        "status": "exact",
+        "confidence": "provisional"
+      }
+    ],
+    "answer_bullets": [
+      "B. High trade deficit"
+    ],
+    "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
+    "independent_reasoning": "The direction imports > exports defines a deficit, so B is the only matching option. No present-day trade claim is inferred.",
+    "correction": "Printed stem and A–E alternatives checked directly. The extracted a01iii association is wrong; supplied answer taken from solution page 3.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "civics-review-2026-10-15-iv",
+    "card_id": "civics-2025-p1-q01iv",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q01iv",
+    "parent_question": "1",
+    "subquestion": "iv",
+    "original_pipeline_question_text": "What are the distinctive features that differentiate a charismatic leader from other leaders?\nA Ability to apply the principles of divide and rule to subordinates\nB Ability to create an atmosphere of fear among the subordinates\nC Ability to encourage and inspire followers to accomplish a given task\nD Ability to centralize powers and authority\nE Ability to delegate powers and authority without controls",
+    "source_question_transcription": "What are the distinctive features that differentiate a charismatic leader from other leaders?",
+    "corrected_display_question": "What are the distinctive features that differentiate a charismatic leader from other leaders?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Ability to apply the principles of divide and rule to subordinates"
+      },
+      {
+        "label": "B",
+        "text": "Ability to create an atmosphere of fear among the subordinates"
+      },
+      {
+        "label": "C",
+        "text": "Ability to encourage and inspire followers to accomplish a given task"
+      },
+      {
+        "label": "D",
+        "text": "Ability to centralize powers and authority"
+      },
+      {
+        "label": "E",
+        "text": "Ability to delegate powers and authority without controls"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [],
+    "supplied_answer_transcription": "Correct answer: C Ability to encourage and inspire followers to accomplish a given task",
+    "original_pipeline_associations": [],
+    "answer_bullets": [
+      "C. Ability to encourage and inspire followers to accomplish a given task"
+    ],
+    "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
+    "independent_reasoning": "Inspiration and motivation are defining features of charismatic leadership. The other options describe fear, division or control.",
+    "correction": "Full printed item and supplied key checked visually. Ambiguous pipeline answer associations were not used.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "civics-review-2026-10-15-vi",
+    "card_id": "civics-2025-p1-q01vi",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q01vi",
+    "parent_question": "1",
+    "subquestion": "vi",
+    "original_pipeline_question_text": "In the village assembly, all adult citizens are involved in decision making. Which one of\nthe following terms describes such a situation?\nA Rule of law B Pure democracy\nC Freedom of expression D Separation of power\nE Equality among people",
+    "source_question_transcription": "In the village assembly, all adult citizens are involved in decision making. Which one of the following terms describes such a situation?",
+    "corrected_display_question": "In the village assembly, all adult citizens are involved in decision making. Which one of the following terms describes such a situation?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Rule of law"
+      },
+      {
+        "label": "B",
+        "text": "Pure democracy"
+      },
+      {
+        "label": "C",
+        "text": "Freedom of expression"
+      },
+      {
+        "label": "D",
+        "text": "Separation of power"
+      },
+      {
+        "label": "E",
+        "text": "Equality among people"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [
+      "civics-2025-p1-a01vi"
+    ],
+    "supplied_answer_transcription": "In the village assembly all adult citizens are involved in decision making. Which\none of the following terms describes such a situation?\nA Rule of law\nB Pure democracy\nC Freedom of expression\nD Separation of power\nE Equality among people\nCorrect answer: B Pure democracy\nReason: Pure democracy involves direct participation of all eligible citizens in decision-\nmaking processes.",
+    "original_pipeline_associations": [
+      {
+        "solution_id": "civics-2025-p1-a01vi",
+        "status": "exact",
+        "confidence": "verified"
+      }
+    ],
+    "answer_bullets": [
+      "B. Pure democracy"
+    ],
+    "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
+    "independent_reasoning": "Direct participation in decisions distinguishes direct/pure democracy from merely expressing views or separating powers.",
+    "correction": "Complete printed question, labels and supplied answer B checked directly; no boundary correction required.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "civics-review-2026-10-15-ix",
+    "card_id": "civics-2025-p1-q01ix",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q01ix",
+    "parent_question": "1",
+    "subquestion": "ix",
+    "original_pipeline_question_text": "What is the category of poverty being likely to be identified by comparing the living\nconditions of the people in a given community?",
+    "source_question_transcription": "What is the category of poverty being likely to be identified by comparing the living conditions of the people in a given community?",
+    "corrected_display_question": "What is the category of poverty being likely to be identified by comparing the living conditions of the people in a given community?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Relative poverty"
+      },
+      {
+        "label": "B",
+        "text": "Absolute poverty"
+      },
+      {
+        "label": "C",
+        "text": "Income poverty"
+      },
+      {
+        "label": "D",
+        "text": "Non-material poverty"
+      },
+      {
+        "label": "E",
+        "text": "Material poverty"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        5
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [
+      "civics-2025-p1-a01ix"
+    ],
+    "supplied_answer_transcription": "What is the category of poverty being likely to be identified by comparing the\nliving conditions of the people in a given community?\nA Relative poverty\nB Absolute poverty\nC Income poverty\nD Non-material poverty\nE Material poverty\nCorrect answer: A Relative poverty\nReason: Relative poverty is determined by comparing an individual's living standards\nto those of others in the same community.",
+    "original_pipeline_associations": [
+      {
+        "solution_id": "civics-2025-p1-a01ix",
+        "status": "exact",
+        "confidence": "verified"
+      }
+    ],
+    "answer_bullets": [
+      "A. Relative poverty"
+    ],
+    "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
+    "independent_reasoning": "Relative poverty compares standards within a society; absolute poverty concerns a basic-needs threshold rather than this comparison.",
+    "correction": "Restored all five printed alternatives from exam page 3; the pipeline attached them to q01x. Canonical text preserved separately.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "civics-review-2026-10-15-x",
+    "card_id": "civics-2025-p1-q01x",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q01x",
+    "parent_question": "1",
+    "subquestion": "x",
+    "original_pipeline_question_text": "C Income poverty\nA Relative poverty B Absolute poverty\nD Non-material poverty E Material poverty\nWhich one among the following components of a nation is a source of human resource\nneeded in a particular nation?\nC Population\nB Culture\nA Government\nE Sovereignty\nD Territory",
+    "source_question_transcription": "Which one among the following components of a nation is a source of human resource needed in a particular nation?",
+    "corrected_display_question": "Which one among the following components of a nation is a source of human resource needed in a particular nation?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Government"
+      },
+      {
+        "label": "B",
+        "text": "Culture"
+      },
+      {
+        "label": "C",
+        "text": "Population"
+      },
+      {
+        "label": "D",
+        "text": "Territory"
+      },
+      {
+        "label": "E",
+        "text": "Sovereignty"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [
+      "civics-2025-p1-a01x"
+    ],
+    "supplied_answer_transcription": "Which one among the following components of a nation is a source of human\nresource needed in a particular nation?\nA Government\nB Culture\nC Population\nD Territory\nE Sovereignty\nCorrect answer: C Population\nReason: The population of a nation provides the human resources required for labor,\nskills, and development activities.",
+    "original_pipeline_associations": [
+      {
+        "solution_id": "civics-2025-p1-a01x",
+        "status": "exact",
+        "confidence": "verified"
+      }
+    ],
+    "answer_bullets": [
+      "C. Population"
+    ],
+    "answer_treatment": "Correct option transcribed from the supplied solution; explanation independently written.",
+    "independent_reasoning": "Population denotes the people; land, sovereignty, culture and government do not themselves supply the people doing the work.",
+    "correction": "Removed foreign q01ix alternatives only in the reviewed display copy. Restored the printed A–E order; raw extraction retained in ledger.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "civics-review-2026-10-15-q03",
+    "card_id": "civics-2025-p1-q03",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "method": "Visual comparison of complete original examination and supplied solution pages, followed by independent conceptual reasoning.",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "question_record_id": "civics-2025-p1-q03",
+    "parent_question": null,
+    "subquestion": null,
+    "original_pipeline_question_text": "In six points, briefly explain the significance of career development to an individual and the\nnation at large.",
+    "source_question_transcription": "In six points, briefly explain the significance of career development to an individual and the nation at large.",
+    "corrected_display_question": "In six points, briefly explain the significance of career development to an individual and the nation at large.",
+    "printed_options": [],
+    "printed_marks": null,
+    "required_points": 6,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme.",
+    "supplied_answer_record_ids": [
+      "civics-2025-p1-a03"
+    ],
+    "supplied_answer_transcription": "In six points briefly explain the significance of career development to an individual\nand the nation at large.\nCareer development enables an individual to acquire relevant skills and knowledge\nnecessary for personal growth and effective performance in the workplace, which\nincreases employability and career progression.\nIt provides a sense of direction and purpose, helping individuals set achievable\nprofessional goals and work strategically towards them, enhancing personal motivation\nand satisfaction.\nFor the nation, career development ensures the availability of skilled and competent\nhuman resources, which contributes to economic growth and national productivity.\nIt encourages innovation and adaptability among the workforce, allowing the country to\nrespond effectively to technological changes and global market demands.\nCareer development helps reduce unemployment by aligning individuals' skills with\nlabor market needs, thus fostering social stability and economic development.\nIt promotes lifelong learning and professional ethics, which are essential for\nmaintaining high standards of service delivery and good governance at both individual\nand national levels.",
+    "original_pipeline_associations": [
+      {
+        "solution_id": "civics-2025-p1-a03",
+        "status": "exact",
+        "confidence": "verified"
+      }
+    ],
+    "answer_bullets": [
+      "Builds skills and knowledge, helping a person find work and progress in a career.",
+      "Gives direction: career goals help a person plan and stay motivated.",
+      "Provides skilled workers, increasing national productivity and economic growth.",
+      "Encourages innovation and adaptability, helping workers respond to new technology.",
+      "Matches skills to available work, helping reduce unemployment.",
+      "Promotes lifelong learning and professional ethics, improving the quality of services."
+    ],
+    "answer_treatment": "Six supplied solution paragraphs paraphrased into short educational bullets; not a verbatim marking scheme.",
+    "independent_reasoning": "Each supplied point gives a distinct mechanism: skills, planning, productivity, adaptation, employment matching and ethics. Avoided a guaranteed-job claim.",
+    "correction": "No question correction. Whitespace normalized. Answer paraphrase kept separate from source transcription.",
+    "remaining_uncertainty": "No unresolved content contradiction identified in this bounded review. Human subject review and owner release approval remain pending.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-define",
+    "card_id": "concept-democracy-define",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "Define",
+    "question": "Define direct democracy.",
+    "answer_bullets": [
+      "Direct democracy is a system in which citizens take part in making decisions themselves."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-state",
+    "card_id": "concept-democracy-state",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "State",
+    "question": "State two features of direct democracy.",
+    "answer_bullets": [
+      "Adult citizens take part in the assembly.",
+      "The citizens participate directly in making decisions."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-mention",
+    "card_id": "concept-democracy-mention",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "Mention",
+    "question": "Mention one setting used in the source question to illustrate direct democracy.",
+    "answer_bullets": [
+      "A village assembly in which all adult citizens take part in decision making."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-explain",
+    "card_id": "concept-democracy-explain",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "Explain",
+    "question": "Explain why the village assembly in question 1(vi) illustrates direct democracy.",
+    "answer_bullets": [
+      "All adult citizens in the example participate in making decisions themselves.",
+      "Their direct involvement makes it direct democracy, rather than decisions being left only to representatives."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-describe",
+    "card_id": "concept-democracy-describe",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "Describe",
+    "question": "Describe how decisions are made in the village assembly example.",
+    "answer_bullets": [
+      "Adult citizens take part in the assembly.",
+      "They participate directly in deciding issues affecting the village."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-reasons",
+    "card_id": "concept-democracy-reasons",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "Give reasons",
+    "question": "Give two reasons why the source example is described as direct democracy.",
+    "answer_bullets": [
+      "The adult citizens participate themselves, so their role is direct.",
+      "They help make the decisions, so they do more than just express opinions."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  },
+  {
+    "review_id": "concept-review-2026-10-15-discuss",
+    "card_id": "concept-democracy-discuss",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "reviewed_at": "2026-10-15",
+    "reviewer": "Codex",
+    "decision": "include_in_feature_candidate",
+    "owner_release_approval": "approved_for_pilot_2026-10-15",
+    "independent_human_subject_review": "pending",
+    "derived_from": "civics-2025-p1-q01vi",
+    "command": "Discuss",
+    "question": "Discuss how the source example illustrates direct democracy and one limit of what the example tells us.",
+    "answer_bullets": [
+      "Direct participation: all adult citizens in the example help make decisions themselves.",
+      "This makes direct democracy the best description of the situation in the question.",
+      "The example does not tell us the detailed decision procedure or whether everyone actually attends."
+    ],
+    "review_note": "Independently authored practice variation based on the reviewed direct-democracy concept. Not an original NECTA question; no claim of examination marks.",
+    "release_acceptance": "RELEASE_ACCEPTANCE.json"
+  }
+]

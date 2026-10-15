@@ -1,0 +1,53 @@
+name: Release quality
+
+on:
+  pull_request:
+    branches: [develop, main]
+  push:
+    branches: [develop, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Content, browser, offline and release checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Unit and static release checks
+        run: node --test tests/*.test.cjs
+      - name: Prepare isolated HTTPS browser tests
+        shell: bash
+        run: |
+          openssl req -x509 -newkey rsa:2048 -nodes -keyout "$RUNNER_TEMP/necta-key.pem" -out "$RUNNER_TEMP/necta-cert.pem" -days 1 -subj '/CN=localhost' -addext 'subjectAltName=DNS:localhost,IP:127.0.0.1'
+          echo "NECTA_TEST_CERT=$RUNNER_TEMP/necta-cert.pem" >> "$GITHUB_ENV"
+          echo "NECTA_TEST_KEY=$RUNNER_TEMP/necta-key.pem" >> "$GITHUB_ENV"
+          echo "CHROME_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+      - name: Real Chrome regression and offline upgrade
+        run: node tests/browser.mjs
+      - name: Package the exact tested public bundle
+        run: python3 tools/package_release.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: civics-release-evidence
+          path: |
+            .workbuddy-ai/browser-evidence/*.json
+            .workbuddy-ai/browser-evidence/*.png
+            .workbuddy-ai/release/*
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14
