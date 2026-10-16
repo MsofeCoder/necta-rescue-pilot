@@ -70,11 +70,22 @@ async function launch() {
   return {child, bc, c, version};
 }
 async function shutdown(h) {
+  // Browser.close acknowledges before the process has necessarily flushed its
+  // profile. Killing it immediately can lose localStorage on Linux. Observe the
+  // actual child exit; a forced termination is a failed persistence test.
+  const stopped = new Promise(resolve => {
+    if(h.child.exitCode !== null || h.child.signalCode !== null){resolve(true);return;}
+    const timer=setTimeout(()=>resolve(false),15000);
+    h.child.once('exit',()=>{clearTimeout(timer);resolve(true);});
+  });
   h.c.close(); try { await h.bc.send('Browser.close'); } catch {}
+  const exited=await stopped;
   try { h.bc.close(); } catch {}
-  spawnSync('taskkill', ['/PID', String(h.child.pid), '/T', '/F'], {windowsHide: true, stdio: 'ignore'});
-  h.child.kill();
-  for (let i = 0; i < 60; i++) { if (!fs.existsSync(path.join(profile, 'SingletonLock'))) return; await sleep(100); }
+  if(!exited){
+    if(process.platform==='win32')spawnSync('taskkill', ['/PID', String(h.child.pid), '/T', '/F'], {windowsHide: true, stdio: 'ignore'});
+    h.child.kill();
+    throw Error('Browser did not exit gracefully; forced shutdown cannot certify persistence.');
+  }
 }
 
 const landscape = async (w, h) => { await c.send('Emulation.setDeviceMetricsOverride', {width: w, height: h, deviceScaleFactor: 1, mobile: true, screenOrientation: {type: 'landscapePrimary', angle: 90}}); await c.send('Emulation.setTouchEmulationEnabled', {enabled: true}); };
@@ -155,8 +166,8 @@ try {
 
   /* ---------- Phase 2: full browser restart on the same profile ---------- */
   await shutdown(handle);
-  await sleep(1500);
-  check('browser process fully stopped before restart', !fs.existsSync(path.join(profile, 'SingletonLock')));
+  check('browser process fully stopped before restart', handle.child.exitCode === 0,
+    {exitCode:handle.child.exitCode,signal:handle.child.signalCode});
 
   handle = await launch(); ({c, bc} = handle);
   check('restart: same browser build', handle.version.Browser === browserVersion, {first: browserVersion, second: handle.version.Browser});
@@ -167,8 +178,10 @@ try {
   check('restart: v8 cache survived the restart', await c.eval(`(async()=>(await caches.keys()).includes('necta-rescue-static-v8'))()`));
   const afterCache = await c.eval(`(async()=>{const k=await caches.open('necta-rescue-static-v8');return (await k.keys()).map(r=>new URL(r.url).pathname).sort()})()`);
   check('restart: cached asset set unchanged', JSON.stringify(afterCache) === JSON.stringify(beforeCache), {before: beforeCache.length, after: afterCache.length});
-  check('restart: synthetic legacy bytes survived', await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`) === beforeLegacy);
-  check('restart: synthetic learning bytes survived', await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`) === beforeLearning);
+  const afterLegacy=await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`);
+  const afterLearning=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);
+  check('restart: synthetic legacy bytes survived', afterLegacy === beforeLegacy, {before:beforeLegacy,after:afterLegacy});
+  check('restart: synthetic learning bytes survived', afterLearning === beforeLearning, {before:beforeLearning,after:afterLearning});
   await c.wait(`document.getElementById('collectionCount').textContent.includes('32')`);
   check('restart: 32 cards still offered', await c.eval(`NECTA_CIVICS.cards.length`) === 32);
 
@@ -201,9 +214,8 @@ try {
 } catch (err) {
   check('restart harness completed', false, err.stack);
 } finally {
-  try { if (c) c.close(); if (bc) { try { await bc.send('Browser.close'); } catch {} bc.close(); } } catch {}
-  try { if (handle) spawnSync('taskkill', ['/PID', String(handle.child.pid), '/T', '/F'], {windowsHide: true, stdio: 'ignore'}); } catch {}
-  try { if (handle) handle.child.kill(); } catch {}
+  try { if(handle && handle.child.exitCode === null && handle.child.signalCode === null) await shutdown(handle); }
+  catch(err){check('final browser shutdown was graceful',false,err.message);}
   if (server) await new Promise((resolve) => { server.close(resolve); server.closeAllConnections(); });
 }
 
