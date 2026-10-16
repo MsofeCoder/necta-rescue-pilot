@@ -4,6 +4,11 @@ import {startPreview,root,prefix,docs} from '../tools/preview.mjs';
 const out=path.join(root,'.workbuddy-ai',process.env.NECTA_BETA_EVIDENCE_SUBDIR||'beta-evidence');fs.mkdirSync(out,{recursive:true});
 const scratch=fs.mkdtempSync(path.join(os.tmpdir(),'necta-beta-')),profile=path.join(scratch,'profile'),downloads=path.join(scratch,'downloads');fs.mkdirSync(downloads);
 const git=(...args)=>execFileSync('git',args,{cwd:root,encoding:'utf8'}).trim();
+const upgradeBaseline='77636ece7e63d4183c934130e4b8268f7fb39a4e';
+const oldBeta=new Map(['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'].map(n=>['beta/'+n,execFileSync('git',['show',upgradeBaseline+':docs/beta/'+n],{cwd:root})]));
+const batch=JSON.parse(fs.readFileSync(path.join(root,'review/beta-2025-batch-02-ledger.json'),'utf8'));
+const expectedCounts={kiswahili:5,english:4,civics:30,geography:5,history:4,literature:4,biology:2,basic_mathematics:2};
+let serveOldBeta=true;
 const files=()=>Object.fromEntries(fs.readdirSync(path.join(docs,'beta')).sort().map(n=>[n,createHash('sha256').update(fs.readFileSync(path.join(docs,'beta',n))).digest('hex')]));
 const before={commit:git('rev-parse','HEAD'),dirty:git('status','--porcelain','--untracked-files=no'),files:files(),started_at:new Date().toISOString()};
 const checks=[],errors=[],requests=[];const sleep=ms=>new Promise(r=>setTimeout(r,ms));
@@ -23,7 +28,7 @@ let server,browser,c,bc,browserBuild,origin,app;
 const seedProgress={version:1,records:[{card_id:'concept-democracy-state',status:'revise_again',updated:'2026-10-16T00:00:00Z'},{card_id:'future-card-id',status:'understood',updated:'2026-10-16T00:00:00Z'}]};
 const seedLegacy=[{id:'synthetic-beta-legacy',subject:'english',year:'2025',paper:'1',question:'1',status:'need_review',notes:'Synthetic beta preservation test',created:'2026-10-16T00:00:00Z'}];
 try{
-  server=await startPreview({port:0});origin='http://127.0.0.1:'+server.address().port;app=origin+prefix+'beta/';
+  server=await startPreview({port:0,read:name=>serveOldBeta&&oldBeta.has(name)?oldBeta.get(name):fs.readFileSync(path.join(docs,name))});origin='http://127.0.0.1:'+server.address().port;app=origin+prefix+'beta/';
   browser=spawn(process.env.CHROME_PATH||'C:/Program Files/Google/Chrome/Application/chrome.exe',['--headless=new','--remote-debugging-port=0','--user-data-dir='+profile,'--no-first-run','--no-default-browser-check','--disable-gpu','--disable-sync','--disable-extensions','--disable-background-networking','about:blank'],{windowsHide:true,stdio:'ignore'});
   let spawnError;browser.on('error',e=>spawnError=e);const portFile=path.join(profile,'DevToolsActivePort');for(let i=0;i<150&&!fs.existsSync(portFile);i++){if(spawnError)throw spawnError;await sleep(100);}const debug='http://127.0.0.1:'+fs.readFileSync(portFile,'utf8').split('\n')[0];
   const version=await(await fetch(debug+'/json/version')).json();browserBuild=version.Browser;bc=await connect(version.webSocketDebuggerUrl);await bc.send('Browser.setDownloadBehavior',{behavior:'allow',downloadPath:downloads,eventsEnabled:true});const tab=await(await fetch(debug+'/json/new?about:blank',{method:'PUT'})).json();c=await connect(tab.webSocketDebuggerUrl);for(const d of ['Page','Runtime','Network','DOM'])await c.send(d+'.enable');
@@ -31,28 +36,41 @@ try{
   check('accepted root still offers exactly fourteen cards',await c.eval('NECTA_CIVICS.cards.length')===14);
   await c.eval(`localStorage.setItem('necta-rescue-learning-v1',${JSON.stringify(JSON.stringify(seedProgress))});localStorage.setItem('necta-rescue-pilot-v1',${JSON.stringify(JSON.stringify(seedLegacy))})`);
   await c.send('Page.navigate',{url:app});await c.wait(`!!window.NECTA_BETA&&document.querySelectorAll('[data-subject]').length===8`);await c.wait(`navigator.serviceWorker.controller?.scriptURL.endsWith('/beta/sw.js')`);await c.wait(`document.getElementById('offline').textContent.includes('ready')`);
+  check('upgrade starts with exact deployed v1 content',await c.eval(`NECTA_BETA.cards.length===14&&(async()=>await caches.has('necta-rescue-beta-v1'))()`));
+  await c.eval(`(async()=>{await caches.open('necta-rescue-beta-v0');const other=await caches.open('other-app-cache');await other.put('/unrelated',new Response('preserve'));})()`);
+  serveOldBeta=false;
+  await c.eval(`navigator.serviceWorker.getRegistration(location.href).then(r=>r.update())`);
+  await c.wait(`(async()=>{const keys=await caches.keys();return keys.includes('necta-rescue-beta-v2')&&!keys.includes('necta-rescue-beta-v1')})()`);
+  await c.send('Page.reload');await c.wait(`window.NECTA_BETA?.cards.length===26`);await c.wait(`document.getElementById('offline').textContent.includes('ready')`);
+  check('v1 to v2 update purges only old beta generations',await c.eval(`(async()=>{const keys=await caches.keys();return !keys.includes('necta-rescue-beta-v0')&&!keys.includes('necta-rescue-beta-v1')&&keys.includes('necta-rescue-beta-v2')&&keys.includes('necta-rescue-static-v6')&&await(await caches.open('other-app-cache')).match('/unrelated').then(r=>r.text())==='preserve'})()`));
   check('emergency beta warning is visible',await c.eval(`document.body.textContent.includes('Emergency beta · provisional')&&document.body.textContent.includes('physical Android checks are pending')`));
-  check('beta worker retains accepted root cache',await c.eval(`(async()=>{const keys=await caches.keys();return keys.includes('necta-rescue-static-v6')&&keys.includes('necta-rescue-beta-v1')})()`));
+  check('beta worker retains accepted root cache',await c.eval(`(async()=>{const keys=await caches.keys();return keys.includes('necta-rescue-static-v6')&&keys.includes('necta-rescue-beta-v2')})()`));
   check('initial load preserves both storage keys',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===JSON.stringify(seedProgress)&&await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===JSON.stringify(seedLegacy));
   const subjects=await c.eval('NECTA_BETA.subjects');let questionOnly=0,answered=0;
   for(const s of subjects){
     await c.click(`[data-subject="${s.id}"]`);check('subject opens '+s.id,await c.eval(`document.getElementById('subjectTitle').textContent`)===s.name);
     check('six year choices '+s.id,await c.eval(`document.querySelectorAll('#year option').length`)===7);
-    const count=Number((await c.eval(`document.getElementById('coverage').textContent`)).split(' ')[0]);check('expected checked practice count '+s.id,count===(s.id==='civics'?30:2),count);
+    const count=Number((await c.eval(`document.getElementById('coverage').textContent`)).split(' ')[0]);check('expected checked practice count '+s.id,count===expectedCounts[s.id],count);
     for(let i=0;i<count;i++){
       const id=await c.eval(`document.getElementById('reference').textContent`);
       check('answer initially concealed '+id,await c.eval(`document.getElementById('answer').hidden&&!document.getElementById('bullets').textContent`));
       if(s.id==='civics'){await c.click('#reveal');check('bounded educational answer revealed '+i,await c.eval(`!document.getElementById('answer').hidden&&document.querySelectorAll('#bullets li').length>0`));answered++;}
       else{check('unreviewed answer reveal unavailable '+id,await c.eval(`document.getElementById('reveal').hidden&&document.getElementById('state').textContent.includes('Question-only practice')`));questionOnly++;}
+      const added=batch.records.find(r=>id.endsWith(r.record_id));
+      if(added){
+        check('new batch printed text and parent context '+added.record_id,await c.eval(`document.getElementById('question').textContent`)===added.display.question&&await c.eval(`document.getElementById('context').textContent`)=== (added.display.context||''));
+        check('new batch exact original page link '+added.record_id,await c.eval(`document.querySelector('#source a').href`)===added.display.exam.url+'#page='+added.display.exam.pages[0]);
+        if(added.record_id.startsWith('geography-2025-p1-q01'))check('conflicting supplied solution visibly withheld '+added.record_id,await c.eval(`document.getElementById('state').textContent.includes('conflicts with the printed alternatives')&&document.querySelectorAll('#source a').length===1`));
+      }
       for(const width of [320,360,390]){await c.send('Emulation.setDeviceMetricsOverride',{width,height:844,deviceScaleFactor:1,mobile:true});check('fits '+width+' '+s.id+' '+i,await c.eval('document.documentElement.scrollWidth<=innerWidth'));}
-      if(i===0)await c.shot(s.id+'-390');if(i<count-1)await c.click('#next');
+      if(i===0)await c.shot(s.id+'-390');if(added&&s.id==='geography'&&i===3)await c.shot('new-geography-conflict-390');if(added&&s.id==='literature'&&i===count-1)await c.shot('new-literature-parent-390');if(i<count-1)await c.click('#next');
     }
     check('no disputed card presented '+s.id,!(await c.eval(`document.getElementById('reference').textContent`)).includes('concept-democracy-state')&&!(await c.eval(`document.getElementById('reference').textContent`)).includes('concept-democracy-reasons'));
     await c.eval(`document.getElementById('year').value='2020';document.getElementById('year').dispatchEvent(new Event('change'))`);
     check('2020 has source references without claiming checked question coverage '+s.id,await c.eval(`document.getElementById('empty').hidden===false&&document.querySelectorAll('#papers .paper').length>0`));
     await c.click('#homeButton');
   }
-  check('exact counts 30 Civics and 14 question-only',answered===30&&questionOnly===14,{answered,questionOnly});
+  check('exact counts 30 Civics and 26 question-only',answered===30&&questionOnly===26,{answered,questionOnly});
   await c.click('[data-subject="english"]');await c.click('#revise');
   check('self-check preserves hidden and unknown IDs',await c.eval(`(()=>{const p=JSON.parse(localStorage.getItem('necta-rescue-learning-v1'));return p.records.length===3&&p.records.some(x=>x.card_id==='concept-democracy-state')&&p.records.some(x=>x.card_id==='future-card-id')})()`));
   const saved=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);await c.send('Page.reload');await c.wait('!!window.NECTA_BETA');check('saved progress survives reload',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===saved);
@@ -79,7 +97,7 @@ finally{
   const after=files(),endCommit=git('rev-parse','HEAD'),endDirty=git('status','--porcelain','--untracked-files=no');
   const stable=JSON.stringify(before.files)===JSON.stringify(after)&&before.commit===endCommit&&before.dirty===endDirty;
   checks.push({name:'stable test inputs',pass:stable});
-  const result={tested_commit:before.commit,tracked_changes:before.dirty,exact_commit:stable&&!before.dirty,stable_inputs:stable,run_profile:path.basename(scratch),browser:browserBuild,started_at:before.started_at,finished_at:new Date().toISOString(),checks,errors,tested_files:before.files,finished_files:after,public_requests:[...new Set(requests)].filter(u=>!u.startsWith('blob:'))};
+  const result={tested_commit:before.commit,tracked_changes:before.dirty,exact_commit:stable&&!before.dirty,stable_inputs:stable,upgrade_baseline_commit:upgradeBaseline,run_profile:path.basename(scratch),browser:browserBuild,started_at:before.started_at,finished_at:new Date().toISOString(),checks,errors,tested_files:before.files,finished_files:after,public_requests:[...new Set(requests)].filter(u=>!u.startsWith('blob:'))};
   fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(result,null,2));
   try{if(c)c.close();if(bc){await bc.send('Browser.close');bc.close();}}catch{}if(browser)browser.kill();if(server)await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});
 }
