@@ -1,0 +1,1477 @@
+{
+  "baseline": "d0df839621f6ef4ec09625eb5f21edfea1087343",
+  "starterBaseline": "79044ec5fce9e52baaaff4e3764ea569c5025e82",
+  "browser": "Chrome/155.0.8059.84",
+  "checks": [
+    {
+      "name": "production baseline loads v2",
+      "pass": true
+    },
+    {
+      "name": "production writes a genuine legacy record",
+      "pass": true
+    },
+    {
+      "name": "pre-upgrade backup downloaded",
+      "pass": true
+    },
+    {
+      "name": "v2 -> released v6 preserves legacy bytes",
+      "pass": true
+    },
+    {
+      "name": "released starter saves a real Civics self-check",
+      "pass": true
+    },
+    {
+      "name": "released v6 page offers the v7 update without losing open progress",
+      "pass": true
+    },
+    {
+      "name": "v6 -> v7 preserves both student storage keys byte for byte",
+      "pass": true
+    },
+    {
+      "name": "cache upgrade preserves unrelated applications",
+      "pass": true
+    },
+    {
+      "name": "cache upgrade also removes stale v3",
+      "pass": true
+    },
+    {
+      "name": "cache upgrade also removes stale v4",
+      "pass": true
+    },
+    {
+      "name": "GitHub Pages subpath worker scope",
+      "pass": true
+    },
+    {
+      "name": "home has a clear Civics action and no PDF input",
+      "pass": true
+    },
+    {
+      "name": "home fits 360",
+      "pass": true
+    },
+    {
+      "name": "home fits 390",
+      "pass": true
+    },
+    {
+      "name": "ten topic choices",
+      "pass": true
+    },
+    {
+      "name": "question appears before answer",
+      "pass": true
+    },
+    {
+      "name": "concealed answer is absent from accessibility tree",
+      "pass": true
+    },
+    {
+      "name": "five printed MCQ labels in A-E order",
+      "pass": true
+    },
+    {
+      "name": "reveal shows E aligned to printed option text",
+      "pass": true
+    },
+    {
+      "name": "chosen option stays separate from supplied answer",
+      "pass": true
+    },
+    {
+      "name": "reveal moves keyboard focus to answer heading",
+      "pass": true
+    },
+    {
+      "name": "revealed answer is available to assistive technology",
+      "pass": true
+    },
+    {
+      "name": "Understood saved and acknowledged",
+      "pass": true
+    },
+    {
+      "name": "self-check never mutates legacy records",
+      "pass": true
+    },
+    {
+      "name": "answer fits 360",
+      "pass": true
+    },
+    {
+      "name": "primary actions meet 44px at 360",
+      "pass": true
+    },
+    {
+      "name": "answer fits 390",
+      "pass": true
+    },
+    {
+      "name": "primary actions meet 44px at 390",
+      "pass": true
+    },
+    {
+      "name": "try again hides and clears answer",
+      "pass": true
+    },
+    {
+      "name": "keyboard Enter reveals the answer",
+      "pass": true
+    },
+    {
+      "name": "Revise Again updates the same stable record",
+      "pass": true
+    },
+    {
+      "name": "self-check persists after reload",
+      "pass": true
+    },
+    {
+      "name": "browser accepts exactly the 32 reviewed cards",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "complete MCQ alternatives civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "source identity and date civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "unrevealed content stays concealed concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "reviewed answer alignment concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "explanation and transfer guidance concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "source identity and date concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "card fits 320 concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "card fits 360 concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "card fits 390 concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "authored source context uses the actual 2023 year",
+      "pass": true
+    },
+    {
+      "name": "written answer has six explained points and source count guidance",
+      "pass": true
+    },
+    {
+      "name": "next question resets answer and focuses prompt",
+      "pass": true
+    },
+    {
+      "name": "concept variation visibly distinguished",
+      "pass": true
+    },
+    {
+      "name": "concept prompt includes its source example without requiring an earlier card",
+      "pass": true
+    },
+    {
+      "name": "previous returns to original wording with answer hidden",
+      "pass": true
+    },
+    {
+      "name": "concept filter has seven variations",
+      "pass": true
+    },
+    {
+      "name": "empty filtered topic is helpful",
+      "pass": true
+    },
+    {
+      "name": "empty-state recovery restores question",
+      "pass": true
+    },
+    {
+      "name": "Revise Again filter handles zero matches",
+      "pass": true
+    },
+    {
+      "name": "Revise Again filter finds saved card",
+      "pass": true
+    },
+    {
+      "name": "old backup import keeps learning progress",
+      "pass": true
+    },
+    {
+      "name": "new export contains old notes and new self-checks",
+      "pass": true
+    },
+    {
+      "name": "combined backup restores Civics progress",
+      "pass": true
+    },
+    {
+      "name": "invalid backup preserves existing self-checks",
+      "pass": true
+    },
+    {
+      "name": "legacy page still displays production notes",
+      "pass": true
+    },
+    {
+      "name": "legacy importer accepts additive new backup",
+      "pass": true
+    },
+    {
+      "name": "legacy PDF guidance, timer and subject selectors retained",
+      "pass": true
+    },
+    {
+      "name": "legacy focus timer counts down",
+      "pass": true
+    },
+    {
+      "name": "local PDF still uses blob without upload",
+      "pass": true
+    },
+    {
+      "name": "paper practice runs under its content security policy",
+      "pass": true
+    },
+    {
+      "name": "failed legacy deletion keeps the record visible and stored",
+      "pass": true
+    },
+    {
+      "name": "failed legacy clear never reports cleared history",
+      "pass": true
+    },
+    {
+      "name": "legacy corrupted history is visibly locked instead of filtered away",
+      "pass": true
+    },
+    {
+      "name": "legacy attempt cannot overwrite unreadable history",
+      "pass": true
+    },
+    {
+      "name": "legacy clear cannot discard unreadable history",
+      "pass": true
+    },
+    {
+      "name": "recovery export preserves unreadable raw history exactly",
+      "pass": true
+    },
+    {
+      "name": "large-backup test genuinely exceeds former 3 MB ceiling",
+      "pass": true
+    },
+    {
+      "name": "learning importer restores a valid backup over 3 MB",
+      "pass": true
+    },
+    {
+      "name": "legacy importer restores a valid backup over 3 MB",
+      "pass": true
+    },
+    {
+      "name": "learning runs under its content security policy",
+      "pass": true
+    },
+    {
+      "name": "offline bundle caches all 12 explicit public assets",
+      "pass": true
+    },
+    {
+      "name": "private path HTTP 404: questions.jsonl",
+      "pass": true
+    },
+    {
+      "name": "private path HTTP 404: answers.jsonl",
+      "pass": true
+    },
+    {
+      "name": "private path HTTP 404: review/civics-starter-ledger.json",
+      "pass": true
+    },
+    {
+      "name": "private path HTTP 404: .workbuddy-ai/memory/MEMORY.md",
+      "pass": true
+    },
+    {
+      "name": "private path HTTP 404: Civics-F4-2025.pdf",
+      "pass": true
+    },
+    {
+      "name": "unknown paths are never cached",
+      "pass": true
+    },
+    {
+      "name": "offline reload loads reviewed content with server stopped",
+      "pass": true
+    },
+    {
+      "name": "answer flow and persistence work offline",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q01i",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q01iii",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q01vi",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q01x",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q03",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-define",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-state",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-mention",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-explain",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-describe",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-reasons",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-democracy-discuss",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2023-p1-q01iv",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2023-p1-q01viii",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2023-p1-q01ix",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2022-p1-q05",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2022-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2022-p1-q13",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2025-p1-q07",
+      "pass": true
+    },
+    {
+      "name": "offline answer available civics-2023-p1-q08a",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-rights-state",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-trade-deficit-define",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-trade-deficit-explain",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-population-explain",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-careers-state",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-rational-decision-define",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-rational-decision-explain",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-maintenance-explain",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-leadership-discuss",
+      "pass": true
+    },
+    {
+      "name": "offline answer available concept-performing-arts-mention",
+      "pass": true
+    },
+    {
+      "name": "offline unknown paths do not receive the app shell",
+      "pass": true
+    },
+    {
+      "name": "legacy records still unchanged after offline use",
+      "pass": true
+    },
+    {
+      "name": "cached learning loads within 5s on 4x CPU and slow network",
+      "pass": true,
+      "detail": {
+        "milliseconds": 203,
+        "cpu_slowdown": 4,
+        "latency_ms": 400,
+        "download_bytes_per_second": 128000
+      }
+    },
+    {
+      "name": "zero-content collection gives an honest empty state",
+      "pass": true
+    },
+    {
+      "name": "single card collection is navigable",
+      "pass": true
+    },
+    {
+      "name": "question and answer markup are escaped as text",
+      "pass": true
+    },
+    {
+      "name": "held card never reaches topic count",
+      "pass": true
+    },
+    {
+      "name": "corrupt existing progress is never overwritten",
+      "pass": true
+    },
+    {
+      "name": "storage failure is reported without claiming saved",
+      "pass": true
+    },
+    {
+      "name": "browser security policy blocks injected inline executable code",
+      "pass": true
+    },
+    {
+      "name": "failed two-key restore rolls back both records safely",
+      "pass": true
+    },
+    {
+      "name": "new-card self-check preserves old and unknown card records",
+      "pass": true
+    },
+    {
+      "name": "new difficult question can be revisited with answer concealed",
+      "pass": true
+    },
+    {
+      "name": "understood new card is excluded when difficult selection is refreshed",
+      "pass": true
+    },
+    {
+      "name": "combined backup includes new, released and unknown card IDs",
+      "pass": true
+    },
+    {
+      "name": "expanded combined backup restores all three progress records",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript errors throughout browser scenarios",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no third-party network requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "https://127.0.0.1:57560/necta-rescue-pilot/",
+    "https://127.0.0.1:57560/necta-rescue-pilot/manifest.webmanifest",
+    "https://127.0.0.1:57560/necta-rescue-pilot/icon.svg",
+    "https://127.0.0.1:57560/necta-rescue-pilot/icon-192.png",
+    "https://127.0.0.1:57560/necta-rescue-pilot/learning.css",
+    "https://127.0.0.1:57560/necta-rescue-pilot/learning-core.js",
+    "https://127.0.0.1:57560/necta-rescue-pilot/civics-content.js",
+    "https://127.0.0.1:57560/necta-rescue-pilot/learning.js",
+    "https://127.0.0.1:57560/necta-rescue-pilot/paper-practice.html",
+    "https://127.0.0.1:57560/necta-rescue-pilot/paper-practice.js",
+    "blob:https://127.0.0.1:57560/4e035697-ad71-4f98-a796-71674ce4c8c8",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_embedder.css",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+    "https://127.0.0.1:57560/necta-rescue-pilot/questions.jsonl",
+    "https://127.0.0.1:57560/necta-rescue-pilot/answers.jsonl",
+    "https://127.0.0.1:57560/necta-rescue-pilot/review/civics-starter-ledger.json",
+    "https://127.0.0.1:57560/necta-rescue-pilot/.workbuddy-ai/memory/MEMORY.md",
+    "https://127.0.0.1:57560/necta-rescue-pilot/Civics-F4-2025.pdf",
+    "https://127.0.0.1:57560/necta-rescue-pilot/?offline-test=1"
+  ],
+  "tested_files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "civics-content.js": "500895488f36a0c34c93dd92ed0543cfdda501b3e608d436fcdcc69cf876d922",
+    "icon-192.png": "d130063c98f29991b75fffcfdcfb2083bc01e41cdb2788ad3659b4e3c0e29d92",
+    "icon-512.png": "9f027622a5aa6dadcd9ab34999f6a375ccd6d11e10dcf665a34707c32af570ab",
+    "icon.svg": "c440559c791db1ef7c75a281acb24c2c1f5411d1017f7bb0b909827c9d0ef8e1",
+    "index.html": "9943e4e74825e1f766cfd8fbfba8fd2e5c8d75485d03443c7d051d2b832e807f",
+    "learning-core.js": "b6723c49e009e0122ffb5da82bb566fb35587ec5c9974780157040d8c4123396",
+    "learning.css": "f5f64182fecae2e5ce329987f855fd52ce44f66babb48a14b377cc50131efea5",
+    "learning.js": "d68ebea4db5e6fdaaae857b62804bd7d52c3f192015a9f8bc5800bc1df8e7543",
+    "manifest.webmanifest": "93d0bc62aa71eea0aca5777b8badfccca724028a64f0821a7a454b42b986a445",
+    "paper-practice.html": "e82696fd17f28e3a6655a6eb6d48db66e380c1e1e42a2f31f66ab886d6c0fd86",
+    "paper-practice.js": "daf575d499d9b5c2efded319e09216f1748f2600d1298639a0103b74f506cfa0",
+    "sw.js": "3ba1dea5ac74c78ea481e3cc810387b09ae2dcbeac9f3a7d819c95ce2b060711"
+  },
+  "finished_at": "2026-10-16T03:57:47.444Z"
+}

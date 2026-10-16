@@ -1,0 +1,147 @@
+[
+  {
+    "card_id": "civics-2023-p1-q01ii",
+    "decision": "withhold",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review.",
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "canonical_evidence_modified": false
+  },
+  {
+    "card_id": "civics-2022-p1-q01vi",
+    "decision": "withhold",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded.",
+    "exam": {
+      "filename": "Civics-F4-2022.pdf",
+      "sha256": "3c8d1fe7e883abe5bebddfa1c7a5c42c8b7c269f1665311d5be98c2a2b7f6ac8",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2022.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2022-Solutions.pdf",
+      "sha256": "7a4f919a12ff2ccd2b61aa0ec9d997d859ca4cc6c0e6008ce14757b15e94efbf",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2022-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "canonical_evidence_modified": false
+  },
+  {
+    "card_id": "civics-2023-p1-q01i",
+    "decision": "withhold",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded.",
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "canonical_evidence_modified": false
+  },
+  {
+    "card_id": "civics-2023-p1-q01v",
+    "decision": "withhold",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded.",
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "canonical_evidence_modified": false
+  },
+  {
+    "card_id": "civics-2025-p1-q01v",
+    "decision": "withhold",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "canonical_evidence_modified": false
+  },
+  {
+    "card_id": "civics-2025-p1-q01viii",
+    "decision": "withhold",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        5
+      ]
+    },
+    "canonical_evidence_modified": false
+  }
+]

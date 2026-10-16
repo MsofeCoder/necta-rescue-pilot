@@ -1,0 +1,815 @@
+[
+  {
+    "card_id": "civics-2023-p1-q01iv",
+    "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q01iv",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "How do you characterize a situation in which people remain poor throughout their\nlives despite the struggle to change the situation?\nB Income poverty\nA Relative poverty Vicious circle of poverty\nD",
+    "source_question_transcription": "How do you characterize a situation in which people remain poor throughout their lives despite the struggle to change the situation?",
+    "display_question": "How do you characterize a situation in which people remain poor throughout their lives despite the struggle to change the situation?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Relative poverty"
+      },
+      {
+        "label": "B",
+        "text": "Income poverty"
+      },
+      {
+        "label": "C",
+        "text": "Poverty line"
+      },
+      {
+        "label": "D",
+        "text": "Vicious circle of poverty"
+      },
+      {
+        "label": "E",
+        "text": "Low per capita income"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "D. Vicious circle of poverty"
+    ],
+    "independent_reasoning": "D identifies a self-reinforcing cycle; relative poverty instead compares living conditions. Supplied key D agrees.",
+    "correction": "Restored all five printed alternatives, including C and E missing from the extracted item. No canonical data changed.",
+    "answer_treatment": "Correct option checked against the complete question and supplied solution; explanation independently authored.",
+    "command_response": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "transfer_guidance": "If asked to explain the cycle, connect low income to low saving, low investment and low output. If asked about relative poverty, explain comparison instead.",
+    "supplied_answer_page_locator": "PDF p2, stem beginning “How do you characterize”; printed Ans: D."
+  },
+  {
+    "card_id": "civics-2023-p1-q01viii",
+    "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q01viii",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "Suppose your class teacher directed you and your fellow students to prepare songs,\npoems, drama and dances to grace the fourth coming form four graduation\nceremony in your school. How do you characterise the form of art which will grace\nthe graduation ceremony?\nA Sculpturing B Audio visual art\nC Peforming art D Traditional art\nE Sports and games",
+    "source_question_transcription": "Suppose your class teacher directed you and your fellow students to prepare songs, poems, drama and dances to grace the fourth coming form four graduation ceremony in your school. How do you characterise the form of art which will grace the graduation ceremony?",
+    "display_question": "Suppose your class teacher directed you and your fellow students to prepare songs, poems, drama and dances to grace the fourth coming form four graduation ceremony in your school. How do you characterise the form of art which will grace the graduation ceremony?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Sculpturing"
+      },
+      {
+        "label": "B",
+        "text": "Audio visual art"
+      },
+      {
+        "label": "C",
+        "text": "Peforming art"
+      },
+      {
+        "label": "D",
+        "text": "Traditional art"
+      },
+      {
+        "label": "E",
+        "text": "Sports and games"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "C. Peforming art"
+    ],
+    "independent_reasoning": "C groups the listed live artistic activities by their form. Some may also be traditional, but traditional does not describe the shared mode of presentation.",
+    "correction": "Exam numbering is 1(viii); the supplied solution shifts this stem to (ix). Matched by complete stem and alternatives, not its shifted number. Printed spelling “Peforming” retained.",
+    "answer_treatment": "Correct option checked against the complete question and supplied solution; explanation independently authored.",
+    "command_response": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "transfer_guidance": "For a naming question, identify performing arts. For an explanation, link the examples to presentation through voices, movement or acting.",
+    "supplied_answer_page_locator": "PDF p3, matching graduation stem labelled (ix) in solution; printed Ans: C."
+  },
+  {
+    "card_id": "civics-2023-p1-q01ix",
+    "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q01ix",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "Which strategy can be employed to prolong the life span of public properties in your\nschool?\nA Increase the amount of caution money\nB Institute strict school regulation\nC Institute periodic maintenance schedule\nD Empower the students government\nE Institute stock verification schedule",
+    "source_question_transcription": "Which strategy can be employed to prolong the life span of public properties in your school?",
+    "display_question": "Which strategy can be employed to prolong the life span of public properties in your school?",
+    "printed_options": [
+      {
+        "label": "A",
+        "text": "Increase the amount of caution money"
+      },
+      {
+        "label": "B",
+        "text": "Institute strict school regulation"
+      },
+      {
+        "label": "C",
+        "text": "Institute periodic maintenance schedule"
+      },
+      {
+        "label": "D",
+        "text": "Empower the students government"
+      },
+      {
+        "label": "E",
+        "text": "Institute stock verification schedule"
+      }
+    ],
+    "printed_marks": null,
+    "required_points": null,
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "C. Institute periodic maintenance schedule"
+    ],
+    "independent_reasoning": "Maintenance physically preserves property. Stock verification only checks what is held; caution money and rules alone do not repair damage. Supplied C agrees.",
+    "correction": "Exam numbering is 1(ix); supplied solution labels the matching stem (x). Full stem and A–E order checked directly. The contradictory 2025 maintenance item remains held.",
+    "answer_treatment": "Correct option checked against the complete question and supplied solution; explanation independently authored.",
+    "command_response": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "transfer_guidance": "For a strategy, name regular maintenance. For why it works, explain how early repairs prevent damage and avoid larger replacement costs.",
+    "supplied_answer_page_locator": "PDF p3, matching public-properties stem labelled (x) in solution; printed Ans: C."
+  },
+  {
+    "card_id": "civics-2022-p1-q05",
+    "review_id": "phase-d-review-2026-10-16-civics-2022-p1-q05",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "Why all road users must obey traffic signs ? (Give five reasons).",
+    "source_question_transcription": "Why all road users must obey traffic signs? (Give five reasons).",
+    "display_question": "Why all road users must obey traffic signs? (Give five reasons).",
+    "printed_options": null,
+    "printed_marks": null,
+    "required_points": 5,
+    "exam": {
+      "filename": "Civics-F4-2022.pdf",
+      "sha256": "3c8d1fe7e883abe5bebddfa1c7a5c42c8b7c269f1665311d5be98c2a2b7f6ac8",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2022.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2022-Solutions.pdf",
+      "sha256": "7a4f919a12ff2ccd2b61aa0ec9d997d859ca4cc6c0e6008ce14757b15e94efbf",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2022-Solutions.pdf",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "Reduces accidents: warnings and restrictions help road users avoid danger.",
+      "Keeps traffic moving: shared directions reduce confusion and unnecessary delays.",
+      "Protects vulnerable users: crossing signs help drivers look out for pedestrians.",
+      "Supports compliance: road users follow the instructions that regulate road use.",
+      "Maintains order: road users know when to stop, give way or proceed."
+    ],
+    "independent_reasoning": "Each point gives a practical reason rather than merely naming a sign. The supplied five reasons cover safety, flow, pedestrians, compliance and order.",
+    "correction": "Printed wording retained, including its grammar; spacing before the question mark normalized. The pipeline sequence-gap flag was resolved by visual question-number review.",
+    "answer_treatment": "Supplied solution points paraphrased and clarified into concise educational bullets; not a verbatim marking scheme.",
+    "command_response": "Give five reasons. Briefly link each reason to road users; five is requested by this question.",
+    "transfer_guidance": "The 2025 question asks for six advantages. Use the same core ideas, but follow its requested number and avoid repeating a reason in different words.",
+    "supplied_answer_page_locator": "PDF p5 first two bullets; p6 first three bullets: accidents, flow, pedestrians, legal compliance, order."
+  },
+  {
+    "card_id": "civics-2022-p1-q07",
+    "review_id": "phase-d-review-2026-10-16-civics-2022-p1-q07",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "Briefly, explain five factors that can enhance economic development of the people in\nTanzani1a.",
+    "source_question_transcription": "Briefly, explain five factors that can enhance economic development of the people in Tanzania.",
+    "display_question": "Briefly, explain five factors that can enhance economic development of the people in Tanzania.",
+    "printed_options": null,
+    "printed_marks": null,
+    "required_points": 5,
+    "exam": {
+      "filename": "Civics-F4-2022.pdf",
+      "sha256": "3c8d1fe7e883abe5bebddfa1c7a5c42c8b7c269f1665311d5be98c2a2b7f6ac8",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2022.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2022-Solutions.pdf",
+      "sha256": "7a4f919a12ff2ccd2b61aa0ec9d997d859ca4cc6c0e6008ce14757b15e94efbf",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2022-Solutions.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "Infrastructure: reliable roads, energy and communication help people reach markets and services.",
+      "Entrepreneurship: supporting small businesses creates work and expands local production.",
+      "Education and training: skills help workers improve the quality and quantity of their work.",
+      "Better agriculture: improved farming can raise food production and rural incomes.",
+      "Investment: capital and technology help businesses expand and improve production."
+    ],
+    "independent_reasoning": "These five causal links agree with supplied infrastructure, entrepreneurship, training, agriculture and investment points. Investment is a contribution, not an automatic guarantee.",
+    "correction": "Corrected OCR “Tanzani1a” to the printed “Tanzania” in this display copy only. Supplied foreign investment point paraphrased as investment bringing capital and technology.",
+    "answer_treatment": "Supplied solution points paraphrased and clarified into concise educational bullets; not a verbatim marking scheme.",
+    "command_response": "Explain five distinct factors. For each, name the factor and show how it can improve people’s economic lives.",
+    "transfer_guidance": "If asked to state factors, name them briefly. If asked to explain, add how each helps. Do not replace causes with indicators such as income levels.",
+    "supplied_answer_page_locator": "PDF p6, question 7: infrastructure, small businesses, training, agricultural practices, foreign investment."
+  },
+  {
+    "card_id": "civics-2022-p1-q13",
+    "review_id": "phase-d-review-2026-10-16-civics-2022-p1-q13",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "Basing on JK. Nyerere ideology, good leadership is one of the pre-condition for rapid\ndevelopment in Tanzania. How would you characterise a good leader in your society? Give\nfive points.",
+    "source_question_transcription": "Basing on J.K. Nyerere ideology, good leadership is one of the pre-condition for rapid development in Tanzania. How would you characterise a good leader in your society? Give five points.",
+    "display_question": "Basing on J.K. Nyerere ideology, good leadership is one of the pre-condition for rapid development in Tanzania. How would you characterise a good leader in your society? Give five points.",
+    "printed_options": null,
+    "printed_marks": null,
+    "required_points": 5,
+    "exam": {
+      "filename": "Civics-F4-2022.pdf",
+      "sha256": "3c8d1fe7e883abe5bebddfa1c7a5c42c8b7c269f1665311d5be98c2a2b7f6ac8",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2022.pdf",
+      "pages": [
+        5
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2022-Solutions.pdf",
+      "sha256": "7a4f919a12ff2ccd2b61aa0ec9d997d859ca4cc6c0e6008ce14757b15e94efbf",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2022-Solutions.pdf",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "Integrity: acts honestly and uses public resources responsibly.",
+      "Public service: puts people’s needs at the centre of decisions.",
+      "Unity: brings people together across social and cultural differences.",
+      "Empathy: listens to people and understands the difficulties they face.",
+      "Vision: sets clear goals and plans practical steps to achieve them."
+    ],
+    "independent_reasoning": "The supplied concluding five qualities are integrity, empathy, unity, vision and commitment to people. Distinct explanatory bullets preserve these meanings.",
+    "correction": "Printed wording and grammar retained; line breaks normalized. No individual marks inferred from the Section C total.",
+    "answer_treatment": "Supplied solution points paraphrased and clarified into concise educational bullets; not a verbatim marking scheme.",
+    "command_response": "Develop five characteristics, each with a brief explanation. For a full Section C answer, add a short introduction and conclusion.",
+    "transfer_guidance": "If asked about charismatic leadership, focus on inspiration. If asked about good leadership, develop several qualities rather than assuming charisma proves good conduct.",
+    "supplied_answer_page_locator": "PDF pp8–9, question 13; concluding sentence enumerates integrity, empathy, unity, vision and commitment to people."
+  },
+  {
+    "card_id": "civics-2025-p1-q07",
+    "review_id": "phase-d-review-2026-10-16-civics-2025-p1-q07",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "Identify the advantages of observing road signs in Tanzania. Give six points.",
+    "source_question_transcription": "Identify the advantages of observing road signs in Tanzania. Give six points.",
+    "display_question": "Identify the advantages of observing road signs in Tanzania. Give six points.",
+    "printed_options": null,
+    "printed_marks": null,
+    "required_points": 6,
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        10
+      ]
+    },
+    "solution_attribution": "Maria Marco for TETEA; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "Safer journeys: following signs helps reduce collisions and injuries.",
+      "Smoother traffic flow: directions and priority signs help vehicles move predictably.",
+      "Clear rules: signs communicate road restrictions and help traffic control.",
+      "Hazard awareness: warnings give road users time to prepare for dangers ahead.",
+      "Orderly shared use: signs guide different road users at crossings and junctions.",
+      "Responsible habits: regularly following signs builds road-use discipline."
+    ],
+    "independent_reasoning": "Supplied points cover safety, flow, enforcement, warning, public order and responsible culture. Wording separates predictable movement from orderly shared use and avoids guarantees.",
+    "correction": "Six supplied paragraphs paraphrased for simple English; no alteration to the canonical solution or claim of official marks.",
+    "answer_treatment": "Supplied solution points paraphrased and clarified into concise educational bullets; not a verbatim marking scheme.",
+    "command_response": "Identify six distinct advantages. Keep the points clear; this question asks for six, not the five in the 2022 question.",
+    "transfer_guidance": "“Advantages”, “importance” and “reasons for obeying” can draw on related knowledge. Match the command and the number in the actual question.",
+    "supplied_answer_page_locator": "PDF p10, question 7: six paragraphs on safety, flow, enforcement, warnings, public order and responsible culture."
+  },
+  {
+    "card_id": "civics-2023-p1-q08a",
+    "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q08a",
+    "kind": "original_exam",
+    "status": "source_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "original_pipeline_question_text": "In four points, briefly explain the need for rational decisions in the event of any\nchailenges in your daily life.",
+    "source_question_transcription": "In four points, briefly explain the need for rational decisions in the event of any challenges in your daily life.",
+    "display_question": "In four points, briefly explain the need for rational decisions in the event of any challenges in your daily life.",
+    "printed_options": null,
+    "printed_marks": null,
+    "required_points": 4,
+    "exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        8
+      ]
+    },
+    "solution_attribution": "TETEA-hosted supplied educational solution; individual author not identified in the supplied file; not an official NECTA marking scheme.",
+    "answer_bullets": [
+      "Solves problems: comparing options helps you choose a suitable way forward.",
+      "Supports goals: thoughtful choices help you work towards what you want to achieve.",
+      "Uses resources well: considering costs helps avoid wasting time and money.",
+      "Reduces conflict: thinking before acting can prevent impulsive choices that upset others."
+    ],
+    "independent_reasoning": "All four supplied points match the requested need: problem solving, goal achievement, resource use and conflict prevention. These are benefits, not a procedure.",
+    "correction": "Corrected OCR “chailenges” to printed “challenges”. Supplied solution 8(a) and all four bullets checked directly.",
+    "answer_treatment": "Supplied solution points paraphrased and clarified into concise educational bullets; not a verbatim marking scheme.",
+    "command_response": "Give four needs or benefits and briefly explain each. A list of decision-making steps would answer a different question.",
+    "transfer_guidance": "If asked why rational decisions matter, give benefits. If asked how to make one, describe steps such as gathering information and comparing options.",
+    "supplied_answer_page_locator": "PDF p8, question 8(a): problem-solving, goal achievement, resource optimization and conflict avoidance."
+  },
+  {
+    "card_id": "concept-rights-state",
+    "review_id": "phase-d-review-2026-10-16-concept-rights-state",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2025-p1-q01i",
+    "concept_exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "authored_question": "State two examples of economic and social rights.",
+    "answer_bullets": [
+      "The right to work.",
+      "The right to education."
+    ],
+    "independent_reasoning": "These rights concern people’s living conditions and opportunities to meet their needs.",
+    "command_response": "State two examples briefly. This authored question requests two; the command alone does not set a count.",
+    "transfer_guidance": "If asked to explain a right, add what it protects. If asked to identify the whole category, name economic, social and cultural rights.",
+    "required_points": 2,
+    "marks": null
+  },
+  {
+    "card_id": "concept-trade-deficit-define",
+    "review_id": "phase-d-review-2026-10-16-concept-trade-deficit-define",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2025-p1-q01iii",
+    "concept_exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "authored_question": "Define a trade deficit.",
+    "answer_bullets": [
+      "A trade deficit occurs when the value of a country’s imports is greater than the value of its exports over a given period."
+    ],
+    "independent_reasoning": "Imports bring goods and services into a country; exports are sold to other countries. Compare their values over the same period.",
+    "command_response": "Give the meaning in one clear sentence, including which value is greater.",
+    "transfer_guidance": "If the question gives a situation, compare imports and exports. If exports are greater, it describes a surplus rather than a deficit.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-trade-deficit-explain",
+    "review_id": "phase-d-review-2026-10-16-concept-trade-deficit-explain",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2025-p1-q01iii",
+    "concept_exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "authored_question": "A country imports goods worth 80 units and exports goods worth 50 units in the same year. Explain why it has a trade deficit.",
+    "answer_bullets": [
+      "Imports exceed exports: 80 units is greater than 50 units.",
+      "The difference is 30 units, so the country has a trade deficit of 30 units."
+    ],
+    "independent_reasoning": "The figures are invented for this revision example. The calculation shows the idea without making a claim about Tanzania’s current trade.",
+    "command_response": "Link the comparison to the term. Show the subtraction when giving the size of the deficit.",
+    "transfer_guidance": "A naming prompt needs “trade deficit”. An explanation should also show why the figures fit that term.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-population-explain",
+    "review_id": "phase-d-review-2026-10-16-concept-population-explain",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2025-p1-q01x",
+    "concept_exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "authored_question": "Explain how the population supplies human resources for a nation.",
+    "answer_bullets": [
+      "The population is the people living in the nation.",
+      "People contribute labour, knowledge and skills to activities such as farming, teaching and building."
+    ],
+    "independent_reasoning": "Human resources are people and their abilities. Population size alone does not tell us the skills or opportunities available.",
+    "command_response": "Connect people to their work and abilities. Naming population alone is not a full explanation.",
+    "transfer_guidance": "For a “which component” question, name population. For “explain”, show how people contribute; do not invent census figures.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-careers-state",
+    "review_id": "phase-d-review-2026-10-16-concept-careers-state",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2025-p1-q03",
+    "concept_exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "authored_question": "State two ways career development can benefit an individual.",
+    "answer_bullets": [
+      "Improves skills and knowledge for work.",
+      "Helps a person set career goals."
+    ],
+    "independent_reasoning": "Career development supports planning and learning. It can improve opportunities but does not guarantee a job.",
+    "command_response": "Give two short benefits for the individual, as this prompt requests.",
+    "transfer_guidance": "If asked to explain benefits, add how each helps. If asked about both the individual and the nation, include national benefits too.",
+    "required_points": 2,
+    "marks": null
+  },
+  {
+    "card_id": "concept-rational-decision-define",
+    "review_id": "phase-d-review-2026-10-16-concept-rational-decision-define",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2023-p1-q08a",
+    "concept_exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        8
+      ]
+    },
+    "authored_question": "Define a rational decision.",
+    "answer_bullets": [
+      "A rational decision is a choice made by using relevant information and reasoning to compare the available options."
+    ],
+    "independent_reasoning": "Thinking about options and their likely results helps a person choose a suitable action.",
+    "command_response": "Give a concise meaning. Do not substitute a list of benefits for the definition.",
+    "transfer_guidance": "“Define” asks for meaning; “explain the need” asks why thoughtful decisions are useful.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-rational-decision-explain",
+    "review_id": "phase-d-review-2026-10-16-concept-rational-decision-explain",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2023-p1-q08a",
+    "concept_exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        8
+      ]
+    },
+    "authored_question": "Explain how comparing options can help a student use limited study time well.",
+    "answer_bullets": [
+      "The student compares the time needed and the learning value of each task.",
+      "The student can then prioritise useful tasks that fit the time available, reducing wasted effort."
+    ],
+    "independent_reasoning": "This is an independently authored application of rational decision-making, not an examination scenario.",
+    "command_response": "Connect comparing options to a useful result for the student. Use the situation given.",
+    "transfer_guidance": "If asked for the steps, describe the process. If asked for benefits, explain the useful results of the process.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-maintenance-explain",
+    "review_id": "phase-d-review-2026-10-16-concept-maintenance-explain",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2023-p1-q01ix",
+    "concept_exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "authored_question": "Explain why regular maintenance can extend the life of school property.",
+    "answer_bullets": [
+      "Regular checks reveal damage while it is still small.",
+      "Timely repairs can prevent further deterioration and delay the need to replace the property."
+    ],
+    "independent_reasoning": "A loose window fitting can be repaired before the whole window is damaged. This example is authored for revision.",
+    "command_response": "Show the link between regular care and lasting longer; do not just repeat “maintenance is important”.",
+    "transfer_guidance": "Distinguish a method from a benefit: maintenance is the method; a longer useful life and lower replacement needs are possible benefits.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-leadership-discuss",
+    "review_id": "phase-d-review-2026-10-16-concept-leadership-discuss",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2022-p1-q13",
+    "concept_exam": {
+      "filename": "Civics-F4-2022.pdf",
+      "sha256": "3c8d1fe7e883abe5bebddfa1c7a5c42c8b7c269f1665311d5be98c2a2b7f6ac8",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2022.pdf",
+      "pages": [
+        5
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2022-Solutions.pdf",
+      "sha256": "7a4f919a12ff2ccd2b61aa0ec9d997d859ca4cc6c0e6008ce14757b15e94efbf",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2022-Solutions.pdf",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "authored_question": "Discuss why inspiring followers alone is not enough to make someone a good leader.",
+    "answer_bullets": [
+      "Inspiration can encourage people to work towards a common goal.",
+      "Honesty and responsible use of resources help protect the people being led.",
+      "Listening and serving people’s needs help make the shared goal worthwhile.",
+      "A leader should combine the ability to inspire with responsible conduct and service."
+    ],
+    "independent_reasoning": "A discussion develops the idea and reaches a reasoned judgement. Charisma is one quality; it does not prove that decisions are good.",
+    "command_response": "Develop the value and limits of inspiration, support your points, and finish with a brief judgement. No fixed number is implied by “discuss”.",
+    "transfer_guidance": "For “state qualities”, name them. For “discuss”, explain their importance and address the issue in the question.",
+    "required_points": null,
+    "marks": null
+  },
+  {
+    "card_id": "concept-performing-arts-mention",
+    "review_id": "phase-d-review-2026-10-16-concept-performing-arts-mention",
+    "kind": "authored_concept",
+    "status": "editorially_checked",
+    "decision": "include_in_development_candidate",
+    "owner_release_approval": "pending_phase_d",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-16",
+    "independent_human_subject_review": "not_claimed",
+    "derived_from": "civics-2023-p1-q01viii",
+    "concept_exam": {
+      "filename": "Civics-F4-2023.pdf",
+      "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "concept_solution": {
+      "filename": "Civics-F4-2023-Solutions.pdf",
+      "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "authored_question": "Mention two examples of performing arts used in the graduation scenario.",
+    "answer_bullets": [
+      "Drama.",
+      "Dance."
+    ],
+    "independent_reasoning": "These examples are presented through acting or movement. Songs and poetry performance are other examples in the source scenario.",
+    "command_response": "Name two examples briefly because this prompt requests two.",
+    "transfer_guidance": "“Mention” asks you to name examples. “Explain” needs a link between their performance and the type of art.",
+    "required_points": 2,
+    "marks": null
+  }
+]

@@ -1,6 +1,6 @@
 'use strict';
 /* Bump this generation whenever any bundled file changes. */
-const CACHE = 'necta-rescue-static-v6';
+const CACHE = 'necta-rescue-static-v7';
 const ASSETS = ['./','./index.html','./paper-practice.html','./paper-practice.js','./learning.css','./learning-core.js','./learning.js','./civics-content.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
 const ALLOWED = new Set(ASSETS.map(asset => new URL(asset, self.registration.scope).pathname));
 self.addEventListener('install', event => event.waitUntil(

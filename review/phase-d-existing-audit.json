@@ -1,0 +1,382 @@
+[
+  {
+    "card_id": "civics-2025-p1-q01i",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "E includes economic AND social rights; C omits social rights. Work and necessities identify this rights category.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-i",
+    "published_card_sha256": "75219d4c1a413b149bc2490e5676c82b3af505973deb82cfa84650eb5451017d",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "For an MCQ, select the complete category. In a written definition, give the meaning rather than just the option letter."
+  },
+  {
+    "card_id": "civics-2025-p1-q01iii",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "The direction imports > exports defines a deficit, so B is the only matching option. No present-day trade claim is inferred.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-iii",
+    "published_card_sha256": "4301fd25d35c19ead2bc5a92da2e2efc243fc975372bd99adf669544d1de48d7",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "For a definition, state that imports exceed exports. For an explanation, use the values or situation supplied; do not assume the question describes today’s trade."
+  },
+  {
+    "card_id": "civics-2025-p1-q01iv",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "Inspiration and motivation are defining features of charismatic leadership. The other options describe fear, division or control.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-iv",
+    "published_card_sha256": "2c22ee57cad260a1351a226ed456b77f4c8dd4bcf1a3b30f3879ca125a27ad44",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "For an identification question, focus on inspiration. For good-leadership questions, consider honesty, service and other qualities too."
+  },
+  {
+    "card_id": "civics-2025-p1-q01vi",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "Direct participation in decisions distinguishes direct/pure democracy from merely expressing views or separating powers.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        2
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-vi",
+    "published_card_sha256": "0be1bd7241f21dc0e9462d8a1c871646c7935d3f58827c4cc7bd7fe585684d95",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "“Pure” and “direct” refer to citizens making decisions themselves. Explain that link when the question gives a different community example."
+  },
+  {
+    "card_id": "civics-2025-p1-q01ix",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "Relative poverty compares standards within a society; absolute poverty concerns a basic-needs threshold rather than this comparison.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        5
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-ix",
+    "published_card_sha256": "7997b3f8572bc66c5fd786e0cfd17bb11e117a1b53b746da7ebfac2dd91892ef",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Look for comparison with others to identify relative poverty. If asked to explain, show how the comparison differs from lacking basic needs."
+  },
+  {
+    "card_id": "civics-2025-p1-q01x",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "Population denotes the people; land, sovereignty, culture and government do not themselves supply the people doing the work.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Choose one alternative. In the examination, write its letter beside the item number.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-x",
+    "published_card_sha256": "d0fefc78f6fddc6cdb2b02c7371919bfe623f385d2b9e9af3e75e590070fab32",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Name population for an identification question. For an explanation, connect people with their labour, skills and knowledge."
+  },
+  {
+    "card_id": "civics-2025-p1-q03",
+    "kind": "original_exam",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Checked against printed exam page; punctuation and line-break normalization inherited from published transcription.",
+    "intended_concept": "Each supplied point gives a distinct mechanism: skills, planning, productivity, adaptation, employment matching and ethics. Avoided a guaranteed-job claim.",
+    "answer_check": "Pass: source option or paraphrased points match the supplied page and conceptual review.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Write six distinct points. For each, name a benefit and briefly explain how it helps. Include both the individual and the nation.",
+    "exam": {
+      "filename": "Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "solution": {
+      "filename": "Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "derived_from": null,
+    "historical_review_id": "civics-review-2026-10-15-q03",
+    "published_card_sha256": "d04a05003c053196e38cce8be0b7c9de9b1be46c88b1c612c00da2986e41e04e",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "State asks for brief benefits; explain asks how they help. Follow the stated count and check whether the question asks about an individual, the nation or both."
+  },
+  {
+    "card_id": "concept-democracy-define",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Give a clear meaning in one sentence. Include the feature that makes the concept different.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-define",
+    "published_card_sha256": "df6108c1232f2303a0067484416980259b3e0cc3c32949d8a198e92bee568494",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  },
+  {
+    "card_id": "concept-democracy-state",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Give two brief points because this practice prompt asks for two. Long explanations are unnecessary.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-state",
+    "published_card_sha256": "d97837ac9bb99a54e58dd57d6025841b27f5436191488cc11c04eb1a36633851",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  },
+  {
+    "card_id": "concept-democracy-mention",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Name the requested example briefly. This practice prompt asks for one.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-mention",
+    "published_card_sha256": "200e877907f730631e331963204070a15f9b855abdbcf1a68ad9c4ac4da2e58b",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  },
+  {
+    "card_id": "concept-democracy-explain",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Make a point and show why it answers the question. Use the detail in the example; no fixed point count is implied.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-explain",
+    "published_card_sha256": "38764538611a9a3432dd10e8da3af9d478701300c83d0ad440cb95cec37b10b6",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  },
+  {
+    "card_id": "concept-democracy-describe",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Say what happens and who takes part. Do not invent a voting procedure that the source does not give.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-describe",
+    "published_card_sha256": "cf408e2fe5fb97d033fceead60d38411b4c4afb7b8c9056d7fea5f56fd7f33f7",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  },
+  {
+    "card_id": "concept-democracy-reasons",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Give two reasons because this practice prompt asks for two. Link each reason to the example.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-reasons",
+    "published_card_sha256": "51e803d8c0f465b4593c764f17019cba5f7c20223af20e259f9c06b19e8013fd",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  },
+  {
+    "card_id": "concept-democracy-discuss",
+    "kind": "authored_concept",
+    "reviewed_at": "2026-10-16",
+    "reviewer": "Codex",
+    "decision": "retain",
+    "question_wording": "Independently authored wording; not an examination question.",
+    "intended_concept": "Direct/pure democracy: eligible citizens participate in making decisions themselves. This authored prompt applies the stated command to the village-assembly example.",
+    "answer_check": "Pass: answer addresses this authored prompt and stays within the source concept.",
+    "explanation_check": "Pass: short explanation uses simple English and supports the answer.",
+    "command_response_check": "Develop the idea with supporting detail and address the stated limit. End with a brief conclusion. No examination marks are assigned.",
+    "exam": null,
+    "solution": null,
+    "derived_from": "civics-2025-p1-q01vi",
+    "historical_review_id": "concept-review-2026-10-15-discuss",
+    "published_card_sha256": "1ed74d076116a0fb2ec497e64d566d3d9e350f3a9061e8abd5e3dba8ef617207",
+    "content_correction": "None required in this pass.",
+    "additive_change": "Added transfer guidance and an explicit review-date field; original question, answer, ID and provenance unchanged.",
+    "transfer_guidance": "Follow the actual command: define gives meaning; state or mention names facts; explain adds a reason; discuss develops a supported judgement. Use the point count only when the prompt supplies one."
+  }
+]

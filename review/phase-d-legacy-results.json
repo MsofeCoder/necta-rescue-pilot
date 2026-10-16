@@ -1,0 +1,471 @@
+{
+  "checks": [
+    {
+      "name": "title loads from subpath",
+      "pass": true,
+      "detail": "NECTA Rescue • Paper Practice"
+    },
+    {
+      "name": "no horizontal overflow at 1600px",
+      "pass": true,
+      "detail": "747/762"
+    },
+    {
+      "name": "all 17 interactive elements present",
+      "pass": true,
+      "detail": {
+        "found": 17,
+        "missing": []
+      }
+    },
+    {
+      "name": "subject selector has 8 subjects",
+      "pass": true,
+      "detail": [
+        "kiswahili",
+        "english",
+        "civics",
+        "geography",
+        "history",
+        "literature",
+        "biology",
+        "basic_mathematics"
+      ]
+    },
+    {
+      "name": "year selector covers 2020-2025",
+      "pass": true,
+      "detail": "2025,2024,2023,2022,2021,2020"
+    },
+    {
+      "name": "selectors accept a change",
+      "pass": true
+    },
+    {
+      "name": "PDF file input located",
+      "pass": true,
+      "detail": 193
+    },
+    {
+      "name": "PDF accepted and named",
+      "pass": true,
+      "detail": "synthetic-paper.pdf"
+    },
+    {
+      "name": "filename label updated",
+      "pass": true,
+      "detail": "synthetic-paper.pdf"
+    },
+    {
+      "name": "\"Open PDF in new tab\" enabled",
+      "pass": true
+    },
+    {
+      "name": "viewer iframe created with blob: URL",
+      "pass": true,
+      "detail": "blob:"
+    },
+    {
+      "name": "open-in-new-tab uses a blob: URL",
+      "pass": true,
+      "detail": "blob:https://127.0.0.1:6"
+    },
+    {
+      "name": "non-PDF rejected with alert",
+      "pass": true,
+      "detail": [
+        "Please choose a PDF file."
+      ]
+    },
+    {
+      "name": "storage starts empty",
+      "pass": true
+    },
+    {
+      "name": "3 attempts saved",
+      "pass": true,
+      "detail": {
+        "a": "3",
+        "r": "1",
+        "c": "1",
+        "s": "1",
+        "rows": 3,
+        "status": "Saved locally. Remember to export a backup."
+      }
+    },
+    {
+      "name": "reviewed / confident / subjects counters correct",
+      "pass": true
+    },
+    {
+      "name": "practice log renders 3 rows",
+      "pass": true
+    },
+    {
+      "name": "save confirmation shown to student",
+      "pass": true,
+      "detail": "Saved locally. Remember to export a backup."
+    },
+    {
+      "name": "localStorage key holds 3 valid records",
+      "pass": true,
+      "detail": {
+        "subject": "geography",
+        "year": "2023",
+        "paper": "2",
+        "q": "1(vii)",
+        "st": "need_review",
+        "hasId": true,
+        "hasCreated": true
+      }
+    },
+    {
+      "name": "record captures the selected subject/year/paper",
+      "pass": true,
+      "detail": {
+        "subject": "geography",
+        "year": "2023",
+        "paper": "2",
+        "q": "1(vii)",
+        "st": "need_review",
+        "hasId": true,
+        "hasCreated": true
+      }
+    },
+    {
+      "name": "attempts survive a reload",
+      "pass": true,
+      "detail": {
+        "a": "3",
+        "rows": 3
+      }
+    },
+    {
+      "name": "note text survives a reload",
+      "pass": true,
+      "detail": [
+        "Mentor confirmed my approach.",
+        "Worked through the calculation twice.",
+        "Confused about the two-column choice block."
+      ]
+    },
+    {
+      "name": "export produces a parseable backup",
+      "pass": true,
+      "detail": {
+        "size": 993,
+        "format": "necta-rescue-pilot",
+        "version": 1,
+        "n": 3,
+        "downloadName": "necta-rescue-progress-2026-10-16.json",
+        "exported_at": "string",
+        "status": "Backup download started. Keep it safe."
+      }
+    },
+    {
+      "name": "export status message shown",
+      "pass": true,
+      "detail": "Backup download started. Keep it safe."
+    },
+    {
+      "name": "backup file is date-stamped",
+      "pass": true,
+      "detail": "necta-rescue-progress-2026-10-16.json"
+    },
+    {
+      "name": "export triggers a real browser download",
+      "pass": true,
+      "detail": {
+        "filesOnDisk": [],
+        "downloadWillBegin": [
+          "necta-rescue-progress-2026-10-16.json"
+        ]
+      }
+    },
+    {
+      "name": "import restores the backup (3 -> 2)",
+      "pass": true,
+      "detail": {
+        "a": "2",
+        "rows": 2,
+        "status": "Backup restored: 2 attempts."
+      }
+    },
+    {
+      "name": "import status message shown",
+      "pass": true,
+      "detail": "Backup restored: 2 attempts."
+    },
+    {
+      "name": "malformed backup rejected, data untouched",
+      "pass": true,
+      "detail": {
+        "attempts": "2",
+        "dialogs": [
+          "Cannot import: Unsupported or invalid backup"
+        ]
+      }
+    },
+    {
+      "name": "timer starts at 25:00",
+      "pass": true,
+      "detail": "25:00"
+    },
+    {
+      "name": "timer counts down after Start",
+      "pass": true,
+      "detail": {
+        "t0": "25:00",
+        "t1": "24:58"
+      }
+    },
+    {
+      "name": "timer freezes after Pause",
+      "pass": true,
+      "detail": {
+        "paused": "24:58",
+        "afterWait": "24:58"
+      }
+    },
+    {
+      "name": "timer resets to 25:00",
+      "pass": true,
+      "detail": "25:00"
+    },
+    {
+      "name": "service worker registers on HTTPS",
+      "pass": true,
+      "detail": {
+        "supported": true,
+        "registered": true,
+        "scope": "https://127.0.0.1:60571/necta-rescue-pilot/",
+        "state": "activated",
+        "script": "https://127.0.0.1:60571/necta-rescue-pilot/sw.js"
+      }
+    },
+    {
+      "name": "service worker scope is the repo subpath",
+      "pass": true,
+      "detail": "https://127.0.0.1:60571/necta-rescue-pilot/"
+    },
+    {
+      "name": "service worker script resolved at subpath",
+      "pass": true,
+      "detail": "https://127.0.0.1:60571/necta-rescue-pilot/sw.js"
+    },
+    {
+      "name": "static assets precached under the subpath",
+      "pass": true,
+      "detail": {
+        "cache": "necta-rescue-static-v7",
+        "paths": [
+          "/necta-rescue-pilot/",
+          "/necta-rescue-pilot/index.html",
+          "/necta-rescue-pilot/paper-practice.html",
+          "/necta-rescue-pilot/paper-practice.js",
+          "/necta-rescue-pilot/learning.css",
+          "/necta-rescue-pilot/learning-core.js",
+          "/necta-rescue-pilot/learning.js",
+          "/necta-rescue-pilot/civics-content.js",
+          "/necta-rescue-pilot/manifest.webmanifest",
+          "/necta-rescue-pilot/icon.svg",
+          "/necta-rescue-pilot/icon-192.png",
+          "/necta-rescue-pilot/icon-512.png"
+        ]
+      }
+    },
+    {
+      "name": "no third-party requests",
+      "pass": true,
+      "detail": {
+        "external": [],
+        "browserInternal": [
+          "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_embedder.css",
+          "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html"
+        ]
+      }
+    },
+    {
+      "name": "no request carries the PDF to a server",
+      "pass": true,
+      "detail": [
+        "blob:https://127.0.0.1:60571/3c4a8f47-def1-4c0f-b64d-44ae500103a4",
+        "blob:https://127.0.0.1:60571/4f90e797-2c48-4c4b-a322-4a814c510756"
+      ]
+    },
+    {
+      "name": "no console errors or exceptions (desktop)",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "mobile viewport applied",
+      "pass": true,
+      "detail": 390
+    },
+    {
+      "name": "no horizontal overflow at 390px",
+      "pass": true,
+      "detail": "390/390"
+    },
+    {
+      "name": "stats collapse to 2 columns on mobile",
+      "pass": true,
+      "detail": {
+        "statCols": 2,
+        "layoutCols": 1,
+        "btnH": 46,
+        "submitH": 44
+      }
+    },
+    {
+      "name": "main layout collapses to 1 column on mobile",
+      "pass": true,
+      "detail": {
+        "statCols": 2,
+        "layoutCols": 1,
+        "btnH": 46,
+        "submitH": 44
+      }
+    },
+    {
+      "name": "tap targets >= 44px high",
+      "pass": true,
+      "detail": {
+        "statCols": 2,
+        "layoutCols": 1,
+        "btnH": 46,
+        "submitH": 44
+      }
+    },
+    {
+      "name": "attempt can be recorded on mobile",
+      "pass": true,
+      "detail": {
+        "before": 2,
+        "after": 3
+      }
+    },
+    {
+      "name": "mobile PDF selection accepted",
+      "pass": true,
+      "detail": {
+        "hasIframe": true,
+        "holderH": 422,
+        "label": "synthetic-paper.pdf",
+        "openDisabled": false,
+        "notePresent": true,
+        "noteVisible": true,
+        "noteText": "On many phones and tablets a PDF cannot be displayed inside a web page. If the area above stays blank, tap Open PDF in new tab and read the paper there — your attempts, notes and timer keep working on this page."
+      }
+    },
+    {
+      "name": "mobile: inline viewer container sized",
+      "pass": true,
+      "detail": {
+        "hasIframe": true,
+        "holderH": 422,
+        "label": "synthetic-paper.pdf",
+        "openDisabled": false,
+        "notePresent": true,
+        "noteVisible": true,
+        "noteText": "On many phones and tablets a PDF cannot be displayed inside a web page. If the area above stays blank, tap Open PDF in new tab and read the paper there — your attempts, notes and timer keep working on this page."
+      }
+    },
+    {
+      "name": "mobile: blank-viewer fallback guidance is visible on screen",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "text": "On many phones and tablets a PDF cannot be displayed inside a web page. If the area above stays blan"
+      }
+    },
+    {
+      "name": "fallback guidance present before a paper is chosen",
+      "pass": true
+    },
+    {
+      "name": "mobile iframe present in DOM",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "no console errors or exceptions (mobile)",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "manifest reachable from subpath",
+      "pass": true,
+      "detail": "NECTA Rescue — Learn Civics"
+    },
+    {
+      "name": "manifest icons resolve at the subpath",
+      "pass": true,
+      "detail": [
+        {
+          "src": "./icon-192.png",
+          "ok": true,
+          "status": 200,
+          "type": "image/png"
+        },
+        {
+          "src": "./icon-512.png",
+          "ok": true,
+          "status": 200,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "theme-color meta present",
+      "pass": true
+    },
+    {
+      "name": "viewport meta present",
+      "pass": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": "iOS home-screen icon declared",
+      "pass": true
+    },
+    {
+      "name": "iOS standalone + app title declared",
+      "pass": true
+    },
+    {
+      "name": "SW cache generation bumped for this release",
+      "pass": true,
+      "detail": {
+        "cacheName": "necta-rescue-static-v7",
+        "cacheNames": [
+          "necta-rescue-static-v7"
+        ],
+        "expectedAtLeast": 3
+      }
+    }
+  ],
+  "desktopLogs": [],
+  "mobileLogs": [],
+  "dialogs": [
+    "Please choose a PDF file.",
+    "Replace all locally saved attempts with 2 imported attempts?",
+    "Cannot import: Unsupported or invalid backup"
+  ],
+  "requests": [
+    "https://127.0.0.1:60571/necta-rescue-pilot/paper-practice.html",
+    "https://127.0.0.1:60571/necta-rescue-pilot/paper-practice.js",
+    "https://127.0.0.1:60571/necta-rescue-pilot/manifest.webmanifest",
+    "https://127.0.0.1:60571/necta-rescue-pilot/icon.svg",
+    "https://127.0.0.1:60571/necta-rescue-pilot/icon-192.png",
+    "blob:https://127.0.0.1:60571/3c4a8f47-def1-4c0f-b64d-44ae500103a4",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_embedder.css",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+    "blob:https://127.0.0.1:60571/4f90e797-2c48-4c4b-a322-4a814c510756",
+    "https://127.0.0.1:60571/necta-rescue-pilot/paper-practice.html?p3=1",
+    "https://127.0.0.1:60571/necta-rescue-pilot/paper-practice.html?p3=2",
+    "https://127.0.0.1:60571/necta-rescue-pilot/icon-512.png"
+  ],
+  "downloads": []
+}

@@ -6,7 +6,7 @@
   const cards = core.eligibleCards(window.NECTA_CIVICS);
   const topics = [...new Set(cards.map(c => c.topic))];
   const KEY = 'necta-rescue-learning-v1', LEGACY = 'necta-rescue-pilot-v1';
-  const EXPECTED_CACHE = 'necta-rescue-static-v6';
+  const EXPECTED_CACHE = 'necta-rescue-static-v7';
   let progress = {version:1, records:[]}, storageBlocked = false;
   let topic = '', index = 0, selection = [], revealed = false;
   const make = (tag, value, className) => { const el = document.createElement(tag); if (value !== undefined) el.textContent = value; if (className) el.className = className; return el; };
@@ -55,7 +55,7 @@
   }
   function renderQuestion(focus) {
     revealed = false; $('answerPanel').hidden = true; $('answerBullets').replaceChildren();
-    $('explanation').textContent = ''; $('answerAttribution').textContent = ''; $('choiceFeedback').hidden = true;
+    $('explanation').textContent = ''; $('wordingGuidance').textContent = ''; $('answerAttribution').textContent = ''; $('choiceFeedback').hidden = true;
     $('choiceFeedback').textContent = ''; $('revealAnswer').hidden = false; $('revealAnswer').setAttribute('aria-expanded', 'false');
     $('sourceDetails').open = false; $('sourceText').replaceChildren(); $('choiceList').replaceChildren();
     $('studyStatus').textContent = ''; $('thinkingHint').hidden = false;
@@ -76,7 +76,8 @@
     $('questionRef').textContent = original ? 'Civics ' + c.year + ' · Q' + c.reference : c.command + ' · Practice prompt';
     $('questionTitle').textContent = c.question; $('answerStyle').textContent = 'How to answer: ' + c.style;
     $('conceptContext').hidden = original;
-    $('conceptContext').textContent = original ? '' : 'Example from the source question: ' + cards.find(item => item.id === c.derivedFrom).question.split('. ')[0] + '.';
+    const base = original ? c : cards.find(item => item.id === c.derivedFrom);
+    $('conceptContext').textContent = original ? '' : 'Source question (' + base.year + ', Q' + base.reference + '): ' + base.question;
     $('choices').hidden = c.type !== 'mcq';
     if (c.type === 'mcq') for (const option of c.options) {
       const label = make('label', undefined, 'choice');
@@ -89,11 +90,13 @@
       $('sourceText').append(make('p', 'Question transcribed from the printed page; line breaks normalized. Answer bullets and short explanations are educational adaptations.'));
     } else {
       $('sourceText').append(make('p', 'Independently authored by NECTA Rescue. This is not an original NECTA question and has no examination marks.'));
-      const base = cards.find(item => item.id === c.derivedFrom);
-      $('sourceText').append(make('p', 'Concept based on Civics 2025, Q' + base.reference + '.'));
+      $('sourceText').append(make('p', 'Concept based on Civics ' + base.year + ', Q' + base.reference + '.'));
       sourceLine('Concept source', base.exam);
+      sourceLine('Concept supplied solution', base.solution);
+      $('sourceText').append(make('p', base.solutionAttribution));
     }
-    $('sourceText').append(make('p', 'Review: ' + (original ? 'source checked' : 'editorially checked') + ' by Codex, 15 October 2026.'));
+    $('sourceText').append(make('p', 'Review: ' + (original ? 'source checked' : 'editorially checked') + ' by Codex, ' + c.review.date + '.'));
+    $('sourceText').append(make('p', c.review.note));
     $('sourceText').append(make('p', 'Record: ' + c.id + ' · Review: ' + c.review.id));
     updateSelfCheck();
     if (focus) $('questionTitle').focus();
@@ -108,6 +111,7 @@
     revealed = true;
     $('answerBullets').replaceChildren(...c.answer.map(a => make('li', a)));
     $('explanation').textContent = c.explanation;
+    $('wordingGuidance').textContent = c.transfer;
     $('answerAttribution').textContent = c.kind === 'original_exam' ? 'Based on the supplied TETEA solution. Short explanation by NECTA Rescue; not an official marking scheme.' : 'Independently authored practice answer. This variation was not taken from an examination.';
     const chosen = document.querySelector('input[name="answerChoice"]:checked');
     $('choiceFeedback').hidden = !chosen;

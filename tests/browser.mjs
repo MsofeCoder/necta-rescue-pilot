@@ -7,6 +7,9 @@ import {createHash} from 'node:crypto';
 import {spawn,execFileSync} from 'node:child_process';
 import {startPreview,root,docs,prefix} from '../tools/preview.mjs';
 const baseline='d0df839621f6ef4ec09625eb5f21edfea1087343';
+const starterBaseline='79044ec5fce9e52baaaff4e3764ea569c5025e82';
+const starter=new Map();
+for(const name of execFileSync('git',['ls-tree','--name-only',starterBaseline+':docs'],{cwd:root,encoding:'utf8'}).trim().split('\n'))starter.set(name,execFileSync('git',['show',starterBaseline+':docs/'+name],{cwd:root}));
 const out=path.join(root,'.workbuddy-ai',process.env.NECTA_EVIDENCE_SUBDIR||'browser-evidence');
 fs.mkdirSync(out,{recursive:true});
 // Keep Chrome's profile path short: deeply nested Windows paths break CacheStorage.
@@ -48,6 +51,7 @@ async function navigate(url){await c.send('Page.navigate',{url});await c.wait(`d
 try{
   server=await startPreview({port:0,tls:{cert:fs.readFileSync(cert),key:fs.readFileSync(key)},read:name=>{
     if(phase==='baseline')return prod.get(name);
+    if(phase==='starter')return starter.get(name);
     if(name==='civics-content.js'&&fixture!==null)return Buffer.from('window.NECTA_CIVICS = '+JSON.stringify(fixture)+';');
     return fs.readFileSync(path.join(docs,name));
   }});
@@ -81,9 +85,19 @@ try{
   await c.eval(`caches.open('unrelated-application-cache')`);
   await c.eval(`caches.open('necta-rescue-static-v3')`);
   await c.eval(`caches.open('necta-rescue-static-v4')`);
-  phase='candidate';await navigate(app);await c.wait(`!!document.getElementById('startCivics')&&document.getElementById('collectionCount').textContent.includes('14')`);
+  phase='starter';await navigate(app);await c.wait(`!!document.getElementById('startCivics')&&document.getElementById('collectionCount').textContent.includes('14')`);
   await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v6')&&!k.includes('necta-rescue-static-v2')})()`);
-  demand('v2 -> v6 upgrade preserves legacy bytes',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords);
+  demand('v2 -> released v6 preserves legacy bytes',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords);
+  await c.click('#startCivics');await c.click('.topic-button');await c.click('#revealAnswer');await c.click('#reviseAgain');
+  const starterProgress=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);
+  demand('released starter saves a real Civics self-check',JSON.parse(starterProgress).records[0].card_id==='civics-2025-p1-q01i');
+  phase='candidate';
+  await c.eval(`(async()=>{await(await navigator.serviceWorker.getRegistration()).update()})()`);
+  await c.wait(`!document.getElementById('updateNotice').hidden`);
+  check('released v6 page offers the v7 update without losing open progress',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
+  await c.click('#reloadUpdate');await c.wait(`document.getElementById('collectionCount').textContent.includes('32')`);
+  await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v7')&&!k.includes('necta-rescue-static-v6')})()`);
+  demand('v6 -> v7 preserves both student storage keys byte for byte',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords&&await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
   check('cache upgrade preserves unrelated applications',await c.eval(`(async()=>(await caches.keys()).includes('unrelated-application-cache'))()`));
   check('cache upgrade also removes stale v3',await c.eval(`(async()=>!(await caches.keys()).includes('necta-rescue-static-v3'))()`));
   check('cache upgrade also removes stale v4',await c.eval(`(async()=>!(await caches.keys()).includes('necta-rescue-static-v4'))()`));
@@ -94,7 +108,7 @@ try{
     check('home fits '+width,await c.eval('document.documentElement.scrollWidth<=innerWidth'));
   }
   await c.click('#startCivics');
-  check('six topic choices',await c.eval(`document.querySelectorAll('.topic-button').length`)===6);
+  check('ten topic choices',await c.eval(`document.querySelectorAll('.topic-button').length`)===10);
   await c.shot('topics-390');
   await c.click('.topic-button');
   check('question appears before answer',await c.eval(`document.getElementById('questionTitle').textContent.length>20&&document.getElementById('answerPanel').hidden&&document.getElementById('answerBullets').childElementCount===0&&document.getElementById('explanation').textContent===''`));
@@ -127,15 +141,28 @@ try{
   check('Revise Again updates the same stable record',await c.eval(`(()=>{const p=JSON.parse(localStorage.getItem('necta-rescue-learning-v1'));return p.records.length===1&&p.records[0].status==='revise_again'})()`));
   await navigate(app);await c.click('#startCivics');await c.click('.topic-button');await c.click('#revealAnswer');
   check('self-check persists after reload',await c.eval(`document.getElementById('reviseAgain').getAttribute('aria-pressed')==='true'`));
-  const historical=await c.eval(`NECTA_CIVICS.cards.filter(c=>c.kind==='original_exam').map(c=>({id:c.id,topic:c.topic,correct:c.correctOption,answer:c.answer}))`);
-  for(const item of historical){
-    await chooseTopic(item.topic);await input('#kindSelect','original_exam');
-    const topicIds=await c.eval(`NECTA_CIVICS.cards.filter(c=>c.topic===document.getElementById('topicSelect').value&&c.kind==='original_exam').map(c=>c.id)`);
+  const allCards=await c.eval(`NectaLearningCore.eligibleCards(NECTA_CIVICS)`);
+  demand('browser accepts exactly the 32 reviewed cards',allCards.length===32);
+  for(const item of allCards){
+    await chooseTopic(item.topic);await input('#kindSelect',item.kind);
+    const topicIds=allCards.filter(c=>c.topic===item.topic&&c.kind===item.kind).map(c=>c.id);
     for(let i=0;i<topicIds.indexOf(item.id);i++)await c.click('#nextQuestion');
+    check('unrevealed content stays concealed '+item.id,await c.eval(`document.getElementById('questionTitle').textContent===${JSON.stringify(item.question)}&&document.getElementById('answerPanel').hidden&&!document.getElementById('answerBullets').textContent&&!document.getElementById('wordingGuidance').textContent`));
     await c.click('#revealAnswer');
-    check('source answer alignment '+item.id,JSON.stringify(await c.eval(`[...document.querySelectorAll('#answerBullets li')].map(e=>e.textContent)`))===JSON.stringify(item.answer));
-    if(item.correct)check('complete MCQ alternatives '+item.id,await c.eval(`document.querySelectorAll('.choice').length===5`));
+    check('reviewed answer alignment '+item.id,JSON.stringify(await c.eval(`[...document.querySelectorAll('#answerBullets li')].map(e=>e.textContent)`))===JSON.stringify(item.answer));
+    check('explanation and transfer guidance '+item.id,await c.eval(`document.getElementById('explanation').textContent===${JSON.stringify(item.explanation)}&&document.getElementById('wordingGuidance').textContent===${JSON.stringify(item.transfer)}`));
+    if(item.correctOption)check('complete MCQ alternatives '+item.id,await c.eval(`document.querySelectorAll('.choice').length===5&&[...document.querySelectorAll('.option-label')].map(e=>e.textContent).join('')==='ABCDE'`));
+    const base=item.kind==='original_exam'?item:allCards.find(c=>c.id===item.derivedFrom);
+    check('source identity and date '+item.id,await c.eval(`document.getElementById('sourceText').textContent.includes(${JSON.stringify(base.exam.filename)})&&document.getElementById('sourceText').textContent.includes(${JSON.stringify(item.review.date)})`));
+    for(const width of [320,360,390]){await mobile(width);check('card fits '+width+' '+item.id,await c.eval('document.documentElement.scrollWidth<=innerWidth'));}
   }
+  await chooseTopic('Road safety');await input('#kindSelect','original_exam');
+  for(const width of [360,390]){await mobile(width);await c.shot('road-question-'+width);}
+  await c.click('#revealAnswer');
+  for(const width of [360,390]){await mobile(width);await c.shot('road-answer-'+width);}
+  await chooseTopic('Life skills');await input('#kindSelect','authored_concept');await c.click('#revealAnswer');await c.shot('life-skills-390');
+  check('authored source context uses the actual 2023 year',await c.eval(`document.getElementById('sourceText').textContent.includes('Civics 2023, Q8(a)')&&!document.getElementById('sourceText').textContent.includes('Civics 2025')`));
+  await input('#kindSelect','original_exam');
   await chooseTopic('Work and careers');await c.click('#revealAnswer');
   check('written answer has six explained points and source count guidance',await c.eval(`document.querySelectorAll('#answerBullets li').length===6&&document.getElementById('answerStyle').textContent.includes('six distinct points')&&document.getElementById('choices').hidden`));
   await chooseTopic('Democracy');await input('#kindSelect','all');await c.click('#revealAnswer');await c.click('#nextQuestion');
@@ -145,7 +172,7 @@ try{
   await c.click('#previousQuestion');check('previous returns to original wording with answer hidden',await c.eval(`document.getElementById('kindBadge').textContent==='Original exam wording'&&document.getElementById('answerPanel').hidden`));
   await input('#kindSelect','authored_concept');check('concept filter has seven variations',await c.eval(`document.getElementById('position').textContent==='1 / 7'`));
   await c.click('#revealAnswer');await c.shot('concept-390');
-  await chooseTopic('Leadership');
+  await chooseTopic('Road safety');
   check('empty filtered topic is helpful',await c.eval(`!document.getElementById('emptyStudy').hidden&&document.getElementById('questionCard').hidden&&document.getElementById('nextQuestion').disabled`));
   await c.click('#resetFilters');check('empty-state recovery restores question',await c.eval(`!document.getElementById('questionCard').hidden`));
   await c.eval(`document.getElementById('reviseOnly').checked=true;document.getElementById('reviseOnly').dispatchEvent(new Event('change'))`);
@@ -206,21 +233,29 @@ try{
   await navigate(app);await c.click('#startCivics');await c.click('.topic-button');
   check('learning runs under its content security policy',await c.eval(`window.__cspViolations.length===0`));
   await c.wait(`document.getElementById('offlineStatus').textContent.includes('Ready to study offline')`);
-  const cachePaths=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v6');return(await cache.keys()).map(r=>new URL(r.url).pathname)})()`);
+  const cachePaths=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v7');return(await cache.keys()).map(r=>new URL(r.url).pathname)})()`);
   check('offline bundle caches all 12 explicit public assets',cachePaths.length===12&&cachePaths.every(p=>p.startsWith(prefix)));
   for(const name of ['questions.jsonl','answers.jsonl','review/civics-starter-ledger.json','.workbuddy-ai/memory/MEMORY.md','Civics-F4-2025.pdf']){
     const status=await c.eval(`(async()=>(await fetch(${JSON.stringify('./'+name)})).status)()`);check('private path HTTP 404: '+name,status===404);
   }
-  const afterProbe=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v6');return(await cache.keys()).length})()`);
+  const afterProbe=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v7');return(await cache.keys()).length})()`);
   check('unknown paths are never cached',afterProbe===12);
   await c.send('Network.emulateNetworkConditions',{offline:true,latency:0,downloadThroughput:0,uploadThroughput:0});
   // Stop the HTTPS server as well: the worker is the only possible source.
   await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});server=null;
-  await navigate(app+'?offline-test=1');await c.wait(`document.getElementById('collectionCount').textContent.includes('14')`);
-  check('offline reload loads reviewed content with server stopped',await c.eval(`!navigator.onLine&&NECTA_CIVICS.cards.length===14`));
+  await navigate(app+'?offline-test=1');await c.wait(`document.getElementById('collectionCount').textContent.includes('32')`);
+  check('offline reload loads reviewed content with server stopped',await c.eval(`!navigator.onLine&&NECTA_CIVICS.cards.length===32`));
   await c.click('#startCivics');await c.click('.topic-button');await c.click('#revealAnswer');await c.click('#understood');
   check('answer flow and persistence work offline',await c.eval(`!document.getElementById('answerPanel').hidden&&document.getElementById('studyStatus').textContent.startsWith('Saved')`));
   await c.shot('offline-390');
+  for(const item of allCards){
+    await chooseTopic(item.topic);await input('#kindSelect',item.kind);
+    const topicIds=allCards.filter(c=>c.topic===item.topic&&c.kind===item.kind).map(c=>c.id);
+    for(let i=0;i<topicIds.indexOf(item.id);i++)await c.click('#nextQuestion');
+    await c.click('#revealAnswer');
+    check('offline answer available '+item.id,JSON.stringify(await c.eval(`[...document.querySelectorAll('#answerBullets li')].map(e=>e.textContent)`))===JSON.stringify(item.answer));
+  }
+
   check('offline unknown paths do not receive the app shell',await c.eval(`(async()=>{try{await fetch('./questions.jsonl');return false}catch{return true}})()`));
   check('legacy records still unchanged after offline use',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords);
   // Restart same origin for fixture, denied-storage, and XSS scenarios.
@@ -232,7 +267,7 @@ try{
   await c.send('Network.emulateNetworkConditions',{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
   await c.send('Emulation.setCPUThrottlingRate',{rate:4});
   await c.send('Network.emulateNetworkConditions',{offline:false,latency:400,downloadThroughput:128000,uploadThroughput:64000});
-  const warmStart=Date.now();await navigate(app);await c.wait(`document.getElementById('collectionCount').textContent.includes('14')`);
+  const warmStart=Date.now();await navigate(app);await c.wait(`document.getElementById('collectionCount').textContent.includes('32')`);
   const warmMs=Date.now()-warmStart;check('cached learning loads within 5s on 4x CPU and slow network',warmMs<5000,{milliseconds:warmMs,cpu_slowdown:4,latency_ms:400,download_bytes_per_second:128000});
   await c.send('Emulation.setCPUThrottlingRate',{rate:1});await c.send('Network.emulateNetworkConditions',{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
   await c.send('Network.setBypassServiceWorker',{bypass:true});
@@ -245,7 +280,7 @@ try{
   check('single card collection is navigable',await c.eval(`document.getElementById('position').textContent==='1 / 1'&&document.getElementById('previousQuestion').disabled&&document.getElementById('nextQuestion').textContent.includes('Back to topics')`));
   check('question and answer markup are escaped as text',await c.eval(`!window.__xss&&!document.querySelector('#questionTitle img')&&!document.querySelector('#answerBullets img')&&document.getElementById('questionTitle').textContent.startsWith('<img')`));
   fixture=JSON.parse(JSON.stringify(realBundle));fixture.cards[0].review.status='held';await navigate(app);
-  check('held card never reaches topic count',await c.eval(`document.getElementById('collectionCount').textContent.includes('13 learning cards')`));
+  check('held card never reaches topic count',await c.eval(`document.getElementById('collectionCount').textContent.includes('30 learning cards')`));
   fixture=null;
   await c.eval(`localStorage.setItem('necta-rescue-learning-v1','corrupt-original')`);await navigate(app);await c.click('#startCivics');await c.click('.topic-button');await c.click('#revealAnswer');await c.click('#understood');
   check('corrupt existing progress is never overwritten',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')==='corrupt-original'&&document.getElementById('studyStatus').textContent.includes('could not be saved')`));
@@ -261,6 +296,25 @@ try{
   await c.file('#backupFile',combined);await c.wait(`document.getElementById('backupStatus').textContent.includes('previous saved progress was restored')`);
   check('failed two-key restore rolls back both records safely',JSON.stringify(await c.eval(`({legacy:localStorage.getItem('necta-rescue-pilot-v1'),learning:localStorage.getItem('necta-rescue-learning-v1')})`))===JSON.stringify(beforeRestore));
   await c.eval(`Storage.prototype.setItem=window.__realSet`);
+  // New IDs are additive; existing and unknown future IDs must survive normal study and backups.
+  await c.eval(`(()=>{const p=JSON.parse(localStorage.getItem('necta-rescue-learning-v1'));p.records.push({card_id:'future-card-retained',status:'understood',updated:'2026-10-16T09:00:00Z'});localStorage.setItem('necta-rescue-learning-v1',JSON.stringify(p))})()`);
+  await navigate(app);await c.click('#startCivics');await c.click('.topic-button');await chooseTopic('Life skills');
+  await c.click('#revealAnswer');await c.click('#reviseAgain');
+  check('new-card self-check preserves old and unknown card records',await c.eval(`(()=>{const p=JSON.parse(localStorage.getItem('necta-rescue-learning-v1'));return p.records.length===3&&p.records.some(r=>r.card_id==='civics-2025-p1-q01i')&&p.records.some(r=>r.card_id==='future-card-retained')&&p.records.some(r=>r.card_id==='civics-2023-p1-q08a'&&r.status==='revise_again')})()`));
+  await c.eval(`document.getElementById('reviseOnly').checked=true;document.getElementById('reviseOnly').dispatchEvent(new Event('change'))`);
+  check('new difficult question can be revisited with answer concealed',await c.eval(`document.getElementById('position').textContent==='1 / 1'&&document.getElementById('questionRef').textContent.includes('2023')&&document.getElementById('answerPanel').hidden`));
+  await c.click('#revealAnswer');await c.click('#understood');
+  await chooseTopic('Life skills');
+  check('understood new card is excluded when difficult selection is refreshed',await c.eval(`!document.getElementById('emptyStudy').hidden`));
+  await c.eval(`document.querySelector('.backup-tools').open=true`);await c.click('#exportProgress');
+  const expandedBackupName=()=>fs.readdirSync(downloads).find(f=>f.endsWith('.json')&&JSON.parse(fs.readFileSync(path.join(downloads,f),'utf8')).learning?.records?.length===3);
+  for(let i=0;i<50&&!expandedBackupName();i++)await sleep(100);
+  const expandedBackup=path.join(downloads,expandedBackupName()||'missing-expanded-backup');
+  demand('combined backup includes new, released and unknown card IDs',fs.existsSync(expandedBackup));
+  const expandedProgress=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);
+  await c.eval(`localStorage.setItem('necta-rescue-learning-v1',JSON.stringify({version:1,records:[]}))`);
+  await c.file('#backupFile',expandedBackup);await c.wait(`document.getElementById('backupStatus').textContent.includes('Paper attempts and Civics self-checks are ready')`);
+  check('expanded combined backup restores all three progress records',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===expandedProgress);
   check('no JavaScript errors throughout browser scenarios',errors.length===0,errors);
   const external=[...new Set(requests)].filter(u=>/^https?:/.test(u)&&!u.startsWith(origin));
   check('no third-party network requests',external.length===0,external);
@@ -268,7 +322,7 @@ try{
 } catch(err){check('browser suite completed',false,err.stack);}
 finally{
   const tested_files=Object.fromEntries(fs.readdirSync(docs).map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(docs,name))).digest('hex')]));
-  fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,browser:browserVersion,checks,errors,requests:[...new Set(requests)],tested_files,finished_at:new Date().toISOString()},null,2));
+  fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,starterBaseline,browser:browserVersion,checks,errors,requests:[...new Set(requests)],tested_files,finished_at:new Date().toISOString()},null,2));
   if(c)c.close();if(bc){try{await bc.send('Browser.close');}catch{}bc.close();}if(chrome)chrome.kill();
   if(server)await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});
 }

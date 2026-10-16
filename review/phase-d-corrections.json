@@ -1,0 +1,54 @@
+{
+  "existing_card_content_corrections": [],
+  "additive_existing_card_change": "Transfer guidance and review-date metadata added; all 14 original IDs, questions, answers and source objects retained.",
+  "new_card_transcription_and_alignment_notes": [
+    {
+      "card_id": "civics-2023-p1-q01iv",
+      "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q01iv",
+      "correction": "Restored all five printed alternatives, including C and E missing from the extracted item. No canonical data changed.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2023-p1-q01viii",
+      "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q01viii",
+      "correction": "Exam numbering is 1(viii); the supplied solution shifts this stem to (ix). Matched by complete stem and alternatives, not its shifted number. Printed spelling “Peforming” retained.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2023-p1-q01ix",
+      "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q01ix",
+      "correction": "Exam numbering is 1(ix); supplied solution labels the matching stem (x). Full stem and A–E order checked directly. The contradictory 2025 maintenance item remains held.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2022-p1-q05",
+      "review_id": "phase-d-review-2026-10-16-civics-2022-p1-q05",
+      "correction": "Printed wording retained, including its grammar; spacing before the question mark normalized. The pipeline sequence-gap flag was resolved by visual question-number review.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2022-p1-q07",
+      "review_id": "phase-d-review-2026-10-16-civics-2022-p1-q07",
+      "correction": "Corrected OCR “Tanzani1a” to the printed “Tanzania” in this display copy only. Supplied foreign investment point paraphrased as investment bringing capital and technology.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2022-p1-q13",
+      "review_id": "phase-d-review-2026-10-16-civics-2022-p1-q13",
+      "correction": "Printed wording and grammar retained; line breaks normalized. No individual marks inferred from the Section C total.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2025-p1-q07",
+      "review_id": "phase-d-review-2026-10-16-civics-2025-p1-q07",
+      "correction": "Six supplied paragraphs paraphrased for simple English; no alteration to the canonical solution or claim of official marks.",
+      "canonical_evidence_modified": false
+    },
+    {
+      "card_id": "civics-2023-p1-q08a",
+      "review_id": "phase-d-review-2026-10-16-civics-2023-p1-q08a",
+      "correction": "Corrected OCR “chailenges” to printed “challenges”. Supplied solution 8(a) and all four bullets checked directly.",
+      "canonical_evidence_modified": false
+    }
+  ]
+}
