@@ -12,6 +12,9 @@ const copy = o => JSON.parse(JSON.stringify(o));
 const phaseLedger = JSON.parse(fs.readFileSync(path.join(root,'review/phase-d-ledger.json'),'utf8'));
 const audit = JSON.parse(fs.readFileSync(path.join(root,'review/phase-d-existing-audit.json'),'utf8'));
 const ledger = JSON.parse(fs.readFileSync(path.join(root,'review/civics-starter-ledger.json'),'utf8'));
+const corrections = require('../tools/wording-corrections.cjs');
+const historicalCandidate = corrections.load(corrections.historical(corrections.BASELINE,'docs/civics-content.js').toString('utf8'));
+const expectedCandidate = corrections.applyCorrections(historicalCandidate);
 test('32 reviewed cards include 18 Phase D additions across 10 topics',() => {
   const cards=core.eligibleCards(bundle);
   assert.equal(cards.length,32);
@@ -48,12 +51,14 @@ test('source metadata, literal original text, bullet count and safe source URL a
     const b=copy(bundle);mutate(b.cards[0]);assert.equal(core.eligibleCards(b).length,30);
   }
 });
-test('historical approval is retained only for the unchanged starter cards; additions await approval',()=>{
+test('historical ledgers retain their original answers; revised content has exact declared corrections and no release approval',()=>{
   assert.equal(audit.length,14);assert.equal(phaseLedger.length,18);
   for(const c of bundle.cards){
     const old=ledger.find(l=>l.card_id===c.id),l=old||phaseLedger.find(l=>l.card_id===c.id);
     assert(l);assert.equal(l.review_id,c.review.id);assert.equal(l.status,c.review.status);
-    assert.deepEqual(l.answer_bullets,c.answer);
+    const historicalCard=historicalCandidate.cards.find(x=>x.id===c.id);
+    assert.deepEqual(l.answer_bullets,historicalCard.answer);
+    assert.deepEqual(c.answer,expectedCandidate.cards.find(x=>x.id===c.id).answer);
     assert.equal(l.owner_release_approval,old?'approved_for_pilot_2026-10-15':'pending_phase_d');
     if(c.kind==='original_exam'){
       assert.equal(l.source_question_transcription,c.originalQuestion);
@@ -63,15 +68,21 @@ test('historical approval is retained only for the unchanged starter cards; addi
     }
     assert(c.transfer.length>30);assert(c.review.date);
   }
+  assert.equal(corrections.record.owner_release_approval,'pending');
 });
 
-test('all 14 released IDs, answers, source evidence and command styles are unchanged',()=>{
+test('all 14 released cards preserve every field except the exact owner-authorized C-04 explanation',()=>{
   const {execFileSync}=require('node:child_process');
   const prior={window:{}};
-  vm.runInNewContext(execFileSync('git',['show','79044ec:docs/civics-content.js'],{cwd:root,encoding:'utf8'}),prior);
+  vm.runInNewContext(execFileSync('git',['show',corrections.RELEASED+':docs/civics-content.js'],{cwd:root,encoding:'utf8'}),prior);
   for(const old of JSON.parse(JSON.stringify(prior.window.NECTA_CIVICS.cards))){
     const current=copy(bundle.cards.find(c=>c.id===old.id));
     delete current.transfer;delete current.review.date;
+    if(old.id==='civics-2025-p1-q01iii'){
+      const operation=corrections.declared.find(x=>x.id==='C-04');
+      assert.equal(old.explanation,operation.before);assert.equal(current.explanation,operation.after);
+      current.explanation=operation.before;
+    }
     assert.deepEqual(current,old,old.id);
     assert(audit.some(a=>a.card_id===old.id&&a.decision==='retain'));
   }

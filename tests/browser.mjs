@@ -3,17 +3,21 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import {createHash} from 'node:crypto';
 import {spawn,execFileSync} from 'node:child_process';
 import {startPreview,root,docs,prefix} from '../tools/preview.mjs';
+import evidence from '../tools/test-evidence.cjs';
 const baseline='d0df839621f6ef4ec09625eb5f21edfea1087343';
 const starterBaseline='79044ec5fce9e52baaaff4e3764ea569c5025e82';
+const phaseDBaseline='a4678651cf5671ff67fc264f248e19c4c2f96c63';
+const phaseD=new Map();
+for(const name of execFileSync('git',['ls-tree','--name-only',phaseDBaseline+':docs'],{cwd:root,encoding:'utf8'}).trim().split('\n'))phaseD.set(name,execFileSync('git',['show',phaseDBaseline+':docs/'+name],{cwd:root}));
 const starter=new Map();
 for(const name of execFileSync('git',['ls-tree','--name-only',starterBaseline+':docs'],{cwd:root,encoding:'utf8'}).trim().split('\n'))starter.set(name,execFileSync('git',['show',starterBaseline+':docs/'+name],{cwd:root}));
 const out=path.join(root,'.workbuddy-ai',process.env.NECTA_EVIDENCE_SUBDIR||'browser-evidence');
 fs.mkdirSync(out,{recursive:true});
 // Keep Chrome's profile path short: deeply nested Windows paths break CacheStorage.
 const run=fs.mkdtempSync(path.join(os.tmpdir(),'necta-civics-'));
+const evidenceStart=evidence.begin(path.basename(run));
 const downloads=path.join(run,'downloads');fs.mkdirSync(downloads);
 const checks=[],errors=[],requests=[];
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
@@ -52,6 +56,7 @@ try{
   server=await startPreview({port:0,tls:{cert:fs.readFileSync(cert),key:fs.readFileSync(key)},read:name=>{
     if(phase==='baseline')return prod.get(name);
     if(phase==='starter')return starter.get(name);
+    if(phase==='phaseD')return phaseD.get(name);
     if(name==='civics-content.js'&&fixture!==null)return Buffer.from('window.NECTA_CIVICS = '+JSON.stringify(fixture)+';');
     return fs.readFileSync(path.join(docs,name));
   }});
@@ -91,13 +96,19 @@ try{
   await c.click('#startCivics');await c.click('.topic-button');await c.click('#revealAnswer');await c.click('#reviseAgain');
   const starterProgress=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);
   demand('released starter saves a real Civics self-check',JSON.parse(starterProgress).records[0].card_id==='civics-2025-p1-q01i');
+  phase='phaseD';
+  await c.eval(`(async()=>{await(await navigator.serviceWorker.getRegistration()).update()})()`);
+  await c.wait(`!document.getElementById('updateNotice').hidden`);
+  await c.click('#reloadUpdate');
+  await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v7')&&!k.includes('necta-rescue-static-v6')})()`);
+  demand('released v6 -> historical Phase D v7 preserves both keys',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords&&await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
   phase='candidate';
   await c.eval(`(async()=>{await(await navigator.serviceWorker.getRegistration()).update()})()`);
   await c.wait(`!document.getElementById('updateNotice').hidden`);
-  check('released v6 page offers the v7 update without losing open progress',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
+  check('historical v7 page offers the v8 update without losing open progress',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
   await c.click('#reloadUpdate');await c.wait(`document.getElementById('collectionCount').textContent.includes('32')`);
-  await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v7')&&!k.includes('necta-rescue-static-v6')})()`);
-  demand('v6 -> v7 preserves both student storage keys byte for byte',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords&&await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
+  await c.wait(`(async()=>{const k=await caches.keys();return k.includes('necta-rescue-static-v8')&&!k.includes('necta-rescue-static-v7')})()`);
+  demand('v7 -> v8 preserves both student storage keys byte for byte',await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===originalRecords&&await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===starterProgress);
   check('cache upgrade preserves unrelated applications',await c.eval(`(async()=>(await caches.keys()).includes('unrelated-application-cache'))()`));
   check('cache upgrade also removes stale v3',await c.eval(`(async()=>!(await caches.keys()).includes('necta-rescue-static-v3'))()`));
   check('cache upgrade also removes stale v4',await c.eval(`(async()=>!(await caches.keys()).includes('necta-rescue-static-v4'))()`));
@@ -233,12 +244,12 @@ try{
   await navigate(app);await c.click('#startCivics');await c.click('.topic-button');
   check('learning runs under its content security policy',await c.eval(`window.__cspViolations.length===0`));
   await c.wait(`document.getElementById('offlineStatus').textContent.includes('Ready to study offline')`);
-  const cachePaths=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v7');return(await cache.keys()).map(r=>new URL(r.url).pathname)})()`);
+  const cachePaths=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v8');return(await cache.keys()).map(r=>new URL(r.url).pathname)})()`);
   check('offline bundle caches all 12 explicit public assets',cachePaths.length===12&&cachePaths.every(p=>p.startsWith(prefix)));
   for(const name of ['questions.jsonl','answers.jsonl','review/civics-starter-ledger.json','.workbuddy-ai/memory/MEMORY.md','Civics-F4-2025.pdf']){
     const status=await c.eval(`(async()=>(await fetch(${JSON.stringify('./'+name)})).status)()`);check('private path HTTP 404: '+name,status===404);
   }
-  const afterProbe=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v7');return(await cache.keys()).length})()`);
+  const afterProbe=await c.eval(`(async()=>{const cache=await caches.open('necta-rescue-static-v8');return(await cache.keys()).length})()`);
   check('unknown paths are never cached',afterProbe===12);
   await c.send('Network.emulateNetworkConditions',{offline:true,latency:0,downloadThroughput:0,uploadThroughput:0});
   // Stop the HTTPS server as well: the worker is the only possible source.
@@ -321,8 +332,9 @@ try{
   console.log('Browser: '+version.Browser);
 } catch(err){check('browser suite completed',false,err.stack);}
 finally{
-  const tested_files=Object.fromEntries(fs.readdirSync(docs).map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(docs,name))).digest('hex')]));
-  fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,starterBaseline,browser:browserVersion,checks,errors,requests:[...new Set(requests)],tested_files,finished_at:new Date().toISOString()},null,2));
+  const attribution=evidence.finish(evidenceStart);
+  check('test inputs and Git identity stayed unchanged',attribution.stable_inputs);
+  fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,starterBaseline,phaseDBaseline,browser:browserVersion,checks,errors,requests:[...new Set(requests)],...attribution},null,2));
   if(c)c.close();if(bc){try{await bc.send('Browser.close');}catch{}bc.close();}if(chrome)chrome.kill();
   if(server)await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});
 }

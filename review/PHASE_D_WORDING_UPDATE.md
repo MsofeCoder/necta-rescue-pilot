@@ -1,0 +1,31 @@
+# Phase D — versioned wording corrections
+
+The owner authorized implementation of C-01 and C-04 on 16 October 2026. The 32-card candidate now restores the public-order/congestion theme in 2025 Q7's fifth answer bullet and clarifies that imports exceeding exports establishes a deficit, while the printed word “High” does not establish its magnitude. Printed option B, supplied answer B, original questions, alternatives, marks metadata, stable IDs and provenance remain unchanged.
+
+The latest authorized C-04 literal uses typographic double quotes around “High trade deficit”. Older planning records used other quote characters; those records are historical and have not been rewritten. Authority is the owner's explicit delivery order, not a signature on the older blank approval sheet. The separately referenced owner wording Markdown attachment was unavailable and its supplied digest has not been verified; no claim is made that it was read. This implementation follows the exact wording explicitly supplied in the delivery order.
+
+## Preservation
+
+[Versioned correction record](phase-d-approved-wording-v1.json) identifies both exact old/new field values and source pages/hashes. The historical [Phase D ledger](phase-d-ledger.json), [starter ledger](civics-starter-ledger.json), [existing audit](phase-d-existing-audit.json), [acceptance record](RELEASE_ACCEPTANCE.json), [corrections](phase-d-corrections.json), [holds](phase-d-held.json) and [source fingerprints](phase-d-source-fingerprints.json) remain unchanged.
+
+Tests retain the entire immutable 32-card baseline at `a4678651cf5671ff67fc264f248e19c4c2f96c63` and the released 14 at `79044ec5fce9e52baaaff4e3764ea569c5025e82`. Only the two declared fields may differ from the Phase D content baseline. Released-card equality reverses only the verified C-04 explanation change before comparing every remaining field. Ledger checks first verify original answers, then exact corrected answers. Wrong original/replacement text, undeclared fields, extra corrections, changed keys and referred-card edits are rejected. Checkout line-ending filters are accounted for when comparing historical Git blobs; original evidence files are not rewritten.
+
+The correction record is outside the public `docs/` bundle. Runtime content remains static; no correction interpreter or additional dependencies are shipped. Historical generation scripts are not run because they also overwrite original ledgers. Any future regeneration must preserve the base and apply the declared correction record, then pass full-bundle equality; otherwise it is rejected.
+
+## Cache, compatibility and validation
+
+Offline generation is v8 in both the worker and UI handshake. Public assets remain the same explicit 13 files (12 cache entries). Learner-storage keys, stable card IDs, backup schemas and the origin are unchanged.
+
+The Chrome/Edge suite exercises real `v2 → released v6 → historical Phase D v7 → corrected v8` upgrades, both keys, backups, all 32 cards online/offline, navigation, conceal/reveal, source gates, 320/360/390px layout, keyboard/focus, security and private-path exclusion. The separate restart/landscape suite covers profile restart, short landscape screens, offline return with the server stopped and all 32 answers. Failed cache installation must retain the previous complete bundle.
+
+Fresh reports record test-time commit, tracked dirty state, start/end fingerprints of every public file, browser build, run/profile identifier and pass/fail details. Packaging requires a clean exact candidate commit matching the browser report and public fingerprints. A modified worktree cannot be represented as an exact tested commit. Local output-directory options allow new evidence and packages without overwriting historical artifacts. CI publishes current run artifacts for independent review; prior 798/875 assertion totals do not certify this revision.
+
+Commands: `node --test tests/*.test.cjs`, `node tests/browser.mjs`, `node tests/browser-restart.mjs`, `node tools/check-wording-provenance.cjs`, and `python tools/package_release.py`. Browser suites require an isolated local HTTPS test certificate/key and Chrome (or Edge via `CHROME_PATH`); certificates stay outside the repository. `npm run preview` provides a local review server at `http://127.0.0.1:4173/necta-rescue-pilot/`. It is not a publicly deployed staging site.
+
+## Academic and release gates
+
+C-01/C-04 are implemented wording corrections, not approval of the complete collection. C-02 (`concept-democracy-state`) and C-08 (`concept-democracy-reasons`) are unchanged and explicitly **pending human subject review**. They are excluded from any new academic acceptance claim. Their source is [2025 exam PDF page 2](https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf#page=2) and [supplied solution PDF page 4](https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf#page=4). The question is whether each authored two-point response supplies genuinely distinct features/reasons rather than two facets of direct participation. A human reviewer must record the candidate, pages inspected and rationale; any revised prompt/answer requires separate exact approval. No examination marks or new answers are invented here.
+
+C-03 remains unchanged. C-05–C-07 remain separate documentary proposals. All six held questions and their dependants remain excluded. TETEA solutions are supplied educational sources, not official NECTA marking schemes. No independent human certification is claimed.
+
+PR #5 remains a development candidate pending independent feature review and academic acceptance. Physical Android remains pending and cannot be satisfied by emulation. Production remains the previously accepted 14-card application; no public staging deployment is claimed. Publishing requires final human/owner academic acceptance, Android acceptance, a current backup and a separate independently reviewed release PR. Dashboard PR #2 is excluded. Rollback baseline is `79044ec5fce9e52baaaff4e3764ea569c5025e82`; never clear learner storage or backups during rollback.
