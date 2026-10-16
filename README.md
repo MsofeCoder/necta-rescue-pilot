@@ -4,6 +4,8 @@ A mobile-first, dependency-free learning app: **Civics -> topic -> question -> S
 
 **Phase D is a development candidate: 32 cards across 10 topics, pending separate owner release approval.** See [the Phase D report](review/PHASE_D.md). The live fourteen-card release is commit `79044ec` (PR #4).
 
+The current candidate implements owner-approved C-01/C-04 through a [versioned correction record](review/phase-d-approved-wording-v1.json) and v8 offline cache. [Correction preservation and remaining gates](review/PHASE_D_WORDING_UPDATE.md) supersede earlier unchanged-content claims for these two exact fields. C-02/C-08 remain unchanged pending human subject review; the 32-card update is not published.
+
 The owner accepted the earlier fourteen-card pilot and authorized its release on 15 October 2026; [the acceptance record](review/RELEASE_ACCEPTANCE.json) identifies the exact public-file hashes. Production uses `main` `/docs`, through the reviewed release workflow.
 
 ## Preview and checks

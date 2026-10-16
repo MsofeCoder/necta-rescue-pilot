@@ -267,7 +267,7 @@ window.NECTA_CIVICS = {
       "answer": [
         "B. High trade deficit"
       ],
-      "explanation": "A trade deficit means the value of imports is greater than the value of exports.",
+      "explanation": "Imports exceeding exports establishes a trade deficit. “High trade deficit” is the wording of printed option B, but the question does not provide enough information to determine how large the deficit is.",
       "style": "Choose one alternative. In the examination, write its letter beside the item number.",
       "reference": "1(iii)",
       "parentQuestion": "1",
@@ -1165,7 +1165,7 @@ window.NECTA_CIVICS = {
         "Smoother traffic flow: directions and priority signs help vehicles move predictably.",
         "Clear rules: signs communicate road restrictions and help traffic control.",
         "Hazard awareness: warnings give road users time to prepare for dangers ahead.",
-        "Orderly shared use: signs guide different road users at crossings and junctions.",
+        "Public order and reduced congestion: obeying road signs promotes orderly road use and helps reduce traffic congestion.",
         "Responsible habits: regularly following signs builds road-use discipline."
       ],
       "explanation": "Observing a sign means acting on its message. A warning helps only when the road user responds carefully.",

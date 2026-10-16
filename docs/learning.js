@@ -6,7 +6,7 @@
   const cards = core.eligibleCards(window.NECTA_CIVICS);
   const topics = [...new Set(cards.map(c => c.topic))];
   const KEY = 'necta-rescue-learning-v1', LEGACY = 'necta-rescue-pilot-v1';
-  const EXPECTED_CACHE = 'necta-rescue-static-v7';
+  const EXPECTED_CACHE = 'necta-rescue-static-v8';
   let progress = {version:1, records:[]}, storageBlocked = false;
   let topic = '', index = 0, selection = [], revealed = false;
   const make = (tag, value, className) => { const el = document.createElement(tag); if (value !== undefined) el.textContent = value; if (className) el.className = className; return el; };

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "baseline_commit": "a4678651cf5671ff67fc264f248e19c4c2f96c63",
+  "released_commit": "79044ec5fce9e52baaaff4e3764ea569c5025e82",
+  "authority": "Owner explicit autonomous delivery order, 16 October 2026; exact wording and implementation authorized. Historical unsigned approval sheet is not a signature.",
+  "owner_wording_approval": "approved_2026-10-16",
+  "owner_release_approval": "pending",
+  "human_subject_expert_approval": "not_claimed",
+  "pending_subject_review": ["C-02", "C-08"],
+  "corrections": [
+    {
+      "id": "C-01",
+      "card_id": "civics-2025-p1-q07",
+      "path": ["answer", 4],
+      "before": "Orderly shared use: signs guide different road users at crossings and junctions.",
+      "after": "Public order and reduced congestion: obeying road signs promotes orderly road use and helps reduce traffic congestion.",
+      "exam_pages": [4],
+      "solution_pages": [10],
+      "reason": "Restore the supplied public-order and congestion theme; retain six points and distinguish it from traffic-flow bullet 2."
+    },
+    {
+      "id": "C-04",
+      "card_id": "civics-2025-p1-q01iii",
+      "path": ["explanation"],
+      "before": "A trade deficit means the value of imports is greater than the value of exports.",
+      "after": "Imports exceeding exports establishes a trade deficit. “High trade deficit” is the wording of printed option B, but the question does not provide enough information to determine how large the deficit is.",
+      "exam_pages": [2],
+      "solution_pages": [3],
+      "reason": "Clarify direction versus magnitude; preserve printed option B, the supplied answer and original question. Latest owner literal uses typographic double quotes."
+    }
+  ],
+  "sources": {
+    "exam": {
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+      "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a"
+    },
+    "solution": {
+      "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+      "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+      "attribution": "Maria Marco for TETEA; supplied educational solution, not an official NECTA marking scheme."
+    }
+  }
+}
