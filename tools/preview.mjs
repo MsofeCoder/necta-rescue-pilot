@@ -9,12 +9,14 @@ export const docs = path.join(root, 'docs');
 export const prefix = '/necta-rescue-pilot/';
 const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.webmanifest':'application/manifest+json'};
 export function startPreview({port=4173,tls,read}={}) {
-  const files = new Set(fs.readdirSync(docs));
+  const files = new Set(fs.readdirSync(docs).filter(name=>fs.statSync(path.join(docs,name)).isFile()));
+  if(fs.existsSync(path.join(docs,'beta')))for(const name of ['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'])files.add('beta/'+name);
   const handler = (req,res) => {
     let pathname;
     try { pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname); } catch { res.writeHead(400).end(); return; }
     if (pathname === '/') { res.writeHead(302,{Location:prefix}).end(); return; }
-    const name = pathname.slice(prefix.length) || 'index.html';
+    const relative = pathname.slice(prefix.length);
+    const name = relative === 'beta/' ? 'beta/index.html' : relative || 'index.html';
     if (!pathname.startsWith(prefix) || !files.has(name) || !types[path.extname(name)] || req.method !== 'GET') { res.writeHead(404).end('Not found'); return; }
     try {
       const body = read ? read(name) : fs.readFileSync(path.join(docs,name));

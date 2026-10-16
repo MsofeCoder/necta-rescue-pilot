@@ -1,0 +1,1659 @@
+/* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
+window.NECTA_BETA = {
+  "version": 1,
+  "label": "Emergency beta — provisional",
+  "date": "2026-10-16",
+  "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
+  "subjects": [
+    {
+      "id": "kiswahili",
+      "name": "Kiswahili"
+    },
+    {
+      "id": "english",
+      "name": "English"
+    },
+    {
+      "id": "civics",
+      "name": "Civics"
+    },
+    {
+      "id": "geography",
+      "name": "Geography"
+    },
+    {
+      "id": "history",
+      "name": "History"
+    },
+    {
+      "id": "literature",
+      "name": "Literature in English"
+    },
+    {
+      "id": "biology",
+      "name": "Biology"
+    },
+    {
+      "id": "basic_mathematics",
+      "name": "Basic Mathematics"
+    }
+  ],
+  "papers": [
+    {
+      "subject": "basic_mathematics",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "BasicMath-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2020.pdf",
+        "sha256": "32c59a315a677a0280cff8bbb8840a2fae44f07f5939df6858953e243d9f319e",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "BasicMath-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2020-Solutions.pdf",
+        "sha256": "1f753ba7c18ad1c771e81f8011d9d00de418b92cfd707ccb2810cdcc6e37c684",
+        "pages": 16
+      }
+    },
+    {
+      "subject": "basic_mathematics",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "BasicMath-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2021.pdf",
+        "sha256": "c49ef3175b1569142bf2620ab1ebaae902260f0fdc5a8965337ff9c3808afc12",
+        "pages": 4
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "BasicMath-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2021-Solutions.pdf",
+        "sha256": "478489da1e560a515b48d880d4d23aa2978c6a2b43bc8d1a72090fb08132a4e6",
+        "pages": 13
+      }
+    },
+    {
+      "subject": "basic_mathematics",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "BasicMath-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2022.pdf",
+        "sha256": "6a4f9d4f024eafc48f110d2e4c992bb1f3d3cb784ba6e97191951ce95f7a2d67",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "BasicMath-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2022-Solutions.pdf",
+        "sha256": "cb15482856dc7e60ba84bfd2075c5f072158a7dbd8b4233485eb250f8b1a68c6",
+        "pages": 13
+      }
+    },
+    {
+      "subject": "basic_mathematics",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "BasicMath-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2023.pdf",
+        "sha256": "fc8f5086723fe8d6dcda6dd9352335b271f4f3af67af9e7bbc866847cc97ad0a",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "BasicMath-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2023-Solutions.pdf",
+        "sha256": "6ce00f20cec5292e283ae8d9a982e3ddb34c71e0d6bfde4e679fdf07708a63ee",
+        "pages": 14
+      }
+    },
+    {
+      "subject": "basic_mathematics",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "BasicMath-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2024.pdf",
+        "sha256": "4e9d4465cb1fe95e9afcc7f9bab5aba062f65ea28ed23c25869af334478924ae",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "BasicMath-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2024-Solutions.pdf",
+        "sha256": "264dc59ce57978267bf886800269f6658782d95ef994ef8f2fb12a5ec99ca84f",
+        "pages": 14
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "Biology1-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2020.pdf",
+        "sha256": "0ded238ec9c9d2472896e7846e9bfa707bd20f6882920906625b9892f0d90695",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology1-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2020-Solutions.pdf",
+        "sha256": "6d0b3a334884d7912433340b70e57734fc84ea2df42992f31463d0b4cd0abf35",
+        "pages": 6
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2020,
+      "paper": "2B",
+      "exam": {
+        "filename": "Biology2B-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2020.pdf",
+        "sha256": "4ce7b4dfe6dc9e83c174e0bcc44e9c2d854182cdb2e19124874ef2e90172ccf8",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2B-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2020-Solutions.pdf",
+        "sha256": "d4da0587ba93fa8dd7cbadd687157ba0d617e0b25c319b56306be706cb88f43b",
+        "pages": 3
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2020,
+      "paper": "2C",
+      "exam": {
+        "filename": "Biology2C-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2020.pdf",
+        "sha256": "63f868c11374d62b4bb2d777a4471173d3bb25e011bc4b72ede21e4cf16fd2f4",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2C-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2020-Solutions.pdf",
+        "sha256": "76e6d0b333bcc3ea4c00446bdf2cef584c0aa5bf4d64eded681c1f7ee3680df6",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2020,
+      "paper": "2A",
+      "exam": {
+        "filename": "Biology2A-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2020.pdf",
+        "sha256": "d659a73c9de2f579e7cb6daba72a77a0d956658af624ecd05110be93d5785dbd",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2A-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2020-Solutions.pdf",
+        "sha256": "5e78689542187f1f791786890591bd65c03dd38f37d0033a2bdfc07a5b113030",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "answer_state": "missing_answer"
+    },
+    {
+      "subject": "biology",
+      "year": 2021,
+      "paper": "2B",
+      "exam": {
+        "filename": "Biology2B-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2021.pdf",
+        "sha256": "2618f6acec1ab74af4a8be52db026601b185f81eda022756f528c3346570a9bf",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2B-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2021-Solutions.pdf",
+        "sha256": "8ed66ea74c059986294f438ac78c92bb6575372da70f1b2f4cf25aa4e0d9a357",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2021,
+      "paper": "2C",
+      "exam": {
+        "filename": "Biology2C-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2021.pdf",
+        "sha256": "45d03116079caa20fa045f96f1202825c94684097986e3a599a82d974cb52b5c",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2C-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2021-Solutions.pdf",
+        "sha256": "b99cdde0caf3cc586b5f24137ad6f85e11975ad88fe49a7a870dbfc0e084733b",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2021,
+      "paper": "2A",
+      "exam": {
+        "filename": "Biology2A-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2021.pdf",
+        "sha256": "32fda199b38fc65e142d7a600a5a749a1631a9c22ddea12e58f802f897df6feb",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2A-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2021-Solutions.pdf",
+        "sha256": "904596b385b75fab591a24b15544a65a5089eb66f15b4eb2d7c2ca6365327725",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "Biology1-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2021.pdf",
+        "sha256": "518a1f5fe9ca34919935338c495975cc519c7178badb5aec32a7165d64f0a290",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology1-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2021-Solutions.pdf",
+        "sha256": "d7e60a56fbdca3d526c2432cfab4f5b6956368d114650a4f4b91656419d36b9f",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2022,
+      "paper": "2B",
+      "exam": {
+        "filename": "Biology2B-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2022.pdf",
+        "sha256": "1f113e40672f8ba424e768a05380d9a09d5c66829e7466b70bc462b2bc5ba377",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2B-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2022-Solutions.pdf",
+        "sha256": "649513772001984ea1dfa73e4b9d3258afca861bd277e467734202df380d827e",
+        "pages": 3
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2022,
+      "paper": "2C",
+      "exam": {
+        "filename": "Biology2C-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2022.pdf",
+        "sha256": "4b641e052c9fe879d8d66b022995ef76db58312943bff91cc3271269bfb78873",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2C-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2022-Solutions.pdf",
+        "sha256": "abbf4149d68e31acf8b12ca769d8b11cf02679298a5e75844bfc2a85a355f503",
+        "pages": 3
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2022,
+      "paper": "2A",
+      "exam": {
+        "filename": "Biology2A-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2022.pdf",
+        "sha256": "1c5afc220c9ffa6a5c3c937a9e75b95c3626176acd0c91df8b78fe9c18e163b9",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2A-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2022-Solutions.pdf",
+        "sha256": "2a291b21026c3e1a9e7b292e1e98a76dd7ccb0f4593662e7c7102f08aa3ee2fa",
+        "pages": 3
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "Biology1-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2022.pdf",
+        "sha256": "ffb135e41d17aca08b24b559d471bc37703aeeb0e4cb42a3263d82ec3affca0a",
+        "pages": 4
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology1-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2022-Solutions.pdf",
+        "sha256": "35f0fc7a0cffd6fa4ddcbb0abd07d9c4e7c3fe783885b62af45ce01717515811",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2023,
+      "paper": "2A",
+      "exam": {
+        "filename": "Biology2A-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2023.pdf",
+        "sha256": "0fc914959dff1932c2a3e8f66faac91b0f744296dd4e20e7dc4b95a491dd39b8",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2A-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2023-Solutions.pdf",
+        "sha256": "4dd5469fe25007a3f49788454991c5258d0beb4e85c4f25d1ef801c37237f349",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "Biology1-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2023.pdf",
+        "sha256": "5ea3854f642692232a36f4af616289e2f5bd039bbf20c13c073d6bb3fa6843af",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology1-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2023-Solutions.pdf",
+        "sha256": "e5875347694e2cba163cbc27470c16b7d8025bf32942d4d56a3015b18b683dea",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2024,
+      "paper": "2B",
+      "exam": {
+        "filename": "Biology2B-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2024.pdf",
+        "sha256": "9013048feba95bd9c316749fe514463dac71277f42e23b4e31724a1098ff2149",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "unreadable_extraction",
+      "solution": {
+        "filename": "Biology2B-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2024-Solutions.pdf",
+        "sha256": "0eb117398a43d4ef748857fb134e1eae7e03f16e78bb899a221be1b35cbaabcc",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "Biology1-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2024.pdf",
+        "sha256": "5fd391e5fd767effeb69acf9f44271b5602906b000fddc380306a4837875d86c",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology1-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2024-Solutions.pdf",
+        "sha256": "7bc2a4a753096d112440c60abd3ad1609255c9d259cf10fbbc1bdd52a07fb7a0",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2024,
+      "paper": "2C",
+      "exam": {
+        "filename": "Biology2C-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2024.pdf",
+        "sha256": "a2750ff944248785d95d6f2b6b9e5aefeeb9bb9a2a82b4a1ac77b5f51726bfca",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "unsegmented_source",
+      "solution": {
+        "filename": "Biology2C-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2024-Solutions.pdf",
+        "sha256": "cd8d19a34f460d64ec6ec4b1d2668f66e6b4924e9f96629f37c1b0f06321498b",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2024,
+      "paper": "2A",
+      "exam": {
+        "filename": "Biology2A-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2024.pdf",
+        "sha256": "24859c82ce56ffe9153b21fd79cbf44049df2599093f2b63c6fe90bd9543b38c",
+        "pages": 3
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2A-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2024-Solutions.pdf",
+        "sha256": "2b5f449d29e4c317c29b8e40e5632a3e92e68f45062e85e491c08fa461b3bfd6",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2025,
+      "paper": "2A",
+      "exam": {
+        "filename": "Biology2A-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2025.pdf",
+        "sha256": "0bf18e48e3da98638ac1151e5177d702c82bead9a221b0f690329bd17c1ed222",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology2A-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2A-F4-2025-Solutions.pdf",
+        "sha256": "6b5c5e1444d44ccd2e9a7156db2ebad3e37a2a0cdd1bf72a8110ebacb93848aa",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2025,
+      "paper": "2B",
+      "exam": {
+        "filename": "Biology2B-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2025.pdf",
+        "sha256": "66dee9a86abe866c1f5204c4b7c52fee08f51e0af05494c8f65b16834c003695",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "unsegmented_source",
+      "solution": {
+        "filename": "Biology2B-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2B-F4-2025-Solutions.pdf",
+        "sha256": "17c3dc7efa3a374643b8d15d5d3366cd2170700efa0bf7d3f3f8b7775ea64434",
+        "pages": 5
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "Biology1-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+        "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Biology1-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025-Solutions.pdf",
+        "sha256": "99b7493c387b625078a71edbf788dbedbc922b55f752493824155f24f4b9e4dd",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "biology",
+      "year": 2025,
+      "paper": "2C",
+      "exam": {
+        "filename": "Biology2C-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2025.pdf",
+        "sha256": "642510bc03b4696e6ed04b0e84a60ff07a676df2e4164d08457e861d37ee6285",
+        "pages": 2
+      },
+      "mode": "source_reference",
+      "source_state": "unsegmented_source",
+      "solution": {
+        "filename": "Biology2C-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/practical/Biology2C-F4-2025-Solutions.pdf",
+        "sha256": "d12d045e342a6b40dc83802a3a316911330b312955c59cc1b9eb9b32b879ca96",
+        "pages": 5
+      }
+    },
+    {
+      "subject": "civics",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "Civics-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2020.pdf",
+        "sha256": "d3eb89d3fce3f05b4bd37d3152d38abdaa2760b478c6a0a7d3466fa83ad8b547",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Civics-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2020-Solutions.pdf",
+        "sha256": "70969067b61d6d8515f3ab992e6299e37a0ffff034ad57298106b44fa0591048",
+        "pages": 6
+      }
+    },
+    {
+      "subject": "civics",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "Civics-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2021.pdf",
+        "sha256": "7f6d4420196471cf718d1885b7808eb64d90642ee37ed208933aa81b4e953785",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Civics-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2021-Solutions.pdf",
+        "sha256": "4b78e83d74dbd25cc2d1620f3b059c49e75a3ed9df14cb6abca41e0a12ea2c87",
+        "pages": 11
+      }
+    },
+    {
+      "subject": "civics",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "Civics-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2022.pdf",
+        "sha256": "3c8d1fe7e883abe5bebddfa1c7a5c42c8b7c269f1665311d5be98c2a2b7f6ac8",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Civics-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2022-Solutions.pdf",
+        "sha256": "7a4f919a12ff2ccd2b61aa0ec9d997d859ca4cc6c0e6008ce14757b15e94efbf",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "civics",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "Civics-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2023.pdf",
+        "sha256": "81a6968bd945b14868ea0829218e5c641d86a122cbb2bacdf0f5fad88e8530ad",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Civics-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2023-Solutions.pdf",
+        "sha256": "ec5981109f02cb74c4e0a728d7da93293d3209444b1303125afe825a9f93e789",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Civics-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2024-Solutions.pdf",
+        "sha256": "f157f54612f9da498a105b5b5ed35c994668f8b4426bcd99579f3fbda067f6b6",
+        "pages": 11
+      }
+    },
+    {
+      "subject": "english",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "English-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
+        "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "English-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020-Solutions.pdf",
+        "sha256": "ef633bb3d6d8525642a76c1e43f8cebd46f2d612b9c44efbb57b094c83c341da",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "civics",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "Civics-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2025.pdf",
+        "sha256": "603b5513f4071ec9366f2418378d9e3ca55109e132c83e06420dd1e7fc24ff6a",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Civics-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/solutions/Civics-F4-2025-Solutions.pdf",
+        "sha256": "d6768804869ec297e736ada34d17ea024d0462fac4206cffe82b520ff467043f",
+        "pages": 13
+      }
+    },
+    {
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "English-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021-Solutions.pdf",
+        "sha256": "8e1d86cd399609c8a178d5bde48eb10a6625ce89a5b98abe75f7913cdd165193",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "English-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024-Solutions.pdf",
+        "sha256": "c3080fc06bebe138c30f6deb430572269e3250095d2c961f9a8717d2ecfd128d",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "english",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "English-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+        "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+        "pages": 8
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "English-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023-Solutions.pdf",
+        "sha256": "270eb1d42684ade9f8b2cc653aebf527a3547f22af60b2cde72034f0d3adc549",
+        "pages": 13
+      }
+    },
+    {
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "English-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025-Solutions.pdf",
+        "sha256": "069f7b485effce6b68de2ad2247604c101f703aae2909d190b55648d873df2cc",
+        "pages": 11
+      }
+    },
+    {
+      "subject": "geography",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "Geography-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+        "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Geography-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020-Solutions.pdf",
+        "sha256": "d818fb64c25cf1d55a2d9be57bc2c9d2f0544d25991948f1e381b16b55e9c4be",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "english",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "English-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2022.pdf",
+        "sha256": "062c41bffe9317a73f15e7143b2aa97b33b63c9b0ee3a97f1e0e8f14f8435145",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "English-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2022-Solutions.pdf",
+        "sha256": "fb77138dbb608f1774783f813742a86fb4d1e8d12c3464f04d4f585ba70f57f3",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "geography",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "Geography-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2021.pdf",
+        "sha256": "4b30db32576bfa3ff6b0719ffa0301c4d3984932ef78186cf47c0caf7218702c",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Geography-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2021-Solutions.pdf",
+        "sha256": "9f8bc7dfdf04eaf9323e37434429b5947864445e1be731b77303ed2c0b410f4c",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "geography",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "Geography-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2024.pdf",
+        "sha256": "ded5d6d7f434d4d820c88587992f9f5820b7c30bc6fe1c2d73c075bee73b3279",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Geography-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2024-Solutions.pdf",
+        "sha256": "b8b467057f9f3b8098d765c65c52a54a0e0ed346d38a108424517603793cff14",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "geography",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "Geography-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
+        "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Geography-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023-Solutions.pdf",
+        "sha256": "5c97a1f287b7618fe1a54ab3be1ca698da9584f9db01cc886f178ebf66b83755",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "history",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "History-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
+        "sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "History-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020-Solutions.pdf",
+        "sha256": "5db1e3c66127dcdddec5df68f1962e83ce975392a34f02f5a8311d0ba8452f3d",
+        "pages": 4
+      }
+    },
+    {
+      "subject": "geography",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "Geography-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2022.pdf",
+        "sha256": "7aeb38cfef8891224e5d8b40a20cf438adf5dd8191425c8df34ccc181d6e9ec8",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Geography-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2022-Solutions.pdf",
+        "sha256": "70768c325b2564ac81b5d06bf21b595eece7a0b8376372278009e7c4dfc474ce",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "history",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "History-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2021.pdf",
+        "sha256": "8865f9bc3621ba07185f20d6bdf037dddb0605dfe6b9ddc0b653428b593ff0d0",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "History-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2021-Solutions.pdf",
+        "sha256": "947f7486499e308db7b3f236a7bf74ae948c44e101e29669f88ff00d980c922d",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Geography-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025-Solutions.pdf",
+        "sha256": "234f11bf5819a9801e9ce6f23e335fbd792d2e434b4cc8dc755d564ee54e1950",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "history",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "History-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2023.pdf",
+        "sha256": "9ec91f4029d0c3b484e4dc3af5391e1d86cd5d1b3f614f8d42ace530baa08f93",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "History-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2023-Solutions.pdf",
+        "sha256": "52190365bd0e91d09429b77deed028eda7de553670632bdbafaccd63567ef327",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "history",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "History-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2022.pdf",
+        "sha256": "d08c845172652ffd1fd60ddef30f7cfa46a357d4d16146d68eadd58ab2054b6a",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "History-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2022-Solutions.pdf",
+        "sha256": "06a7171d19b19cb3b879dca2e2c2fb3be74349612989f7d6798fd1cf3efcf4a7",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Kiswahili-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020-Solutions.pdf",
+        "sha256": "e4015db325a7c1c893727434dabeef56e75ac40aece52fb1770004a5c7b74751",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "History-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024-Solutions.pdf",
+        "sha256": "5fb1d7e2eb0a78b4db06a45a9c0de22c1fa5b0debcb3f0663185da1c708a4aca",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "History-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025-Solutions.pdf",
+        "sha256": "1f792418026c89c1c174fed50d63c704fe4d66d220c59c9cd4b73246cb1b5663",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "kiswahili",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "Kiswahili-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2021.pdf",
+        "sha256": "524d53396b913da02dd5ee12bf8d75b0cfa1298839bad9e5f2c6a80fa99a5bc2",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Kiswahili-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2021-Solutions.pdf",
+        "sha256": "614843ec2070988da7abd0946f3cb00be0db1cef9f9b6b88a8eab00067eafd39",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "kiswahili",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "Kiswahili-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2023.pdf",
+        "sha256": "1cf5f6257ce46d3eb6f500a86cbcf6d3ca153225379788b1258f4779ee7b08de",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Kiswahili-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2023-Solutions.pdf",
+        "sha256": "71ca4b17c4c222502584147337114411d294a3279580f2623461a4480a346b94",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "kiswahili",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "Kiswahili-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024.pdf",
+        "sha256": "8c6f444b2b4d36f6ab2af48ebd38a05da1e2e98009d8cba4a7d674607950f934",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Kiswahili-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024-Solutions.pdf",
+        "sha256": "7cfd0602d592ac6e42610be3cf3fee1a29606db67ef85ca1f85ee8ac8deff56d",
+        "pages": 12
+      }
+    },
+    {
+      "subject": "kiswahili",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "Kiswahili-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2022.pdf",
+        "sha256": "1323beb4dc3107d5c20028095c20d74d116172addc2e66606474a673d9fa40a1",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Kiswahili-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2022-Solutions.pdf",
+        "sha256": "a479f4cfc6113c4429b34459409e9e7cb94b765d94afee6cedbb5db5f78335a2",
+        "pages": 11
+      }
+    },
+    {
+      "subject": "literature",
+      "year": 2020,
+      "paper": "1",
+      "exam": {
+        "filename": "Literature-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2020.pdf",
+        "sha256": "3c68dfc7679f8910861b3ac93e1744758ce4394fac27140b124651c43300b5aa",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Literature-F4-2020-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2020-Solutions.pdf",
+        "sha256": "bcd565e8710c9bd677121c8595ab1bfc17410612dea42928ce128e3aa32541c9",
+        "pages": 8
+      }
+    },
+    {
+      "subject": "literature",
+      "year": 2021,
+      "paper": "1",
+      "exam": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": 5
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Literature-F4-2021-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021-Solutions.pdf",
+        "sha256": "f81ef47649235cfe8685ce9a8cb633db23c7a409ae8fa0e57c9ac9add0169460",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Kiswahili-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+        "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+        "pages": 14
+      }
+    },
+    {
+      "subject": "literature",
+      "year": 2022,
+      "paper": "1",
+      "exam": {
+        "filename": "Literature-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2022.pdf",
+        "sha256": "f2c982615dd84aa06b390f15a1ebffec0f984a77a7322546298e56173aea87b8",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Literature-F4-2022-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2022-Solutions.pdf",
+        "sha256": "ead8018a1cf18c754cd758d068bf57f245ecf0ca6ff23160a478c8f8803025f6",
+        "pages": 9
+      }
+    },
+    {
+      "subject": "literature",
+      "year": 2023,
+      "paper": "1",
+      "exam": {
+        "filename": "Literature-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2023.pdf",
+        "sha256": "928b6de96de44e003f0b4c17344abdabe1e46b6b3498dac89919fc4a354d615c",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Literature-F4-2023-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2023-Solutions.pdf",
+        "sha256": "2d508117328154b323c6f0470fb9ad7e98c3437fb7899b8ad218270daf864ade",
+        "pages": 10
+      }
+    },
+    {
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": 6
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Literature-F4-2024-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024-Solutions.pdf",
+        "sha256": "47a278a6e59d485a0e4f1777a4b26191ea2b3872c3d2928effd0a089079c6ca3",
+        "pages": 14
+      }
+    },
+    {
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": 7
+      },
+      "mode": "source_reference",
+      "source_state": "source_reference",
+      "solution": {
+        "filename": "Literature-F4-2025-Solutions.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025-Solutions.pdf",
+        "sha256": "e7b7cae3a38ee278297b71397fc55fdfd84e13768b419235d3040b78cee7bc34",
+        "pages": 18
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "kiswahili-2025-p1-q09",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "9",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Jifanye wewe ni mmojawapo wa watoto waliohudhuria kongamano lililohusu haki za watoto. Andika beti tano za utenzi kuhusu “Haki za Mtoto.”",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "missing_answer",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "kiswahili-2025-p1-q10",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "10",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Lengo kuu la kazi za fasihi ni kuonya na kuiasa jamii. Thibitisha kauli hii kwa kutoa hoja tatu kwa kila riwaya kutoka katika riwaya mbili ulizosoma.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "english-2025-p1-q01ix",
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(ix)",
+      "parent_question": "1",
+      "subquestion": "(ix)",
+      "kind": "original_exam",
+      "question": "When the school closes, Zuhura will visit her paternal uncle who lives at Ikwiriri. What does the term paternal uncle mean?",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": [
+          3
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "Her aunt’s husband"
+        },
+        {
+          "label": "B",
+          "text": "Her father’s brother"
+        },
+        {
+          "label": "C",
+          "text": "Her uncle from aunt’s father"
+        },
+        {
+          "label": "D",
+          "text": "Her mother’s brother"
+        },
+        {
+          "label": "E",
+          "text": "Her uncle from aunt’s mother"
+        }
+      ]
+    },
+    {
+      "id": "english-2025-p1-q01x",
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(x)",
+      "parent_question": "1",
+      "subquestion": "(x)",
+      "kind": "original_exam",
+      "question": "When you write an official letter, you do not write the name of the writer in the writer’s address. Why is it so?",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": [
+          3
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "It normally appears at the bottom"
+        },
+        {
+          "label": "B",
+          "text": "It is not part of official information"
+        },
+        {
+          "label": "C",
+          "text": "It is not part of the letter"
+        },
+        {
+          "label": "D",
+          "text": "It confuses the addressee"
+        },
+        {
+          "label": "E",
+          "text": "It is too long to fit in the address"
+        }
+      ]
+    },
+    {
+      "id": "geography-2025-p1-q09",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "9",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Amani measured distances, angles, directions and elevation in order to position his livestock’s sheds and a storage building. Describe five objectives of the activity.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "geography-2025-p1-q10",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "10",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Suppose you have enough capital and you want to invest in large scale mining in Tanzania, describe six necessary factors to be considered before starting the project.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "history-2025-p1-q05",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Briefly explain three reasons which enabled Tanganyika to achieve her independence earlier than Kenya.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "history-2025-p1-q11",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "11",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "By giving six points, explain the challenges facing the Economic Community of West African States (ECOWAS).",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "literature-2025-p1-q05a",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(a)",
+      "parent_question": "5",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Symbolism",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          5
+        ]
+      },
+      "context": "Define and state the use of each of the following literary devices:"
+    },
+    {
+      "id": "literature-2025-p1-q08",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "8",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Why novels, plays, poems and short stories are categorized as fiction? Briefly explain by giving six points.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "biology-2025-p1-q03",
+      "subject": "biology",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "Mkutano villagers use traditional methods to process, preserve and store variety of foods they obtain from their daily activities. Outline six advantages of such methods.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Biology1-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+        "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "biology-2025-p1-q05",
+      "subject": "biology",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5",
+      "parent_question": null,
+      "subquestion": null,
+      "kind": "original_exam",
+      "question": "How are the cardiac muscles adapted to perform their roles? Give six points.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "Biology1-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+        "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "basic_mathematics-2023-p1-q09a",
+      "subject": "basic_mathematics",
+      "year": 2023,
+      "paper": "1",
+      "reference": "9(a)",
+      "parent_question": "9",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "A rectangular plot of land is 40 metres long. If the length of its diagonal is 50 metres, how wide is the plot?",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "pipeline_verified",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "BasicMath-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2023.pdf",
+        "sha256": "fc8f5086723fe8d6dcda6dd9352335b271f4f3af67af9e7bbc866847cc97ad0a",
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "basic_mathematics-2023-p1-q08b",
+      "subject": "basic_mathematics",
+      "year": 2023,
+      "paper": "1",
+      "reference": "8(b)",
+      "parent_question": "8",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "The sum of the first eleven terms of an arithmetic progression is 517. If its first term is 7, find the sum of the fourth and ninth terms.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "BasicMath-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2023.pdf",
+        "sha256": "fc8f5086723fe8d6dcda6dd9352335b271f4f3af67af9e7bbc866847cc97ad0a",
+        "pages": [
+          4
+        ]
+      }
+    }
+  ],
+  "pending_human_review": [
+    "concept-democracy-state",
+    "concept-democracy-reasons"
+  ],
+  "held_original_ids": [
+    {
+      "id": "civics-2023-p1-q01ii",
+      "status": "withheld",
+      "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+    },
+    {
+      "id": "civics-2022-p1-q01vi",
+      "status": "withheld",
+      "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+    },
+    {
+      "id": "civics-2023-p1-q01i",
+      "status": "withheld",
+      "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+    },
+    {
+      "id": "civics-2023-p1-q01v",
+      "status": "withheld",
+      "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+    },
+    {
+      "id": "civics-2025-p1-q01v",
+      "status": "withheld",
+      "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+    },
+    {
+      "id": "civics-2025-p1-q01viii",
+      "status": "withheld",
+      "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+    }
+  ]
+};

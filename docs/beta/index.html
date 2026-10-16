@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer"><meta name="theme-color" content="#14213d">
+  <title>NECTA Rescue • Emergency beta</title>
+  <link rel="stylesheet" href="./beta.css">
+  <script src="./core.js" defer></script><script src="./civics.js" defer></script>
+  <script src="./sources.js" defer></script><script src="./beta.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to practice</a>
+  <header><a href="../">NECTA Rescue</a><span>FORM FOUR · BETA</span></header>
+  <main id="main">
+    <div class="notice"><strong>Emergency beta · provisional</strong><p>Human academic acceptance and physical Android checks are pending. The <a href="../">accepted 14-card app</a> remains available. No official NECTA endorsement.</p></div>
+    <section id="home">
+      <p class="eyebrow">ONE QUESTION. ONE STEP FORWARD.</p><h1>Choose your subject.</h1>
+      <p class="intro">Practise what is ready. See exactly what is still being checked.</p>
+      <p>30 Civics revision cards · 14 question-only practice items · 2020–2025 source references.</p>
+      <div id="subjects" class="grid"></div>
+    </section>
+    <section id="practice" hidden>
+      <button id="homeButton" class="text-button" type="button">← All subjects</button>
+      <h1 id="subjectTitle" tabindex="-1"></h1>
+      <div class="filters"><label>Year<select id="year"><option value="all">All years</option></select></label><label>Paper<select id="paper"><option value="all">All papers</option></select></label></div>
+      <p id="coverage"></p><p id="academicNote" class="notice" hidden></p>
+      <article id="card" hidden>
+        <p id="position" class="eyebrow"></p><span id="kind" class="badge"></span>
+        <p id="reference"></p><p id="context" class="context" hidden></p>
+        <h2 id="question" tabindex="-1"></h2><ol id="options" type="A" hidden></ol>
+        <p id="state" class="notice"></p>
+        <button id="reveal" class="primary" type="button" aria-expanded="false" aria-controls="answer">Show educational answer</button>
+        <section id="answer" hidden><h3 id="answerTitle" tabindex="-1">Educational answer</h3><ul id="bullets"></ul><p id="explanation"></p><p id="guidance"></p><p class="muted">Supplied TETEA solutions and educational adaptations; not official marking schemes. Human academic acceptance is pending.</p></section>
+        <details><summary>Source and review status</summary><div id="source"></div></details>
+        <p class="muted">Your self-check records how confident you feel, not whether an examiner would award marks.</p>
+        <div class="actions"><button id="understood" type="button" aria-pressed="false">Understood</button><button id="revise" type="button" aria-pressed="false">Revise again</button></div>
+        <div class="actions"><button id="previous" type="button">← Previous</button><button id="next" type="button">Next →</button></div>
+        <p id="saveStatus" role="status"></p>
+      </article>
+      <p id="empty" class="notice" hidden>No checked question text in this selection yet. Use the original source references below with a teacher. Answers are not generated for missing content.</p>
+      <h2>Original paper references</h2><p>These links need internet and open the provider’s PDFs. PDFs are not downloaded automatically or included offline. A source reference is not a checked question or answer.</p><div id="papers"></div>
+    </section>
+    <aside><p id="offline" role="status">Preparing beta offline files…</p><details><summary>Keep your progress safe</summary><p>Uses the existing combined backup format. Saves retain historical and hidden card IDs. Import replaces the included records; export first.</p><button id="export" type="button">Export combined backup</button><label>Restore a backup<input id="import" type="file" accept="application/json,.json"></label><p id="backupStatus" role="status"></p></details></aside>
+    <noscript><p>JavaScript is required for the beta. <a href="../paper-practice.html">Original practice and saved notes</a> remain available.</p></noscript>
+  </main>
+  <footer><p>Independent revision tool. Source-checked does not mean human certified.</p><a href="../paper-practice.html">Original-paper practice and saved notes</a></footer>
+</body></html>
