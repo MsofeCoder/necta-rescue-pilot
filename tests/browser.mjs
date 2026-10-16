@@ -21,6 +21,18 @@ const evidenceStart=evidence.begin(path.basename(run));
 const downloads=path.join(run,'downloads');fs.mkdirSync(downloads);
 const checks=[],errors=[],requests=[];
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function downloadedJson(predicate,label){
+  for(let i=0;i<300;i++){
+    for(const name of fs.readdirSync(downloads).filter(n=>n.endsWith('.json'))){
+      try{
+        const filename=path.join(downloads,name),data=JSON.parse(fs.readFileSync(filename,'utf8'));
+        if(predicate(data,name))return {filename,data};
+      }catch{} // A browser may still be writing or replacing its download.
+    }
+    await sleep(100);
+  }
+  throw Error('Completed JSON download missing: '+label);
+}
 function check(name,pass,detail){checks.push({name,pass:!!pass,...(detail===undefined?{}:{detail})});console.log((pass?'PASS':'FAIL')+' | '+name+(pass?'':' | '+JSON.stringify(detail)));}
 function demand(name,pass,detail){check(name,pass,detail);if(!pass)throw Error(name);}
 const prod=new Map();
@@ -84,8 +96,11 @@ try{
   const originalRecords=await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`);
   demand('production writes a genuine legacy record',JSON.parse(originalRecords).length===1);
   await c.click('#exportBtn');
-  for(let i=0;i<40&&!fs.readdirSync(downloads).some(f=>f.endsWith('.json'));i++)await sleep(100);
-  const oldBackup=path.join(downloads,fs.readdirSync(downloads).find(f=>f.endsWith('.json'))||'missing');
+  const originalDownload=await downloadedJson(data=>data.records?.length===1&&!data.learning,'original backup');
+  // Edge can replace the same suggested filename; preserve the original export
+  // separately so later imports genuinely exercise the pre-upgrade format.
+  const oldBackup=path.join(run,'pre-upgrade-backup.json');
+  fs.copyFileSync(originalDownload.filename,oldBackup);
   demand('pre-upgrade backup downloaded',fs.existsSync(oldBackup));
   await c.eval(`caches.open('unrelated-application-cache')`);
   await c.eval(`caches.open('necta-rescue-static-v3')`);
@@ -166,6 +181,9 @@ try{
     const base=item.kind==='original_exam'?item:allCards.find(c=>c.id===item.derivedFrom);
     check('source identity and date '+item.id,await c.eval(`document.getElementById('sourceText').textContent.includes(${JSON.stringify(base.exam.filename)})&&document.getElementById('sourceText').textContent.includes(${JSON.stringify(item.review.date)})`));
     for(const width of [320,360,390]){await mobile(width);check('card fits '+width+' '+item.id,await c.eval('document.documentElement.scrollWidth<=innerWidth'));}
+    if(['civics-2025-p1-q07','civics-2025-p1-q01iii'].includes(item.id)){
+      for(const width of [360,390]){await mobile(width);await c.shot(item.id+'-corrected-'+width);}
+    }
   }
   await chooseTopic('Road safety');await input('#kindSelect','original_exam');
   for(const width of [360,390]){await mobile(width);await c.shot('road-question-'+width);}
@@ -194,10 +212,9 @@ try{
   await c.file('#backupFile',oldBackup);await c.wait(`document.getElementById('backupStatus').textContent.includes('Old paper-practice backup accepted')`);
   check('old backup import keeps learning progress',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===beforeImport);
   await c.eval(`document.querySelector('.backup-tools').open=true`);await c.click('#exportProgress');
-  const findCombined=()=>fs.readdirSync(downloads).find(f=>f.endsWith('.json')&&JSON.parse(fs.readFileSync(path.join(downloads,f),'utf8')).learning);
-  for(let i=0;i<50&&!findCombined();i++)await sleep(100);
-  const combined=path.join(downloads,findCombined()||'missing-combined-backup');
-  const combinedData=JSON.parse(fs.readFileSync(combined,'utf8'));
+  const combinedDownload=await downloadedJson(data=>data.learning?.records?.length===1,'combined backup');
+  const combined=path.join(run,'combined-backup.json');fs.copyFileSync(combinedDownload.filename,combined);
+  const combinedData=combinedDownload.data;
   check('new export contains old notes and new self-checks',!!combinedData.learning&&combinedData.records[0].notes.includes('Seeded in production'));
   await c.eval(`localStorage.setItem('necta-rescue-learning-v1',JSON.stringify({version:1,records:[]}))`);
   await c.file('#backupFile',combined);await c.wait(`document.getElementById('backupStatus').textContent.includes('Paper attempts and Civics self-checks are ready')`);
@@ -318,9 +335,8 @@ try{
   await chooseTopic('Life skills');
   check('understood new card is excluded when difficult selection is refreshed',await c.eval(`!document.getElementById('emptyStudy').hidden`));
   await c.eval(`document.querySelector('.backup-tools').open=true`);await c.click('#exportProgress');
-  const expandedBackupName=()=>fs.readdirSync(downloads).find(f=>f.endsWith('.json')&&JSON.parse(fs.readFileSync(path.join(downloads,f),'utf8')).learning?.records?.length===3);
-  for(let i=0;i<50&&!expandedBackupName();i++)await sleep(100);
-  const expandedBackup=path.join(downloads,expandedBackupName()||'missing-expanded-backup');
+  const expandedDownload=await downloadedJson(data=>data.learning?.records?.length===3,'expanded backup');
+  const expandedBackup=path.join(run,'expanded-backup.json');fs.copyFileSync(expandedDownload.filename,expandedBackup);
   demand('combined backup includes new, released and unknown card IDs',fs.existsSync(expandedBackup));
   const expandedProgress=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);
   await c.eval(`localStorage.setItem('necta-rescue-learning-v1',JSON.stringify({version:1,records:[]}))`);
