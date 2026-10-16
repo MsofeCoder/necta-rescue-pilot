@@ -267,7 +267,7 @@ try{
   console.log('Browser: '+version.Browser);
 } catch(err){check('browser suite completed',false,err.stack);}
 finally{
-  const tested_files=Object.fromEntries(fs.readdirSync(docs).map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(docs,name))).digest('hex')]));
+  const tested_files=Object.fromEntries(fs.readdirSync(docs).filter(name=>fs.statSync(path.join(docs,name)).isFile()).map(name=>[name,createHash('sha256').update(fs.readFileSync(path.join(docs,name))).digest('hex')]));
   fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({baseline,browser:browserVersion,checks,errors,requests:[...new Set(requests)],tested_files,finished_at:new Date().toISOString()},null,2));
   if(c)c.close();if(bc){try{await bc.send('Browser.close');}catch{}bc.close();}if(chrome)chrome.kill();
   if(server)await new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});

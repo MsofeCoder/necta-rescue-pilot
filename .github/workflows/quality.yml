@@ -24,6 +24,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
@@ -38,6 +39,10 @@ jobs:
           echo "CHROME_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
       - name: Real Chrome regression and offline upgrade
         run: node tests/browser.mjs
+      - name: Isolated eight-subject provisional beta regression
+        run: node tests/beta-browser.mjs
+      - name: Package tested provisional beta separately
+        run: python3 tools/package_beta.py
       - name: Package the exact tested public bundle
         run: python3 tools/package_release.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -48,6 +53,8 @@ jobs:
             .workbuddy-ai/browser-evidence/*.json
             .workbuddy-ai/browser-evidence/*.png
             .workbuddy-ai/release/*
+            .workbuddy-ai/beta-evidence/*
+            .workbuddy-ai/beta-release/*
           include-hidden-files: true
           if-no-files-found: error
           retention-days: 14

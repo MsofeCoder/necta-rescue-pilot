@@ -26,11 +26,11 @@ test('worker version and offline readiness agree and every public asset is preca
   assert(learning.includes("const EXPECTED_CACHE = '"+generation+"'"));
   const assets=vm.runInNewContext(sw.match(/const ASSETS = (\[[^;]+\]);/)[1]);
   const cacheFiles=new Set(assets.filter(a=>a!=='./').map(a=>a.slice(2)));
-  assert.deepEqual([...cacheFiles].sort(),fs.readdirSync(docs).filter(f=>f!=='.nojekyll'&&f!=='sw.js').sort());
+  assert.deepEqual([...cacheFiles].sort(),fs.readdirSync(docs).filter(f=>fs.statSync(path.join(docs,f)).isFile()&&f!=='.nojekyll'&&f!=='sw.js').sort());
 });
 test('release carries no third-party executable resources or accidental source files',()=>{
   for(const file of ['index.html','paper-practice.html'])assert(!/<(?:script|link)[^>]+(?:src|href)="https?:/i.test(read(file)));
-  const total=fs.readdirSync(docs).filter(f=>/\.(js|css|html)$/.test(f)).reduce((n,f)=>n+fs.statSync(path.join(docs,f)).size,0);
+  const total=fs.readdirSync(docs).filter(f=>fs.statSync(path.join(docs,f)).isFile()&&/\.(js|css|html)$/.test(f)).reduce((n,f)=>n+fs.statSync(path.join(docs,f)).size,0);
   assert(total<150*1024,'HTML/JS/CSS transfer budget exceeded');
   assert(!fs.readdirSync(docs).some(f=>/\.(pdf|jsonl|pem|key|env)$/i.test(f)));
 });

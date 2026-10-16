@@ -14,7 +14,7 @@ files = {p.name: sha(p.read_bytes()) for p in sorted(docs.iterdir()) if p.is_fil
 expected = {'.nojekyll', 'index.html', 'paper-practice.html', 'paper-practice.js',
             'learning.js', 'learning-core.js', 'learning.css', 'civics-content.js',
             'sw.js', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png'}
-if set(files) != expected or any(p.is_symlink() or p.is_dir() for p in docs.iterdir()):
+if set(files) != expected or any(p.is_symlink() or p.is_dir() and p.name != 'beta' for p in docs.iterdir()):
     raise SystemExit('Unexpected public files. Release packaging stopped.')
 evidence_path = root / '.workbuddy-ai/browser-evidence/report.json'
 evidence = json.loads(evidence_path.read_text(encoding='utf8'))

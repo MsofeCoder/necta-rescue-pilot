@@ -1,0 +1,611 @@
+{
+  "version": 1,
+  "source_document_policy": "PDFs linked, not redistributed; no source-page images bundled",
+  "records": [
+    {
+      "record_id": "kiswahili-2025-p1-q09",
+      "printed_reference": "9",
+      "display": {
+        "id": "kiswahili-2025-p1-q09",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "9",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Jifanye wewe ni mmojawapo wa watoto waliohudhuria kongamano lililohusu haki za watoto. Andika beti tano za utenzi kuhusu “Haki za Mtoto.”",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "missing_answer",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            6
+          ]
+        }
+      },
+      "original_pipeline_text": "Jifanye wewe ni mmojawapo wa watoto waliohudhuria kongamano lililohusu haki za watoto.\nAndika beti tano za utenzi kuhusu “Haki za Mtoto.”\nORODHA YA VITABU\nRIWAYA\nTakadini - Ben J. Hanson (MBS)\nWatoto wa Mama N’tilie - E. Mbogo (H.P)\nJoka la Mdimu - A.J, Safari (HP)\nTAMTHILIYA\nOrodha - Steve Reynolds (MA)\nNgoswe Penzi Kitovu cha Uzembe E. Semzaba (ESC)\nKilio Chetu - Medical Aid Foundation (TPH)\nU KAB nia hoa",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "dc0082dde8ea89cc1a798f63290c0a1cc7509b3b43eefe0faf4159fccc3fd27a",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": null,
+          "status": "missing",
+          "confidence": "unmatched"
+        }
+      ]
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q10",
+      "printed_reference": "10",
+      "display": {
+        "id": "kiswahili-2025-p1-q10",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "10",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Lengo kuu la kazi za fasihi ni kuonya na kuiasa jamii. Thibitisha kauli hii kwa kutoa hoja tatu kwa kila riwaya kutoka katika riwaya mbili ulizosoma.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            7
+          ]
+        }
+      },
+      "original_pipeline_text": "Lengo kuu la kazi za fasihi ni kuonya na kuiasa jamii. Thibitisha kauli hii kwa kutoa hoja\nkwa kila riwaya kutoka katika riwaya mbili ulizosoma.",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "74ba68a659d12941e97e6180269636d4d0e1cffcd712c338759a87caf1598116",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "kiswahili-2025-p1-a10",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "english-2025-p1-q01ix",
+      "printed_reference": "1(ix)",
+      "display": {
+        "id": "english-2025-p1-q01ix",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ix)",
+        "parent_question": "1",
+        "subquestion": "(ix)",
+        "kind": "original_exam",
+        "question": "When the school closes, Zuhura will visit her paternal uncle who lives at Ikwiriri. What does the term paternal uncle mean?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            3
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "Her aunt’s husband"
+          },
+          {
+            "label": "B",
+            "text": "Her father’s brother"
+          },
+          {
+            "label": "C",
+            "text": "Her uncle from aunt’s father"
+          },
+          {
+            "label": "D",
+            "text": "Her mother’s brother"
+          },
+          {
+            "label": "E",
+            "text": "Her uncle from aunt’s mother"
+          }
+        ]
+      },
+      "original_pipeline_text": "When the school closes, Zuhura will visit her paternal uncle who lives at Ikwiriri.\nWhat does the term paternal uncle mean?\nA Her aunt’s husband\nB. Her father’s brother\n| C Her uncle from aunt’s father ‘\nD Her mother’s brother\n| E Her uncle from aunt’s mother",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "e87063ffa553b9edb522520c50497ab6c6d7b66a0a4831a785d9daab0f87bf44",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "english-2025-p1-a01ix",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "english-2025-p1-q01x",
+      "printed_reference": "1(x)",
+      "display": {
+        "id": "english-2025-p1-q01x",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(x)",
+        "parent_question": "1",
+        "subquestion": "(x)",
+        "kind": "original_exam",
+        "question": "When you write an official letter, you do not write the name of the writer in the writer’s address. Why is it so?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            3
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "It normally appears at the bottom"
+          },
+          {
+            "label": "B",
+            "text": "It is not part of official information"
+          },
+          {
+            "label": "C",
+            "text": "It is not part of the letter"
+          },
+          {
+            "label": "D",
+            "text": "It confuses the addressee"
+          },
+          {
+            "label": "E",
+            "text": "It is too long to fit in the address"
+          }
+        ]
+      },
+      "original_pipeline_text": "When you write an official letter, you do not write the name of the writer in the\nwriter's address. Why is it so?\nA It normally appears at the bottom\nB Itis not part of official information\nC Iris not part of the letter\nD It confuses the addressee\nE Iris too long to fit in the address\nae Match each expression involving an auxiliary verb in List A with its corresponding\nfunction in List B by writing its letter beside the corresponding item number in the\nanswer booklet provided. The responses can be used more than once.\nAa OO | SB |",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "e87063ffa553b9edb522520c50497ab6c6d7b66a0a4831a785d9daab0f87bf44",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "english-2025-p1-a01x",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "geography-2025-p1-q09",
+      "printed_reference": "9",
+      "display": {
+        "id": "geography-2025-p1-q09",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "9",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Amani measured distances, angles, directions and elevation in order to position his livestock’s sheds and a storage building. Describe five objectives of the activity.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            5
+          ]
+        }
+      },
+      "original_pipeline_text": "Amani measured distances, angles, directions and elevation in order to position his livestock's\nsheds and a storage building. Describe five objectives of the activity.",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "6a912e18f7766d4572f79e5c5a29a694542bba90cd1eaaa94bcaaed77973f1c5",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "geography-2025-p1-a09",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "geography-2025-p1-q10",
+      "printed_reference": "10",
+      "display": {
+        "id": "geography-2025-p1-q10",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "10",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Suppose you have enough capital and you want to invest in large scale mining in Tanzania, describe six necessary factors to be considered before starting the project.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            5
+          ]
+        }
+      },
+      "original_pipeline_text": "Suppose you have enough capital and you want to invest in large scale mnining in Tanzania,\ndescribe six necessary factors to be considered before starting the project.",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "6a912e18f7766d4572f79e5c5a29a694542bba90cd1eaaa94bcaaed77973f1c5",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "geography-2025-p1-a10",
+          "status": "exact",
+          "confidence": "provisional"
+        }
+      ]
+    },
+    {
+      "record_id": "history-2025-p1-q05",
+      "printed_reference": "5",
+      "display": {
+        "id": "history-2025-p1-q05",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Briefly explain three reasons which enabled Tanganyika to achieve her independence earlier than Kenya.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        }
+      },
+      "original_pipeline_text": "Briefly explain three reasons which enabled Tanganyika to achieve her independence",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "72559823c4bce70d5fc5975a46fe8d9f9c12b57cf515f1b33b1757f8cc43dfa3",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "history-2025-p1-a05",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "history-2025-p1-q11",
+      "printed_reference": "11",
+      "display": {
+        "id": "history-2025-p1-q11",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "11",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "By giving six points, explain the challenges facing the Economic Community of West African States (ECOWAS).",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        }
+      },
+      "original_pipeline_text": "By giving six points, explain the challenges facing the Economic Community of West\nAfrican States (ECOWAS).",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "72559823c4bce70d5fc5975a46fe8d9f9c12b57cf515f1b33b1757f8cc43dfa3",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "history-2025-p1-a11",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "literature-2025-p1-q05a",
+      "printed_reference": "5(a)",
+      "display": {
+        "id": "literature-2025-p1-q05a",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(a)",
+        "parent_question": "5",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "Symbolism",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            5
+          ]
+        },
+        "context": "Define and state the use of each of the following literary devices:"
+      },
+      "original_pipeline_text": "Symbolism",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "72877efc12fec56cba05fe59cec6a95efcb0a0360317637b5cc399a1e1973ad1",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "literature-2025-p1-a05a",
+          "status": "exact",
+          "confidence": "provisional"
+        }
+      ]
+    },
+    {
+      "record_id": "literature-2025-p1-q08",
+      "printed_reference": "8",
+      "display": {
+        "id": "literature-2025-p1-q08",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "8",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Why novels, plays, poems and short stories are categorized as fiction? Briefly explain by giving six points.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            6
+          ]
+        }
+      },
+      "original_pipeline_text": "Why novels, plays, poems and short stories are categorized as fiction? Briefly explain by giving\nsik points. |\nLIST OF READINGS\nPlays\nThe Lion and the Jewel - Soyinka, W.\nThe Trials of Brother Jero - Soyinka, W.\nThe Dilemma ofaGhost - Aidoo, A.A.\nThe Government Inspector - Gogol, N.\nNovels\nA Walk in the Night and Other Stories - Guma, A.\nHouseboy - Oyono, F,\nThe Old Man and the Medal - Oyono, F,\na The Concubine - Amadi, E.\n]\nPoetry\nSelected Poems - Tanzania Institute of Education\nGhwing up with Poetry —- David Rubadiri q\n. ji . “1 the causes for the ha\npy making reference to two novels you have read in this course, explain the caus\nconflicts in a society by providing three points from each novel.\n. P re read in this\n0, Society is full of challenges that need solutions. By using two plays you have “ za wili\ncourse. suggest solutions to the problems that face the society. Give three points\nplay.\nji . yi ain” b Armando\n) By using the poems “Building the Nation” by Henry Barlow and “Your Pain WA Wai\nGuebuza. justify the truth that the presence of classes in society has been pene from each\nthe major causes of Oppression, exploitation and humiliation, Give three porns\npoem\n\\\n—\nJof7 |\nFind this and Fass resources at:\n———~—",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "be82d742a65dca349542410839fbcae3582ba4e15e9afb552dfb178e82b75b21",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "literature-2025-p1-a08",
+          "status": "exact",
+          "confidence": "provisional"
+        }
+      ]
+    },
+    {
+      "record_id": "biology-2025-p1-q03",
+      "printed_reference": "3",
+      "display": {
+        "id": "biology-2025-p1-q03",
+        "subject": "biology",
+        "year": 2025,
+        "paper": "1",
+        "reference": "3",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Mkutano villagers use traditional methods to process, preserve and store variety of foods they obtain from their daily activities. Outline six advantages of such methods.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Biology1-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+          "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+          "pages": [
+            4
+          ]
+        }
+      },
+      "original_pipeline_text": "Mkutano villagers use traditional methods to process, preserve and store variety of foods\nthey obtain from their daily activities. Outline six advantages of such methods.",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "c49bb1baf9ddf87d066bb8af73cff05b71f5b00c1eeb2bcc4aaaffdc3b717cb8",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "biology-2025-p1-a03",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "biology-2025-p1-q05",
+      "printed_reference": "5",
+      "display": {
+        "id": "biology-2025-p1-q05",
+        "subject": "biology",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "How are the cardiac muscles adapted to perform their roles? Give six points.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Biology1-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+          "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+          "pages": [
+            4
+          ]
+        }
+      },
+      "original_pipeline_text": "How are the cardiac muscles adapted to perform their roles? Give six points.",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "c49bb1baf9ddf87d066bb8af73cff05b71f5b00c1eeb2bcc4aaaffdc3b717cb8",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "biology-2025-p1-a05",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "basic_mathematics-2023-p1-q09a",
+      "printed_reference": "9(a)",
+      "display": {
+        "id": "basic_mathematics-2023-p1-q09a",
+        "subject": "basic_mathematics",
+        "year": 2023,
+        "paper": "1",
+        "reference": "9(a)",
+        "parent_question": "9",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "A rectangular plot of land is 40 metres long. If the length of its diagonal is 50 metres, how wide is the plot?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "BasicMath-F4-2023.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2023.pdf",
+          "sha256": "fc8f5086723fe8d6dcda6dd9352335b271f4f3af67af9e7bbc866847cc97ad0a",
+          "pages": [
+            4
+          ]
+        }
+      },
+      "original_pipeline_text": "A rectangular plot of land is 40 metres long. If the length of its diagonal is 50 metres\nhow wide is the plot?",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "d24b5e522ec6d4e2a185e12bbe3f08495b162d945ca9a47cd5f5c6439784f31e",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "basic_mathematics-2023-p1-a09a",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ]
+    },
+    {
+      "record_id": "basic_mathematics-2023-p1-q08b",
+      "printed_reference": "8(b)",
+      "display": {
+        "id": "basic_mathematics-2023-p1-q08b",
+        "subject": "basic_mathematics",
+        "year": 2023,
+        "paper": "1",
+        "reference": "8(b)",
+        "parent_question": "8",
+        "subquestion": "(b)",
+        "kind": "original_exam",
+        "question": "The sum of the first eleven terms of an arithmetic progression is 517. If its first term is 7, find the sum of the fourth and ninth terms.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "BasicMath-F4-2023.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2023.pdf",
+          "sha256": "fc8f5086723fe8d6dcda6dd9352335b271f4f3af67af9e7bbc866847cc97ad0a",
+          "pages": [
+            4
+          ]
+        }
+      },
+      "original_pipeline_text": "The sumn of the first eleven terms of an arithmetic progression is 517. If its first term is\n7, find the sum of the fourth and ninth terms.",
+      "method": "Agent visual inspection of original rendered PDF page; whitespace normalized and printed text restored in display only. No answer correctness review.",
+      "render_sha256": "d24b5e522ec6d4e2a185e12bbe3f08495b162d945ca9a47cd5f5c6439784f31e",
+      "reviewed_on": "2026-10-16",
+      "reviewer_type": "Codex agent, not human subject expert",
+      "decision": "question_only_practice; answer withheld pending academic review",
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "basic_mathematics-2023-p1-a08b",
+          "status": "exact",
+          "confidence": "provisional"
+        }
+      ]
+    }
+  ]
+}
