@@ -44,7 +44,7 @@
     <section id="studyView" hidden aria-labelledby="questionTitle">
       <div class="study-top"><button id="backTopics" class="text-button" type="button">← Topics</button><span id="position" class="muted"></span></div>
       <div class="study-select"><label for="topicSelect">Topic</label><select id="topicSelect"></select></div>
-      <details class="practice-options"><summary>Practice options</summary><div class="options-row"><label for="kindSelect">Question collection<select id="kindSelect"><option value="all">All reviewed cards</option><option value="original_exam">Original exam questions</option><option value="authored_concept">Concept variations</option></select></label><label class="check"><input id="reviseOnly" type="checkbox"> Revise Again only</label></div></details>
+      <details class="practice-options"><summary>Practice options</summary><div class="options-row"><label for="kindSelect">Question collection<select id="kindSelect"><option value="all">All reviewed cards</option><option value="original_exam">Original exam questions</option><option value="authored_concept">Concept variations</option></select></label><label class="check"><input id="reviseOnly" type="checkbox"> Revise Again only</label></div><p><strong>Command words:</strong> Define gives the meaning. State or mention gives brief facts or examples. Explain adds how or why. Discuss develops supported points and a judgement. Follow the number requested in the question; the command alone sets no fixed count.</p></details>
       <article id="questionCard" class="question-card">
         <div class="card-meta"><span id="kindBadge" class="badge"></span><span id="questionRef" class="muted"></span></div>
         <h2 id="questionTitle" tabindex="-1"></h2>
@@ -59,6 +59,7 @@
           <p id="choiceFeedback" class="muted" hidden></p>
           <ul id="answerBullets"></ul>
           <h3>Why this works</h3><p id="explanation"></p>
+          <h3>If the wording changes</h3><p id="wordingGuidance"></p>
           <p id="answerAttribution" class="answer-credit"></p>
           <p class="self-label">How does it feel now?</p>
           <div class="self-check"><button id="understood" class="button understood" type="button" aria-pressed="false">Understood ✓</button><button id="reviseAgain" class="button secondary" type="button" aria-pressed="false">Revise Again ↻</button></div>

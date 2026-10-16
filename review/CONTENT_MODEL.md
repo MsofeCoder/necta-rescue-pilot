@@ -12,13 +12,14 @@ The buildless content script exposes `window.NECTA_CIVICS = {version: 1, cards, 
 | `explanation`, `style` | Brief educational explanation (maximum 400 characters) and specific answer-structure guidance. |
 | `options`, `correctOption` | MCQ only: exactly five complete A-E options, in order, plus one matching key. |
 | `marks`, `requiredPoints` | Null when unsupported. A non-null point count must match the answer bullets and the wording; never infer marks from section totals. |
-| `review` | ID, exact status and non-empty note; `source_checked` for originals, `editorially_checked` for authored variations. |
-| `recordId`, `reference`, `parentQuestion`, `subquestion`, `year`, `paper` | Original source identity and hierarchy, preserving canonical record IDs. This starter is explicitly Civics 2025 paper 1. |
+| `review` | ID, exact status, displayed review date and non-empty note; `source_checked` for originals, `editorially_checked` for authored variations. |
+| `recordId`, `reference`, `parentQuestion`, `subquestion`, `year`, `paper` | Original source identity and hierarchy, preserving canonical record IDs. Phase D accepts only the reviewed years 2022, 2023 and 2025, paper 1; both filenames and full URLs must match that year. |
 | `exam`, `solution` | Original-only objects: source filename, original URL, SHA-256 and one-based page array. Links are restricted to the expected TETEA source host/path. |
 | `solutionAttribution`, `answerTreatment` | Supplied-solution credit and explicit transcription/paraphrase distinction. |
+| `transfer` | Required short guidance on differently worded questions; revealed with the answer, cleared on navigation. |
 | `derivedFrom`, `command` | Authored-only: an eligible original card ID and the command practised. No fabricated exam provenance. |
 
-The allowlist requires an exact `{id, reviewId, status}` match, rather than trusting a card's self-declared status. Duplicate cards do not inflate the collection. `pipeline-verified`, `verified`, provisional, pending and held are never accepted statuses. A variation is withheld if its source card is withheld. The reviewed candidate ledger decision is `include_in_feature_candidate`; release approval remains separate.
+The allowlist requires an exact `{id, reviewId, status}` match, rather than trusting a card's self-declared status. Duplicate cards do not inflate the collection. `pipeline-verified`, `verified`, provisional, pending and held are never accepted statuses. A variation is withheld if its source card is withheld. The historical starter ledger uses `include_in_feature_candidate`; Phase D uses `include_in_development_candidate` in its separate ledger, with `pending_phase_d` owner approval. Prior approval never grants new content publication permission.
 
 Self-check storage is `{version:1, records:[{card_id,status,updated}]}` under `necta-rescue-learning-v1`. `status` is `understood` or `revise_again`; `updated` must parse as a date. IDs are unique, up to 5,000 records. Unknown future card IDs are retained rather than discarded. Writes reread the latest stored value to preserve changes made in other tabs, and the storage event refreshes the displayed self-check.
 

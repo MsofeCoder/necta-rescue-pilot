@@ -13,12 +13,18 @@
     Array.isArray(s.pages) && s.pages.length > 0 && s.pages.every(n => Number.isInteger(n) && n > 0);
   function validCard(c) {
     if (!c || !text(c.id, 100) || !text(c.topic, 80) || !text(c.question, 2000) ||
-        !strings(c.answer, 8) || !text(c.explanation, 400) || !text(c.style, 500) ||
-        !c.review || !text(c.review.id, 100) || !text(c.review.note, 600)) return false;
+        !strings(c.answer, 8) || !text(c.explanation, 400) || !text(c.style, 500) || !text(c.transfer, 400) ||
+        !c.review || !text(c.review.id, 100) || !text(c.review.note, 600) || !text(c.review.date, 40)) return false;
     if (c.kind === 'original_exam') {
       if (c.review.status !== 'source_checked' || !source(c.exam) || !source(c.solution) ||
-          !text(c.recordId, 100) || !text(c.reference, 20) || c.year !== 2025 || c.paper !== '1' ||
+          !text(c.recordId, 100) || !text(c.reference, 20) || ![2022, 2023, 2025].includes(c.year) || c.paper !== '1' ||
           !text(c.originalQuestion, 2000) || c.question !== c.originalQuestion) return false;
+      // Bound each reviewed source to its actual paper, year and exact public PDF URL.
+      const filename = 'Civics-F4-' + c.year;
+      const base = 'https://maktaba.tetea.org/past-papers/csee/civics/';
+      if (c.exam.filename !== filename + '.pdf' || c.exam.url !== base + filename + '.pdf' ||
+          c.solution.filename !== filename + '-Solutions.pdf' ||
+          c.solution.url !== base + 'solutions/' + filename + '-Solutions.pdf') return false;
     } else if (c.kind === 'authored_concept') {
       if (c.review.status !== 'editorially_checked' || !text(c.derivedFrom, 100) || !text(c.command, 30)) return false;
     } else return false;
