@@ -1,0 +1,1049 @@
+{
+  "batch_id": "2025-source-batch-02",
+  "baseline_commit": "77636ece7e63d4183c934130e4b8268f7fb39a4e",
+  "counts": {
+    "added_records": 12,
+    "added_parent_questions": 3,
+    "added_subquestions": 9,
+    "question_only": 12,
+    "new_reviewed_answers": 0
+  },
+  "source_policy": "Link original PDFs; do not redistribute page images. Canonical input files unchanged. Solution association review does not grant answer correctness or human certification.",
+  "records": [
+    {
+      "record_id": "kiswahili-2025-p1-q01iv",
+      "canonical_question_text_sha256": "e993d94dd086e239c51a4a39bc82e3fb804165ffdb25e07a21f1fb00f61fa597",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "printed_reference": "1(iv)",
+      "display": {
+        "id": "kiswahili-2025-p1-q01iv",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Tamathali ipi ya semi hufananisha mambo kwa kutumia viunganishi?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "Tashititi"
+          },
+          {
+            "label": "B",
+            "text": "Sitiari"
+          },
+          {
+            "label": "C",
+            "text": "Nidaa"
+          },
+          {
+            "label": "D",
+            "text": "Tashibiha"
+          },
+          {
+            "label": "E",
+            "text": "Tabaini"
+          }
+        ],
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "solution": {
+          "filename": "Kiswahili-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+          "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Separate printed A–E alternatives from the stem; normalize line breaks only.",
+      "original_pipeline_text": "Tamathali ipi ya semi hufananisha mambo kwa kutumia viunganishi?\nA Tashititi B Sitiari\nC Nidaa D Tashibiha\nE Tabaini",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "156f5d761705bd34452cbbe7da70a3665ba59627e920f56fbd0a4dfb511f01ac"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+        "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "3": "4284a9ded931f7184d815f5e9292d0f30e7295b07bd0e0eeb421ff4228f357ce"
+        },
+        "association_assessment": "Stem/options match; canonical duplicate-label ambiguity resolved by full printed stem for this display only.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "kiswahili-2025-p1-a01iv",
+          "status": "ambiguous",
+          "confidence": "provisional"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01vii",
+      "canonical_question_text_sha256": "94070128d44ea1a87afe5587f9426939ec9c4afa87a51e0c11be6c852e7079f5",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vii)",
+      "printed_reference": "1(vii)",
+      "display": {
+        "id": "kiswahili-2025-p1-q01vii",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vii)",
+        "parent_question": "1",
+        "subquestion": "(vii)",
+        "kind": "original_exam",
+        "question": "Yupi kati ya wafuatao anajishughulisha na kusoma, kuchambua na kutoa maoni katika kazi za sanaa?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            3
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "Mdhamini"
+          },
+          {
+            "label": "B",
+            "text": "Mtunzi"
+          },
+          {
+            "label": "C",
+            "text": "Mhariri"
+          },
+          {
+            "label": "D",
+            "text": "Msomaji"
+          },
+          {
+            "label": "E",
+            "text": "Mhakiki"
+          }
+        ],
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "solution": {
+          "filename": "Kiswahili-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+          "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Restore printed Mhariri, option labels and comma after kusoma; remove OCR punctuation artifacts.",
+      "original_pipeline_text": "Yupi kati ya wafuatao anajishughulisha na kusoma, kuchambua na kutoa maoni katika\nkazi za sanaa?\nA Mdhamini B Mtunzi\nC. Mhariri D Msomaji\nE Mhakiki",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "156f5d761705bd34452cbbe7da70a3665ba59627e920f56fbd0a4dfb511f01ac",
+          "3": "612a6a41f73270db2670ba6d71f97891ef045df544f0a964337c4aaa3c2719c9"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+        "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "95b1b9142cb233652db8b649a4eea42d6551c9a639f5b6bae6d168957fa0bc2f"
+        },
+        "association_assessment": "Full stem and A–E alternatives aligned.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "kiswahili-2025-p1-a01vii",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01ix",
+      "canonical_question_text_sha256": "85ae00df168383e9b4a8da909880e99e866de8a69b14417e48c7e1a2f0bb3a08",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ix)",
+      "printed_reference": "1(ix)",
+      "display": {
+        "id": "kiswahili-2025-p1-q01ix",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ix)",
+        "parent_question": "1",
+        "subquestion": "(ix)",
+        "kind": "original_exam",
+        "question": "Ni kwa namna gani tungo hutofautiana na sentensi?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            3
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "Tungo zote ni sentensi lakini sentensi zote si tungo"
+          },
+          {
+            "label": "B",
+            "text": "Sentensi haitoi taarifa kamili lakini tungo hutoa taarifa kamili"
+          },
+          {
+            "label": "C",
+            "text": "Sentensi ni miongoni mwa tungo lakini si kila tungo ni sentensi"
+          },
+          {
+            "label": "D",
+            "text": "Tungo sharti ikamilike lakini sentensi si lazima ikamilike"
+          },
+          {
+            "label": "E",
+            "text": "Tungo ni ndefu sana lakini sentensi ni fupi sana"
+          }
+        ],
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "solution": {
+          "filename": "Kiswahili-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+          "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Restore A–E labels; remove OCR full stop before E; normalize line breaks.",
+      "original_pipeline_text": "Ni kwa namna gani tungo hutofautiana na sentensi?\nA Tungo zote ni sentensi lakini sentensi zote si tungo\nB. Sentensi haitoi taarifa kamili lakini tungo hutoa taarifa kamili\nC Sentensi ni miongoni mwa tungo lakini si kila tungo ni sentensi\nD Tungo sharti ikamilike lakini sentensi si lazima ikamilike\n.E Tungo ni ndefu sana lakini sentensi ni fupi sana",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "156f5d761705bd34452cbbe7da70a3665ba59627e920f56fbd0a4dfb511f01ac",
+          "3": "612a6a41f73270db2670ba6d71f97891ef045df544f0a964337c4aaa3c2719c9"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025-Solutions.pdf",
+        "sha256": "4bd3c7c396e40f5440b086ae99d1a30efb5c315358d5a543b209a3d16250be5e",
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "c21cfbfd058241e0e9a8fefa13e5b4f1ebffb1d9ce79c5f370bb8085b1f88002"
+        },
+        "association_assessment": "Full stem and A–E alternatives aligned.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "kiswahili-2025-p1-a01ix",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "english-2025-p1-q01vii",
+      "canonical_question_text_sha256": "eb9fc739b32d4997e3b64238674d2cad3b0c6e0e0ad0ab37d17a7f6f1a2b6074",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vii)",
+      "printed_reference": "1(vii)",
+      "display": {
+        "id": "english-2025-p1-q01vii",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vii)",
+        "parent_question": "1",
+        "subquestion": "(vii)",
+        "kind": "original_exam",
+        "question": "In the sentence “He is always shouting at his wife.” The action of shouting takes place:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            3
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "now and then"
+          },
+          {
+            "label": "B",
+            "text": "only at the time of speaking"
+          },
+          {
+            "label": "C",
+            "text": "over a longer period of time"
+          },
+          {
+            "label": "D",
+            "text": "in a near future"
+          },
+          {
+            "label": "E",
+            "text": "in a near past"
+          }
+        ],
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the corresponding item number in the answer booklet provided.",
+        "solution": {
+          "filename": "English-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025-Solutions.pdf",
+          "sha256": "069f7b485effce6b68de2ad2247604c101f703aae2909d190b55648d873df2cc",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Restore option C label swallowed by OCR and separate all five choices; remove stray semicolon before B.",
+      "original_pipeline_text": "In the sentence “He is always shouting at his wife.” The action of shouting takes\nplace:\nA now and then\n; B. only at the time of speaking\nCover a longer period of time\nD ina near future\nE ina near past",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "a9f51c46f0aa864be36e13c170ef56a0f2cd23de0d4f53b7ea75c3fca49d4ccd",
+          "3": "9c9b156980e37fa8680f7400fd23991a7c6f2e0b08c5e763b0a7980d36712d19"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025-Solutions.pdf",
+        "sha256": "069f7b485effce6b68de2ad2247604c101f703aae2909d190b55648d873df2cc",
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5bf132efbd5aa576ddf3688c3bff465ac11973abd900d11dc41e17b77225c265"
+        },
+        "association_assessment": "Full stem and A–E alternatives aligned; no academic answer acceptance.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "english-2025-p1-a01vii",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "english-2025-p1-q01viii",
+      "canonical_question_text_sha256": "86fffd987b9858827bb617eb874e4f5ca004943dda44e8f039e495b799577456",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(viii)",
+      "printed_reference": "1(viii)",
+      "display": {
+        "id": "english-2025-p1-q01viii",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(viii)",
+        "parent_question": "1",
+        "subquestion": "(viii)",
+        "kind": "original_exam",
+        "question": "The following sentences express future plans except:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            3
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "The president is addressing the nation tonight"
+          },
+          {
+            "label": "B",
+            "text": "I am going to drive to work today"
+          },
+          {
+            "label": "C",
+            "text": "They read both documents"
+          },
+          {
+            "label": "D",
+            "text": "I will be at work on that time"
+          },
+          {
+            "label": "E",
+            "text": "I might visit Serengeti if it does not rain heavily"
+          }
+        ],
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the corresponding item number in the answer booklet provided.",
+        "solution": {
+          "filename": "English-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025-Solutions.pdf",
+          "sha256": "069f7b485effce6b68de2ad2247604c101f703aae2909d190b55648d873df2cc",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Separate option labels from I and words; retain printed on that time and all five choices.",
+      "original_pipeline_text": "The following sentences express future plans except:\nA The president is addressing the nation tonight\nBlam going to drive to work today\nC They read both documents\nDI will be at work on that time\nEI might visit Serengeti if it does not rain heavily",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "a9f51c46f0aa864be36e13c170ef56a0f2cd23de0d4f53b7ea75c3fca49d4ccd",
+          "3": "9c9b156980e37fa8680f7400fd23991a7c6f2e0b08c5e763b0a7980d36712d19"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025-Solutions.pdf",
+        "sha256": "069f7b485effce6b68de2ad2247604c101f703aae2909d190b55648d873df2cc",
+        "pages": [
+          4,
+          5
+        ],
+        "page_renders": {
+          "4": "5bf132efbd5aa576ddf3688c3bff465ac11973abd900d11dc41e17b77225c265",
+          "5": "f2a5c2a5b1dcbda90c0b866ccb9ed451beb3fc7c46c4b4180a458af0be1ad4d8"
+        },
+        "association_assessment": "Stem/options on p4, supplied key continues on p5; printed grammar is preserved.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "english-2025-p1-a01viii",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "geography-2025-p1-q01i",
+      "canonical_question_text_sha256": "183e24ac60231c72780bd3320373a4e0a9028eaccba4706b20e92cd431172660",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(i)",
+      "printed_reference": "1(i)",
+      "display": {
+        "id": "geography-2025-p1-q01i",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Suppose the local time at Greenwich Meridian (0°) is 11:00 am on Wednesday, what will be the time and day at longitude 180°E?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "missing_answer",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "11:00 am, Thursday"
+          },
+          {
+            "label": "B",
+            "text": "11:00 pm, Thursday"
+          },
+          {
+            "label": "C",
+            "text": "12:30 pm, Tuesday"
+          },
+          {
+            "label": "D",
+            "text": "12:39 am, Tuesday"
+          },
+          {
+            "label": "E",
+            "text": "11:00 pm, Wednesday"
+          }
+        ],
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "answer_note": "Supplied solution conflicts with the printed alternatives. No answer key is accepted; use the original exam with a teacher."
+      },
+      "display_correction": "Restore printed degree symbols and A–E reading order across columns; exclude following Q1(ii).",
+      "original_pipeline_text": "Suppose the local time at Greenwich Meridian (0 is 11:00 am on Wednesday, what\nwill be the time and day at longitude 180'E?\n11:00 pm, .Thursday\nB\n11:00 am, Thursday\nA 12:39 am, Tuesday\nD",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "49bee10d700213caf3aa1c1af49b4a53b32c7316714a2af51576d7fdded069d3"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025-Solutions.pdf",
+        "sha256": "234f11bf5819a9801e9ce6f23e335fbd792d2e434b4cc8dc755d564ee54e1950",
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "653477b3ebf4cfc257a3df40f398a898882607d63890c92c88371913332f8cc8"
+        },
+        "association_assessment": "CONFLICT: supplied solution replaces/reorders alternatives and omits printed option E; do not transfer its key.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": null,
+          "status": "missing",
+          "confidence": "unmatched"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "geography-2025-p1-q01ii",
+      "canonical_question_text_sha256": "c1d35dece0f16528dfb4f8be6f6d8ee346e7bc294fa5925ccb428b95232c6174",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "printed_reference": "1(ii)",
+      "display": {
+        "id": "geography-2025-p1-q01ii",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Halisafi prefer to use environmental friendly energy resource for cooking in his restaurant. Which type of energy resource is Halisafi using?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "missing_answer",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            2
+          ]
+        },
+        "options": [
+          {
+            "label": "A",
+            "text": "Fuel wood"
+          },
+          {
+            "label": "B",
+            "text": "Petroleum"
+          },
+          {
+            "label": "C",
+            "text": "Coal"
+          },
+          {
+            "label": "D",
+            "text": "Natural gas"
+          },
+          {
+            "label": "E",
+            "text": "Nuclear"
+          }
+        ],
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "answer_note": "Supplied solution conflicts with the printed alternatives. No answer key is accepted; use the original exam with a teacher."
+      },
+      "display_correction": "Remove preceding Q1(i) choices C/E spillover; restore printed A–E choices including Coal; retain printed grammar.",
+      "original_pipeline_text": "12:30 pm, Tuesday\nE 11:00 pm, Wednesday\nHalisafi prefer to use environmental friendly energy resource for cooking in his\nrestaurant. Which type of energy resource is Halisafi using?\nC Coal\nBPetroleum\nA Fuel woÍd\nNatural gas ENuclear\nD",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "49bee10d700213caf3aa1c1af49b4a53b32c7316714a2af51576d7fdded069d3"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025-Solutions.pdf",
+        "sha256": "234f11bf5819a9801e9ce6f23e335fbd792d2e434b4cc8dc755d564ee54e1950",
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "653477b3ebf4cfc257a3df40f398a898882607d63890c92c88371913332f8cc8"
+        },
+        "association_assessment": "CONFLICT: supplied solution rewrites the stem, omits Coal and shifts the remaining option labels; do not transfer its key.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": null,
+          "status": "missing",
+          "confidence": "unmatched"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "geography-2025-p1-q11",
+      "canonical_question_text_sha256": "08a2ef08786e48dad6cd603046eb4fcbde689aef1cf2b9334165112c6732b5b7",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "printed_reference": "11",
+      "display": {
+        "id": "geography-2025-p1-q11",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "11",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Suppose you are invited to the National environmental meeting to explain on man influence on “Global Climate Change.” Explain three causes of the problem and suggest four possible measures to be applied.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "missing_answer",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            5
+          ]
+        },
+        "solution": {
+          "filename": "Geography-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025-Solutions.pdf",
+          "sha256": "234f11bf5819a9801e9ce6f23e335fbd792d2e434b4cc8dc755d564ee54e1950",
+          "pages": [
+            12
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable. The supplied solution numbers this prompt 10; the original exam numbers it 11."
+      },
+      "display_correction": "Exclude unrelated following map text/page6 from the display; question ends on p5 at applied. Preserve exam Q11.",
+      "original_pipeline_text": "Suppose you are invited to the National environmental meeting to explain on man influence\non \"Global Climate Change.\" Explain three causes of the problem and suggest four possible\nmeasures to be applied.\nC\nKAZIKAZI\nSheet 140/1\n21 22 23 24 26 27\n29 12\n86\n84\n127\n84\nB4\n83\n83\n5350\n82\n82\n8\n\"80\n79 79\n78 78\n77\n30\n75 75\n74 74\n54001 400*S\n73\nA\n21000m E 22 23 24 25 26 27 28 29 30 3 32\nExtract from Kazikazi, Sheet l40/1 0 1 3 Kilometers\nHEIGIITS IN METRES\nSeries Y 742. Edition | -TSD, Ministry of Lands.\nGovemment of the United Republic of Tanzania. 1978 Scale 1: 50,000\nTown or area w ith Watercqufies Crater ABBREVLATIONS\nStcep Slope forest\nPermanent Buiding CBPCotlon Buy ng Post\nOher Pop ulated Arca, Contours (V,1.20m) ...Depression Thicket delinil Ch Church\nCllo Court louse\nUlouses Air Photo Principal Point with of\n|A Wcather Road: 10/CAN/? Bamboo. MJd Sub-surtaxe Dam DC ommi\\IOner\nPond Disp Dispensary\nBound Surfacc.... ilm No Quarry Waterlalltwindpump\nWater Course, Waterfall Riverine Tree: Dur llospIlospital\nAII Wcather Rod: Rapids, Dams. Bridke> Rapid1 llealh C cnler\nLoose Surface Plantation:(Coflee C, Palm M Missol\nWaler Course. ( Wide ), Sisal S, Sugar Su, Wattle W\nDry Wath er Road. Waterfall Rapids... Market\nWoodland \"Fat Rok Mos Mosquc\nforg MoW Ministry of Work\nMain Track (Motorablc). Watercourse (Indefinite) Post Oticc\nRapids PO\nBorchole, Walerllole, Scrub.\nOther Track and Footpath Fish Traps Police Post\nWell, Spring. ughthoue Police Stalion\nCut Linc. Scallercd Trees. Walerlal\nRI Rest llouse\n|Railway, Siding, SLation, Bund, Major Fence, Hedge. Sc School\nPalm Trces Rwlóer\nLevel Crossing Telephonc\nOutcrop Rok Rosk TG Telegraph\nRailway Light. Clim. Seaonl Swamp",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "db879388f15714f7e49b80a45663107cc16cf3b5c2976523ae4073e3efa678e0"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025-Solutions.pdf",
+        "sha256": "234f11bf5819a9801e9ce6f23e335fbd792d2e434b4cc8dc755d564ee54e1950",
+        "pages": [
+          12
+        ],
+        "page_renders": {
+          "12": "ee50c286eaaae6ec189019e85658720c46955af4da981e4f7a1c3ef44fcc7b15"
+        },
+        "association_assessment": "Full-stem match on solution p12, but it is numbered 10 there, not exam Q11. Association is source-located, not a numeric-ID join or answer approval.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": null,
+          "status": "missing",
+          "confidence": "unmatched"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "history-2025-p1-q06",
+      "canonical_question_text_sha256": "736f4acb2c403c72f0c4bcdbe3b613557d991912ddb7e0e3f8c2cafb2d82953e",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "printed_reference": "6",
+      "display": {
+        "id": "history-2025-p1-q06",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "6",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "Why did the people of Southern Tanganyika decide to fight against the Germans from 1905 to 1907? Briefly give three points.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "solution": {
+          "filename": "History-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025-Solutions.pdf",
+          "sha256": "1f792418026c89c1c174fed50d63c704fe4d66d220c59c9cd4b73246cb1b5663",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Remove preceding Q5 continuation earlier than Kenya; restore 1907 and separate Q6 boundary.",
+      "original_pipeline_text": "earlier than Kenya.Why did the people of Southern Tanganyika decide to fight against the Germans from\n1905 to l907? Briefly give three points.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "9eebedbc73d908abad99902215e94482493f3f3d2808dce1ddab16e95b9dc437"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025-Solutions.pdf",
+        "sha256": "1f792418026c89c1c174fed50d63c704fe4d66d220c59c9cd4b73246cb1b5663",
+        "pages": [
+          8,
+          9
+        ],
+        "page_renders": {
+          "8": "7a768a544caa39199e046ec0b9ba1900ee8333da86b112e80b38e78a7d8b5ea0",
+          "9": "a355a8cf6334ea8f2bb15e81bbe052c9e5254551723ec2aefcd4af10087d3516"
+        },
+        "association_assessment": "Full stem at p8; final supplied point continues on p9. No academic answer acceptance.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "history-2025-p1-a06",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "history-2025-p1-q07",
+      "canonical_question_text_sha256": "12ff2862f4cd642830c355d29e86d7f91f9ed9df8024819c9df5f6f743d7ef02",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "printed_reference": "7",
+      "display": {
+        "id": "history-2025-p1-q07",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "7",
+        "parent_question": null,
+        "subquestion": null,
+        "kind": "original_exam",
+        "question": "“Internal factors promoted African nationalism.” In three points, briefly justify this statement.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "pipeline_verified",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "solution": {
+          "filename": "History-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025-Solutions.pdf",
+          "sha256": "1f792418026c89c1c174fed50d63c704fe4d66d220c59c9cd4b73246cb1b5663",
+          "pages": [
+            9
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "Restore final word statement from the printed Q7 boundary (it spilled into canonical Q8); keep quoted prompt.",
+      "original_pipeline_text": "\"Internal factors promoted African nationalism.\" In three points, briefly justify this",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "9eebedbc73d908abad99902215e94482493f3f3d2808dce1ddab16e95b9dc437"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025-Solutions.pdf",
+        "sha256": "1f792418026c89c1c174fed50d63c704fe4d66d220c59c9cd4b73246cb1b5663",
+        "pages": [
+          9
+        ],
+        "page_renders": {
+          "9": "a355a8cf6334ea8f2bb15e81bbe052c9e5254551723ec2aefcd4af10087d3516"
+        },
+        "association_assessment": "Full stem aligned on p9; no academic answer acceptance.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "history-2025-p1-a07",
+          "status": "exact",
+          "confidence": "verified"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "literature-2025-p1-q05b",
+      "canonical_question_text_sha256": "6ef1ab841591c72e537e38edb144aa6085be7947f4bbf7e660f2f04b8ac032ed",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(b)",
+      "printed_reference": "5(b)",
+      "display": {
+        "id": "literature-2025-p1-q05b",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(b)",
+        "parent_question": "5",
+        "subquestion": "(b)",
+        "kind": "original_exam",
+        "question": "Imagery",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            5
+          ]
+        },
+        "context": "Define and state the use of each of the following literary devices:",
+        "solution": {
+          "filename": "Literature-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025-Solutions.pdf",
+          "sha256": "e7b7cae3a38ee278297b71397fc55fdfd84e13768b419235d3040b78cee7bc34",
+          "pages": [
+            10
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "No wording correction; include printed parent Q5 instruction to make the subquestion self-contained.",
+      "original_pipeline_text": "Imagery",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "2b51d9226efadda49f914aea91eedb783434bd3ae84c37c5dd7efbb7893c9dd8"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025-Solutions.pdf",
+        "sha256": "e7b7cae3a38ee278297b71397fc55fdfd84e13768b419235d3040b78cee7bc34",
+        "pages": [
+          10
+        ],
+        "page_renders": {
+          "10": "06762b8f34c9957d02e6a7cbd80d9ac9e41988863998c2d028ef136d912fcc02"
+        },
+        "association_assessment": "Device and parent instruction aligned on p10; not the poem-analysis subquestion 4(c).",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "literature-2025-p1-a05b",
+          "status": "exact",
+          "confidence": "provisional"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    },
+    {
+      "record_id": "literature-2025-p1-q05c",
+      "canonical_question_text_sha256": "6d37d4c9b95188f89dbfc70a0524c99d00582804cdae6a1d93fab9e6649937c0",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(c)",
+      "printed_reference": "5(c)",
+      "display": {
+        "id": "literature-2025-p1-q05c",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(c)",
+        "parent_question": "5",
+        "subquestion": "(c)",
+        "kind": "original_exam",
+        "question": "Personification",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            5
+          ]
+        },
+        "context": "Define and state the use of each of the following literary devices:",
+        "solution": {
+          "filename": "Literature-F4-2025-Solutions.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025-Solutions.pdf",
+          "sha256": "e7b7cae3a38ee278297b71397fc55fdfd84e13768b419235d3040b78cee7bc34",
+          "pages": [
+            10
+          ]
+        },
+        "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+      },
+      "display_correction": "No wording correction; include printed parent Q5 instruction; exclude the unrelated preceding poem.",
+      "original_pipeline_text": "Personification",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "2b51d9226efadda49f914aea91eedb783434bd3ae84c37c5dd7efbb7893c9dd8"
+        },
+        "dependencies": "Printed parent instructions retained; no required diagram, table, map or passage omitted."
+      },
+      "supplied_solution_review": {
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025-Solutions.pdf",
+        "sha256": "e7b7cae3a38ee278297b71397fc55fdfd84e13768b419235d3040b78cee7bc34",
+        "pages": [
+          10
+        ],
+        "page_renders": {
+          "10": "06762b8f34c9957d02e6a7cbd80d9ac9e41988863998c2d028ef136d912fcc02"
+        },
+        "association_assessment": "Device and parent instruction aligned on p10; not the preceding poem-analysis questions.",
+        "answer_acceptance": "NOT ACCEPTED — question-only"
+      },
+      "pipeline_links_unchanged": [
+        {
+          "solution_id": "literature-2025-p1-a05c",
+          "status": "exact",
+          "confidence": "provisional"
+        }
+      ],
+      "reviewer_type": "Codex agent self-review, not independent human subject expert",
+      "reviewed_on": "2026-10-16",
+      "decision": "question_only_practice; no answer key or marks inferred"
+    }
+  ],
+  "not_selected": [
+    {
+      "ids": [
+        "geography-2025-p1-q07",
+        "geography-2025-p1-q07a",
+        "geography-2025-p1-q07b"
+      ],
+      "reason": "Printed Q7 has (a),(b),(c); pipeline parent absorbs (a), record q07a holds printed(b), q07b holds printed(c). No IDs relabelled and no Q7 record added in this batch."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Five-minute Android check — student or mentor
+
+This is an unexecuted checklist, not evidence of a passed device test. Human academic review is separate. Use Chrome or Edge on a real Android phone. Do not clear browser data, uninstall the browser or import a backup over your only copy of progress.
+
+Open **https://msofecoder.github.io/necta-rescue-pilot/beta/** while online. Record the date/time, phone model, Android/browser versions and the counts displayed. A prepared PR may have different counts from the live beta; do not claim an unpublished build was tested.
+
+1. **0:00–1:00 — Access and backup.** Confirm the provisional warning and all eight subject buttons. Open **Keep your progress safe → Export combined backup**. Confirm a JSON file appears in Downloads; keep it private. Do not import or delete any records during this quick check. Follow the accepted-app link and confirm the original app still opens, then return to the beta.
+2. **1:00–2:00 — Read and navigate.** Open English, select 2025 and Paper 1, read the full question and A–E choices, then Next/Previous. Confirm the answer is explicitly unavailable. Open Literature in English and confirm a device subquestion includes its parent instruction. Switch to 2020: source references should appear with an honest empty practice state. External PDFs need internet.
+3. **2:00–3:00 — Civics and progress.** Open Civics, confirm 30 provisional cards and the C-02/C-08 notice. Reveal one educational answer. Mark your own self-check once, reload, reopen that card and confirm it remains saved. Confirm old notes remain available in Original-paper practice. Do not treat a self-check as an exam mark.
+4. **3:00–4:00 — Landscape and restart.** Rotate portrait → landscape → portrait. Check that text, alternatives, filters and controls remain readable without horizontal clipping. Close/swipe away the browser, reopen the same link and confirm navigation and saved self-check work. Record the actual method; swiping away is not proof of a forced process termination.
+5. **4:00–5:00 — Offline restart.** While online, wait for **Beta files ready for offline practice**. Turn on airplane mode, close/reopen the browser and load the beta again. Confirm an English question, a Civics answer and saved progress still work. PDF links are expected to need internet. Turn airplane mode off afterwards.
+
+Record **PASS / FAIL / NOT TESTED** for each step, the exact counts, screenshots of any fault and whether the test was online or offline. Share only non-personal evidence; never post the backup or private notes. Report failures with the question ID shown on screen.
+
+This quick check does not fully cover Android backup import/file-picker compatibility, storage exhaustion, accessibility services or rigorous OS process termination. Those remain pending unless separately executed with safe test data. If the beta fails, use **https://msofecoder.github.io/necta-rescue-pilot/**; retain your backup and storage.
