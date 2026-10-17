@@ -298,6 +298,29 @@
         "independent_human_academic_accepted": 0,
         "total": 101
       }
+    },
+    {
+      "deployed_sha": "d0cce38e8d6a1db8299b95d7c1c0c7f07414b303",
+      "implementation_sha": "11a79e48ff3e564e083ce9a53712a5dbf7b30489",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/25",
+      "verified_at": "2026-10-17T07:22:44.721Z",
+      "tests": "33 unit/static, 604 beta browser, 95 root browser and 55 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39013311870",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39013311472",
+      "rollback_baseline": "72eb5ac15e772938ca4316b8f4d7e8ef20c866f9",
+      "evidence": ".workbuddy-ai/batch16-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v16 to necta-rescue-beta-v17 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: correct five English 2024 parent instructions through separate immutable amendment ledger, then admit original Q1(vii)/(viii)/(x). Printed ix lacks standalone canonical identity; preserve hold.",
+      "counts": {
+        "question_only": 74,
+        "question_only_parent": 20,
+        "question_only_subquestion": 54,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 104
+      }
     }
   ]
 }

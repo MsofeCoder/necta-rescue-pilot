@@ -1,0 +1,531 @@
+{
+  "amendment_id": "english-2024-parent-instruction-2026-10-17",
+  "reason": "Reinspection found an extra phrase copied from another exam parent instruction. Remove beside the item number, which is absent from original English 2024 p2. Historical source ledgers remain byte-identical; this separately documents the corrected current display.",
+  "reviewed_on": "2026-10-17",
+  "reviewer": "Codex original-page self-review; no human academic certification",
+  "allowed_fields": [
+    "context"
+  ],
+  "original_exam": {
+    "filename": "English-F4-2024.pdf",
+    "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+    "pages": [
+      2
+    ],
+    "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+    "page_renders": {
+      "2": "2913b2e2735ed9edba3590a4f490bcc64628a74a47651d8d3e8cf6c003b4d939"
+    }
+  },
+  "preserved_historical_ledger_sha256": {
+    "review/recent-core-batch-07-ledger.json": "f188589f9f85a9e086c6a128205dbb7bb23d6ae6320a412f9c92b4e0c39a6a66",
+    "review/recent-core-batch-15-ledger.json": "92e1b0373027e9d8fd8b02904175f095c6321d1b5d22d33b3507708cf5e47bd3"
+  },
+  "records": [
+    {
+      "record_id": "english-2024-p1-q01i",
+      "before_display": {
+        "id": "english-2024-p1-q01i",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "The term adjacent is synonymous to",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "behind"
+          },
+          {
+            "label": "B",
+            "text": "beside"
+          },
+          {
+            "label": "C",
+            "text": "near"
+          },
+          {
+            "label": "D",
+            "text": "besides"
+          },
+          {
+            "label": "E",
+            "text": "in front of"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display": {
+        "id": "english-2024-p1-q01i",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "The term adjacent is synonymous to",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "behind"
+          },
+          {
+            "label": "B",
+            "text": "beside"
+          },
+          {
+            "label": "C",
+            "text": "near"
+          },
+          {
+            "label": "D",
+            "text": "besides"
+          },
+          {
+            "label": "E",
+            "text": "in front of"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2024-p1-q01ii",
+      "before_display": {
+        "id": "english-2024-p1-q01ii",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Ally told Mary that, he preferred studying in the morning. If Mary preferred the same, how would she refer back to Ally’s statement?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "So would I"
+          },
+          {
+            "label": "B",
+            "text": "So am I"
+          },
+          {
+            "label": "C",
+            "text": "So have I"
+          },
+          {
+            "label": "D",
+            "text": "So could I"
+          },
+          {
+            "label": "E",
+            "text": "So do I"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display": {
+        "id": "english-2024-p1-q01ii",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Ally told Mary that, he preferred studying in the morning. If Mary preferred the same, how would she refer back to Ally’s statement?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "So would I"
+          },
+          {
+            "label": "B",
+            "text": "So am I"
+          },
+          {
+            "label": "C",
+            "text": "So have I"
+          },
+          {
+            "label": "D",
+            "text": "So could I"
+          },
+          {
+            "label": "E",
+            "text": "So do I"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2024-p1-q01iii",
+      "before_display": {
+        "id": "english-2024-p1-q01iii",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "Why is R.S.V.P important in an invitation card?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "It specifies the date of an event"
+          },
+          {
+            "label": "B",
+            "text": "It shows the contacts of the hosts"
+          },
+          {
+            "label": "C",
+            "text": "It shows the venue of an event"
+          },
+          {
+            "label": "D",
+            "text": "It shows the deadline for contributions"
+          },
+          {
+            "label": "E",
+            "text": "It specifies the contact address for replies"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display": {
+        "id": "english-2024-p1-q01iii",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "Why is R.S.V.P important in an invitation card?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "It specifies the date of an event"
+          },
+          {
+            "label": "B",
+            "text": "It shows the contacts of the hosts"
+          },
+          {
+            "label": "C",
+            "text": "It shows the venue of an event"
+          },
+          {
+            "label": "D",
+            "text": "It shows the deadline for contributions"
+          },
+          {
+            "label": "E",
+            "text": "It specifies the contact address for replies"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2024-p1-q01iv",
+      "before_display": {
+        "id": "english-2024-p1-q01iv",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "As a dictionary user, how can you easily locate a word on a dictionary page?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Use the table of contents"
+          },
+          {
+            "label": "B",
+            "text": "Use the word class"
+          },
+          {
+            "label": "C",
+            "text": "Use the words on top of a dictionary page"
+          },
+          {
+            "label": "D",
+            "text": "Use example sentences"
+          },
+          {
+            "label": "E",
+            "text": "Use the meaning and pronunciation of the word"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display": {
+        "id": "english-2024-p1-q01iv",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "As a dictionary user, how can you easily locate a word on a dictionary page?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Use the table of contents"
+          },
+          {
+            "label": "B",
+            "text": "Use the word class"
+          },
+          {
+            "label": "C",
+            "text": "Use the words on top of a dictionary page"
+          },
+          {
+            "label": "D",
+            "text": "Use example sentences"
+          },
+          {
+            "label": "E",
+            "text": "Use the meaning and pronunciation of the word"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2024-p1-q01v",
+      "before_display": {
+        "id": "english-2024-p1-q01v",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Which sentence shows a repeated action?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "She has already helped people"
+          },
+          {
+            "label": "B",
+            "text": "She is always helping people"
+          },
+          {
+            "label": "C",
+            "text": "She helped people"
+          },
+          {
+            "label": "D",
+            "text": "She will help people"
+          },
+          {
+            "label": "E",
+            "text": "She should help people"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display": {
+        "id": "english-2024-p1-q01v",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Which sentence shows a repeated action?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "She has already helped people"
+          },
+          {
+            "label": "B",
+            "text": "She is always helping people"
+          },
+          {
+            "label": "C",
+            "text": "She helped people"
+          },
+          {
+            "label": "D",
+            "text": "She will help people"
+          },
+          {
+            "label": "E",
+            "text": "She should help people"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
