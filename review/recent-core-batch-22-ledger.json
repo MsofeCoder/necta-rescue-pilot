@@ -1,0 +1,663 @@
+{
+  "batch_id": "recent-core-batch-22",
+  "baseline_commit": "fe5a94771f5b1dcd0986d01b772c34695a1c917f",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 0,
+    "added_subquestions": 4,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "english-2023-p1-q01u1",
+      "reason": "Printed Q1(i) has unknown-label canonical suffix u1. Preserve identity; do not invent canonical q01i."
+    },
+    {
+      "id": "english-2023-p1-q01iv",
+      "reason": "Meaning depends on underlined home; plain-text display would lose the source cue, so not admitted in this text-only batch."
+    },
+    {
+      "id": "english-2023-p1-q01vi~2",
+      "reason": "Canonical duplicate vi is printed Q1(vii), hierarchy conflict; no reparenting."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "english-2023-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            389.7,
+            152.4,
+            448.3,
+            173.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.8,
+            159.7,
+            304.8,
+            177.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            115,
+            177,
+            286.1,
+            194.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108.1,
+            193.1,
+            521.3,
+            220.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            69.1,
+            203.3,
+            85,
+            219.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.3,
+            217.2,
+            235.8,
+            232.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "C Important\nA Common B Necessary\nD Famous E Strong\nYour English Language teacher asked you to write an account of your life. How is the\naccount of your life called?",
+      "canonical_question_text_sha256": "414c70576a334316950ca39f46be800e8289bf1e034841f2a47cc8ab09c8ef03",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2023-p1-q01ii",
+        "subject": "english",
+        "year": 2023,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Your English Language teacher asked you to write an account of your life. How is the account of your life called?",
+        "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Biography"
+          },
+          {
+            "label": "B",
+            "text": "Bibliography"
+          },
+          {
+            "label": "C",
+            "text": "Autography"
+          },
+          {
+            "label": "D",
+            "text": "Bio story"
+          },
+          {
+            "label": "E",
+            "text": "Auto story"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2023.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+          "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Repair OCR segmentation by reading the complete printed stem and its own A–E alternatives. Preserve printed Autography, Bio story and Auto story rather than editorial guesses. Preserve most correct in original parent instruction. Ignore handwritten ticks; no answer selected or inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "fb567eaddff60122999fd8e2839177d5bf22c1901b13870f95cc64d6cc3b53dd"
+        },
+        "boundary_assessment": "Printed Q1(ii) on original p2, with full parent instruction and A–E choices on the same page. Restrict display to this printed numeral; remove absorbed preceding/following alternatives or stems from extraction. For vi, reconstruct the quoted teacher statement split across canonical v/vi using original print. Canonical exact numeral and parent align. No figure/table/formatting-dependent underline needed for these selected four items.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2023-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            387.9,
+            225.8,
+            455.1,
+            246.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.7,
+            232,
+            313.5,
+            251.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.9,
+            249.6,
+            298.9,
+            267
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            112.3,
+            268.4,
+            517,
+            292.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            69.3,
+            276.2,
+            88.4,
+            292.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.9,
+            286.4,
+            430.2,
+            308.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "C Autography\nA Biography B Bibliography\nD Bio story E Auto story\nYou met a person who is tall, black, fat, bearded and muscular on your way to school.\nWhich word can be used to provide a given description of the person?",
+      "canonical_question_text_sha256": "1fc4848dcc3fa236a9aedc3978a09a994f8c0d7653daa9bec16d1f693125d2e0",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2023-p1-q01iii",
+        "subject": "english",
+        "year": 2023,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "You met a person who is tall, black, fat, bearded and muscular on your way to school. Which word can be used to provide a given description of the person?",
+        "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Observation"
+          },
+          {
+            "label": "B",
+            "text": "Portrayal"
+          },
+          {
+            "label": "C",
+            "text": "Features"
+          },
+          {
+            "label": "D",
+            "text": "Qualities"
+          },
+          {
+            "label": "E",
+            "text": "Image"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2023.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+          "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Repair OCR segmentation by reading the complete printed stem and its own A–E alternatives. Preserve printed Autography, Bio story and Auto story rather than editorial guesses. Preserve most correct in original parent instruction. Ignore handwritten ticks; no answer selected or inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "fb567eaddff60122999fd8e2839177d5bf22c1901b13870f95cc64d6cc3b53dd"
+        },
+        "boundary_assessment": "Printed Q1(iii) on original p2, with full parent instruction and A–E choices on the same page. Restrict display to this printed numeral; remove absorbed preceding/following alternatives or stems from extraction. For vi, reconstruct the quoted teacher statement split across canonical v/vi using original print. Canonical exact numeral and parent align. No figure/table/formatting-dependent underline needed for these selected four items.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2023-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108.1,
+            394.4,
+            511.2,
+            410.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            69.5,
+            400.3,
+            83.9,
+            419.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            415.7,
+            142.6,
+            428.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            234.7,
+            425.6,
+            429.5,
+            441.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.9,
+            430.1,
+            172.6,
+            444.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108.1,
+            443.7,
+            288.9,
+            460.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            195.5,
+            464,
+            443.7,
+            483.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "What is the long form of the letters RE\" as used on the title/heading of the application\nletters?\nB Read C Resume\nA Reference\nD Refer E Register\nI can see Ali now'. Which one is the indirect statement?",
+      "canonical_question_text_sha256": "1a5848b355d974a85f1c141204b09445b81a09ef4f1ec7972a238c06e8385cfd",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2023-p1-q01v",
+        "subject": "english",
+        "year": 2023,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "What is the long form of the letters “RE” as used on the title/heading of the application letters?",
+        "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reference"
+          },
+          {
+            "label": "B",
+            "text": "Read"
+          },
+          {
+            "label": "C",
+            "text": "Resume"
+          },
+          {
+            "label": "D",
+            "text": "Refer"
+          },
+          {
+            "label": "E",
+            "text": "Register"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2023.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+          "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Repair OCR segmentation by reading the complete printed stem and its own A–E alternatives. Preserve printed Autography, Bio story and Auto story rather than editorial guesses. Preserve most correct in original parent instruction. Ignore handwritten ticks; no answer selected or inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "fb567eaddff60122999fd8e2839177d5bf22c1901b13870f95cc64d6cc3b53dd"
+        },
+        "boundary_assessment": "Printed Q1(v) on original p2, with full parent instruction and A–E choices on the same page. Restrict display to this printed numeral; remove absorbed preceding/following alternatives or stems from extraction. For vi, reconstruct the quoted teacher statement split across canonical v/vi using original print. Canonical exact numeral and parent align. No figure/table/formatting-dependent underline needed for these selected four items.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2023-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            107.6,
+            468,
+            186,
+            484.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            69.9,
+            471.6,
+            88.3,
+            487.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            131,
+            478,
+            346,
+            498
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.7,
+            485,
+            116.9,
+            497.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            130.7,
+            494.1,
+            322.9,
+            511.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.9,
+            500.1,
+            116.5,
+            512.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            130.7,
+            508.5,
+            331.1,
+            522.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            130.7,
+            523.7,
+            315.5,
+            541.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.6,
+            530,
+            116.6,
+            542.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            130.5,
+            538.3,
+            315,
+            557.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.6,
+            544.9,
+            115.5,
+            557.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "The teacher said,\nThe teacher is saying that he could see Ali then.\nA\nThe teacher said that he could see Ali now.\nB\nThe teacher has said that he can see Ali now.\nThe teacher says that he can see Ali now.\nD\nThe teacher says that he can see Ali then.\nE",
+      "canonical_question_text_sha256": "196742b0c635546295d51ebea454a2dc7b19cfe7594ec245f61fc06c78d9ac5e",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2023-p1-q01vi",
+        "subject": "english",
+        "year": 2023,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "The teacher said, ‘I can see Ali now’. Which one is the indirect statement?",
+        "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "The teacher is saying that he could see Ali then."
+          },
+          {
+            "label": "B",
+            "text": "The teacher said that he could see Ali now."
+          },
+          {
+            "label": "C",
+            "text": "The teacher has said that he can see Ali now."
+          },
+          {
+            "label": "D",
+            "text": "The teacher says that he can see Ali now."
+          },
+          {
+            "label": "E",
+            "text": "The teacher says that he can see Ali then."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2023.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+          "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Repair OCR segmentation by reading the complete printed stem and its own A–E alternatives. Preserve printed Autography, Bio story and Auto story rather than editorial guesses. Preserve most correct in original parent instruction. Ignore handwritten ticks; no answer selected or inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "fb567eaddff60122999fd8e2839177d5bf22c1901b13870f95cc64d6cc3b53dd"
+        },
+        "boundary_assessment": "Printed Q1(vi) on original p2, with full parent instruction and A–E choices on the same page. Restrict display to this printed numeral; remove absorbed preceding/following alternatives or stems from extraction. For vi, reconstruct the quoted teacher statement split across canonical v/vi using original print. Canonical exact numeral and parent align. No figure/table/formatting-dependent underline needed for these selected four items.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

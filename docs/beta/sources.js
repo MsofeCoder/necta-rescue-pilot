@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 22,
+  "version": 23,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -4907,6 +4907,198 @@ window.NECTA_BETA = {
         "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
         "pages": [
           4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2023-p1-q01ii",
+      "subject": "english",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Your English Language teacher asked you to write an account of your life. How is the account of your life called?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Biography"
+        },
+        {
+          "label": "B",
+          "text": "Bibliography"
+        },
+        {
+          "label": "C",
+          "text": "Autography"
+        },
+        {
+          "label": "D",
+          "text": "Bio story"
+        },
+        {
+          "label": "E",
+          "text": "Auto story"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+        "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2023-p1-q01iii",
+      "subject": "english",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "You met a person who is tall, black, fat, bearded and muscular on your way to school. Which word can be used to provide a given description of the person?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Observation"
+        },
+        {
+          "label": "B",
+          "text": "Portrayal"
+        },
+        {
+          "label": "C",
+          "text": "Features"
+        },
+        {
+          "label": "D",
+          "text": "Qualities"
+        },
+        {
+          "label": "E",
+          "text": "Image"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+        "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2023-p1-q01v",
+      "subject": "english",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "What is the long form of the letters “RE” as used on the title/heading of the application letters?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reference"
+        },
+        {
+          "label": "B",
+          "text": "Read"
+        },
+        {
+          "label": "C",
+          "text": "Resume"
+        },
+        {
+          "label": "D",
+          "text": "Refer"
+        },
+        {
+          "label": "E",
+          "text": "Register"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+        "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2023-p1-q01vi",
+      "subject": "english",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "The teacher said, ‘I can see Ali now’. Which one is the indirect statement?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "The teacher is saying that he could see Ali then."
+        },
+        {
+          "label": "B",
+          "text": "The teacher said that he could see Ali now."
+        },
+        {
+          "label": "C",
+          "text": "The teacher has said that he can see Ali now."
+        },
+        {
+          "label": "D",
+          "text": "The teacher says that he can see Ali now."
+        },
+        {
+          "label": "E",
+          "text": "The teacher says that he can see Ali then."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2023.pdf",
+        "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
