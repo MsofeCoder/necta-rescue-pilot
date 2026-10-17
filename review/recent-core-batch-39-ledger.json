@@ -1,0 +1,822 @@
+{
+  "batch_id": "recent-core-batch-39",
+  "baseline_commit": "eec11b5adf4d2903a8bfd85f11edded06ac5f0d5",
+  "counts": {
+    "added_records": 6,
+    "added_parent_questions": 0,
+    "added_subquestions": 6,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "kiswahili-2020-p1-q01i",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            94.5,
+            152.1,
+            320,
+            166.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            165.6,
+            389.2,
+            180.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            179.1,
+            408.8,
+            193.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            192.6,
+            200.5,
+            207.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Ni neno lipi linalotoa taarifa kuhusu nomino?\nA Kitenzi B Kielezi\nC Kivumishi D Kiwakilishi\nE Kiunganishi",
+      "canonical_question_text_sha256": "e089e0bd71e2416f7cc5e06021de1140f203d1b32bce5ea1c1def5b44071bbb4",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2020-p1-q01i",
+        "subject": "kiswahili",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Ni neno lipi linalotoa taarifa kuhusu nomino?",
+        "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kitenzi"
+          },
+          {
+            "label": "B",
+            "text": "Kielezi"
+          },
+          {
+            "label": "C",
+            "text": "Kivumishi"
+          },
+          {
+            "label": "D",
+            "text": "Kiwakilishi"
+          },
+          {
+            "label": "E",
+            "text": "Kiunganishi"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+          "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and split A–E only. Preserve printed words, spelling, lowercase number alternatives, punctuation and distinction between muktadha/mazungumzo/mzungumzaji. No selected alternative, explanation, marks or answer generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        },
+        "boundary_assessment": "Printed Q1(i) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            94.5,
+            219.6,
+            357.2,
+            234.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            233.1,
+            376.4,
+            247.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            246.6,
+            374,
+            261.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            260.1,
+            162.6,
+            274.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Katika lugha ya Kiswahili kuna aina ngapi za vitenzi?\nA mbili B tano\nC sita D tatu\nE nne",
+      "canonical_question_text_sha256": "7533ad1826d5bbe4168197b772632c6307161d65154d722dc0ea08659f39ff16",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2020-p1-q01ii",
+        "subject": "kiswahili",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Katika lugha ya Kiswahili kuna aina ngapi za vitenzi?",
+        "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "mbili"
+          },
+          {
+            "label": "B",
+            "text": "tano"
+          },
+          {
+            "label": "C",
+            "text": "sita"
+          },
+          {
+            "label": "D",
+            "text": "tatu"
+          },
+          {
+            "label": "E",
+            "text": "nne"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+          "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and split A–E only. Preserve printed words, spelling, lowercase number alternatives, punctuation and distinction between muktadha/mazungumzo/mzungumzaji. No selected alternative, explanation, marks or answer generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        },
+        "boundary_assessment": "Printed Q1(ii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            94.5,
+            287.1,
+            407.6,
+            301.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            300.6,
+            419.8,
+            315.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            314.1,
+            447.2,
+            328.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            327.6,
+            214.5,
+            342.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Maneno yepi kati ya yafuatayo yametokana na lugha za Kibantu?\nA Kitindamimba na bendera B Hela na mtutu\nC Kitivo na ngeli D Godoro na sharubati\nE Bunge na shule",
+      "canonical_question_text_sha256": "4e9245c8a319aa7042f6f6d4c71c5b394d3b4960ff4810bc96ae48e3b0287f52",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2020-p1-q01iii",
+        "subject": "kiswahili",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "Maneno yepi kati ya yafuatayo yametokana na lugha za Kibantu?",
+        "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kitindamimba na bendera"
+          },
+          {
+            "label": "B",
+            "text": "Hela na mtutu"
+          },
+          {
+            "label": "C",
+            "text": "Kitivo na ngeli"
+          },
+          {
+            "label": "D",
+            "text": "Godoro na sharubati"
+          },
+          {
+            "label": "E",
+            "text": "Bunge na shule"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+          "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and split A–E only. Preserve printed words, spelling, lowercase number alternatives, punctuation and distinction between muktadha/mazungumzo/mzungumzaji. No selected alternative, explanation, marks or answer generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        },
+        "boundary_assessment": "Printed Q1(iii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            94.5,
+            354.6,
+            539.4,
+            369.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            368.1,
+            183.8,
+            382.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            381.6,
+            368.6,
+            396.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            395.1,
+            377.2,
+            409.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            408.6,
+            382.1,
+            423.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            422.1,
+            377.8,
+            436.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            435.6,
+            361.3,
+            450.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Ni mambo gani muhimu ya kuzingatia katika kuteua maneno na miundo ya tungo wakati wa\nmazungumzo?\nA Mada, muktadha na mazungumzo ya ana kwa ana.\nB Mada, mazungumzo na uhusiano wa wazungumzaji.\nC Mada, muzungumzaji na muktadha wa mazungumzo.\nD Mada, mzungumzaji na uhusiano wa wazungumzaji.\nE Mada, muktadha na uhusiano wa wazungumzaji.",
+      "canonical_question_text_sha256": "2ba7eef7f92fef6e185d98b9546bbe788d2bf7a4f6fdb28a1fd90518a8d94061",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2020-p1-q01iv",
+        "subject": "kiswahili",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Ni mambo gani muhimu ya kuzingatia katika kuteua maneno na miundo ya tungo wakati wa mazungumzo?",
+        "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Mada, muktadha na mazungumzo ya ana kwa ana."
+          },
+          {
+            "label": "B",
+            "text": "Mada, mazungumzo na uhusiano wa wazungumzaji."
+          },
+          {
+            "label": "C",
+            "text": "Mada, mzungumzaji na muktadha wa mazungumzo."
+          },
+          {
+            "label": "D",
+            "text": "Mada, mzungumzaji na uhusiano wa wazungumzaji."
+          },
+          {
+            "label": "E",
+            "text": "Mada, muktadha na uhusiano wa wazungumzaji."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+          "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and split A–E only. Preserve printed words, spelling, lowercase number alternatives, punctuation and distinction between muktadha/mazungumzo/mzungumzaji. No selected alternative, explanation, marks or answer generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        },
+        "boundary_assessment": "Printed Q1(iv) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            94.5,
+            462.6,
+            433,
+            477.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            476.1,
+            288.4,
+            490.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            489.6,
+            294.8,
+            504.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            503.1,
+            284.7,
+            517.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            516.6,
+            288.4,
+            531.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            530.1,
+            281.7,
+            544.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Bainisha kauli inayoonesha dhima muhimu za vitendawili katika jamii:\nA Kuhimiza umoja na ushirikiano.\nB Kupanga watu katika marika yao.\nC Kuchochea udadisi wa mambo.\nD Kuchochea uwongo wa mambo.\nE Kukosoa wadadisi wa mambo.",
+      "canonical_question_text_sha256": "bb88ba3b1c702e771977aea122f053f648101cfb85d1a78d8b0a8e8ac2c947dc",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2020-p1-q01v",
+        "subject": "kiswahili",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Bainisha kauli inayoonesha dhima muhimu za vitendawili katika jamii:",
+        "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kuhimiza umoja na ushirikiano."
+          },
+          {
+            "label": "B",
+            "text": "Kupanga watu katika marika yao."
+          },
+          {
+            "label": "C",
+            "text": "Kuchochea udadisi wa mambo."
+          },
+          {
+            "label": "D",
+            "text": "Kuchochea uwongo wa mambo."
+          },
+          {
+            "label": "E",
+            "text": "Kukosoa wadadisi wa mambo."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+          "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and split A–E only. Preserve printed words, spelling, lowercase number alternatives, punctuation and distinction between muktadha/mazungumzo/mzungumzaji. No selected alternative, explanation, marks or answer generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        },
+        "boundary_assessment": "Printed Q1(v) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            94.5,
+            557.1,
+            494.3,
+            571.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            570.6,
+            332.9,
+            585.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            584.1,
+            332,
+            598.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            597.6,
+            336.3,
+            612.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            611.1,
+            310,
+            625.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117,
+            624.6,
+            299.1,
+            639.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            255,
+            739.3,
+            358.8,
+            754.1
+          ]
+        }
+      ],
+      "original_pipeline_text": "Njia mojawapo ya kuzuia utata katika lugha ya mazungumzo ni ipi kati ya zifuatazo?\nA Kuepuka makosa ya kisarufi na kimantiki.\nB Kutumia neno lenye maana zaidi ya moja.\nC Kutumia kiwakilishi kiambata katika neno.\nD Kuweka msisitizo au ufafanuzi zaidi.\nE Kutumia mofimu sahihi za wakati.\nUkurasa wa 2 kati ya 5",
+      "canonical_question_text_sha256": "028cea9c1c6a1fa41c71772dd2b6e70b02aad6feae19dc50bc1e564f29089a26",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2020-p1-q01vi",
+        "subject": "kiswahili",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "Njia mojawapo ya kuzuia utata katika lugha ya mazungumzo ni ipi kati ya zifuatazo?",
+        "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kuepuka makosa ya kisarufi na kimantiki."
+          },
+          {
+            "label": "B",
+            "text": "Kutumia neno lenye maana zaidi ya moja."
+          },
+          {
+            "label": "C",
+            "text": "Kutumia kiwakilishi kiambata katika neno."
+          },
+          {
+            "label": "D",
+            "text": "Kuweka msisitizo au ufafanuzi zaidi."
+          },
+          {
+            "label": "E",
+            "text": "Kutumia mofimu sahihi za wakati."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+          "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and split A–E only. Preserve printed words, spelling, lowercase number alternatives, punctuation and distinction between muktadha/mazungumzo/mzungumzaji. No selected alternative, explanation, marks or answer generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        },
+        "boundary_assessment": "Printed Q1(vi) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
