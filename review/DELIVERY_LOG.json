@@ -390,6 +390,29 @@
         "independent_human_academic_accepted": 0,
         "total": 118
       }
+    },
+    {
+      "deployed_sha": "12fd29da66a5cbf13c8aea5525953c5911f5df46",
+      "implementation_sha": "85882d2e4b75a1aea3afac6b1242a37d7c23d828",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/29",
+      "verified_at": "2026-10-17T07:39:34.289Z",
+      "tests": "34 unit/static, 727 beta browser, 95 root browser and 78 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39014371452",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39014371268",
+      "rollback_baseline": "d7528b99d13284a1816e78a3ddde6ad56bf4a00f",
+      "evidence": ".workbuddy-ai/batch20-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v20 to necta-rescue-beta-v21 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: seven Kiswahili2025 Q3(a)/(b), Q4(a)/(b), Q5(a)–(c), original p4 in .workbuddy-ai/batch21.json; then four English2023 Q1(ii)/(iii)/(v)/(vi), p2 in batch22.json. Preserve exact parent instructions, complete lists, original printed grammar, all holds and English display amendment.",
+      "counts": {
+        "question_only": 93,
+        "question_only_parent": 20,
+        "question_only_subquestion": 73,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 123
+      }
     }
   ]
 }
