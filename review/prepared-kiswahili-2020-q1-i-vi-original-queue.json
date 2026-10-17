@@ -1,0 +1,147 @@
+{
+  "batch_id": "recent-core-batch-39",
+  "baseline_content_commit": "dccb37a121b5ca03771b9cd365f218d289b91fe8",
+  "status": "SELECTED ONLY — not integrated or published; source recheck required before admission",
+  "counts": {
+    "records": 6,
+    "parent_questions": 0,
+    "subquestions": 6,
+    "new_answers": 0
+  },
+  "prior_queue_preserved": "review/prepared-literature-2024-q5-vii-ix-original-queue.json",
+  "records": [
+    {
+      "record_id": "kiswahili-2020-p1-q01i",
+      "proposed_question": "Ni neno lipi linalotoa taarifa kuhusu nomino?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kitenzi",
+        "Kielezi",
+        "Kivumishi",
+        "Kiwakilishi",
+        "Kiunganishi"
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(i) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01ii",
+      "proposed_question": "Katika lugha ya Kiswahili kuna aina ngapi za vitenzi?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "mbili",
+        "tano",
+        "sita",
+        "tatu",
+        "nne"
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(ii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01iii",
+      "proposed_question": "Maneno yepi kati ya yafuatayo yametokana na lugha za Kibantu?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kitindamimba na bendera",
+        "Hela na mtutu",
+        "Kitivo na ngeli",
+        "Godoro na sharubati",
+        "Bunge na shule"
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(iii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01iv",
+      "proposed_question": "Ni mambo gani muhimu ya kuzingatia katika kuteua maneno na miundo ya tungo wakati wa mazungumzo?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Mada, muktadha na mazungumzo ya ana kwa ana.",
+        "Mada, mazungumzo na uhusiano wa wazungumzaji.",
+        "Mada, mzungumzaji na muktadha wa mazungumzo.",
+        "Mada, mzungumzaji na uhusiano wa wazungumzaji.",
+        "Mada, muktadha na uhusiano wa wazungumzaji."
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(iv) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01v",
+      "proposed_question": "Bainisha kauli inayoonesha dhima muhimu za vitendawili katika jamii:",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kuhimiza umoja na ushirikiano.",
+        "Kupanga watu katika marika yao.",
+        "Kuchochea udadisi wa mambo.",
+        "Kuchochea uwongo wa mambo.",
+        "Kukosoa wadadisi wa mambo."
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(v) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01vi",
+      "proposed_question": "Njia mojawapo ya kuzuia utata katika lugha ya mazungumzo ni ipi kati ya zifuatazo?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kuepuka makosa ya kisarufi na kimantiki.",
+        "Kutumia neno lenye maana zaidi ya moja.",
+        "Kutumia kiwakilishi kiambata katika neno.",
+        "Kuweka msisitizo au ufafanuzi zaidi.",
+        "Kutumia mofimu sahihi za wakati."
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(vi) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ],
+  "restart": "Recheck original page 2 visually, PDF SHA-256, exact canonical IDs/parent/subquestion and alternatives. Preserve all historical holds and ledgers, original PDFs/canonical JSONL, root app, both storage keys and backups. Use separate immutable implementation ledger, cache v40 or later, full relevant tests, exact-head CI and public verification. No answers, no bulk processing. Human academic approval pending; physical Android NOT TESTED. Expired three-hour heartbeat removed; no scheduled background work."
+}

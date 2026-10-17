@@ -827,6 +827,29 @@
         "independent_human_academic_accepted": 0,
         "total": 205
       }
+    },
+    {
+      "deployed_sha": "70fc0baaabd607def6be5af2d0a7d4a9f8ed4db0",
+      "implementation_sha": "79ff0a7d59e4039ec1a3240110a324e2d377adc4",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/49",
+      "verified_at": "2026-10-17T12:50:36.412Z",
+      "tests": "36 unit/static, 1171 beta browser, 95 root browser and 81 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39034066254",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39034065988",
+      "rollback_baseline": "eec11b5adf4d2903a8bfd85f11edded06ac5f0d5",
+      "evidence": ".workbuddy-ai/batch39-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v39 to necta-rescue-beta-v40 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next selected small batch: History 2020 Q1(i)-(vi), six subquestions, in review/NEXT_SOURCE_BATCH.json. Selected only, not integrated or published. Recheck original cover/page2, PDF and render hashes, exact canonical IDs/hierarchy and all alternatives before a separate immutable ledger and fresh cache v41 or later. Preserve every hold and historical file. No answers. Human academic approval PENDING; physical Android NOT TESTED. No background delivery scheduled; expired three-hour heartbeat deleted.",
+      "counts": {
+        "question_only": 181,
+        "question_only_parent": 29,
+        "question_only_subquestion": 152,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 211
+      }
     }
   ]
 }

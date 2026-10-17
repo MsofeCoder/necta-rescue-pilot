@@ -1,6 +1,6 @@
 {
-  "batch_id": "recent-core-batch-39",
-  "baseline_content_commit": "dccb37a121b5ca03771b9cd365f218d289b91fe8",
+  "batch_id": "recent-core-batch-40",
+  "baseline_content_commit": "70fc0baaabd607def6be5af2d0a7d4a9f8ed4db0",
   "status": "SELECTED ONLY — not integrated or published; source recheck required before admission",
   "counts": {
     "records": 6,
@@ -8,140 +8,140 @@
     "subquestions": 6,
     "new_answers": 0
   },
-  "prior_queue_preserved": "review/prepared-literature-2024-q5-vii-ix-original-queue.json",
+  "prior_queue_preserved": "review/prepared-kiswahili-2020-q1-i-vi-original-queue.json",
   "records": [
     {
-      "record_id": "kiswahili-2020-p1-q01i",
-      "proposed_question": "Ni neno lipi linalotoa taarifa kuhusu nomino?",
-      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "record_id": "history-2020-p1-q01i",
+      "proposed_question": "John’s grandmother, who witnessed the German invasion in Tanganyika, has a habit of narrating regularly to John and his friends on how some societies in Tanganyika resisted the Germans strongly. Which source of historical information is this?",
+      "proposed_context": "For each of the items (i) - (xv), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
       "proposed_alternatives": [
-        "Kitenzi",
-        "Kielezi",
-        "Kivumishi",
-        "Kiwakilishi",
-        "Kiunganishi"
+        "Oral traditions",
+        "Archives",
+        "Museum",
+        "Archaeology",
+        "Linguistics"
       ],
-      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
-      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pdf_sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
       "source_pages": [
         2
       ],
       "page_render_sha256": {
-        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        "2": "da8ba37d5b7dc7f2816daffad8032e9b3c29999ef9c2b32785427e0daa79c1c1"
       },
-      "boundary_to_recheck": "Printed Q1(i) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "boundary_to_recheck": "Original p2 Q1(i) with exact canonical parent/numeral, complete A–E choices and full parent instruction (i)–(xv), not x. Ends before next numeral or page footer. No figure, table, book excerpt or passage needed. Printed 15-mark annotation is group metadata; no per-item marks inferred.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "kiswahili-2020-p1-q01ii",
-      "proposed_question": "Katika lugha ya Kiswahili kuna aina ngapi za vitenzi?",
-      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "record_id": "history-2020-p1-q01ii",
+      "proposed_question": "When did the theory of evolution of man become more publicly known?",
+      "proposed_context": "For each of the items (i) - (xv), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
       "proposed_alternatives": [
-        "mbili",
-        "tano",
-        "sita",
-        "tatu",
-        "nne"
+        "After the birth of Charles Darwin who introduced the theory of evolution.",
+        "After the publication of the book “The Origin Species” in 1859",
+        "After the discovery of man’s remains by Dr. Leakey at Olduvai Gorge",
+        "After the scientific discovery of Homo-Habilis and Homo-Erectus",
+        "After the spread of religious books like the Quran and the Bible"
       ],
-      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
-      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pdf_sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
       "source_pages": [
         2
       ],
       "page_render_sha256": {
-        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        "2": "da8ba37d5b7dc7f2816daffad8032e9b3c29999ef9c2b32785427e0daa79c1c1"
       },
-      "boundary_to_recheck": "Printed Q1(ii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "boundary_to_recheck": "Original p2 Q1(ii) with exact canonical parent/numeral, complete A–E choices and full parent instruction (i)–(xv), not x. Ends before next numeral or page footer. No figure, table, book excerpt or passage needed. Printed 15-mark annotation is group metadata; no per-item marks inferred.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "kiswahili-2020-p1-q01iii",
-      "proposed_question": "Maneno yepi kati ya yafuatayo yametokana na lugha za Kibantu?",
-      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "record_id": "history-2020-p1-q01iii",
+      "proposed_question": "Why salt making industries were important in pre-colonial Africa?",
+      "proposed_context": "For each of the items (i) - (xv), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
       "proposed_alternatives": [
-        "Kitindamimba na bendera",
-        "Hela na mtutu",
-        "Kitivo na ngeli",
-        "Godoro na sharubati",
-        "Bunge na shule"
+        "It enabled people to eat uncooked food",
+        "It facilitated the development of heavy industries",
+        "It played a vital role in food preservation and healing",
+        "It enabled some societies to make ornaments of copper alloys",
+        "It was a source of vitamins"
       ],
-      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
-      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pdf_sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
       "source_pages": [
         2
       ],
       "page_render_sha256": {
-        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        "2": "da8ba37d5b7dc7f2816daffad8032e9b3c29999ef9c2b32785427e0daa79c1c1"
       },
-      "boundary_to_recheck": "Printed Q1(iii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "boundary_to_recheck": "Original p2 Q1(iii) with exact canonical parent/numeral, complete A–E choices and full parent instruction (i)–(xv), not x. Ends before next numeral or page footer. No figure, table, book excerpt or passage needed. Printed 15-mark annotation is group metadata; no per-item marks inferred.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "kiswahili-2020-p1-q01iv",
-      "proposed_question": "Ni mambo gani muhimu ya kuzingatia katika kuteua maneno na miundo ya tungo wakati wa mazungumzo?",
-      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "record_id": "history-2020-p1-q01iv",
+      "proposed_question": "The range of productive activities that man performs is determined by",
+      "proposed_context": "For each of the items (i) - (xv), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
       "proposed_alternatives": [
-        "Mada, muktadha na mazungumzo ya ana kwa ana.",
-        "Mada, mazungumzo na uhusiano wa wazungumzaji.",
-        "Mada, mzungumzaji na muktadha wa mazungumzo.",
-        "Mada, mzungumzaji na uhusiano wa wazungumzaji.",
-        "Mada, muktadha na uhusiano wa wazungumzaji."
+        "nature of the environment and the productive forces.",
+        "strong standing army and modern weapons.",
+        "major means of production and cheap labour.",
+        "availability of raw materials and markets.",
+        "presence of offensive and defensive forces."
       ],
-      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
-      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pdf_sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
       "source_pages": [
         2
       ],
       "page_render_sha256": {
-        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        "2": "da8ba37d5b7dc7f2816daffad8032e9b3c29999ef9c2b32785427e0daa79c1c1"
       },
-      "boundary_to_recheck": "Printed Q1(iv) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "boundary_to_recheck": "Original p2 Q1(iv) with exact canonical parent/numeral, complete A–E choices and full parent instruction (i)–(xv), not x. Ends before next numeral or page footer. No figure, table, book excerpt or passage needed. Printed 15-mark annotation is group metadata; no per-item marks inferred.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "kiswahili-2020-p1-q01v",
-      "proposed_question": "Bainisha kauli inayoonesha dhima muhimu za vitendawili katika jamii:",
-      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "record_id": "history-2020-p1-q01v",
+      "proposed_question": "Which one of the following shows a set representing communal societies in East Africa up to the 19th century?",
+      "proposed_context": "For each of the items (i) - (xv), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
       "proposed_alternatives": [
-        "Kuhimiza umoja na ushirikiano.",
-        "Kupanga watu katika marika yao.",
-        "Kuchochea udadisi wa mambo.",
-        "Kuchochea uwongo wa mambo.",
-        "Kukosoa wadadisi wa mambo."
+        "Teso, Iraqw and Hadzabe",
+        "Dorobo, Teso and Iraqw",
+        "Hadzabe, Karamajong and Iraqw",
+        "Tindiga, Iraqw and Dorobo",
+        "Dorobo, Tindiga and Teso"
       ],
-      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
-      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pdf_sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
       "source_pages": [
         2
       ],
       "page_render_sha256": {
-        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        "2": "da8ba37d5b7dc7f2816daffad8032e9b3c29999ef9c2b32785427e0daa79c1c1"
       },
-      "boundary_to_recheck": "Printed Q1(v) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "boundary_to_recheck": "Original p2 Q1(v) with exact canonical parent/numeral, complete A–E choices and full parent instruction (i)–(xv), not x. Ends before next numeral or page footer. No figure, table, book excerpt or passage needed. Printed 15-mark annotation is group metadata; no per-item marks inferred.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "kiswahili-2020-p1-q01vi",
-      "proposed_question": "Njia mojawapo ya kuzuia utata katika lugha ya mazungumzo ni ipi kati ya zifuatazo?",
-      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "record_id": "history-2020-p1-q01vi",
+      "proposed_question": "Which one of the following was used to colonize Africa?",
+      "proposed_context": "For each of the items (i) - (xv), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
       "proposed_alternatives": [
-        "Kuepuka makosa ya kisarufi na kimantiki.",
-        "Kutumia neno lenye maana zaidi ya moja.",
-        "Kutumia kiwakilishi kiambata katika neno.",
-        "Kuweka msisitizo au ufafanuzi zaidi.",
-        "Kutumia mofimu sahihi za wakati."
+        "Finance capital",
+        "Primitive accumulation of capital",
+        "Bank capital",
+        "Mercantile capital",
+        "Industrial capital"
       ],
-      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
-      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pdf_sha256": "93902edcd30725dd5e906cd8df91b4ff5d77ea2aa10bfbaa86e2c9b7420e7af4",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2020.pdf",
       "source_pages": [
         2
       ],
       "page_render_sha256": {
-        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+        "2": "da8ba37d5b7dc7f2816daffad8032e9b3c29999ef9c2b32785427e0daa79c1c1"
       },
-      "boundary_to_recheck": "Printed Q1(vi) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "boundary_to_recheck": "Original p2 Q1(vi) with exact canonical parent/numeral, complete A–E choices and full parent instruction (i)–(xv), not x. Ends before next numeral or page footer. No figure, table, book excerpt or passage needed. Printed 15-mark annotation is group metadata; no per-item marks inferred.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     }
   ],
-  "restart": "Recheck original page 2 visually, PDF SHA-256, exact canonical IDs/parent/subquestion and alternatives. Preserve all historical holds and ledgers, original PDFs/canonical JSONL, root app, both storage keys and backups. Use separate immutable implementation ledger, cache v40 or later, full relevant tests, exact-head CI and public verification. No answers, no bulk processing. Human academic approval pending; physical Android NOT TESTED. Expired three-hour heartbeat removed; no scheduled background work."
+  "restart": "Recheck original cover/page2 visually, PDF SHA-256, exact canonical IDs/parent/subquestion and alternatives. Preserve all historical holds and ledgers, original PDFs/canonical JSONL, root app, both storage keys and backups. Use separate immutable implementation ledger, a fresh cache generation, full relevant tests, exact-head CI and public verification. No answers, no bulk processing. Human academic approval pending; physical Android NOT TESTED. Expired three-hour heartbeat removed; no scheduled background work."
 }
