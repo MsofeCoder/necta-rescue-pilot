@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 15,
+  "version": 16,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3617,6 +3617,275 @@ window.NECTA_BETA = {
         "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
         "pages": [
           4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q04",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "4",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Briefly explain six criteria for describing characters in literary works.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05i",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(i)",
+      "parent_question": "5",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "The prayer songs sung for religious purposes.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05ii",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(ii)",
+      "parent_question": "5",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "The songs of lamentation sung at the funeral of someone by mourners.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01iv",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "As a dictionary user, how can you easily locate a word on a dictionary page?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use the table of contents"
+        },
+        {
+          "label": "B",
+          "text": "Use the word class"
+        },
+        {
+          "label": "C",
+          "text": "Use the words on top of a dictionary page"
+        },
+        {
+          "label": "D",
+          "text": "Use example sentences"
+        },
+        {
+          "label": "E",
+          "text": "Use the meaning and pronunciation of the word"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01v",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Which sentence shows a repeated action?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "She has already helped people"
+        },
+        {
+          "label": "B",
+          "text": "She is always helping people"
+        },
+        {
+          "label": "C",
+          "text": "She helped people"
+        },
+        {
+          "label": "D",
+          "text": "She will help people"
+        },
+        {
+          "label": "E",
+          "text": "She should help people"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01ix",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(ix)",
+      "parent_question": "1",
+      "subquestion": "(ix)",
+      "kind": "original_exam",
+      "question": "The rocks that are folded with one side of the limb being steeper than the other side depending on the intensity of force involved are called",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Over fold"
+        },
+        {
+          "label": "B",
+          "text": "Overthrust fold"
+        },
+        {
+          "label": "C",
+          "text": "Simple fold"
+        },
+        {
+          "label": "D",
+          "text": "Horizontal fold"
+        },
+        {
+          "label": "E",
+          "text": "Asymmetrical fold"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01x",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(x)",
+      "parent_question": "1",
+      "subquestion": "(x)",
+      "kind": "original_exam",
+      "question": "Mama Huruma has given birth to twelve children. The ability of mama Huruma to give birth is referred as",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mortality."
+        },
+        {
+          "label": "B",
+          "text": "Fertility."
+        },
+        {
+          "label": "C",
+          "text": "Population."
+        },
+        {
+          "label": "D",
+          "text": "Demography."
+        },
+        {
+          "label": "E",
+          "text": "Migration."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          3
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
