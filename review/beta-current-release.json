@@ -43,7 +43,8 @@
     "review/recent-core-batch-34-ledger.json",
     "review/recent-core-batch-35-ledger.json",
     "review/recent-core-batch-36-ledger.json",
-    "review/recent-core-batch-37-ledger.json"
+    "review/recent-core-batch-37-ledger.json",
+    "review/literature-2021-source-identity-hold.json"
   ],
   "cache": "necta-rescue-beta-v38",
   "prior_cache": "necta-rescue-beta-v37",

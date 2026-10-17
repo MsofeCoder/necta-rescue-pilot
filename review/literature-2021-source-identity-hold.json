@@ -1,0 +1,135 @@
+{
+  "batch_id": "literature-2021-source-identity-hold",
+  "baseline_commit": "1ab2808e40e61e4e3b1a386043d0de12cfffeca5",
+  "reviewed_on": "2026-10-17",
+  "reviewer": "Codex source-page engineering self-review; no human academic certification",
+  "counts": {
+    "added_records": 0,
+    "added_parent_questions": 0,
+    "added_subquestions": 0,
+    "new_accepted_answers": 0
+  },
+  "records": [],
+  "additional_withheld": [
+    {
+      "id": "literature-2021-p1-q01i",
+      "reason": "Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.",
+      "decision": "withheld_source_identity_discrepancy",
+      "source_evidence": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": [
+          1,
+          2
+        ],
+        "page_renders": {
+          "1": "6dadf982515ca686cc78e1eff4a4fd61bb14d5ebf0f96e3edaa3b52f248c2a7b",
+          "2": "20ceb454f7971daeebc5f503cf81cfc2323a67f627c2e8f63d2037e858fb622a"
+        }
+      },
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "id": "literature-2021-p1-q01ii",
+      "reason": "Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.",
+      "decision": "withheld_source_identity_discrepancy",
+      "source_evidence": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": [
+          1,
+          2
+        ],
+        "page_renders": {
+          "1": "6dadf982515ca686cc78e1eff4a4fd61bb14d5ebf0f96e3edaa3b52f248c2a7b",
+          "2": "20ceb454f7971daeebc5f503cf81cfc2323a67f627c2e8f63d2037e858fb622a"
+        }
+      },
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "id": "literature-2021-p1-q01iii",
+      "reason": "Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.",
+      "decision": "withheld_source_identity_discrepancy",
+      "source_evidence": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": [
+          1,
+          2
+        ],
+        "page_renders": {
+          "1": "6dadf982515ca686cc78e1eff4a4fd61bb14d5ebf0f96e3edaa3b52f248c2a7b",
+          "2": "20ceb454f7971daeebc5f503cf81cfc2323a67f627c2e8f63d2037e858fb622a"
+        }
+      },
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "id": "literature-2021-p1-q01iv",
+      "reason": "Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.",
+      "decision": "withheld_source_identity_discrepancy",
+      "source_evidence": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": [
+          1,
+          2
+        ],
+        "page_renders": {
+          "1": "6dadf982515ca686cc78e1eff4a4fd61bb14d5ebf0f96e3edaa3b52f248c2a7b",
+          "2": "20ceb454f7971daeebc5f503cf81cfc2323a67f627c2e8f63d2037e858fb622a"
+        }
+      },
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "id": "literature-2021-p1-q01v",
+      "reason": "Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.",
+      "decision": "withheld_source_identity_discrepancy",
+      "source_evidence": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": [
+          1,
+          2
+        ],
+        "page_renders": {
+          "1": "6dadf982515ca686cc78e1eff4a4fd61bb14d5ebf0f96e3edaa3b52f248c2a7b",
+          "2": "20ceb454f7971daeebc5f503cf81cfc2323a67f627c2e8f63d2037e858fb622a"
+        }
+      },
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "id": "literature-2021-p1-q01vi",
+      "reason": "Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.",
+      "decision": "withheld_source_identity_discrepancy",
+      "source_evidence": {
+        "filename": "Literature-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2021.pdf",
+        "sha256": "b640f9b535fcd0a11d0ef63ca7abf2bdfe1a26c8a773af922013985071b74916",
+        "pages": [
+          1,
+          2
+        ],
+        "page_renders": {
+          "1": "6dadf982515ca686cc78e1eff4a4fd61bb14d5ebf0f96e3edaa3b52f248c2a7b",
+          "2": "20ceb454f7971daeebc5f503cf81cfc2323a67f627c2e8f63d2037e858fb622a"
+        }
+      },
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ],
+  "reason": "Cover and page2 footer have conflicting year labels. No source-year inference used for admission. This separate hold ledger leaves existing admission ledgers and PDF/canonical bytes unchanged.",
+  "human_academic_approval": "PENDING",
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  }
+}
