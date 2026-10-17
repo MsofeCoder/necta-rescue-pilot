@@ -4,10 +4,11 @@ import {startPreview,root,prefix,docs} from '../tools/preview.mjs';
 const out=path.join(root,'.workbuddy-ai',process.env.NECTA_BETA_EVIDENCE_SUBDIR||'beta-evidence');fs.mkdirSync(out,{recursive:true});
 const scratch=fs.mkdtempSync(path.join(os.tmpdir(),'necta-beta-')),profile=path.join(scratch,'profile'),downloads=path.join(scratch,'downloads');fs.mkdirSync(downloads);
 const git=(...args)=>execFileSync('git',args,{cwd:root,encoding:'utf8'}).trim();
-const upgradeBaseline='03f64944e3712cb0bcd3beb4281c109ea6fad41f';
+const release=JSON.parse(fs.readFileSync(path.join(root,'review/beta-current-release.json'),'utf8'));
+const upgradeBaseline=release.baseline_commit;
 const oldBeta=new Map(['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'].map(n=>['beta/'+n,execFileSync('git',['show',upgradeBaseline+':docs/beta/'+n],{cwd:root})]));
-const batch=JSON.parse(fs.readFileSync(path.join(root,'review/core-three-integration-ledger.json'),'utf8'));batch.records=batch.records.filter(r=>r.display);
-const expectedCounts={kiswahili:5,english:7,civics:30,geography:5,history:6,literature:4,biology:2,basic_mathematics:2};
+const batch=JSON.parse(fs.readFileSync(path.join(root,release.latest_ledger),'utf8'));batch.records=batch.records.filter(r=>r.display);
+const expectedCounts=release.subject_counts;
 let serveOldBeta=true;
 const files=()=>Object.fromEntries(fs.readdirSync(path.join(docs,'beta')).sort().map(n=>[n,createHash('sha256').update(fs.readFileSync(path.join(docs,'beta',n))).digest('hex')]));
 const before={commit:git('rev-parse','HEAD'),dirty:git('status','--porcelain','--untracked-files=no'),files:files(),started_at:new Date().toISOString()};
@@ -36,15 +37,15 @@ try{
   check('accepted root still offers exactly fourteen cards',await c.eval('NECTA_CIVICS.cards.length')===14);
   await c.eval(`localStorage.setItem('necta-rescue-learning-v1',${JSON.stringify(JSON.stringify(seedProgress))});localStorage.setItem('necta-rescue-pilot-v1',${JSON.stringify(JSON.stringify(seedLegacy))})`);
   await c.send('Page.navigate',{url:app});await c.wait(`!!window.NECTA_BETA&&document.querySelectorAll('[data-subject]').length===8`);await c.wait(`navigator.serviceWorker.controller?.scriptURL.endsWith('/beta/sw.js')`);await c.wait(`document.getElementById('offline').textContent.includes('ready')`);
-  check('upgrade starts with exact deployed v3 content',await c.eval(`NECTA_BETA.cards.length===28&&(async()=>await caches.has('necta-rescue-beta-v3'))()`));
+  check('upgrade starts with exact deployed baseline content',await c.eval(`NECTA_BETA.cards.length===${release.prior_question_only}&&(async()=>await caches.has('${release.prior_cache}'))()`));
   await c.eval(`(async()=>{await caches.open('necta-rescue-beta-v0');const other=await caches.open('other-app-cache');await other.put('/unrelated',new Response('preserve'));})()`);
   serveOldBeta=false;
   await c.eval(`navigator.serviceWorker.getRegistration(location.href).then(r=>r.update())`);
-  await c.wait(`(async()=>{const keys=await caches.keys();return keys.includes('necta-rescue-beta-v4')&&!keys.includes('necta-rescue-beta-v3')})()`);
-  await c.send('Page.reload');await c.wait(`window.NECTA_BETA?.cards.length===31`);await c.wait(`document.getElementById('offline').textContent.includes('ready')`);
-  check('v3 to v4 update purges only old beta generations',await c.eval(`(async()=>{const keys=await caches.keys();return !keys.includes('necta-rescue-beta-v0')&&!keys.includes('necta-rescue-beta-v3')&&keys.includes('necta-rescue-beta-v4')&&keys.includes('necta-rescue-static-v6')&&await(await caches.open('other-app-cache')).match('/unrelated').then(r=>r.text())==='preserve'})()`));
+  await c.wait(`(async()=>{const keys=await caches.keys();return keys.includes('${release.cache}')&&!keys.includes('${release.prior_cache}')})()`);
+  await c.send('Page.reload');await c.wait(`window.NECTA_BETA?.cards.length===${release.question_only}`);await c.wait(`document.getElementById('offline').textContent.includes('ready')`);
+  check('current version update purges only old beta generations',await c.eval(`(async()=>{const keys=await caches.keys();return !keys.includes('necta-rescue-beta-v0')&&!keys.includes('${release.prior_cache}')&&keys.includes('${release.cache}')&&keys.includes('necta-rescue-static-v6')&&await(await caches.open('other-app-cache')).match('/unrelated').then(r=>r.text())==='preserve'})()`));
   check('emergency beta warning is visible',await c.eval(`document.body.textContent.includes('Emergency beta · provisional')&&document.body.textContent.includes('physical Android checks are pending')`));
-  check('beta worker retains accepted root cache',await c.eval(`(async()=>{const keys=await caches.keys();return keys.includes('necta-rescue-static-v6')&&keys.includes('necta-rescue-beta-v4')})()`));
+  check('beta worker retains accepted root cache',await c.eval(`(async()=>{const keys=await caches.keys();return keys.includes('necta-rescue-static-v6')&&keys.includes('${release.cache}')})()`));
   check('initial load preserves both storage keys',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===JSON.stringify(seedProgress)&&await c.eval(`localStorage.getItem('necta-rescue-pilot-v1')`)===JSON.stringify(seedLegacy));
   const subjects=await c.eval('NECTA_BETA.subjects');let questionOnly=0,answered=0;
   for(const s of subjects){
@@ -73,7 +74,7 @@ try{
     check('2020 has source references without claiming checked question coverage '+s.id,await c.eval(`document.getElementById('empty').hidden===false&&document.querySelectorAll('#papers .paper').length>0`));
     await c.click('#homeButton');
   }
-  check('exact counts 30 Civics and 31 question-only',answered===30&&questionOnly===31,{answered,questionOnly});
+  check('exact counts 30 Civics and current question-only batch',answered===30&&questionOnly===release.question_only,{answered,questionOnly});
   await c.click('[data-subject="english"]');await c.click('#revise');
   check('self-check preserves hidden and unknown IDs',await c.eval(`(()=>{const p=JSON.parse(localStorage.getItem('necta-rescue-learning-v1'));return p.records.length===3&&p.records.some(x=>x.card_id==='concept-democracy-state')&&p.records.some(x=>x.card_id==='future-card-id')})()`));
   const saved=await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`);await c.send('Page.reload');await c.wait('!!window.NECTA_BETA');check('saved progress survives reload',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===saved);
