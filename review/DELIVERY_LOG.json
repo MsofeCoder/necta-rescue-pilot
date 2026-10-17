@@ -574,6 +574,29 @@
         "independent_human_academic_accepted": 0,
         "total": 159
       }
+    },
+    {
+      "deployed_sha": "7bb6509900a618d742d351285d69748fc27de3a8",
+      "implementation_sha": "8bbf66888cf05d3ce04d35b6abc7d59d7d1ad5b2",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/37",
+      "verified_at": "2026-10-17T08:16:06.491Z",
+      "tests": "34 unit/static, 941 beta browser, 95 root browser and 81 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39016639098",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39016638669",
+      "rollback_baseline": "83b50a23224b2133a5b5a7bfcc170aa276e271fb",
+      "evidence": ".workbuddy-ai/batch28-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v28 to necta-rescue-beta-v29 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: Civics2024 Q9–11 batch29.json p5; Geography2023 Q1(i)–(v) batch30.json p2; Biology2025 Q1(iv)–(vi) batch31.json p2; English2022 Q1(i)/(ii)/(iv)/(v) batch32.json p2; English2021 Q4(i)–(iv) batch33.json and Q5(i)/(ii)/(iv) batch34.json p4. Prepared sources visually checked. Preserve no-answer gates, all holds and English amendment. Deadline10:08UTC still applies.",
+      "counts": {
+        "question_only": 135,
+        "question_only_parent": 26,
+        "question_only_subquestion": 109,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 165
+      }
     }
   ]
 }
