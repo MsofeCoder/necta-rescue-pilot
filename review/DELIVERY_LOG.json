@@ -413,6 +413,29 @@
         "independent_human_academic_accepted": 0,
         "total": 123
       }
+    },
+    {
+      "deployed_sha": "fe5a94771f5b1dcd0986d01b772c34695a1c917f",
+      "implementation_sha": "d9fcc8f0e968eab65b81dfd941a3b7be2a3d3b43",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/30",
+      "verified_at": "2026-10-17T07:47:59.821Z",
+      "tests": "34 unit/static, 770 beta browser, 95 root browser and 84 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39014909918",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39014909457",
+      "rollback_baseline": "12fd29da66a5cbf13c8aea5525953c5911f5df46",
+      "evidence": ".workbuddy-ai/batch21-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v21 to necta-rescue-beta-v22 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: four English2023 Q1(ii)/(iii)/(v)/(vi), original p2, prepared .workbuddy-ai/batch22.json. Preserve most correct instruction and printed Autography etc; absorbed neighbors removed from display only. Continue next small original-page batch after live verification. Deadline remains10:08UTC; no human/phone tests.",
+      "counts": {
+        "question_only": 100,
+        "question_only_parent": 20,
+        "question_only_subquestion": 80,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 130
+      }
     }
   ]
 }
