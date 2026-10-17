@@ -758,6 +758,29 @@
         "independent_human_academic_accepted": 0,
         "total": 192
       }
+    },
+    {
+      "deployed_sha": "1ab2808e40e61e4e3b1a386043d0de12cfffeca5",
+      "implementation_sha": "15920b28eadc32a3cc3794ad20a563b3005ee3e9",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/45",
+      "verified_at": "2026-10-17T09:00:09.132Z",
+      "tests": "35 unit/static, 1088 beta browser, 95 root browser and 75 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019365716",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019364927",
+      "rollback_baseline": "1a96752075d0f1d4a0a728d3b1126af2f1e92b16",
+      "evidence": ".workbuddy-ai/batch36-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v36 to necta-rescue-beta-v37 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: Math2025 batch37 four p2/3, then Geography2020 batch38 five; Kiswahili2020 batch39 six; History2020 batch40 six; Literature2020 batch41 six; Civics2020 batch42 six; History2021 batch43 six; Geography2021 batch44 four; Kiswahili2021 batch45 five (all p2). Prepared specs/source renders visually checked. Initial PR45 CI startup race fixed in15920b2 with bounded debug-HTTP readiness wait; failed log retained; all new CI/local/live passed. No answers/human/phone; preserve holds/amendments;deadline10:08UTC.",
+      "counts": {
+        "question_only": 166,
+        "question_only_parent": 29,
+        "question_only_subquestion": 137,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 196
+      }
     }
   ]
 }
