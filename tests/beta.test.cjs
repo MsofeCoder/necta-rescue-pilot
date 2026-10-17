@@ -4,6 +4,8 @@ const root=path.resolve(__dirname,'..'),dir=path.join(root,'docs/beta'),sandbox=
 for(const name of ['sources.js','civics.js'])vm.runInNewContext(fs.readFileSync(path.join(dir,name),'utf8'),sandbox);
 const data=JSON.parse(JSON.stringify(sandbox.window.NECTA_BETA)),civics=JSON.parse(JSON.stringify(sandbox.window.NECTA_CIVICS));
 const release=JSON.parse(fs.readFileSync(path.join(root,'review/beta-current-release.json'),'utf8'));
+const amendments=(release.display_amendments||[]).map(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')));
+function amendedDisplay(prior){let result=prior;for(const ledger of amendments){const r=ledger.records.find(r=>r.record_id===result.id);if(r&&JSON.stringify(result)===JSON.stringify(r.before_display))result=r.display;}return result;}
 const released='79044ec5fce9e52baaaff4e3764ea569c5025e82',candidate='8140fc5c9b0e0c46a3d4a15a234979b196b605f0';
 test('emergency beta preserves all thirteen accepted root public files and release policy',()=>{
   const files=execFileSync('git',['ls-tree','--name-only',released+':docs'],{cwd:root,encoding:'utf8'}).trim().split('\n');assert.equal(files.length,13);
@@ -30,7 +32,7 @@ test('all eight subjects and six years have genuine source references; no missin
 test('question-only display copies are separately ledgered; hierarchy and source pages retained',()=>{
   const ledger={records:release.display_ledgers.flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).records.filter(r=>r.display))};
   assert.equal(ledger.records.length,release.question_only);
-  for(const c of data.cards){const l=ledger.records.find(l=>l.record_id===c.id);assert(l);assert.deepEqual(l.display,c);assert.match(l.render_sha256||(l.original_exam_review||l.source_review).page_renders[String(c.exam.pages[0])],/^[a-f0-9]{64}$/);assert.equal(c.subquestion?!!c.parent_question:true,true);}
+  for(const c of data.cards){const l=ledger.records.find(l=>l.record_id===c.id);assert(l);assert.deepEqual(amendedDisplay(l.display),c);assert.match(l.render_sha256||(l.original_exam_review||l.source_review).page_renders[String(c.exam.pages[0])],/^[a-f0-9]{64}$/);assert.equal(c.subquestion?!!c.parent_question:true,true);}
 });
 test('beta assets are explicit; worker cannot purge accepted app caches or expose private sources',()=>{
   assert.deepEqual(fs.readdirSync(dir).sort(),['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'].sort());
@@ -97,10 +99,25 @@ test('current bounded release is additive and all latest display decisions are t
   const before={window:{}};vm.runInNewContext(execFileSync('git',['show',release.baseline_commit+':docs/beta/sources.js'],{cwd:root,encoding:'utf8'}),before);
   const old=JSON.parse(JSON.stringify(before.window.NECTA_BETA)),ledger=JSON.parse(fs.readFileSync(path.join(root,release.latest_ledger),'utf8'));
   for(const key of ['subjects','papers','pending_human_review','held_original_ids'])assert.deepEqual(data[key],old[key]);
-  for(const c of old.cards)assert.deepEqual(data.cards.find(n=>n.id===c.id),c);
+  for(const c of old.cards)assert.deepEqual(data.cards.find(n=>n.id===c.id),amendedDisplay(c));
   const added=data.cards.filter(c=>!old.cards.some(o=>o.id===c.id));assert.equal(added.length,ledger.counts.added_records);
   assert.equal(added.filter(c=>!c.subquestion).length,ledger.counts.added_parent_questions);assert.equal(added.filter(c=>c.subquestion).length,ledger.counts.added_subquestions);
   for(const r of ledger.records){const c=added.find(c=>c.id===r.record_id);assert.deepEqual(c,r.display);assert.equal(c.parent_question,r.canonical_parent_question);assert.equal(c.subquestion,r.canonical_subquestion);assert.equal(c.answer_state,'question_only');assert.equal(c.marks,null);for(const k of ['answer','correctOption','solution'])assert(!(k in c));if(c.options)assert.deepEqual(c.options.map(o=>o.label),['A','B','C','D','E']);}
   for(const id of ['english-2025-p1-q01iii','english-2025-p1-q01iv'])assert(!data.cards.some(c=>c.id===id));
   assert.equal(ledger.android.status,'NOT TESTED');
+});
+
+test('English 2024 parent correction changes only the source-checked context and preserves historical ledgers',()=>{
+  const hash=b=>require('node:crypto').createHash('sha256').update(b).digest('hex');
+  const ledger=amendments.find(l=>l.amendment_id==='english-2024-parent-instruction-2026-10-17');assert(ledger);
+  assert.equal(ledger.records.length,5);assert.deepEqual(ledger.allowed_fields,['context']);
+  assert.equal(ledger.original_exam.sha256,'570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f');
+  assert.deepEqual(ledger.original_exam.pages,[2]);assert.match(ledger.original_exam.page_renders[2],/^[a-f0-9]{64}$/);
+  for(const [file,fingerprint]of Object.entries(ledger.preserved_historical_ledger_sha256))assert.equal(hash(fs.readFileSync(path.join(root,file))),fingerprint);
+  for(const r of ledger.records){
+    const history=release.display_ledgers.flatMap(file=>JSON.parse(fs.readFileSync(path.join(root,file),'utf8')).records).find(h=>h.record_id===r.record_id);assert.deepEqual(history.display,r.before_display);
+    assert.equal(r.before_display.context,'For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.');
+    assert.equal(r.display.context,'For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.');
+    assert.deepEqual({...r.display,context:r.before_display.context},r.before_display);assert.deepEqual(data.cards.find(c=>c.id===r.record_id),r.display);
+  }
 });

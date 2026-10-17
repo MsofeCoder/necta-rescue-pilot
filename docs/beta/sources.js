@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 17,
+  "version": 18,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2773,7 +2773,7 @@ window.NECTA_BETA = {
       "subquestion": "(i)",
       "kind": "original_exam",
       "question": "The term adjacent is synonymous to",
-      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
       "options": [
         {
           "label": "A",
@@ -2821,7 +2821,7 @@ window.NECTA_BETA = {
       "subquestion": "(ii)",
       "kind": "original_exam",
       "question": "Ally told Mary that, he preferred studying in the morning. If Mary preferred the same, how would she refer back to Ally’s statement?",
-      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
       "options": [
         {
           "label": "A",
@@ -2869,7 +2869,7 @@ window.NECTA_BETA = {
       "subquestion": "(iii)",
       "kind": "original_exam",
       "question": "Why is R.S.V.P important in an invitation card?",
-      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
       "options": [
         {
           "label": "A",
@@ -3708,7 +3708,7 @@ window.NECTA_BETA = {
       "subquestion": "(iv)",
       "kind": "original_exam",
       "question": "As a dictionary user, how can you easily locate a word on a dictionary page?",
-      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
       "options": [
         {
           "label": "A",
@@ -3756,7 +3756,7 @@ window.NECTA_BETA = {
       "subquestion": "(v)",
       "kind": "original_exam",
       "question": "Which sentence shows a repeated action?",
-      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
       "options": [
         {
           "label": "A",
@@ -4030,6 +4030,153 @@ window.NECTA_BETA = {
         "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01vii",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(vii)",
+      "parent_question": "1",
+      "subquestion": "(vii)",
+      "kind": "original_exam",
+      "question": "Which sentence is the past progressive of “The students will write the test on Friday.”",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "The students were writing the test on Friday"
+        },
+        {
+          "label": "B",
+          "text": "The students will be writing the test on Friday"
+        },
+        {
+          "label": "C",
+          "text": "The students have been writing the test on Friday"
+        },
+        {
+          "label": "D",
+          "text": "The students are writing the test on Friday"
+        },
+        {
+          "label": "E",
+          "text": "The students had been writing the test on Friday"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01viii",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(viii)",
+      "parent_question": "1",
+      "subquestion": "(viii)",
+      "kind": "original_exam",
+      "question": "The following sentences ask for opinions except:",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "What do you suggest about this issue?"
+        },
+        {
+          "label": "B",
+          "text": "Why do you think school rules are irrelevant?"
+        },
+        {
+          "label": "C",
+          "text": "What is your view about family life education?"
+        },
+        {
+          "label": "D",
+          "text": "Do you have a trip for family planning issues?"
+        },
+        {
+          "label": "E",
+          "text": "Why do you support her ideas about African values?"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01x",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(x)",
+      "parent_question": "1",
+      "subquestion": "(x)",
+      "kind": "original_exam",
+      "question": "The sentence, “The Mathematics test was extremely difficult; nevertheless, Pili earned a good grade” means that",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "The test was not well set"
+        },
+        {
+          "label": "B",
+          "text": "The difficulty contrasts with Pili’s performance"
+        },
+        {
+          "label": "C",
+          "text": "Pili is not hardworking"
+        },
+        {
+          "label": "D",
+          "text": "Pili’s performance is extremely doubtful"
+        },
+        {
+          "label": "E",
+          "text": "Mathematics is not as easy as other subjects"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2,
+          3
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

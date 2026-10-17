@@ -8,6 +8,7 @@ const release=JSON.parse(fs.readFileSync(path.join(root,'review/beta-current-rel
 const upgradeBaseline=release.baseline_commit;
 const oldBeta=new Map(['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'].map(n=>['beta/'+n,execFileSync('git',['show',upgradeBaseline+':docs/beta/'+n],{cwd:root})]));
 const batch=JSON.parse(fs.readFileSync(path.join(root,release.latest_ledger),'utf8'));batch.records=batch.records.filter(r=>r.display);
+for(const name of release.display_amendments||[])batch.records.push(...JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).records);
 const expectedCounts=release.subject_counts;
 let serveOldBeta=true;
 const files=()=>Object.fromEntries(fs.readdirSync(path.join(docs,'beta')).sort().map(n=>[n,createHash('sha256').update(fs.readFileSync(path.join(docs,'beta',n))).digest('hex')]));
