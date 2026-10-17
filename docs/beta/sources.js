@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 4,
+  "version": 5,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2346,6 +2346,198 @@ window.NECTA_BETA = {
       },
       "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
       "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "english-2025-p1-q01vi",
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "Fidelis likes neither fish nor beef. This statement implies that;",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fidelis likes Fish but dislikes beef"
+        },
+        {
+          "label": "B",
+          "text": "Fidelis likes both beef and fish"
+        },
+        {
+          "label": "C",
+          "text": "Fidelis dislikes fish but likes beef"
+        },
+        {
+          "label": "D",
+          "text": "Fidelis dislikes beef but likes fish"
+        },
+        {
+          "label": "E",
+          "text": "Fidelis dislikes both fish and beef"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q01ii",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "“Juma anaendesha baiskeli yake polepole.” Kiarifu cha sentensi hii kimejengwa na mfuatano upi wa vipashio?",
+      "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kiima, chagizo na shamirisho"
+        },
+        {
+          "label": "B",
+          "text": "Kitenzi kishirikishi, shamirisho na chagizo"
+        },
+        {
+          "label": "C",
+          "text": "Kiarifu, kiima na chagizo"
+        },
+        {
+          "label": "D",
+          "text": "Shamirisho, chagizo na kitenzi kikuu"
+        },
+        {
+          "label": "E",
+          "text": "Kitenzi kikuu, shamirisho na chagizo"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q01iii",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "“Tutakuja kumpokea kwenye uwanja wa ndege.” Kazi ya kielezi kinachojitokeza kwenye sentensi hii ni ipi kati ya hizi?",
+      "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kueleza idadi"
+        },
+        {
+          "label": "B",
+          "text": "Kueleza mahali"
+        },
+        {
+          "label": "C",
+          "text": "Kueleza namna"
+        },
+        {
+          "label": "D",
+          "text": "Kueleza wakati"
+        },
+        {
+          "label": "E",
+          "text": "Kueleza nafsi"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q01vi",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "Neno lipi linadhihirisha kauli ya kutendeka katika kitenzi pika?",
+      "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pikia"
+        },
+        {
+          "label": "B",
+          "text": "Pikiwa"
+        },
+        {
+          "label": "C",
+          "text": "Pikika"
+        },
+        {
+          "label": "D",
+          "text": "Pikwa"
+        },
+        {
+          "label": "E",
+          "text": "Pikisha"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
     }
   ],
   "pending_human_review": [

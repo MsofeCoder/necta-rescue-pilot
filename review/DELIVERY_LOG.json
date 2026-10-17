@@ -1,0 +1,27 @@
+{
+  "checkpoints": [
+    {
+      "deployed_sha": "7a01a666b49630f9e056e6af20b4767ff2563a6e",
+      "implementation_sha": "f6466607178d15c37bd7c4ab6799176fb7ebbe32",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/11",
+      "verified_at": "2026-10-17; recorded live verification",
+      "tests": "32 unit/static, 385 beta browser, 94 root browser, 56 public HTTPS checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39008966781",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39008971650",
+      "rollback_baseline": "03f64944e3712cb0bcd3beb4281c109ea6fad41f",
+      "evidence": "Private .workbuddy-ai/core-three-live report, asset hashes, screenshots and source renders; controlled v3-to-v4 upgrade on isolated local origin and CI; public fresh-profile v4 offline use; no Android testing.",
+      "next_batch": "Batch 04 in preparation: English 2025 Q1(vi), Kiswahili 2025 Q1(ii)/(iii)/(vi), four original subquestions. Then inspect History 2024 Q7/Q8 and Kiswahili 2025 Q1(viii)/(x); no answers. Preserve draft PR #10 ledger and every prior review. No bulk processing.",
+      "counts": {
+        "question_only": 31,
+        "question_only_parent": 14,
+        "question_only_subquestion": 17,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 61
+      }
+    }
+  ]
+}

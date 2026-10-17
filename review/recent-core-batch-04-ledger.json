@@ -1,0 +1,651 @@
+{
+  "batch_id": "recent-core-batch-04",
+  "baseline_commit": "7a01a666b49630f9e056e6af20b4767ff2563a6e",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 0,
+    "added_subquestions": 4,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Canonical source p4 is a matching fragment, while printed Q1(i) is on p2; do not replace its identity."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "No separate canonical record exists; printed Q10 is embedded in q09. No ID invented."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "english-2025-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            99.9,
+            616.9,
+            447.8,
+            633
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            132.8,
+            631.9,
+            329.5,
+            643.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            132.8,
+            647.7,
+            311,
+            659.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            131.9,
+            663.3,
+            326.6,
+            675.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            131.9,
+            679.1,
+            325.2,
+            691.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            131.6,
+            695.2,
+            326.9,
+            708.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            231.6,
+            756.3,
+            588.4,
+            773.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            250.8,
+            762.3,
+            347.3,
+            778.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "Fidelis likes neither fish nor beef. This statement implies that;\nA Fidelis likes Fish but dislikes beef\nB Fidelis likes both beef and fish\nC Fidelis dislikes fish but likes beef\nD Fidelis dislikes beef but likes fish\nE » Fidelis dislikes both fish and beef\nFind this and a4 free resources at: |\nhipsi maua",
+      "canonical_question_text_sha256": "5ff49f1e882f8b9e261f8f99ff542882ea60b73bf7d388c073d8ce1cd31dc8a7",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2025-p1-q01vi",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "Fidelis likes neither fish nor beef. This statement implies that;",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Fidelis likes Fish but dislikes beef"
+          },
+          {
+            "label": "B",
+            "text": "Fidelis likes both beef and fish"
+          },
+          {
+            "label": "C",
+            "text": "Fidelis dislikes fish but likes beef"
+          },
+          {
+            "label": "D",
+            "text": "Fidelis dislikes beef but likes fish"
+          },
+          {
+            "label": "E",
+            "text": "Fidelis dislikes both fish and beef"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove footer/watermark and stray OCR bullet; retain printed Fish capitalization and all five alternatives.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0"
+        },
+        "boundary_assessment": "Printed Q1(vi) starts after Q1(v) and ends after E before the page footer; no continuation.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            92.2,
+            136.5,
+            338.7,
+            148
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            92.2,
+            152.1,
+            356,
+            164.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            91.3,
+            169.3,
+            381.3,
+            180.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            91.3,
+            185.5,
+            335.2,
+            197
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            91,
+            201.3,
+            327.2,
+            212.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            61.1,
+            232.7,
+            537.1,
+            245.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            89.3,
+            250.3,
+            223.5,
+            261.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "A Neno, maana, matamshi na matumizi ya semi\nB Maana, neno, mazungumzo na matumizi ya semi\nC. Matumizi ya semi, matamshi, maana na mazungumzo\nD Matamshi, mazungumzo, maana na kidahizo\nE Kidahizo, matamshi, mazungumzo na semi\n“Juma anaendesha baiskeli yake polepole.” Kiarifu cha sentensi hii kimejengwa na\nmfuatano upi wa vipashio?",
+      "canonical_question_text_sha256": "a542056cdd0d67394e128e9417b981a195141d640ae7e1db1e0fe1c33c692473",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q01ii",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "“Juma anaendesha baiskeli yake polepole.” Kiarifu cha sentensi hii kimejengwa na mfuatano upi wa vipashio?",
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kiima, chagizo na shamirisho"
+          },
+          {
+            "label": "B",
+            "text": "Kitenzi kishirikishi, shamirisho na chagizo"
+          },
+          {
+            "label": "C",
+            "text": "Kiarifu, kiima na chagizo"
+          },
+          {
+            "label": "D",
+            "text": "Shamirisho, chagizo na kitenzi kikuu"
+          },
+          {
+            "label": "E",
+            "text": "Kitenzi kikuu, shamirisho na chagizo"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Discard preceding Q1(i) options carried by this record; restore Q1(ii)'s printed alternatives carried at the start of canonical q01iii. Preserve original ID and parent/subquestion.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "1406919d6be60fd4e1c5b10c32b4f6d544e3333745f9f0f8a2b2a94e54d6b0e4"
+        },
+        "boundary_assessment": "Printed Q1(ii) begins with Juma after Q1(i)'s E; ends at its own E before Q1(iii).",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            89.6,
+            266.7,
+            260.6,
+            278.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            89.3,
+            282.8,
+            326.3,
+            294.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            88.7,
+            299.5,
+            238.5,
+            311
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            88.4,
+            316.2,
+            297.2,
+            327.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            87.8,
+            332.4,
+            297.8,
+            344.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            57.9,
+            364.9,
+            540.3,
+            377.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            85.8,
+            382.2,
+            279.9,
+            394.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            86.4,
+            398.9,
+            358.8,
+            408.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            85,
+            415.6,
+            358.3,
+            425.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            84.4,
+            432.9,
+            176.3,
+            441.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "A Kiima, chagizo na shamirisho\nB Kitenzi kishirikishi, shamirisho na chagizo\nC Kiarifu, kiima na chagizo\nD Shamirisho, chagizo na kitenzi kikuu\nE Kitenzi kikuu, shamirisho na chagizo\n“Tutakuja kumpokea kwenye uwanja wa ndege.” Kazi ya kielezi kinachojitokeza\nkwenye sentensi hii ni ipi kati ya hizi?\nA Kueleza idadi B Kueleza mahali\nC Kueleza namna D Kueleza wakati\nE Kueleza nafsi",
+      "canonical_question_text_sha256": "551b16254ace80946c08cbbdf3d491f24d9c9246a4e65e8b0e781176dca36c7f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q01iii",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "“Tutakuja kumpokea kwenye uwanja wa ndege.” Kazi ya kielezi kinachojitokeza kwenye sentensi hii ni ipi kati ya hizi?",
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kueleza idadi"
+          },
+          {
+            "label": "B",
+            "text": "Kueleza mahali"
+          },
+          {
+            "label": "C",
+            "text": "Kueleza namna"
+          },
+          {
+            "label": "D",
+            "text": "Kueleza wakati"
+          },
+          {
+            "label": "E",
+            "text": "Kueleza nafsi"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove preceding Q1(ii) options; restore printed quotation punctuation and separate A–E exactly.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "1406919d6be60fd4e1c5b10c32b4f6d544e3333745f9f0f8a2b2a94e54d6b0e4"
+        },
+        "boundary_assessment": "Q1(iii) begins at Tutakuja, after Q1(ii)'s E; ends after Kueleza nafsi and before Q1(iv).",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            33.4,
+            37.2,
+            367.2,
+            59.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            61.9,
+            45.5,
+            572.5,
+            71.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            61.6,
+            56.4,
+            574,
+            87.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            61.9,
+            93,
+            118.7,
+            102.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "Neno lipi linadhihirisha kauli ya kutendeka katika kitenzi pika?\nA. Pikia B Pikiwa F\nC. Pikika D. Pikwa -\nE Pikisha",
+      "canonical_question_text_sha256": "330f069f13721ca6e667f66272c82ab8e654fa1661c9c9b8fd625c0be30fe6c4",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q01vi",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "Neno lipi linadhihirisha kauli ya kutendeka katika kitenzi pika?",
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Pikia"
+          },
+          {
+            "label": "B",
+            "text": "Pikiwa"
+          },
+          {
+            "label": "C",
+            "text": "Pikika"
+          },
+          {
+            "label": "D",
+            "text": "Pikwa"
+          },
+          {
+            "label": "E",
+            "text": "Pikisha"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore all five printed option labels, remove stray OCR F and hyphen; no inferred answer from low OCR confidence.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "1406919d6be60fd4e1c5b10c32b4f6d544e3333745f9f0f8a2b2a94e54d6b0e4",
+          "3": "e67c34777f3cab11e2e0d0e54ef54ae4cb9269d8f65b855be40c6d7d4ea1fa44"
+        },
+        "boundary_assessment": "Printed Q1(vi) at top of p3; Q1 instruction is on p2; E Pikisha ends before Q1(vii).",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
