@@ -1,0 +1,496 @@
+{
+  "batch_id": "recent-core-batch-31",
+  "baseline_commit": "5bd02f0cdd85bf98235bf2805bf324de110f3947",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "biology-2025-p1-q01u1",
+      "reason": "Printed i has unknown-label canonical u1; no relabelling or invented standalone i ID."
+    },
+    {
+      "id": "biology-2025-p1-q01u2",
+      "reason": "Printed ii is mixed with i alternatives and labelled u2; identity unresolved."
+    },
+    {
+      "id": "biology-2025-p1-q01ii",
+      "reason": "Canonical ii is printed iii doughnut question. Preserve source hierarchy boundary; do not reparent."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "biology-2025-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            81.5,
+            369.5,
+            540.2,
+            390.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            118.7,
+            385.1,
+            429.1,
+            408
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            118.8,
+            402.2,
+            411.2,
+            425.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            318.4,
+            405.7,
+            328.3,
+            420.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            146.7,
+            420.7,
+            431.1,
+            438.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            117.4,
+            436.7,
+            243.5,
+            457.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "A bleeding pregnant woman was confirmed to have an embryo implanted in the\nfallopian tube. Which complication was she suffering from?\nA Preeclampsia Miscarriage\nB\nBreech birth D Premature birth\nE Ectopic pregnancy",
+      "canonical_question_text_sha256": "079550c87fe2be4e9dd176a01ae28bf3e1f2af4f1f5ece031250f571e6de856a",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "biology-2025-p1-q01iv",
+        "subject": "biology",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "A bleeding pregnant woman was confirmed to have an embryo implanted in the fallopian tube. Which complication was she suffering from?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Preeclampsia"
+          },
+          {
+            "label": "B",
+            "text": "Miscarriage"
+          },
+          {
+            "label": "C",
+            "text": "Breech birth"
+          },
+          {
+            "label": "D",
+            "text": "Premature birth"
+          },
+          {
+            "label": "E",
+            "text": "Ectopic pregnancy"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Biology1-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+          "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed A–E option ownership from OCR label ordering, join lines and remove trailing debris. Preserve printed capitalization, grammar and spaced COVID - 19 wording. This is an original exam question only: no diagnosis, treatment, correct option, medical explanation, epidemiological answer or accepted answer claim generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "e16eb7715134b21b731f577ae2ac8d6e730321d2bc7f3a215a1aea1e854f9007"
+        },
+        "boundary_assessment": "Original Biology Paper 1 p2 Q1(iv), complete printed stem and A–E options; exact canonical parent/numeral matches. Include Q1 shared instruction. Ends before next numeral or page footer. No practical specimen, diagram, table or other omitted source needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "biology-2025-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            78,
+            467.2,
+            542.1,
+            487.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            115.8,
+            486.2,
+            171.8,
+            502.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            115.4,
+            503.5,
+            504.9,
+            523.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            317.5,
+            506.7,
+            327.4,
+            521.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            518.7,
+            257.7,
+            543.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            317.5,
+            522.5,
+            505.9,
+            540.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.2,
+            537.7,
+            276.2,
+            553.7
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which mechanism does the human body undergo in response to cold weather\ncondition?\nA Vasodilation of arterioles Vasoconstriction of arterioles\nB\nC Sweating and panting\nD Relaxation of erector muscles\nE Decreased metabolic rate",
+      "canonical_question_text_sha256": "273efa8fddd372e7089136fb3c84494406e73b175322c5f189320aece2076f61",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "biology-2025-p1-q01v",
+        "subject": "biology",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Which mechanism does the human body undergo in response to cold weather condition?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Vasodilation of arterioles"
+          },
+          {
+            "label": "B",
+            "text": "Vasoconstriction of arterioles"
+          },
+          {
+            "label": "C",
+            "text": "Sweating and panting"
+          },
+          {
+            "label": "D",
+            "text": "Relaxation of erector muscles"
+          },
+          {
+            "label": "E",
+            "text": "Decreased metabolic rate"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Biology1-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+          "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed A–E option ownership from OCR label ordering, join lines and remove trailing debris. Preserve printed capitalization, grammar and spaced COVID - 19 wording. This is an original exam question only: no diagnosis, treatment, correct option, medical explanation, epidemiological answer or accepted answer claim generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "e16eb7715134b21b731f577ae2ac8d6e730321d2bc7f3a215a1aea1e854f9007"
+        },
+        "boundary_assessment": "Original Biology Paper 1 p2 Q1(v), complete printed stem and A–E options; exact canonical parent/numeral matches. Include Q1 shared instruction. Ends before next numeral or page footer. No practical specimen, diagram, table or other omitted source needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "biology-2025-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            74.1,
+            572.9,
+            292.3,
+            592.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            113.6,
+            589.3,
+            461.8,
+            609.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            317.2,
+            592.7,
+            327.7,
+            608
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            112.1,
+            605.4,
+            272.4,
+            624.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            316.6,
+            608.9,
+            470.5,
+            628.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            111.5,
+            623.8,
+            261.7,
+            641.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            566.8,
+            0.1,
+            593,
+            12.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which diseases occur worldwide?\nA Tuberculosis and cholera Malaria and bilharzia\nB\nC COVID -19 and cholera\nD AIDS and COVID -19\nE AIDS and tuberculosis\nTeh",
+      "canonical_question_text_sha256": "5e6d8922a02b7b3fa21e536b9891ca9e6c95e76cb2eb0cf97f8b90752ebc81a7",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "biology-2025-p1-q01vi",
+        "subject": "biology",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "Which diseases occur worldwide?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tuberculosis and cholera"
+          },
+          {
+            "label": "B",
+            "text": "Malaria and bilharzia"
+          },
+          {
+            "label": "C",
+            "text": "COVID - 19 and cholera"
+          },
+          {
+            "label": "D",
+            "text": "AIDS and COVID - 19"
+          },
+          {
+            "label": "E",
+            "text": "AIDS and tuberculosis"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Biology1-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+          "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed A–E option ownership from OCR label ordering, join lines and remove trailing debris. Preserve printed capitalization, grammar and spaced COVID - 19 wording. This is an original exam question only: no diagnosis, treatment, correct option, medical explanation, epidemiological answer or accepted answer claim generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "e16eb7715134b21b731f577ae2ac8d6e730321d2bc7f3a215a1aea1e854f9007"
+        },
+        "boundary_assessment": "Original Biology Paper 1 p2 Q1(vi), complete printed stem and A–E options; exact canonical parent/numeral matches. Include Q1 shared instruction. Ends before next numeral or page footer. No practical specimen, diagram, table or other omitted source needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

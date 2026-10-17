@@ -620,6 +620,29 @@
         "independent_human_academic_accepted": 0,
         "total": 168
       }
+    },
+    {
+      "deployed_sha": "5bd02f0cdd85bf98235bf2805bf324de110f3947",
+      "implementation_sha": "d31b8e078badc87ee0b34f08a7761620f5a4147e",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/39",
+      "verified_at": "2026-10-17T08:25:48.970Z",
+      "tests": "34 unit/static, 977 beta browser, 95 root browser and 78 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39017232121",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39017231906",
+      "rollback_baseline": "e63bf952269baa94ebd1bf60bfa96ff3a6a2ad3c",
+      "evidence": ".workbuddy-ai/batch30-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v30 to necta-rescue-beta-v31 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: Biology2025 selected3 batch31.json p2, then English2022 selected4 batch32.json, English2021 Q4four batch33.json/Q5three batch34.json, English2020 Q1first5 batch35.json (update hardcoded2020empty browser expectation). Math2025 four batch36.json/four batch37.json p2/3. All spec/pages checked. Engine now reuses exact data.papers examURL/hash (math basic_math path), not subject-derived path; add static guard. Preserve holds/English amendment/no answers; deadline10:08UTC.",
+      "counts": {
+        "question_only": 143,
+        "question_only_parent": 29,
+        "question_only_subquestion": 114,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 173
+      }
     }
   ]
 }
