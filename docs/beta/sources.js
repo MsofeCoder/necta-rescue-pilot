@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 34,
+  "version": 35,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6856,6 +6856,84 @@ window.NECTA_BETA = {
       "kind": "original_exam",
       "question": "‘check’ to mean ‘in opposition to or against’",
       "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q05i",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "5(i)",
+      "parent_question": "5",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "An action that was frequently repeated in the past.",
+      "context": "Construct one sentence to show actions by using each of the given guidelines.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q05ii",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "5(ii)",
+      "parent_question": "5",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Two actions which are in progress at the moment of speaking.",
+      "context": "Construct one sentence to show actions by using each of the given guidelines.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q05iv",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "5(iv)",
+      "parent_question": "5",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Two actions which were in progress at the same time in the past.",
+      "context": "Construct one sentence to show actions by using each of the given guidelines.",
       "marks": null,
       "answer_state": "question_only",
       "pipeline_state": "provisional_or_ambiguous",
