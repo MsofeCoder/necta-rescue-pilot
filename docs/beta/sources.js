@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 30,
+  "version": 31,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6187,6 +6187,246 @@ window.NECTA_BETA = {
         "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
         "pages": [
           5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2023-p1-q01i",
+      "subject": "geography",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "What will happen when the orbit of heavenly body is nearest to the Sun?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Perihelion"
+        },
+        {
+          "label": "B",
+          "text": "Aphelion"
+        },
+        {
+          "label": "C",
+          "text": "Sunrise"
+        },
+        {
+          "label": "D",
+          "text": "Equinox"
+        },
+        {
+          "label": "E",
+          "text": "Sunset"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
+        "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2023-p1-q01ii",
+      "subject": "geography",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "At the road construction site, John saw a layer of land with finest soil particles and more humus. Identify the layer observed by him.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "B horizon"
+        },
+        {
+          "label": "B",
+          "text": "E horizon"
+        },
+        {
+          "label": "C",
+          "text": "D horizon"
+        },
+        {
+          "label": "D",
+          "text": "A horizon"
+        },
+        {
+          "label": "E",
+          "text": "C horizon"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
+        "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2023-p1-q01iii",
+      "subject": "geography",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "Keino want to transport his car from Japan to Tanzania. Which mode of transport would be best to use?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Water"
+        },
+        {
+          "label": "B",
+          "text": "Pipeline"
+        },
+        {
+          "label": "C",
+          "text": "Cable"
+        },
+        {
+          "label": "D",
+          "text": "Animal"
+        },
+        {
+          "label": "E",
+          "text": "Road"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
+        "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2023-p1-q01iv",
+      "subject": "geography",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Songoro prefer to cultivate vegetables, maize and beans in his farm. What type of farming is he practicing?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mixed farming"
+        },
+        {
+          "label": "B",
+          "text": "Bush fallowing"
+        },
+        {
+          "label": "C",
+          "text": "Large scale farming"
+        },
+        {
+          "label": "D",
+          "text": "Crop rotation"
+        },
+        {
+          "label": "E",
+          "text": "Shifting cultivation"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
+        "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2023-p1-q01v",
+      "subject": "geography",
+      "year": 2023,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Sometimes people living in the Central part of Tanzania experience sudden vibrations of the Earth’s surface caused by movement of the molten rocks below or within the crust. Identify the instrument to be used to measure the magnitude of such vibrations.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hygrometer"
+        },
+        {
+          "label": "B",
+          "text": "Thermometer"
+        },
+        {
+          "label": "C",
+          "text": "Wind vane"
+        },
+        {
+          "label": "D",
+          "text": "Richer Scale"
+        },
+        {
+          "label": "E",
+          "text": "Barometer"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2023.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
+        "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
