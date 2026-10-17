@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 11,
+  "version": 12,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3269,6 +3269,102 @@ window.NECTA_BETA = {
         "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
         "pages": [
           3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2024-p1-q01ii",
+      "subject": "kiswahili",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Neno lenye mofu ya mtendwa ni lipi kati ya haya?",
+      "context": "Katika kipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo kwenye kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aliyetembelea"
+        },
+        {
+          "label": "B",
+          "text": "Alimtembelea"
+        },
+        {
+          "label": "C",
+          "text": "Alivyotembea"
+        },
+        {
+          "label": "D",
+          "text": "Atakayetembea"
+        },
+        {
+          "label": "E",
+          "text": "Ametembea"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024.pdf",
+        "sha256": "8c6f444b2b4d36f6ab2af48ebd38a05da1e2e98009d8cba4a7d674607950f934",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2024-p1-q01iv",
+      "subject": "kiswahili",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Tamathali ipi ya semi hukipa kitu kisicho binadamu sifa ya ubinadamu?",
+      "context": "Katika kipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo kwenye kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Taniaba"
+        },
+        {
+          "label": "B",
+          "text": "Tashihisi"
+        },
+        {
+          "label": "C",
+          "text": "Tashibiha"
+        },
+        {
+          "label": "D",
+          "text": "Takriri"
+        },
+        {
+          "label": "E",
+          "text": "Tabaini"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024.pdf",
+        "sha256": "8c6f444b2b4d36f6ab2af48ebd38a05da1e2e98009d8cba4a7d674607950f934",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

@@ -1,0 +1,334 @@
+{
+  "batch_id": "recent-core-batch-11",
+  "baseline_commit": "4f3d57d472fccfb1b674a9c47d490fdec89898d0",
+  "counts": {
+    "added_records": 2,
+    "added_parent_questions": 0,
+    "added_subquestions": 2,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical record; do not invent an ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "kiswahili-2024-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            111.5,
+            232.7,
+            379.6,
+            245.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            34.6,
+            246.2,
+            485,
+            261.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            140,
+            265.8,
+            405.5,
+            277.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            37.4,
+            289.2,
+            506.6,
+            302.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            139.4,
+            306.7,
+            438.6,
+            316.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            139.7,
+            318.5,
+            335.8,
+            335.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Neno lenye mofu ya mtendwa ni lipi kati ya haya?\nE A Aliyetembelea ®) Alimiembelea C_ Alivyotembea\nD_ Atakayetembea E  Ametembea :\n: (ii) Msaada wako umenifaa sana. Asante! Neno “Asante!” ni aina gani ya neno?\nA Nomino B Kivumishi C. Kielezi\nD. Kitenzi (6) Kihisishi",
+      "canonical_question_text_sha256": "b5cb5147a4b6f09b87bc6d35da072ac8f39918da99f1a705815872c38e02f48b",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2024-p1-q01ii",
+        "subject": "kiswahili",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Neno lenye mofu ya mtendwa ni lipi kati ya haya?",
+        "context": "Katika kipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo kwenye kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Aliyetembelea"
+          },
+          {
+            "label": "B",
+            "text": "Alimtembelea"
+          },
+          {
+            "label": "C",
+            "text": "Alivyotembea"
+          },
+          {
+            "label": "D",
+            "text": "Atakayetembea"
+          },
+          {
+            "label": "E",
+            "text": "Ametembea"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024.pdf",
+          "sha256": "8c6f444b2b4d36f6ab2af48ebd38a05da1e2e98009d8cba4a7d674607950f934",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed B Alimtembelea and A–E labels; remove stray OCR characters and absorbed Q1(iii) stem/choices. Manual circles on source are unverified annotations and are not transcribed as answers.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "fbe6006787f04a6725a6e9f0014973550416c831581435477398e6d6e7243bb9"
+        },
+        "boundary_assessment": "Printed Q1(ii) starts at Neno lenye mofu and ends at E Ametembea before Q1(iii) Msaada wako. Canonical hierarchy points to this stem; remove following item spillover.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2024-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            113.2,
+            348.5,
+            482.7,
+            360.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            140.8,
+            360.3,
+            442.9,
+            375.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            29.1,
+            381,
+            331.8,
+            391.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            27.1,
+            403.2,
+            547.2,
+            419
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            140.5,
+            420.5,
+            451.3,
+            433.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Tamathali ipi ya semi hukipa kitu kisicho binadamu sifa ya ubinadamu?\nA Taniaba ® Tashihisi C Tashibiha\n‘: D Takriri E Tabaini\nte (v) “Wanafunzi wa Kidato cha Pili wamepigiwa ngoma.” Kauli hii inaonesha hali gani?\nA Kutendana B Kutendeka © Kutendewa",
+      "canonical_question_text_sha256": "07521f4ab811cd4be4f620b49fd963c1f6089a4d00d9c9d84b49d0490b3daf20",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2024-p1-q01iv",
+        "subject": "kiswahili",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Tamathali ipi ya semi hukipa kitu kisicho binadamu sifa ya ubinadamu?",
+        "context": "Katika kipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo kwenye kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Taniaba"
+          },
+          {
+            "label": "B",
+            "text": "Tashihisi"
+          },
+          {
+            "label": "C",
+            "text": "Tashibiha"
+          },
+          {
+            "label": "D",
+            "text": "Takriri"
+          },
+          {
+            "label": "E",
+            "text": "Tabaini"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024.pdf",
+          "sha256": "8c6f444b2b4d36f6ab2af48ebd38a05da1e2e98009d8cba4a7d674607950f934",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore B label and remove Q1(v) stem/option spillover. Retain original question/choice words. Manual source-page circles do not certify an educational answer and are omitted.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "fbe6006787f04a6725a6e9f0014973550416c831581435477398e6d6e7243bb9"
+        },
+        "boundary_assessment": "Printed Q1(iv) begins at Tamathali and ends after E Tabaini before Q1(v) Wanafunzi. Full Q1 instruction same page.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
