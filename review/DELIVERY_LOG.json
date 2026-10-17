@@ -160,6 +160,29 @@
         "independent_human_academic_accepted": 0,
         "total": 81
       }
+    },
+    {
+      "deployed_sha": "4f3d57d472fccfb1b674a9c47d490fdec89898d0",
+      "implementation_sha": "d01b7fd48ec03cdf0db3b64643c76637966f4083",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/18",
+      "verified_at": "2026-10-17T06:50:35.007Z",
+      "tests": "33 unit/static, 502 beta browser, 94 root browser and 54 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011340882",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011340823",
+      "rollback_baseline": "ba514196174cd0cf8c4adb58ba11f7c8a0a137e2",
+      "evidence": ".workbuddy-ai/batch10-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v10 to necta-rescue-beta-v11 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next batch11 Kiswahili2024 Q1(ii)/(iv), source p2 inspected and spec .workbuddy-ai/batch11.json. Then Geography2024 Q1(v)/(vii) source p2 inspected; Q1(ii) canonical identity conflict must stay unadmitted. Do not infer answer keys from source hand annotations. Keep all original holds.",
+      "counts": {
+        "question_only": 54,
+        "question_only_parent": 19,
+        "question_only_subquestion": 35,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 84
+      }
     }
   ]
 }

@@ -158,9 +158,11 @@ try{
   await c.file('#backupFile',oldBackup);await c.wait(`document.getElementById('backupStatus').textContent.includes('Old paper-practice backup accepted')`);
   check('old backup import keeps learning progress',await c.eval(`localStorage.getItem('necta-rescue-learning-v1')`)===beforeImport);
   await c.eval(`document.querySelector('.backup-tools').open=true`);await c.click('#exportProgress');
-  const findCombined=()=>fs.readdirSync(downloads).find(f=>f.endsWith('.json')&&JSON.parse(fs.readFileSync(path.join(downloads,f),'utf8')).learning);
-  for(let i=0;i<50&&!findCombined();i++)await sleep(100);
-  const combined=path.join(downloads,findCombined()||'missing-combined-backup');
+  const findCombined=()=>fs.readdirSync(downloads).find(f=>{if(!f.endsWith('.json'))return false;try{return !!JSON.parse(fs.readFileSync(path.join(downloads,f),'utf8')).learning;}catch{return false;}});
+  for(let i=0;i<150&&!findCombined();i++)await sleep(100);
+  const combinedName=findCombined();
+  demand('combined backup finishes as a parseable JSON download',!!combinedName,fs.readdirSync(downloads));
+  const combined=path.join(downloads,combinedName);
   const combinedData=JSON.parse(fs.readFileSync(combined,'utf8'));
   check('new export contains old notes and new self-checks',!!combinedData.learning&&combinedData.records[0].notes.includes('Seeded in production'));
   await c.eval(`localStorage.setItem('necta-rescue-learning-v1',JSON.stringify({version:1,records:[]}))`);
