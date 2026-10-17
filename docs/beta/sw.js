@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='necta-rescue-beta-v33';
+const CACHE='necta-rescue-beta-v34';
 const ASSETS=['./','./index.html','./beta.css','./core.js','./civics.js','./sources.js','./beta.js'];
 const ALLOWED=new Set(ASSETS.map(p=>new URL(p,self.registration.scope).pathname));
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(ASSETS);await self.skipWaiting();})()));
