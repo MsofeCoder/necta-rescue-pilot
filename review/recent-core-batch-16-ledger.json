@@ -1,0 +1,460 @@
+{
+  "batch_id": "recent-core-batch-16",
+  "baseline_commit": "72eb5ac15e772938ca4316b8f4d7e8ef20c866f9",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical ID for printed Q10."
+    },
+    {
+      "id": "geography-2024-p1-q01ii",
+      "reason": "Prior identity hold: canonical text points to printed Q1(iii)/(iv)."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "civics-2024-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            87,
+            221.8,
+            530.8,
+            240.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.3,
+            238.8,
+            530.8,
+            255.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.3,
+            252.9,
+            176.3,
+            262.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            268.4,
+            514.7,
+            288.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            282.8,
+            387.6,
+            296.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            115.2,
+            298.1,
+            201.6,
+            310.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "Neema was quoted saying “At our school there is fair treatment of both girls and boys\nto make us fulfill our academic goal”. Which concept best explain Neema’s\nobservation?\nA Gender equality B Gender analysis ihe\nC Gender stereotype D Gender blindness\nE Gender equity",
+      "canonical_question_text_sha256": "d69c73f5e10842cc3eceeeec33c290a6d4d3e4f3cf8a4f9635feaba875e622a3",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "civics-2024-p1-q01ii",
+        "subject": "civics",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Neema was quoted saying “At our school there is fair treatment of both girls and boys to make us fulfill our academic goal”. Which concept best explain Neema’s observation?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Gender equality"
+          },
+          {
+            "label": "B",
+            "text": "Gender analysis"
+          },
+          {
+            "label": "C",
+            "text": "Gender stereotype"
+          },
+          {
+            "label": "D",
+            "text": "Gender blindness"
+          },
+          {
+            "label": "E",
+            "text": "Gender equity"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Civics-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+          "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore damaged quote/apostrophe, remove stray OCR ihe and preserve printed fulfill and best explain grammar. Separate all five original options; no answer or solution association inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "218e92d33c680652893f134aa47ec38fd6cb1b0f2e19fa0d64623b36cf97b8f2"
+        },
+        "boundary_assessment": "Printed Q1(ii) after Q1(i) E and before Q1(iii), ends at E Gender equity; parent Q1 instruction same p2. Complete scenario and choices, no figure needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "civics-2024-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            87.3,
+            327.5,
+            530.5,
+            344.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            344.2,
+            527.9,
+            359.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.6,
+            358.3,
+            407.5,
+            373
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.6,
+            372.1,
+            422.5,
+            387.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.6,
+            385.9,
+            236.7,
+            398.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Suppose three sovereign countries have surrendered their total independence and\nautonomy to form one country, what will be the form of a newly formed government?\nA Federal government B Republic government\nC Union government D Transitional government\nE Monarch government",
+      "canonical_question_text_sha256": "79a0e722c8245ef6319bdf8b5cbbd69b316ce5464ad1d576fbdd9fdca62d875a",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "civics-2024-p1-q01iii",
+        "subject": "civics",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "Suppose three sovereign countries have surrendered their total independence and autonomy to form one country, what will be the form of a newly formed government?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Federal government"
+          },
+          {
+            "label": "B",
+            "text": "Republic government"
+          },
+          {
+            "label": "C",
+            "text": "Union government"
+          },
+          {
+            "label": "D",
+            "text": "Transitional government"
+          },
+          {
+            "label": "E",
+            "text": "Monarch government"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Civics-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+          "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed line breaks and separate A–E labels only. Retain printed wording and hierarchy; no government answer inferred from scenario or numeric key.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "218e92d33c680652893f134aa47ec38fd6cb1b0f2e19fa0d64623b36cf97b8f2"
+        },
+        "boundary_assessment": "Q1(iii) after (ii), ends at E Monarch government before (iv), full Q1 instruction/scenario/choices same p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "civics-2024-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            87.6,
+            414.7,
+            532.2,
+            430.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.6,
+            430.3,
+            445.8,
+            444.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            445.5,
+            411.6,
+            460.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            460.2,
+            387.6,
+            474.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            114.9,
+            475.8,
+            253.2,
+            488.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which term is a best description of a situation where people lack access to education,\nhealth services, productive skills, information and political freedom?\nA Income poverty B Non- material poverty\nC Material poverty D Absolute poverty\nE Vicious circle of poverty",
+      "canonical_question_text_sha256": "dcccdec7297632d0b4ec5b8d4de07f898c77bc4c0b407e7a9de2516ef2a30e72",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "civics-2024-p1-q01iv",
+        "subject": "civics",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Which term is a best description of a situation where people lack access to education, health services, productive skills, information and political freedom?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Income poverty"
+          },
+          {
+            "label": "B",
+            "text": "Non- material poverty"
+          },
+          {
+            "label": "C",
+            "text": "Material poverty"
+          },
+          {
+            "label": "D",
+            "text": "Absolute poverty"
+          },
+          {
+            "label": "E",
+            "text": "Vicious circle of poverty"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Civics-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+          "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed lines, split original alternatives and retain printed a best and Non- material spelling/spacing. No item marks or correct answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "218e92d33c680652893f134aa47ec38fd6cb1b0f2e19fa0d64623b36cf97b8f2"
+        },
+        "boundary_assessment": "Q1(iv) after (iii), ends at E Vicious circle of poverty before (v). Full prompt, choices and Q1 instruction same page; no dependency omitted.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

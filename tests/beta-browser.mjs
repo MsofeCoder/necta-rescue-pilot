@@ -56,7 +56,8 @@ try{
     for(let i=0;i<count;i++){
       const id=await c.eval(`document.getElementById('reference').textContent`);
       check('answer initially concealed '+id,await c.eval(`document.getElementById('answer').hidden&&!document.getElementById('bullets').textContent`));
-      if(s.id==='civics'){await c.click('#reveal');check('bounded educational answer revealed '+i,await c.eval(`!document.getElementById('answer').hidden&&document.querySelectorAll('#bullets li').length>0`));answered++;}
+      const questionOnlyRecord=await c.eval(`NECTA_BETA.cards.some(r=>${JSON.stringify(id)}.endsWith(' · '+r.id))`);
+      if(!questionOnlyRecord){await c.click('#reveal');check('bounded educational answer revealed '+i,await c.eval(`!document.getElementById('answer').hidden&&document.querySelectorAll('#bullets li').length>0`));answered++;}
       else{check('unreviewed answer reveal unavailable '+id,await c.eval(`document.getElementById('reveal').hidden&&document.getElementById('state').textContent.includes('Question-only practice')`));questionOnly++;}
       const added=batch.records.find(r=>id.endsWith(r.record_id));
       if(added){
@@ -71,6 +72,11 @@ try{
       if(i===0)await c.shot(s.id+'-390');if(added&&s.id==='geography'&&i===3)await c.shot('new-geography-conflict-390');if(added&&s.id==='literature'&&i===count-1)await c.shot('new-literature-parent-390');if(i<count-1)await c.click('#next');
     }
     check('no disputed card presented '+s.id,!(await c.eval(`document.getElementById('reference').textContent`)).includes('concept-democracy-state')&&!(await c.eval(`document.getElementById('reference').textContent`)).includes('concept-democracy-reasons'));
+    if(s.id==='civics'){
+      const recent=await c.eval(`NECTA_BETA.cards.filter(r=>r.subject==='civics'&&r.year===2024).length`);
+      await c.eval(`document.getElementById('year').value='2024';document.getElementById('year').dispatchEvent(new Event('change'))`);
+      check('Civics 2024 exposes only checked question-only records',recent>0&&await c.eval(`document.getElementById('coverage').textContent.startsWith('${recent} ')&&document.getElementById('reveal').hidden&&document.getElementById('answer').hidden`));
+    }
     await c.eval(`document.getElementById('year').value='2020';document.getElementById('year').dispatchEvent(new Event('change'))`);
     check('2020 has source references without claiming checked question coverage '+s.id,await c.eval(`document.getElementById('empty').hidden===false&&document.querySelectorAll('#papers .paper').length>0`));
     await c.click('#homeButton');

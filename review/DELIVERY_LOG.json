@@ -275,6 +275,29 @@
         "independent_human_academic_accepted": 0,
         "total": 94
       }
+    },
+    {
+      "deployed_sha": "72eb5ac15e772938ca4316b8f4d7e8ef20c866f9",
+      "implementation_sha": "4d35121999fb813bdd33776feb50962675e5a6c1",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/24",
+      "verified_at": "2026-10-17T07:18:07.182Z",
+      "tests": "33 unit/static, 604 beta browser, 95 root browser and 71 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39012986944",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39012986782",
+      "rollback_baseline": "05cf730697b3255b513f663b672bda7bc4ba5a29",
+      "evidence": ".workbuddy-ai/batch15-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v15 to necta-rescue-beta-v16 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: admit the three original Civics 2024 Q1(ii)–(iv) question-only candidates after per-record answer-state routing; preserve all holds and both storage keys.",
+      "counts": {
+        "question_only": 71,
+        "question_only_parent": 20,
+        "question_only_subquestion": 51,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 101
+      }
     }
   ]
 }
