@@ -34,6 +34,14 @@ test('question-only display copies are separately ledgered; hierarchy and source
   assert.equal(ledger.records.length,release.question_only);
   for(const c of data.cards){const l=ledger.records.find(l=>l.record_id===c.id);assert(l);assert.deepEqual(amendedDisplay(l.display),c);assert.match(l.render_sha256||(l.original_exam_review||l.source_review).page_renders[String(c.exam.pages[0])],/^[a-f0-9]{64}$/);assert.equal(c.subquestion?!!c.parent_question:true,true);}
 });
+
+test('question-only source URLs and hashes preserve the matching paper reference',()=>{
+  for(const c of data.cards){
+    const paper=data.papers.find(p=>p.subject===c.subject&&p.year===c.year&&p.paper===c.paper&&p.exam.filename===c.exam.filename);
+    assert(paper,c.id);assert.equal(c.exam.url,paper.exam.url,c.id);assert.equal(c.exam.sha256,paper.exam.sha256,c.id);
+    assert(c.exam.pages.every(page=>Number.isInteger(page)&&page>0&&page<=paper.exam.pages),c.id);
+  }
+});
 test('beta assets are explicit; worker cannot purge accepted app caches or expose private sources',()=>{
   assert.deepEqual(fs.readdirSync(dir).sort(),['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'].sort());
   for(const f of fs.readdirSync(dir)){const s=fs.readFileSync(path.join(dir,f),'utf8');assert(!/C:\\Users\\|local_path|source_file|PRIVATE KEY|api[_-]?key\s*[:=]/i.test(s),f);}

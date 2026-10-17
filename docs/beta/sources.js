@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 31,
+  "version": 32,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6425,6 +6425,150 @@ window.NECTA_BETA = {
         "filename": "Geography-F4-2023.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2023.pdf",
         "sha256": "1ab2754273084e0fa1868566d78fac6bcb677cb01e6abdb206e8fd75c9c3f9f4",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "biology-2025-p1-q01iv",
+      "subject": "biology",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "A bleeding pregnant woman was confirmed to have an embryo implanted in the fallopian tube. Which complication was she suffering from?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Preeclampsia"
+        },
+        {
+          "label": "B",
+          "text": "Miscarriage"
+        },
+        {
+          "label": "C",
+          "text": "Breech birth"
+        },
+        {
+          "label": "D",
+          "text": "Premature birth"
+        },
+        {
+          "label": "E",
+          "text": "Ectopic pregnancy"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Biology1-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+        "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "biology-2025-p1-q01v",
+      "subject": "biology",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Which mechanism does the human body undergo in response to cold weather condition?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Vasodilation of arterioles"
+        },
+        {
+          "label": "B",
+          "text": "Vasoconstriction of arterioles"
+        },
+        {
+          "label": "C",
+          "text": "Sweating and panting"
+        },
+        {
+          "label": "D",
+          "text": "Relaxation of erector muscles"
+        },
+        {
+          "label": "E",
+          "text": "Decreased metabolic rate"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Biology1-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+        "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "biology-2025-p1-q01vi",
+      "subject": "biology",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "Which diseases occur worldwide?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tuberculosis and cholera"
+        },
+        {
+          "label": "B",
+          "text": "Malaria and bilharzia"
+        },
+        {
+          "label": "C",
+          "text": "COVID - 19 and cholera"
+        },
+        {
+          "label": "D",
+          "text": "AIDS and COVID - 19"
+        },
+        {
+          "label": "E",
+          "text": "AIDS and tuberculosis"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Biology1-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
+        "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
         "pages": [
           2
         ]
