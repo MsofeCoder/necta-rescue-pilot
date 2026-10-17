@@ -735,6 +735,29 @@
         "independent_human_academic_accepted": 0,
         "total": 187
       }
+    },
+    {
+      "deployed_sha": "1a96752075d0f1d4a0a728d3b1126af2f1e92b16",
+      "implementation_sha": "e4ba0c31e4a105f4042ee9c20ca09076470b9577",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/44",
+      "verified_at": "2026-10-17T08:51:10.896Z",
+      "tests": "35 unit/static, 1072 beta browser, 95 root browser and 76 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39018816971",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39018816343",
+      "rollback_baseline": "87e65c8735b3df6ce012af583cfe43a383f883be",
+      "evidence": ".workbuddy-ai/batch35-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v35 to necta-rescue-beta-v36 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: Math2025 four batch36 and four batch37 p2/3; Geography2020 batch38 five; Kiswahili2020 batch39 six; History2020 batch40 six; Literature2020 batch41 six; Civics2020 batch42 six; History2021 batch43 six, all p2. Sources/specs already checked in .workbuddy-ai. Year-filter test now handles real2020coverage. Engine reuses preserved paper URL/hash. Preserve holds/amendments/no answers; no human/phone;deadline10:08UTC.",
+      "counts": {
+        "question_only": 162,
+        "question_only_parent": 29,
+        "question_only_subquestion": 133,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 192
+      }
     }
   ]
 }

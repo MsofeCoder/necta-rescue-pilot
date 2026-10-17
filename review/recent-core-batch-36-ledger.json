@@ -1,0 +1,409 @@
+{
+  "batch_id": "recent-core-batch-36",
+  "baseline_commit": "1a96752075d0f1d4a0a728d3b1126af2f1e92b16",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 0,
+    "added_subquestions": 4,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "basic_mathematics-2025-p1-q04a",
+      "reason": "Question requires original triangle diagram; not admitted to plain-text batch without full figure evidence in UI."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q07a",
+      "reason": "Printed Q7(a) absorbed in canonical Q6(b); standalone exact ID absent, no invented ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "basic_mathematics-2025-p1-q03a",
+      "canonical_parent_question": "3",
+      "canonical_subquestion": "(a)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            62.5,
+            288,
+            561,
+            308.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            141.7,
+            305.6,
+            561,
+            326.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            142,
+            329.8,
+            341.3,
+            341
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            141.7,
+            347.9,
+            248,
+            360
+          ]
+        }
+      ],
+      "original_pipeline_text": "A certain school has 260 students. Out of these students, 130 study Physics. 150\nstudy Chemistry and 40 study both Physics and Chemistry. By using formula,\nfind the number of students who study;\nGi) Physics only.",
+      "canonical_question_text_sha256": "00a38a489d07ae3d8e3b39c21fecdfc8312a5c0c00883dda2393af988c7e273b",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q03a",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "3(a)",
+        "parent_question": "3",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "A certain school has 260 students. Out of these students, 130 study Physics, 150 study Chemistry and 40 study both Physics and Chemistry. By using formula, find the number of students who study;\n(i) Physics only.",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "basic_mathematics-2025-p1-q03aii",
+      "canonical_parent_question": "3(a)",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            142,
+            363.7,
+            337,
+            376.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "neither Physics nor Chemistry.",
+      "canonical_question_text_sha256": "3bca5ee9a3367d6dd5ee84e91a846c119ccf86709547ebc7ad1c1f8f8997ca9f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q03aii",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "3(a)(ii)",
+        "parent_question": "3(a)",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "neither Physics nor Chemistry.",
+        "context": "A certain school has 260 students. Out of these students, 130 study Physics, 150 study Chemistry and 40 study both Physics and Chemistry. By using formula, find the number of students who study;",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "basic_mathematics-2025-p1-q03b",
+      "canonical_parent_question": "3",
+      "canonical_subquestion": "(b)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            103.4,
+            376.1,
+            559.3,
+            395.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            142.3,
+            394,
+            559.3,
+            413
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            142.6,
+            416.4,
+            292,
+            430
+          ]
+        }
+      ],
+      "original_pipeline_text": "In a sample of 35 animal keepers, 18 keep goats, 20 keep cows and 3 keep both\ngoats and cows. By using a Venn diagram, find the probability of getting a\nperson who keeps goats only.",
+      "canonical_question_text_sha256": "9755cd93154580541ee1626ce18ae27c6dbb3893f2bc8fd65af7f088a92d8112",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q03b",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "3(b)",
+        "parent_question": "3",
+        "subquestion": "(b)",
+        "kind": "original_exam",
+        "question": "In a sample of 35 animal keepers, 18 keep goats, 20 keep cows and 3 keep both goats and cows. By using a Venn diagram, find the probability of getting a person who keeps goats only.",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "basic_mathematics-2025-p1-q04b",
+      "canonical_parent_question": "4",
+      "canonical_subquestion": "(b)",
+      "canonical_source_pages": [
+        2,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            104.3,
+            634.2,
+            557.3,
+            649.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            145.2,
+            652.3,
+            171.9,
+            661
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            106.8,
+            824.5,
+            595.3,
+            839.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            33.7,
+            55,
+            513.2,
+            72.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Find the perimeter of a regular pentagon inscribed in a circle whose radius is\n10 m.\nce cil RR as A\n2. (a) If the exchange rate between Tanzanian shillings and the US dollar Is 2,300",
+      "canonical_question_text_sha256": "4e8360a894182351feef6ce044fb030228d5d9963c9d6af2e0750e7330a5c3ca",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q04b",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "4(b)",
+        "parent_question": "4",
+        "subquestion": "(b)",
+        "kind": "original_exam",
+        "question": "Find the perimeter of a regular pentagon inscribed in a circle whose radius is 10 m.",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
