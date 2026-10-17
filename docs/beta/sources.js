@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 8,
+  "version": 9,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2903,6 +2903,84 @@ window.NECTA_BETA = {
         "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05iv",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(iv)",
+      "parent_question": "5",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Short artistic wise sayings meant to educate the audience.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05v",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(v)",
+      "parent_question": "5",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "The short interesting and amusing stories about a person or event.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05vi",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(vi)",
+      "parent_question": "5",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "The short stories or narrations handed down through oral tradition usually from one generation to another.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

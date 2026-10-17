@@ -1,0 +1,282 @@
+{
+  "batch_id": "recent-core-batch-08",
+  "baseline_commit": "e201bb5c64de890eb4871cbc36337b6940f975aa",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical record; do not invent an ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "literature-2024-p1-q05iv",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            119.2,
+            434.3,
+            409.5,
+            447.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "Short artistic wise sayings meant to educate the audience.",
+      "canonical_question_text_sha256": "ed42737468df4dcc2774f97ed0a6b558462a8b71e23c74fc895c6d701ad7313c",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q05iv",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(iv)",
+        "parent_question": "5",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Short artistic wise sayings meant to educate the audience.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "No wording change; retain original parent5/subquestion(iv) and attach full printed Q5 instruction. No term/answer supplied.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Printed Q5(iv) below (iii) and before (v); Q5 parent instruction on same page, unrelated Q6 story is below whole Q5.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q05v",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            118.9,
+            454.2,
+            447,
+            468.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "The short interesting and amusing stories about a person or event.",
+      "canonical_question_text_sha256": "fcf005fc16c629f50d8d5663f0380d241fbb9b248aa6437da6f13fd373948cdc",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q05v",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(v)",
+        "parent_question": "5",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "The short interesting and amusing stories about a person or event.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Preserve printed wording and attach full Q5 instruction. Do not include later Q6 narrative or inferred literary term.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Printed Q5(v) is between (iv) and (vi), full single-line description under Q5 instruction, no narrative dependency.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q05vi",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            118.7,
+            474.9,
+            534.2,
+            492.2
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            145.2,
+            497.7,
+            353.7,
+            509.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "The short stories or narrations handed down through oral tradition usually from one\ngeneration to another. .",
+      "canonical_question_text_sha256": "68ce683a10b4533263f2cb570363c8f2a8ddaf988a0be02bdfc0d5906204a166",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q05vi",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(vi)",
+        "parent_question": "5",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "The short stories or narrations handed down through oral tradition usually from one generation to another.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed line break and remove trailing OCR dot only; retain hierarchy and parent instruction, no answer generated.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Printed Q5(vi) spans two lines ending another. before (vii); Q5 instruction same page, no Q6 dependency.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
