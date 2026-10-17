@@ -804,6 +804,29 @@
         "independent_human_academic_accepted": 0,
         "total": 200
       }
+    },
+    {
+      "deployed_sha": "dccb37a121b5ca03771b9cd365f218d289b91fe8",
+      "implementation_sha": "b2732a72cbc35aa0e102c19855adb468a63a7c85",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/47",
+      "verified_at": "2026-10-17T12:26:43.787Z",
+      "tests": "36 unit/static, 1137 beta browser, 95 root browser and 78 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39032478784",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39032478552",
+      "rollback_baseline": "603c222e9ec19ac8772d2bb87aff7b1bd6ede542",
+      "evidence": ".workbuddy-ai/batch38-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v38 to necta-rescue-beta-v39 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Selected next bounded batch: six Kiswahili 2020 Q1(i)-(vi) candidates in review/NEXT_SOURCE_BATCH.json. Not integrated or published. Recheck original page 2, hashes and canonical hierarchy against deployment dccb37a121b5ca03771b9cd365f218d289b91fe8, admit only reliable question-only text with a new immutable ledger and cache v40 or later; preserve every hold. No new answers. Physical Android remains NOT TESTED; human academic approval PENDING. Expired three-hour heartbeat deleted; no background delivery is scheduled.",
+      "counts": {
+        "question_only": 175,
+        "question_only_parent": 29,
+        "question_only_subquestion": 146,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 205
+      }
     }
   ]
 }

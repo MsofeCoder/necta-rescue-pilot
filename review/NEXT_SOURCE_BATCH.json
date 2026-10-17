@@ -1,209 +1,147 @@
 {
-  "batch_id": "prepared-literature-2024-q5-vii-ix",
-  "baseline_content_commit": "70cb2ea9c044c18008074044afb4d4f540e989e0",
-  "status": "PREPARED ONLY — not integrated or published",
+  "batch_id": "recent-core-batch-39",
+  "baseline_content_commit": "dccb37a121b5ca03771b9cd365f218d289b91fe8",
+  "status": "SELECTED ONLY — not integrated or published; source recheck required before admission",
   "counts": {
-    "records": 3,
+    "records": 6,
     "parent_questions": 0,
-    "subquestions": 3,
+    "subquestions": 6,
     "new_answers": 0
   },
+  "prior_queue_preserved": "review/prepared-literature-2024-q5-vii-ix-original-queue.json",
   "records": [
     {
-      "record_id": "literature-2024-p1-q05vii",
-      "canonical_parent_question": "5",
-      "canonical_subquestion": "(vii)",
-      "canonical_source_pages": [
-        4,
-        4
+      "record_id": "kiswahili-2020-p1-q01i",
+      "proposed_question": "Ni neno lipi linalotoa taarifa kuhusu nomino?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kitenzi",
+        "Kielezi",
+        "Kivumishi",
+        "Kiwakilishi",
+        "Kiunganishi"
       ],
-      "canonical_page_spans": [
-        {
-          "page": 4,
-          "bbox": [
-            118.1,
-            518.4,
-            522.4,
-            530.8
-          ]
-        },
-        {
-          "page": 4,
-          "bbox": [
-            144.3,
-            539.4,
-            458.8,
-            551.8
-          ]
-        }
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
       ],
-      "original_pipeline_text": "The short stories which are not based on facts often with animal characters which\nconvey a moral message to the audience. :",
-      "canonical_question_text_sha256": "196219ad8f9b5b849832545c8c8a5e2fd5167de3ba499c954c6c2a4df2bda6f6",
-      "status": "source_checked_candidate_not_integrated",
-      "proposed_display": {
-        "id": "literature-2024-p1-q05vii",
-        "subject": "literature",
-        "year": 2024,
-        "paper": "1",
-        "reference": "5(vii)",
-        "parent_question": "5",
-        "subquestion": "(vii)",
-        "kind": "original_exam",
-        "question": "The short stories which are not based on facts often with animal characters which convey a moral message to the audience.",
-        "context": "Write a term that stands for each of the following descriptions.",
-        "marks": null,
-        "answer_state": "question_only",
-        "pipeline_state": "provisional_or_ambiguous",
-        "question_review": "source_page_checked",
-        "reviewed_on": "2026-10-17",
-        "exam": {
-          "filename": "Literature-F4-2024.pdf",
-          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
-          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
-          "pages": [
-            4
-          ]
-        },
-        "answer_note": "Prepared only; no educational answer checked or accepted."
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
       },
-      "display_correction": "Join printed line break and remove OCR trailing colon; no literary term inferred.",
-      "original_exam_review": {
-        "pages": [
-          4
-        ],
-        "page_renders": {
-          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
-        },
-        "boundary_assessment": "Q5(vii) under printed Q5 instruction on p4; each description ends before next labelled item. The later Q6 story is unrelated. No omitted passage/table/figure.",
-        "method": "Full original p4 rendered 1.7x and visually inspected on 17 October 2026. Canonical IDs and hierarchy rechecked."
-      },
-      "reviewer": "Codex sole agent self-review, no independent human academic certification",
+      "boundary_to_recheck": "Printed Q1(i) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "literature-2024-p1-q05viii",
-      "canonical_parent_question": "5",
-      "canonical_subquestion": "(viii)",
-      "canonical_source_pages": [
-        4,
-        4
+      "record_id": "kiswahili-2020-p1-q01ii",
+      "proposed_question": "Katika lugha ya Kiswahili kuna aina ngapi za vitenzi?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "mbili",
+        "tano",
+        "sita",
+        "tatu",
+        "nne"
       ],
-      "canonical_page_spans": [
-        {
-          "page": 4,
-          "bbox": [
-            116.9,
-            560.4,
-            483.8,
-            573.4
-          ]
-        }
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
       ],
-      "original_pipeline_text": "The short stories used to illustrate a moral or spiritual lesson. > .",
-      "canonical_question_text_sha256": "5ecf6abaf192b9f3b061d956be1ff0cdba714507d1788c83ca370a6bbad79754",
-      "status": "source_checked_candidate_not_integrated",
-      "proposed_display": {
-        "id": "literature-2024-p1-q05viii",
-        "subject": "literature",
-        "year": 2024,
-        "paper": "1",
-        "reference": "5(viii)",
-        "parent_question": "5",
-        "subquestion": "(viii)",
-        "kind": "original_exam",
-        "question": "The short stories used to illustrate a moral or spiritual lesson.",
-        "context": "Write a term that stands for each of the following descriptions.",
-        "marks": null,
-        "answer_state": "question_only",
-        "pipeline_state": "provisional_or_ambiguous",
-        "question_review": "source_page_checked",
-        "reviewed_on": "2026-10-17",
-        "exam": {
-          "filename": "Literature-F4-2024.pdf",
-          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
-          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
-          "pages": [
-            4
-          ]
-        },
-        "answer_note": "Prepared only; no educational answer checked or accepted."
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
       },
-      "display_correction": "Remove trailing OCR greater-than sign and extra dot only.",
-      "original_exam_review": {
-        "pages": [
-          4
-        ],
-        "page_renders": {
-          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
-        },
-        "boundary_assessment": "Q5(viii) under printed Q5 instruction on p4; each description ends before next labelled item. The later Q6 story is unrelated. No omitted passage/table/figure.",
-        "method": "Full original p4 rendered 1.7x and visually inspected on 17 October 2026. Canonical IDs and hierarchy rechecked."
-      },
-      "reviewer": "Codex sole agent self-review, no independent human academic certification",
+      "boundary_to_recheck": "Printed Q1(ii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     },
     {
-      "record_id": "literature-2024-p1-q05ix",
-      "canonical_parent_question": "5",
-      "canonical_subquestion": "(ix)",
-      "canonical_source_pages": [
-        4,
-        4
+      "record_id": "kiswahili-2020-p1-q01iii",
+      "proposed_question": "Maneno yepi kati ya yafuatayo yametokana na lugha za Kibantu?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kitindamimba na bendera",
+        "Hela na mtutu",
+        "Kitivo na ngeli",
+        "Godoro na sharubati",
+        "Bunge na shule"
       ],
-      "canonical_page_spans": [
-        {
-          "page": 4,
-          "bbox": [
-            116.6,
-            581.8,
-            297.8,
-            593.9
-          ]
-        }
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
       ],
-      "original_pipeline_text": "The songs sung to soothe babies.",
-      "canonical_question_text_sha256": "098a6042994bb0e7b7548281cb53ad3e192ec426b204afc94326e1f464ce6ec8",
-      "status": "source_checked_candidate_not_integrated",
-      "proposed_display": {
-        "id": "literature-2024-p1-q05ix",
-        "subject": "literature",
-        "year": 2024,
-        "paper": "1",
-        "reference": "5(ix)",
-        "parent_question": "5",
-        "subquestion": "(ix)",
-        "kind": "original_exam",
-        "question": "The songs sung to soothe babies.",
-        "context": "Write a term that stands for each of the following descriptions.",
-        "marks": null,
-        "answer_state": "question_only",
-        "pipeline_state": "provisional_or_ambiguous",
-        "question_review": "source_page_checked",
-        "reviewed_on": "2026-10-17",
-        "exam": {
-          "filename": "Literature-F4-2024.pdf",
-          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
-          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
-          "pages": [
-            4
-          ]
-        },
-        "answer_note": "Prepared only; no educational answer checked or accepted."
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
       },
-      "display_correction": "No wording correction; attach original Q5 parent instruction.",
-      "original_exam_review": {
-        "pages": [
-          4
-        ],
-        "page_renders": {
-          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
-        },
-        "boundary_assessment": "Q5(ix) under printed Q5 instruction on p4; each description ends before next labelled item. The later Q6 story is unrelated. No omitted passage/table/figure.",
-        "method": "Full original p4 rendered 1.7x and visually inspected on 17 October 2026. Canonical IDs and hierarchy rechecked."
+      "boundary_to_recheck": "Printed Q1(iii) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01iv",
+      "proposed_question": "Ni mambo gani muhimu ya kuzingatia katika kuteua maneno na miundo ya tungo wakati wa mazungumzo?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Mada, muktadha na mazungumzo ya ana kwa ana.",
+        "Mada, mazungumzo na uhusiano wa wazungumzaji.",
+        "Mada, mzungumzaji na muktadha wa mazungumzo.",
+        "Mada, mzungumzaji na uhusiano wa wazungumzaji.",
+        "Mada, muktadha na uhusiano wa wazungumzaji."
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
       },
-      "reviewer": "Codex sole agent self-review, no independent human academic certification",
+      "boundary_to_recheck": "Printed Q1(iv) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01v",
+      "proposed_question": "Bainisha kauli inayoonesha dhima muhimu za vitendawili katika jamii:",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kuhimiza umoja na ushirikiano.",
+        "Kupanga watu katika marika yao.",
+        "Kuchochea udadisi wa mambo.",
+        "Kuchochea uwongo wa mambo.",
+        "Kukosoa wadadisi wa mambo."
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(v) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2020-p1-q01vi",
+      "proposed_question": "Njia mojawapo ya kuzuia utata katika lugha ya mazungumzo ni ipi kati ya zifuatazo?",
+      "proposed_context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "proposed_alternatives": [
+        "Kuepuka makosa ya kisarufi na kimantiki.",
+        "Kutumia neno lenye maana zaidi ya moja.",
+        "Kutumia kiwakilishi kiambata katika neno.",
+        "Kuweka msisitizo au ufafanuzi zaidi.",
+        "Kutumia mofimu sahihi za wakati."
+      ],
+      "source_pdf_sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+      "source_url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+      "source_pages": [
+        2
+      ],
+      "page_render_sha256": {
+        "2": "f6d29e9ea0341590da866294c895d982c1b5cfbf48266708dfd75a4208d28301"
+      },
+      "boundary_to_recheck": "Printed Q1(vi) on original p2 with full shared instruction and all A–E alternatives. Canonical exact numeral/parent aligns. Ends before next printed numeral or page footer. These selected six do not depend on the book-related vii on next page, any omitted passage, table or figure.",
       "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
     }
   ],
-  "restart": "Use exact current deployed content baseline, recheck original PDF/render fingerprints, integrate only these question-only display records with fresh cache and separate implementation ledger/PR; run full relevant suites and verify live publication. No answers, no bulk processing. Preserve standing authorization and all holds."
+  "restart": "Recheck original page 2 visually, PDF SHA-256, exact canonical IDs/parent/subquestion and alternatives. Preserve all historical holds and ledgers, original PDFs/canonical JSONL, root app, both storage keys and backups. Use separate immutable implementation ledger, cache v40 or later, full relevant tests, exact-head CI and public verification. No answers, no bulk processing. Human academic approval pending; physical Android NOT TESTED. Expired three-hour heartbeat removed; no scheduled background work."
 }

@@ -1,0 +1,209 @@
+{
+  "batch_id": "prepared-literature-2024-q5-vii-ix",
+  "baseline_content_commit": "70cb2ea9c044c18008074044afb4d4f540e989e0",
+  "status": "PREPARED ONLY — not integrated or published",
+  "counts": {
+    "records": 3,
+    "parent_questions": 0,
+    "subquestions": 3,
+    "new_answers": 0
+  },
+  "records": [
+    {
+      "record_id": "literature-2024-p1-q05vii",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(vii)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            118.1,
+            518.4,
+            522.4,
+            530.8
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            144.3,
+            539.4,
+            458.8,
+            551.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "The short stories which are not based on facts often with animal characters which\nconvey a moral message to the audience. :",
+      "canonical_question_text_sha256": "196219ad8f9b5b849832545c8c8a5e2fd5167de3ba499c954c6c2a4df2bda6f6",
+      "status": "source_checked_candidate_not_integrated",
+      "proposed_display": {
+        "id": "literature-2024-p1-q05vii",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(vii)",
+        "parent_question": "5",
+        "subquestion": "(vii)",
+        "kind": "original_exam",
+        "question": "The short stories which are not based on facts often with animal characters which convey a moral message to the audience.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Prepared only; no educational answer checked or accepted."
+      },
+      "display_correction": "Join printed line break and remove OCR trailing colon; no literary term inferred.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Q5(vii) under printed Q5 instruction on p4; each description ends before next labelled item. The later Q6 story is unrelated. No omitted passage/table/figure.",
+        "method": "Full original p4 rendered 1.7x and visually inspected on 17 October 2026. Canonical IDs and hierarchy rechecked."
+      },
+      "reviewer": "Codex sole agent self-review, no independent human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q05viii",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(viii)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            116.9,
+            560.4,
+            483.8,
+            573.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "The short stories used to illustrate a moral or spiritual lesson. > .",
+      "canonical_question_text_sha256": "5ecf6abaf192b9f3b061d956be1ff0cdba714507d1788c83ca370a6bbad79754",
+      "status": "source_checked_candidate_not_integrated",
+      "proposed_display": {
+        "id": "literature-2024-p1-q05viii",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(viii)",
+        "parent_question": "5",
+        "subquestion": "(viii)",
+        "kind": "original_exam",
+        "question": "The short stories used to illustrate a moral or spiritual lesson.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Prepared only; no educational answer checked or accepted."
+      },
+      "display_correction": "Remove trailing OCR greater-than sign and extra dot only.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Q5(viii) under printed Q5 instruction on p4; each description ends before next labelled item. The later Q6 story is unrelated. No omitted passage/table/figure.",
+        "method": "Full original p4 rendered 1.7x and visually inspected on 17 October 2026. Canonical IDs and hierarchy rechecked."
+      },
+      "reviewer": "Codex sole agent self-review, no independent human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q05ix",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(ix)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            116.6,
+            581.8,
+            297.8,
+            593.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "The songs sung to soothe babies.",
+      "canonical_question_text_sha256": "098a6042994bb0e7b7548281cb53ad3e192ec426b204afc94326e1f464ce6ec8",
+      "status": "source_checked_candidate_not_integrated",
+      "proposed_display": {
+        "id": "literature-2024-p1-q05ix",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(ix)",
+        "parent_question": "5",
+        "subquestion": "(ix)",
+        "kind": "original_exam",
+        "question": "The songs sung to soothe babies.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Prepared only; no educational answer checked or accepted."
+      },
+      "display_correction": "No wording correction; attach original Q5 parent instruction.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Q5(ix) under printed Q5 instruction on p4; each description ends before next labelled item. The later Q6 story is unrelated. No omitted passage/table/figure.",
+        "method": "Full original p4 rendered 1.7x and visually inspected on 17 October 2026. Canonical IDs and hierarchy rechecked."
+      },
+      "reviewer": "Codex sole agent self-review, no independent human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ],
+  "restart": "Use exact current deployed content baseline, recheck original PDF/render fingerprints, integrate only these question-only display records with fresh cache and separate implementation ledger/PR; run full relevant suites and verify live publication. No answers, no bulk processing. Preserve standing authorization and all holds."
+}
