@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 28,
+  "version": 29,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -5953,6 +5953,162 @@ window.NECTA_BETA = {
         "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q03",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "3",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "In six points, briefly explain civic duties a Tanzanian citizen is expected to perform for his own and national development.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q04",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "4",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Identify six ways that can help the youth in Tanzania avoid irrational decisions in their daily life.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q05",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "How would you defend the view that culture plays a significant role in any society? Give six points.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q06",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "6",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Why most modern societies prefer indirect democracy to other forms of democracy? Give six brief points.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q07",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "7",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "In six points, briefly show the importance of having good student’s leadership in your school.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q08",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "8",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Briefly explain the role of six agents of socialization in promoting and preserving the cultural values in Tanzania.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
