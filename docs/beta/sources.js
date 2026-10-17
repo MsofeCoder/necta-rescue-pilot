@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 37,
+  "version": 38,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -7289,6 +7289,114 @@ window.NECTA_BETA = {
         "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q05a",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(a)",
+      "parent_question": "5",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "If the exchange rate between Tanzanian shillings and the US dollar is 2,300 Tanzanian shillings to 1 US dollar, convert 27,600,000 Tanzanian shillings into US dollars.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q06b",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(b)",
+      "parent_question": "6",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "The mid-point of a line segment is (3, 5). If one of the end points is (6, 7), find the other end point.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q08a",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "8(a)",
+      "parent_question": "8",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Joshua deposited Tshs 10,000 in a bank which pays 5% interest compounded annually. How much money did he accumulate after 3 years?",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q09a",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "9(a)",
+      "parent_question": "9",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Find the largest angle of a triangle whose sides are 7 cm, 6 cm and 8 cm.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2,
+          3
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

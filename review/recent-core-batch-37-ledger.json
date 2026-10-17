@@ -1,0 +1,421 @@
+{
+  "batch_id": "recent-core-batch-37",
+  "baseline_commit": "1ab2808e40e61e4e3b1a386043d0de12cfffeca5",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 0,
+    "added_subquestions": 4,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "basic_mathematics-2025-p1-q04a",
+      "reason": "Question requires original triangle diagram; not admitted to plain-text batch without full figure evidence in UI."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q07a",
+      "reason": "Printed Q7(a) absorbed in canonical Q6(b); standalone exact ID absent, no invented ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "basic_mathematics-2025-p1-q05a",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(a)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            33.7,
+            55,
+            513.2,
+            72.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            103.1,
+            69.1,
+            512.9,
+            83.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            103.4,
+            83.5,
+            158.4,
+            93
+          ]
+        }
+      ],
+      "original_pipeline_text": "If the exchange rate between Tanzanian shillings and the US dollar Is 2,300\nTanzanian shillings to 1 US dollar, convert 27,600,000 Tanzanian shillings into\nUS dollars.",
+      "canonical_question_text_sha256": "faa1abf40dc480355becd7957ea272c6aadc2394ec1b4f11cac968cf6431508e",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q05a",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(a)",
+        "parent_question": "5",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "If the exchange rate between Tanzanian shillings and the US dollar is 2,300 Tanzanian shillings to 1 US dollar, convert 27,600,000 Tanzanian shillings into US dollars.",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e",
+          "3": "a3a70ee14ca9453abe3a2120ef3dd964a6940e65aaf1e34859dc54605b973326"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "basic_mathematics-2025-p1-q06b",
+      "canonical_parent_question": "6",
+      "canonical_subquestion": "(b)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            70.8,
+            211.4,
+            511.8,
+            230.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            108.6,
+            232.1,
+            204.8,
+            245.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            34,
+            256,
+            510.3,
+            272.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            109.2,
+            274.2,
+            510.3,
+            289.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            109.7,
+            290.9,
+            511.2,
+            306.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            109.4,
+            308.2,
+            225.2,
+            318
+          ]
+        }
+      ],
+      "original_pipeline_text": "The mid-point of a line segment is (3, 5). If one of the end points is (6, 7) , find\nthe other end point.\nYA (a) In making a concrete wall, a builder decides to mix gravel, sand and cement in\nthe ratio of their minimum amounts of 500 kg, 600 kg and 200 kg, respectively.\nIf the concrete wall of mass of 39,000 kg is to be made, how many kilograms of\ncement will be needed?",
+      "canonical_question_text_sha256": "fd7235d3cdb12dfa96a9a9822012660a0eecf31be48de21ab0cdd1320d71db9c",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q06b",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "6(b)",
+        "parent_question": "6",
+        "subquestion": "(b)",
+        "kind": "original_exam",
+        "question": "The mid-point of a line segment is (3, 5). If one of the end points is (6, 7), find the other end point.",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e",
+          "3": "a3a70ee14ca9453abe3a2120ef3dd964a6940e65aaf1e34859dc54605b973326"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "basic_mathematics-2025-p1-q08a",
+      "canonical_parent_question": "8",
+      "canonical_subquestion": "(a)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            36.9,
+            437.2,
+            508,
+            454.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            111.5,
+            454.8,
+            409.8,
+            469.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Joshua deposited Tshs 10,000 in a bank which pays 5% interest compounded\nannually. How much money did he accumulate after 3 years?",
+      "canonical_question_text_sha256": "a52a586310bb1d79d38e1e79d1801386c6ffb5a0f3e5e9861b705772c6391c32",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q08a",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "8(a)",
+        "parent_question": "8",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "Joshua deposited Tshs 10,000 in a bank which pays 5% interest compounded annually. How much money did he accumulate after 3 years?",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e",
+          "3": "a3a70ee14ca9453abe3a2120ef3dd964a6940e65aaf1e34859dc54605b973326"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "basic_mathematics-2025-p1-q09a",
+      "canonical_parent_question": "9",
+      "canonical_subquestion": "(a)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            37.7,
+            517.8,
+            466,
+            532.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "Find the largest angle of a triangle whose sides are 7 cm, 6 cm and 8 cm.",
+      "canonical_question_text_sha256": "d20572d0689a6105071d4c0257b2ae645c88dca35560c547dcfb0136957ed1ea",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "basic_mathematics-2025-p1-q09a",
+        "subject": "basic_mathematics",
+        "year": 2025,
+        "paper": "1",
+        "reference": "9(a)",
+        "parent_question": "9",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "Find the largest angle of a triangle whose sides are 7 cm, 6 cm and 8 cm.",
+        "context": "Answer all questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "BasicMath-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+          "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original lines, restore complete scenario/context and remove absorbed neighboring question/footer text. Preserve numerical data and printed units/grammar, including 260/130/150/40 and 35/18/20/3. No computations, rates as present facts, solutions, marks or diagrams generated.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0432ce3fff83ee7179ef5330fe0e4ec9d1b0b2795bc0f7b3a5d6088b1fcc7d9e",
+          "3": "a3a70ee14ca9453abe3a2120ef3dd964a6940e65aaf1e34859dc54605b973326"
+        },
+        "boundary_assessment": "Original p2 Section A Q3(a)/(a)(ii)/(b)/Q4(b) and p3 Q5(a)/Q6(b)/Q8(a)/Q9(a) each independently numbered. This exact canonical parent/subquestion matches print. Restore full Q3 scenario for nested ii; retain only printed i within existing 3a record, no new i ID. Q4(b) is independent of Q4(a) triangle figure. Q3(b) asks student to use a Venn diagram; no original diagram omitted. Section answer-all instruction on p2. Q6(b) ends before missing-canonical Q7(a), whose text is removed. No answers or diagrams inferred.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
