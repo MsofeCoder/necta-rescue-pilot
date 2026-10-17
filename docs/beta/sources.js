@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 12,
+  "version": 13,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3363,6 +3363,102 @@ window.NECTA_BETA = {
         "filename": "Kiswahili-F4-2024.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2024.pdf",
         "sha256": "8c6f444b2b4d36f6ab2af48ebd38a05da1e2e98009d8cba4a7d674607950f934",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2024-p1-q01v",
+      "subject": "geography",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Jaka is living in Dar es Salaam city centre where houses are clustered together. What could be the main environmental problem in the area?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Loss of biodiversity"
+        },
+        {
+          "label": "B",
+          "text": "Deforestation"
+        },
+        {
+          "label": "C",
+          "text": "Soil erosion"
+        },
+        {
+          "label": "D",
+          "text": "Desertification"
+        },
+        {
+          "label": "E",
+          "text": "Pollution"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2024.pdf",
+        "sha256": "ded5d6d7f434d4d820c88587992f9f5820b7c30bc6fe1c2d73c075bee73b3279",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2024-p1-q01vii",
+      "subject": "geography",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(vii)",
+      "parent_question": "1",
+      "subquestion": "(vii)",
+      "kind": "original_exam",
+      "question": "Miss Shengo uses energy generated from the sun for cooking. Identify the type of energy she is using.",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nuclear energy"
+        },
+        {
+          "label": "B",
+          "text": "Wind energy"
+        },
+        {
+          "label": "C",
+          "text": "Geothermal energy"
+        },
+        {
+          "label": "D",
+          "text": "Solar energy"
+        },
+        {
+          "label": "E",
+          "text": "Biogas energy"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2024.pdf",
+        "sha256": "ded5d6d7f434d4d820c88587992f9f5820b7c30bc6fe1c2d73c075bee73b3279",
         "pages": [
           2
         ]

@@ -183,6 +183,29 @@
         "independent_human_academic_accepted": 0,
         "total": 84
       }
+    },
+    {
+      "deployed_sha": "93714557966d32dabe7e2414a87b5540fdca477a",
+      "implementation_sha": "0e7756c6289f600530a92807c096fbc9543286b3",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/19",
+      "verified_at": "2026-10-17T06:55:11.351Z",
+      "tests": "33 unit/static, 508 beta browser, 95 root browser and 51 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011614469",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011614357",
+      "rollback_baseline": "4f3d57d472fccfb1b674a9c47d490fdec89898d0",
+      "evidence": ".workbuddy-ai/batch11-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v11 to necta-rescue-beta-v12 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next batch12 Geography2024 Q1(v)/(vii), full p2 inspected; spec .workbuddy-ai/batch12.json. Q1(ii) identity conflict excluded; Q1(vi) longitude text needs higher-resolution review before selection. Then select a new recent first-six-subject source page, no answers. Root regression now waits 15 seconds for complete backup download; prior local timing failures retained.",
+      "counts": {
+        "question_only": 56,
+        "question_only_parent": 19,
+        "question_only_subquestion": 37,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 86
+      }
     }
   ]
 }
