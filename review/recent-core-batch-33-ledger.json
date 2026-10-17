@@ -1,0 +1,337 @@
+{
+  "batch_id": "recent-core-batch-33",
+  "baseline_commit": "e6d5cba4c64010742f601c848245d4472f349a52",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 0,
+    "added_subquestions": 4,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "english-2021-p1-q04i",
+      "canonical_parent_question": "4",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            73.2,
+            576.9,
+            562.2,
+            597.9
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            77.2,
+            605.1,
+            286.8,
+            622.7
+          ]
+        }
+      ],
+      "original_pipeline_text": "instructions given after each. aby Adding a prefix or suffix seeming”\n‘refine’ to mean ‘a place of activity”",
+      "canonical_question_text_sha256": "1699d6267d197f1ef9ef2afe8fc1f5f68b489bb4eca4590070fb15180d7f9d58",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2021-p1-q04i",
+        "subject": "english",
+        "year": 2021,
+        "paper": "1",
+        "reference": "4(i)",
+        "parent_question": "4",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "‘refine’ to mean ‘a place of activity’",
+        "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2021.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+          "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore exact printed parent instruction, remove OCR spill/footer and join lines. Preserve printed words/quotes and task; for refine restore original source phrase rather than supplying a derived word. No prefix/suffix solution, constructed sentence, marks or educational answer generated.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "fab4ba912094fa3f004adfd7ad9ec279c71a82d3fb95fc53012d70c711b8b237"
+        },
+        "boundary_assessment": "Original p4 Section B printed Q4(i), exact canonical parent/numeral aligns. Full shared Q4 instruction restored; ends before next child or question/footer. Matching Q2 and telephone-reservation Q3 are separate. For Q5(ii), exclude absorbed printed iii. No poem, passage, diagram or table required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2021-p1-q04ii",
+      "canonical_parent_question": "4",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            75.5,
+            621.8,
+            273.9,
+            638.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "‘fire’ to mean ‘wrongly or astray’",
+      "canonical_question_text_sha256": "28b7df154a340f09ce0ff410a6771e733fef34eefd4f0ae1708ce3993fc32e38",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2021-p1-q04ii",
+        "subject": "english",
+        "year": 2021,
+        "paper": "1",
+        "reference": "4(ii)",
+        "parent_question": "4",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "‘fire’ to mean ‘wrongly or astray’",
+        "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2021.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+          "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore exact printed parent instruction, remove OCR spill/footer and join lines. Preserve printed words/quotes and task; for refine restore original source phrase rather than supplying a derived word. No prefix/suffix solution, constructed sentence, marks or educational answer generated.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "fab4ba912094fa3f004adfd7ad9ec279c71a82d3fb95fc53012d70c711b8b237"
+        },
+        "boundary_assessment": "Original p4 Section B printed Q4(ii), exact canonical parent/numeral aligns. Full shared Q4 instruction restored; ends before next child or question/footer. Matching Q2 and telephone-reservation Q3 are separate. For Q5(ii), exclude absorbed printed iii. No poem, passage, diagram or table required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2021-p1-q04iii",
+      "canonical_parent_question": "4",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            74,
+            638.2,
+            255.5,
+            650.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "‘mud’ to mean ‘covered with’",
+      "canonical_question_text_sha256": "4ef96d66ed7d3eedc649fb0366a9c3a50b35df63d9bc78f003f88d85f28d0c74",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2021-p1-q04iii",
+        "subject": "english",
+        "year": 2021,
+        "paper": "1",
+        "reference": "4(iii)",
+        "parent_question": "4",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "‘mud’ to mean ‘covered with’",
+        "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2021.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+          "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore exact printed parent instruction, remove OCR spill/footer and join lines. Preserve printed words/quotes and task; for refine restore original source phrase rather than supplying a derived word. No prefix/suffix solution, constructed sentence, marks or educational answer generated.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "fab4ba912094fa3f004adfd7ad9ec279c71a82d3fb95fc53012d70c711b8b237"
+        },
+        "boundary_assessment": "Original p4 Section B printed Q4(iii), exact canonical parent/numeral aligns. Full shared Q4 instruction restored; ends before next child or question/footer. Matching Q2 and telephone-reservation Q3 are separate. For Q5(ii), exclude absorbed printed iii. No poem, passage, diagram or table required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2021-p1-q04iv",
+      "canonical_parent_question": "4",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            74.9,
+            654.6,
+            329.2,
+            673.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "‘check’ to mean ‘in opposition to OT against’",
+      "canonical_question_text_sha256": "76ccc0bfbb049d86d84d511709299077d2dbb5cd4c6a72e535c391f9c58dc421",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2021-p1-q04iv",
+        "subject": "english",
+        "year": 2021,
+        "paper": "1",
+        "reference": "4(iv)",
+        "parent_question": "4",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "‘check’ to mean ‘in opposition to or against’",
+        "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2021.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+          "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore exact printed parent instruction, remove OCR spill/footer and join lines. Preserve printed words/quotes and task; for refine restore original source phrase rather than supplying a derived word. No prefix/suffix solution, constructed sentence, marks or educational answer generated.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "fab4ba912094fa3f004adfd7ad9ec279c71a82d3fb95fc53012d70c711b8b237"
+        },
+        "boundary_assessment": "Original p4 Section B printed Q4(iv), exact canonical parent/numeral aligns. Full shared Q4 instruction restored; ends before next child or question/footer. Matching Q2 and telephone-reservation Q3 are separate. For Q5(ii), exclude absorbed printed iii. No poem, passage, diagram or table required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 33,
+  "version": 34,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6763,6 +6763,110 @@ window.NECTA_BETA = {
         "sha256": "062c41bffe9317a73f15e7143b2aa97b33b63c9b0ee3a97f1e0e8f14f8435145",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q04i",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "4(i)",
+      "parent_question": "4",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "‘refine’ to mean ‘a place of activity’",
+      "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q04ii",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "4(ii)",
+      "parent_question": "4",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "‘fire’ to mean ‘wrongly or astray’",
+      "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q04iii",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "4(iii)",
+      "parent_question": "4",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "‘mud’ to mean ‘covered with’",
+      "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2021-p1-q04iv",
+      "subject": "english",
+      "year": 2021,
+      "paper": "1",
+      "reference": "4(iv)",
+      "parent_question": "4",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "‘check’ to mean ‘in opposition to or against’",
+      "context": "Change the meaning of words in item (i) – (iv) by adding a prefix or suffix according to instructions given after each.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2021.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2021.pdf",
+        "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
+        "pages": [
+          4
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

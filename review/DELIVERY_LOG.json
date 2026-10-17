@@ -666,6 +666,29 @@
         "independent_human_academic_accepted": 0,
         "total": 176
       }
+    },
+    {
+      "deployed_sha": "e6d5cba4c64010742f601c848245d4472f349a52",
+      "implementation_sha": "ebec994f907371a331cac46c56e8b2021a2c09a6",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/41",
+      "verified_at": "2026-10-17T08:35:52.696Z",
+      "tests": "35 unit/static, 1008 beta browser, 95 root browser and 73 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39017864865",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39017864612",
+      "rollback_baseline": "0a0208f0e3d6e309e1acea451dfd4f19dda3cd04",
+      "evidence": ".workbuddy-ai/batch32-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v32 to necta-rescue-beta-v33 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: English2021 Q4four batch33.json/Q5three batch34.json p4; English2020 first5 batch35.json p2 (replace2020empty browser assumption with actual year counts); Math2025 four batch36/four batch37 p2/3; Geography2020 first5 batch38 p2; Kiswahili2020 first6 batch39 p2. Prepared specs/renders source-checked. Preserve exact paper URLs via engine guard, English amendment, all holds; no answers/human/phone. Deadline10:08UTC.",
+      "counts": {
+        "question_only": 150,
+        "question_only_parent": 29,
+        "question_only_subquestion": 121,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 180
+      }
     }
   ]
 }
