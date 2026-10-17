@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 20,
+  "version": 21,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -4593,6 +4593,136 @@ window.NECTA_BETA = {
         "filename": "Geography-F4-2025.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
         "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q03a",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(a)",
+      "parent_question": "3",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Poetry uses language economically.",
+      "context": "When composing a poem there are some rules that are unique. Justify this quotation based on the given rules in (a) - (f).",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q03b",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(b)",
+      "parent_question": "3",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "The classification of poems into modern and traditional poems does not depend on time.",
+      "context": "When composing a poem there are some rules that are unique. Justify this quotation based on the given rules in (a) - (f).",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q03c",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(c)",
+      "parent_question": "3",
+      "subquestion": "(c)",
+      "kind": "original_exam",
+      "question": "Poets are allowed to violate grammatical rules when composing poems.",
+      "context": "When composing a poem there are some rules that are unique. Justify this quotation based on the given rules in (a) - (f).",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q03d",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(d)",
+      "parent_question": "3",
+      "subquestion": "(d)",
+      "kind": "original_exam",
+      "question": "The basic unit of a poem is a line.",
+      "context": "When composing a poem there are some rules that are unique. Justify this quotation based on the given rules in (a) - (f).",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q03e",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(e)",
+      "parent_question": "3",
+      "subquestion": "(e)",
+      "kind": "original_exam",
+      "question": "In closed verse poems, a refrain plays an important role.",
+      "context": "When composing a poem there are some rules that are unique. Justify this quotation based on the given rules in (a) - (f).",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
         "pages": [
           4
         ]

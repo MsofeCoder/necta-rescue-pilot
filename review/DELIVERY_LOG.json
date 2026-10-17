@@ -367,6 +367,29 @@
         "independent_human_academic_accepted": 0,
         "total": 113
       }
+    },
+    {
+      "deployed_sha": "d7528b99d13284a1816e78a3ddde6ad56bf4a00f",
+      "implementation_sha": "f7215565446f7c00c7c5cfc527be134974a7a7b2",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/28",
+      "verified_at": "2026-10-17T07:35:13.402Z",
+      "tests": "34 unit/static, 702 beta browser, 95 root browser and 78 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39014104264",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39014103418",
+      "rollback_baseline": "7a4fae3836c0789f9f52c1b214f236937e87494c",
+      "evidence": ".workbuddy-ai/batch19-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v19 to necta-rescue-beta-v20 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: five Literature2025 Q3(a)–(e) original p4 (.workbuddy-ai/batch20.json), then seven Kiswahili2025 Q3(a)/(b), Q4(a)/(b), Q5(a)–(c) p4 (.workbuddy-ai/batch21.json). Full original lists, parent instructions and English amendment must be preserved; do not create missing Q3(f) ID.",
+      "counts": {
+        "question_only": 88,
+        "question_only_parent": 20,
+        "question_only_subquestion": 68,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 118
+      }
     }
   ]
 }
