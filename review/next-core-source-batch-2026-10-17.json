@@ -1,0 +1,339 @@
+{
+  "batch_id": "next-small-core-2026-10-17",
+  "deployment_baseline": "03f64944e3712cb0bcd3beb4281c109ea6fad41f",
+  "status": "PREPARED ONLY — not integrated or published",
+  "counts": {
+    "records": 3,
+    "parent_records": 2,
+    "subquestion_records": 1,
+    "accepted_answers": 0
+  },
+  "scope": "Three recent 2025 source prompts only; no bulk processing and no answer generation.",
+  "human_academic_approval": "PENDING",
+  "physical_android": "NOT TESTED",
+  "existing_holds": "English exact q01iii/q01iv, C-02/C-08 and six original Civics conflicts unchanged. No canonical identity repair.",
+  "canonical_preservation_verified": true,
+  "records": [
+    {
+      "record_id": "english-2025-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            102.5,
+            516.4,
+            396,
+            530.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.8,
+            529.9,
+            345.6,
+            544.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.8,
+            544.6,
+            338.1,
+            560.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            561.9,
+            380.2,
+            576
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133.9,
+            577.2,
+            379,
+            592.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133.9,
+            592.7,
+            386.8,
+            607.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "The following are the uses of the dictionary except:\nA _ identifying the usage of a given word\nB knowing how a word is pronounced\nC understanding the correct spelling of a word\nD + showing the number of words of a language\nE understanding the meaning of the given word",
+      "canonical_question_text_sha256": "88de08df8b15824e3c4475ee13dc890cfc9922b74cda8ec5e6a6d72c468992ad",
+      "display_correction": "Remove OCR underscores/plus sign only; restore exact A–E boundaries and retain printed except emphasis as text. No answer inferred.",
+      "decision": "source_checked_question_only_candidate_not_integrated",
+      "reviewed_on": "2026-10-17",
+      "reviewer": "Codex sole engineering agent; no human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED; no educational answer generated",
+      "source_review": {
+        "pages": [
+          2
+        ],
+        "render_sha256": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0",
+        "method": "Full original PDF page rendered with PyMuPDF at 1.7x and visually inspected; no solution candidate text used",
+        "boundary_assessment": "Q1(v) starts below Q1(iv) and ends before Q1(vi). No matching fragment.",
+        "dependencies": "Self-contained prompt; no omitted passage, diagram, map or table."
+      },
+      "proposed_display": {
+        "id": "english-2025-p1-q01v",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "The following are the uses of the dictionary except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "identifying the usage of a given word"
+          },
+          {
+            "label": "B",
+            "text": "knowing how a word is pronounced"
+          },
+          {
+            "label": "C",
+            "text": "understanding the correct spelling of a word"
+          },
+          {
+            "label": "D",
+            "text": "showing the number of words of a language"
+          },
+          {
+            "label": "E",
+            "text": "understanding the meaning of the given word"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Prepared source-checked question-only candidate. No educational answer has been checked or accepted."
+      }
+    },
+    {
+      "record_id": "history-2025-p1-q08",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            53.2,
+            164.7,
+            496.9,
+            205.3
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            51.5,
+            172.7,
+            104.8,
+            180
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            16.5,
+            192.8,
+            24,
+            206.2
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            53.5,
+            203.2,
+            89.9,
+            219.6
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            152.2,
+            241.9,
+            371.2,
+            266.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Briefly explain three ways through which slaves were obtained during the slave trade\nstatement.\nperiod.\nAnswer twe (2) questions from this section.",
+      "canonical_question_text_sha256": "8c3abc339c63e705175f33846e17b7e144caf2dd3376aea9e44625b25f743750",
+      "display_correction": "Remove Q7 tail word statement. and following Section C instruction; join printed final word period. to Q8. No mark inferred from section totals.",
+      "decision": "source_checked_question_only_candidate_not_integrated",
+      "reviewed_on": "2026-10-17",
+      "reviewer": "Codex sole engineering agent; no human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED; no educational answer generated",
+      "source_review": {
+        "pages": [
+          5
+        ],
+        "render_sha256": "ca33c1084687ee250dd9554c7d825f20d50fea4b7311f546d330f1fa563e4f93",
+        "method": "Full original PDF page rendered with PyMuPDF at 1.7x and visually inspected; no solution candidate text used",
+        "boundary_assessment": "Q8 starts after Q7 statement. and ends before SECTION C.",
+        "dependencies": "Self-contained prompt; no omitted passage, diagram, map or table."
+      },
+      "proposed_display": {
+        "id": "history-2025-p1-q08",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "8",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Briefly explain three ways through which slaves were obtained during the slave trade period.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Prepared source-checked question-only candidate. No educational answer has been checked or accepted."
+      }
+    },
+    {
+      "record_id": "history-2025-p1-q09",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            65.3,
+            258.8,
+            505.2,
+            301.9
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            24.1,
+            288.2,
+            31.5,
+            303.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            58,
+            293.7,
+            508.3,
+            335.2
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            60.6,
+            319.3,
+            356.9,
+            349.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            23.4,
+            322.6,
+            47.4,
+            338.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why were Africans defeated by the colonialists during the establishment of colonial rule?\nExplain by giving six peints.Africa was seriously affected by the Great Economic Depression that occurred between\n1929 and 1933.\" Justify this statement by giving six points.\n10. .",
+      "canonical_question_text_sha256": "76a59da4fa5ed37f432f8d7cc9cd54a9929a6554f2390c52fec7bd27e2eadd8b",
+      "display_correction": "Separate Q9 from printed Q10 Great Economic Depression prompt and trailing 10. label. Restore printed points from OCR peints. Section marks are context only, not an item allocation.",
+      "decision": "source_checked_question_only_candidate_not_integrated",
+      "reviewed_on": "2026-10-17",
+      "reviewer": "Codex sole engineering agent; no human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED; no educational answer generated",
+      "source_review": {
+        "pages": [
+          5
+        ],
+        "render_sha256": "ca33c1084687ee250dd9554c7d825f20d50fea4b7311f546d330f1fa563e4f93",
+        "method": "Full original PDF page rendered with PyMuPDF at 1.7x and visually inspected; no solution candidate text used",
+        "boundary_assessment": "Q9 lies after SECTION C instruction and before printed Q10.",
+        "dependencies": "Self-contained prompt; no omitted passage, diagram, map or table."
+      },
+      "proposed_display": {
+        "id": "history-2025-p1-q09",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "9",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Why were Africans defeated by the colonialists during the establishment of colonial rule? Explain by giving six points.",
+        "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Prepared source-checked question-only candidate. No educational answer has been checked or accepted."
+      }
+    }
+  ]
+}
