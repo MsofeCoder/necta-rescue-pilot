@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 10,
+  "version": 11,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3125,6 +3125,150 @@ window.NECTA_BETA = {
         "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01vi",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "Which one among the following is not the cause of environmental degradation in Tanzania?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deforestation"
+        },
+        {
+          "label": "B",
+          "text": "Use of inorganic fertilizers"
+        },
+        {
+          "label": "C",
+          "text": "Disposal of industrial chemicals"
+        },
+        {
+          "label": "D",
+          "text": "Overgrazing"
+        },
+        {
+          "label": "E",
+          "text": "Afforestation"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01vii",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vii)",
+      "parent_question": "1",
+      "subquestion": "(vii)",
+      "kind": "original_exam",
+      "question": "Masalamengi is a farmer in Shinyanga and he travelled to Mikumi National park for leisure. Who is Masalamengi in Mikumi National park?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Farmer"
+        },
+        {
+          "label": "B",
+          "text": "Tourist"
+        },
+        {
+          "label": "C",
+          "text": "Surveyor"
+        },
+        {
+          "label": "D",
+          "text": "Researcher"
+        },
+        {
+          "label": "E",
+          "text": "Geographer"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01viii",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(viii)",
+      "parent_question": "1",
+      "subquestion": "(viii)",
+      "kind": "original_exam",
+      "question": "Mr. Kazi is an enterpreneur in Umoja village. He decided to invest in small scale paper bags manufacturing industry. The following will be the basic requirements for the location of his industry except:",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "availability of power supply."
+        },
+        {
+          "label": "B",
+          "text": "availability of market."
+        },
+        {
+          "label": "C",
+          "text": "availability of skilled labour."
+        },
+        {
+          "label": "D",
+          "text": "presence of religious centres."
+        },
+        {
+          "label": "E",
+          "text": "presence of raw materials."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          3
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

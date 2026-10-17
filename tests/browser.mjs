@@ -55,11 +55,13 @@ try{
   chrome=spawn(process.env.CHROME_PATH||path.join(process.env.PROGRAMFILES||'','Google/Chrome/Application/chrome.exe'),[
     '--headless=new','--remote-debugging-port=0','--user-data-dir='+path.join(run,'profile'),
     '--no-first-run','--no-default-browser-check','--disable-gpu','--disable-sync','--disable-extensions','--disable-background-networking',
-    '--ignore-certificate-errors','--window-size=1280,900','about:blank'],{windowsHide:true,stdio:'ignore'});
-  let spawnError;chrome.on('error',e=>{spawnError=e;});
+    '--ignore-certificate-errors','--window-size=1280,900','about:blank'],{windowsHide:true,stdio:['ignore','ignore','pipe']});
+  let spawnError,startupLog='',startupExit;chrome.on('error',e=>{spawnError=e;});
+  chrome.stderr.on('data',chunk=>{startupLog=(startupLog+chunk.toString()).slice(-12000);});
+  chrome.on('exit',(code,signal)=>{startupExit={code,signal};});
   const portFile=path.join(run,'profile','DevToolsActivePort');
-  for(let i=0;i<100&&!fs.existsSync(portFile);i++){if(spawnError)throw spawnError;await sleep(100);}
-  if(!fs.existsSync(portFile))throw Error('Chrome did not start');
+  for(let i=0;i<300&&!fs.existsSync(portFile);i++){if(spawnError)throw spawnError;if(startupExit)break;await sleep(100);}
+  if(!fs.existsSync(portFile))throw Error('Chrome did not start: '+JSON.stringify(startupExit||{timeout_ms:30000})+' '+startupLog);
   const debugPort=fs.readFileSync(portFile,'utf8').split('\n')[0],cdp='http://127.0.0.1:'+debugPort;
   const version=await(await fetch(cdp+'/json/version')).json();
   browserVersion=version.Browser;
