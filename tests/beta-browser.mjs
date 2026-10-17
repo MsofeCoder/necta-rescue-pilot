@@ -63,8 +63,8 @@ try{
         check('new batch exact original page link '+added.record_id,await c.eval(`document.querySelector('#source a').href`)===added.display.exam.url+'#page='+added.display.exam.pages[0]);
         check('exact printed alternatives '+added.record_id,JSON.stringify(await c.eval(`Array.from(document.querySelectorAll('#options li')).map(e=>e.textContent)`))===JSON.stringify((added.display.options||[]).map(o=>o.text)));
         check('no unaccepted solution link '+added.record_id,await c.eval(`document.querySelectorAll('#source a').length===1`));
-        if(added.record_id.startsWith('geography-2025-p1-q01'))check('conflicting supplied solution visibly withheld '+added.record_id,await c.eval(`document.getElementById('state').textContent.includes('conflicts with the printed alternatives')&&document.querySelectorAll('#source a').length===1`));
       }
+      if(['geography-2025-p1-q01i','geography-2025-p1-q01ii'].some(record=>id.endsWith(' · '+record)))check('conflicting supplied solution visibly withheld '+id,await c.eval(`document.getElementById('state').textContent.includes('conflicts with the printed alternatives')&&document.querySelectorAll('#source a').length===1`));
       for(const width of [320,360,390]){await c.send('Emulation.setDeviceMetricsOverride',{width,height:844,deviceScaleFactor:1,mobile:true});check('fits '+width+' '+s.id+' '+i,await c.eval('document.documentElement.scrollWidth<=innerWidth'));}
       if(added)await c.shot(added.record_id+'-390');
       if(i===0)await c.shot(s.id+'-390');if(added&&s.id==='geography'&&i===3)await c.shot('new-geography-conflict-390');if(added&&s.id==='literature'&&i===count-1)await c.shot('new-literature-parent-390');if(i<count-1)await c.click('#next');
