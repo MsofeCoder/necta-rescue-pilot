@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 36,
+  "version": 37,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -7183,6 +7183,110 @@ window.NECTA_BETA = {
         "filename": "English-F4-2020.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
         "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q03a",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(a)",
+      "parent_question": "3",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "A certain school has 260 students. Out of these students, 130 study Physics, 150 study Chemistry and 40 study both Physics and Chemistry. By using formula, find the number of students who study;\n(i) Physics only.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q03aii",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(a)(ii)",
+      "parent_question": "3(a)",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "neither Physics nor Chemistry.",
+      "context": "A certain school has 260 students. Out of these students, 130 study Physics, 150 study Chemistry and 40 study both Physics and Chemistry. By using formula, find the number of students who study;",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q03b",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(b)",
+      "parent_question": "3",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "In a sample of 35 animal keepers, 18 keep goats, 20 keep cows and 3 keep both goats and cows. By using a Venn diagram, find the probability of getting a person who keeps goats only.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "basic_mathematics-2025-p1-q04b",
+      "subject": "basic_mathematics",
+      "year": 2025,
+      "paper": "1",
+      "reference": "4(b)",
+      "parent_question": "4",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "Find the perimeter of a regular pentagon inscribed in a circle whose radius is 10 m.",
+      "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "BasicMath-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/basic_math/BasicMath-F4-2025.pdf",
+        "sha256": "ba51673a2bbe22033fbf40dee5b47973ab4cd300e7310b2cd31bdd3b015a1270",
         "pages": [
           2
         ]
