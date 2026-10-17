@@ -137,6 +137,29 @@
         "independent_human_academic_accepted": 0,
         "total": 78
       }
+    },
+    {
+      "deployed_sha": "ba514196174cd0cf8c4adb58ba11f7c8a0a137e2",
+      "implementation_sha": "b247e7b882dc11ed018f37313d69bb59c59f7f29",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/17",
+      "verified_at": "2026-10-17T06:45:29.031Z",
+      "tests": "33 unit/static, 487 beta browser, 94 root browser and 54 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011033808",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011033720",
+      "rollback_baseline": "4736510debc4456a8b845b2f1e97d4aad7b1c84a",
+      "evidence": ".workbuddy-ai/batch09-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v9 to necta-rescue-beta-v10 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next batch10 Geography2025 Q1(vi)-(viii), original pp2-3 inspected, spec .workbuddy-ai/batch10.json. Then Kiswahili2024 Q1(ii)/(iv), original p2 inspected; printed manual choice circles are unverified annotations, never answer keys. Preserve all holds and restore only original text.",
+      "counts": {
+        "question_only": 51,
+        "question_only_parent": 19,
+        "question_only_subquestion": 32,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 81
+      }
     }
   ]
 }

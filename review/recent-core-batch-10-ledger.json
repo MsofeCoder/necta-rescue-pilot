@@ -1,0 +1,620 @@
+{
+  "batch_id": "recent-core-batch-10",
+  "baseline_commit": "ba514196174cd0cf8c4adb58ba11f7c8a0a137e2",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical record; do not invent an ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "geography-2025-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            326.4,
+            483.3,
+            422.6,
+            499.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            94.4,
+            489.7,
+            256,
+            511.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            327.1,
+            497,
+            438.4,
+            515.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            94.3,
+            506.9,
+            208.1,
+            523.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            118.3,
+            520.6,
+            207.2,
+            537.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            92.8,
+            538.4,
+            544.7,
+            570.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            54.9,
+            555.7,
+            75.1,
+            574.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            92.2,
+            572.3,
+            148.1,
+            585.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            330.7,
+            576.3,
+            492.2,
+            598.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            95.1,
+            587.6,
+            190.6,
+            604.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            331.2,
+            593.1,
+            419.2,
+            613.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            102.7,
+            598.2,
+            287.4,
+            623.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            95,
+            617.3,
+            189.9,
+            635.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "B High humidity\nA High atmospheric pressure\nD High evaporation\nC Low temperature\nLow evaporation\nWhich one among the following is not the cause of environmental degradation in\nTanzania?\nB Use of inorganic fertilizers\nA Deforestation\nD Overgrazing\nC Disposal of industrial chemicals\nE Afforestation",
+      "canonical_question_text_sha256": "16d2fa3ef0d20c64eb91625c48a86da4762289148a831b57737398e91fb5ba47",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01vi",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "Which one among the following is not the cause of environmental degradation in Tanzania?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Deforestation"
+          },
+          {
+            "label": "B",
+            "text": "Use of inorganic fertilizers"
+          },
+          {
+            "label": "C",
+            "text": "Disposal of industrial chemicals"
+          },
+          {
+            "label": "D",
+            "text": "Overgrazing"
+          },
+          {
+            "label": "E",
+            "text": "Afforestation"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove preceding Q1(v) alternatives and restore Q1(vi)'s A–E order from printed page; retain printed negative not. No key inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f"
+        },
+        "boundary_assessment": "Q1(vi) is the last question on p2, starts after Q1(v)'s E and ends after E Afforestation before footer; no continuation.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2025-p1-q01vii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vii)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            73.1,
+            29.6,
+            483.8,
+            58.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            31.2,
+            46.1,
+            54.2,
+            61.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            149.9,
+            50.4,
+            336.3,
+            71.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            67.1,
+            56.2,
+            140.9,
+            74.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            393.4,
+            62.7,
+            437.9,
+            79.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            235,
+            68.8,
+            295.7,
+            82.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            69.5,
+            74.6,
+            129.4,
+            88.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            235.6,
+            82.1,
+            318.4,
+            99.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            69.5,
+            86.4,
+            148.6,
+            101.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "Masalanmengi is a farmer in Shinyanga and he travelled tó Mikumi National park for\nMasalamengi in Mikumi National park?\nleisure. Who is\nSurveyor\nB Tourist\nA Farmer\nE Geographer\nD Researcher",
+      "canonical_question_text_sha256": "cd9fce3312dbaf8d39af4a072a676317440968f6c0baa884035112c6b3622e4e",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01vii",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vii)",
+        "parent_question": "1",
+        "subquestion": "(vii)",
+        "kind": "original_exam",
+        "question": "Masalamengi is a farmer in Shinyanga and he travelled to Mikumi National park for leisure. Who is Masalamengi in Mikumi National park?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Farmer"
+          },
+          {
+            "label": "B",
+            "text": "Tourist"
+          },
+          {
+            "label": "C",
+            "text": "Surveyor"
+          },
+          {
+            "label": "D",
+            "text": "Researcher"
+          },
+          {
+            "label": "E",
+            "text": "Geographer"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed name Masalamengi, damaged to Masalanmengi in extraction; restore normal reading order, letter C Surveyor, all A–E choices. Preserve printed lower-case park and hierarchy.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f",
+          "3": "261fa7e2de217db616709a6bca4ed110750b93bf0ef3e6bf252b745746bebec5"
+        },
+        "boundary_assessment": "Printed Q1(vii) is first on p3, ends after E Geographer before Q1(viii); original Q1 instruction p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2025-p1-q01viii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(viii)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            32.1,
+            99.7,
+            491.3,
+            132.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            303.6,
+            113.8,
+            492.2,
+            138.1
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            68.4,
+            122.8,
+            293.8,
+            146.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            68.7,
+            141.6,
+            226.1,
+            158.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            71.1,
+            156.1,
+            235.3,
+            177.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            94.5,
+            173,
+            207.9,
+            188.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            71.3,
+            176.9,
+            80.2,
+            189.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            95.2,
+            187.7,
+            235.4,
+            204.1
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            71.7,
+            192.2,
+            81.4,
+            206.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            95.3,
+            203.7,
+            240.9,
+            223.1
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            72.2,
+            208.3,
+            82.2,
+            222
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            95.8,
+            219.4,
+            225.9,
+            236.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Mr. Kazi is an enterpreneur in Umoja village. He decided to invest in small scale paper\nwill be the basic requirements for the\nbags manufacturing industry. The following\nlocation of his industry except:\nA availability of power supply.\navailability of market.\nB\navailability of skilled labour.\nC\npresence of religious centres.\nD\npresence of raw materials.",
+      "canonical_question_text_sha256": "cf45a9a59ea47db6f75990a5b65302ac081a8c333aac4b990acde0949600c3fb",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01viii",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(viii)",
+        "parent_question": "1",
+        "subquestion": "(viii)",
+        "kind": "original_exam",
+        "question": "Mr. Kazi is an enterpreneur in Umoja village. He decided to invest in small scale paper bags manufacturing industry. The following will be the basic requirements for the location of his industry except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "availability of power supply."
+          },
+          {
+            "label": "B",
+            "text": "availability of market."
+          },
+          {
+            "label": "C",
+            "text": "availability of skilled labour."
+          },
+          {
+            "label": "D",
+            "text": "presence of religious centres."
+          },
+          {
+            "label": "E",
+            "text": "presence of raw materials."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Reorder extracted lines to printed reading order, restore E label and complete A–E boundaries. Retain printed enterpreneur spelling and alternative full stops; no editorial correction or inferred key.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f",
+          "3": "261fa7e2de217db616709a6bca4ed110750b93bf0ef3e6bf252b745746bebec5"
+        },
+        "boundary_assessment": "Printed Q1(viii) follows vii and ends at E raw materials. before Q1(ix); full text and alternatives p3, parent instruction p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
