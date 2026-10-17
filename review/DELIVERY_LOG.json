@@ -482,6 +482,29 @@
         "independent_human_academic_accepted": 0,
         "total": 141
       }
+    },
+    {
+      "deployed_sha": "118dd0747a5810a2817e3e71982af7d51c616aff",
+      "implementation_sha": "c42ed04795c2d584529379e3329ae0015465b4e5",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/33",
+      "verified_at": "2026-10-17T07:59:58.474Z",
+      "tests": "34 unit/static, 842 beta browser, 95 root browser and 78 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39015636497",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39015636338",
+      "rollback_baseline": "5fd6b37b54f25156b6c8ace66068b2e2e5becf28",
+      "evidence": ".workbuddy-ai/batch24-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v24 to necta-rescue-beta-v25 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: History2025 Q1(vii)/(ix)/(x) p2/3 batch25.json; four History2024 Q3(a)/(b)/(c)(i)/(ii) p4 batch26.json; six Literature2024 Q1(i)–(vi) p2 batch27.json; Civics2024 Q3–8 batch28.json then Q9–11 batch29.json p5. All specs and page renders in ignored .workbuddy-ai, exact sources already visually checked. No answers; preserve all holds/amendments.",
+      "counts": {
+        "question_only": 116,
+        "question_only_parent": 20,
+        "question_only_subquestion": 96,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 146
+      }
     }
   ]
 }
