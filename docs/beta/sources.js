@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 26,
+  "version": 27,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -5561,6 +5561,110 @@ window.NECTA_BETA = {
         "pages": [
           2,
           3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q03a",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "3(a)",
+      "parent_question": "3",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "How does the study of History promote patriotism?",
+      "context": "Briefly, answer the following questions:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q03b",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "3(b)",
+      "parent_question": "3",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "Briefly, explain the rationale for using oral traditions as a method of getting historical information.",
+      "context": "Briefly, answer the following questions:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q03ci",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "3(c)(i)",
+      "parent_question": "3(c)",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Which instrument would you advise them to use to determine the fossil’s age?",
+      "context": "Briefly, answer the following questions:\n(c) Two Form Four students in a neighboring country discovered the fossil whose age is estimated to be 6,000 years ago;",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q03cii",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "3(c)(ii)",
+      "parent_question": "3(c)",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Why did you recommend such an instrument in (i) above? Give a reason.",
+      "context": "Briefly, answer the following questions:\n(c) Two Form Four students in a neighboring country discovered the fossil whose age is estimated to be 6,000 years ago;\n(i) Which instrument would you advise them to use to determine the fossil’s age?",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          4
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

@@ -1,0 +1,369 @@
+{
+  "batch_id": "recent-core-batch-26",
+  "baseline_commit": "fb156499117ca141dfe207ebb95d7504e039b290",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 0,
+    "added_subquestions": 4,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "history-2024-printed-q1",
+      "reason": "Original p2 Q1 was visually available, but canonical questions.jsonl has no corresponding History2024 Q1 records; no new IDs or bulk extraction invented."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "history-2024-p1-q03a",
+      "canonical_parent_question": "3",
+      "canonical_subquestion": "(a)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            106.8,
+            484.1,
+            376.4,
+            497.7
+          ]
+        }
+      ],
+      "original_pipeline_text": "How does the study of History promote patriotism?",
+      "canonical_question_text_sha256": "1471fc5baa37d65e511b4f7d8893e31aa6e95d6e8036c39bcd6c16b2cb02fd44",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2024-p1-q03a",
+        "subject": "history",
+        "year": 2024,
+        "paper": "1",
+        "reference": "3(a)",
+        "parent_question": "3",
+        "subquestion": "(a)",
+        "kind": "original_exam",
+        "question": "How does the study of History promote patriotism?",
+        "context": "Briefly, answer the following questions:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+          "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed line wraps and remove OCR debris/footer only. Preserve printed neighboring, 6,000 years ago and original grammar. No fossil age method, explanation, marks or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "8cd1b1f3e72beb720c6192cde93cec4c04c7a74d3d5b379fcffb113e07c388d1"
+        },
+        "boundary_assessment": "Original p4 Section B Q3(a)/(b)/(c)(i)/(ii) after Q2 matching. Canonical exact child parent/letter hierarchy retained; nested i/ii parent is 3(c). Include full Q3 shared instruction, and for nested records full fossil scenario. The ii record additionally includes preceding i question as dependency, without any answer, so student can understand its reference. Q2 table and footer excluded.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2024-p1-q03b",
+      "canonical_parent_question": "3",
+      "canonical_subquestion": "(b)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            106.8,
+            504.3,
+            519.3,
+            520.7
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            129,
+            518.4,
+            235.9,
+            528.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "Briefly, explain the rationale for using oral traditions as a method of getting\nhistorical information.",
+      "canonical_question_text_sha256": "14f26aabac28b7be56a35313c5834c68828c26151cd04a6ce25b578db1d60dae",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2024-p1-q03b",
+        "subject": "history",
+        "year": 2024,
+        "paper": "1",
+        "reference": "3(b)",
+        "parent_question": "3",
+        "subquestion": "(b)",
+        "kind": "original_exam",
+        "question": "Briefly, explain the rationale for using oral traditions as a method of getting historical information.",
+        "context": "Briefly, answer the following questions:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+          "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed line wraps and remove OCR debris/footer only. Preserve printed neighboring, 6,000 years ago and original grammar. No fossil age method, explanation, marks or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "8cd1b1f3e72beb720c6192cde93cec4c04c7a74d3d5b379fcffb113e07c388d1"
+        },
+        "boundary_assessment": "Original p4 Section B Q3(a)/(b)/(c)(i)/(ii) after Q2 matching. Canonical exact child parent/letter hierarchy retained; nested i/ii parent is 3(c). Include full Q3 shared instruction, and for nested records full fossil scenario. The ii record additionally includes preceding i question as dependency, without any answer, so student can understand its reference. Q2 table and footer excluded.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2024-p1-q03ci",
+      "canonical_parent_question": "3(c)",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            128.7,
+            573.7,
+            520.1,
+            588.1
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            155.8,
+            588.4,
+            177.1,
+            599.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which instrument would you advise them to use to determine the fossil’s\nage?",
+      "canonical_question_text_sha256": "b04f281e403a9dc22fa74c81eea8fe6ebbb81acca205dc01c0f5b82a8149593c",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2024-p1-q03ci",
+        "subject": "history",
+        "year": 2024,
+        "paper": "1",
+        "reference": "3(c)(i)",
+        "parent_question": "3(c)",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Which instrument would you advise them to use to determine the fossil’s age?",
+        "context": "Briefly, answer the following questions:\n(c) Two Form Four students in a neighboring country discovered the fossil whose age is estimated to be 6,000 years ago;",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+          "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed line wraps and remove OCR debris/footer only. Preserve printed neighboring, 6,000 years ago and original grammar. No fossil age method, explanation, marks or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "8cd1b1f3e72beb720c6192cde93cec4c04c7a74d3d5b379fcffb113e07c388d1"
+        },
+        "boundary_assessment": "Original p4 Section B Q3(a)/(b)/(c)(i)/(ii) after Q2 matching. Canonical exact child parent/letter hierarchy retained; nested i/ii parent is 3(c). Include full Q3 shared instruction, and for nested records full fossil scenario. The ii record additionally includes preceding i question as dependency, without any answer, so student can understand its reference. Q2 table and footer excluded.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2024-p1-q03cii",
+      "canonical_parent_question": "3(c)",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            129.3,
+            608,
+            511.8,
+            623.2
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            280.5,
+            766.7,
+            548.9,
+            781.9
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            57,
+            789.7,
+            334.1,
+            797.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why did you recommend such an instrument in (i) above? Give a reason.\nPage 4 of 6 wasii\n” .",
+      "canonical_question_text_sha256": "26edf24007c22b35fe98db229b3fdb88192f7b936a9a39aae05736ebe4fdf4be",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2024-p1-q03cii",
+        "subject": "history",
+        "year": 2024,
+        "paper": "1",
+        "reference": "3(c)(ii)",
+        "parent_question": "3(c)",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Why did you recommend such an instrument in (i) above? Give a reason.",
+        "context": "Briefly, answer the following questions:\n(c) Two Form Four students in a neighboring country discovered the fossil whose age is estimated to be 6,000 years ago;\n(i) Which instrument would you advise them to use to determine the fossil’s age?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+          "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join printed line wraps and remove OCR debris/footer only. Preserve printed neighboring, 6,000 years ago and original grammar. No fossil age method, explanation, marks or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "8cd1b1f3e72beb720c6192cde93cec4c04c7a74d3d5b379fcffb113e07c388d1"
+        },
+        "boundary_assessment": "Original p4 Section B Q3(a)/(b)/(c)(i)/(ii) after Q2 matching. Canonical exact child parent/letter hierarchy retained; nested i/ii parent is 3(c). Include full Q3 shared instruction, and for nested records full fossil scenario. The ii record additionally includes preceding i question as dependency, without any answer, so student can understand its reference. Q2 table and footer excluded.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
