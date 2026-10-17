@@ -712,6 +712,29 @@
         "independent_human_academic_accepted": 0,
         "total": 184
       }
+    },
+    {
+      "deployed_sha": "87e65c8735b3df6ce012af583cfe43a383f883be",
+      "implementation_sha": "2107429d2925eb2f444311dcba54f4dc56c4ed6a",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/43",
+      "verified_at": "2026-10-17T08:45:42.417Z",
+      "tests": "35 unit/static, 1039 beta browser, 95 root browser and 70 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39018487703",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39018487227",
+      "rollback_baseline": "e9b0f4c2fa414abfba6f0191239dce3cf9511f30",
+      "evidence": ".workbuddy-ai/batch34-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v34 to necta-rescue-beta-v35 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: English2020 first5 batch35 p2, update year-filter browser assertion to exact2020count/empty state. Math2025 four batch36/four batch37 p2/3; Geography2020 batch38 first5; Kiswahili2020 batch39 first6; History2020 batch40 first6; Literature2020 batch41 first6; Civics2020 batch42 first6 all p2. Sources/specs visually checked. Preserve original URL/hash/IDs, holds, English amendment; no answers/human/phone, deadline10:08UTC.",
+      "counts": {
+        "question_only": 157,
+        "question_only_parent": 29,
+        "question_only_subquestion": 128,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 187
+      }
     }
   ]
 }

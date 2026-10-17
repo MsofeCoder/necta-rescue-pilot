@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 35,
+  "version": 36,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6945,6 +6945,246 @@ window.NECTA_BETA = {
         "sha256": "e922e7aacf7c199cf50b3499ecbc09857b895ff79846b7b850bcc73fc25695dd",
         "pages": [
           4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2020-p1-q01i",
+      "subject": "english",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Which sentence among the following shows the ongoing expression?",
+      "context": "For each of the items (i) - (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "He is writing letters."
+        },
+        {
+          "label": "B",
+          "text": "He wrote letters."
+        },
+        {
+          "label": "C",
+          "text": "He writes letters."
+        },
+        {
+          "label": "D",
+          "text": "He has written letters."
+        },
+        {
+          "label": "E",
+          "text": "He had written letters."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
+        "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2020-p1-q01ii",
+      "subject": "english",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "The teacher decided to ______ the test results of students with disciplinary problems.",
+      "context": "For each of the items (i) - (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "withheld"
+        },
+        {
+          "label": "B",
+          "text": "have withheld"
+        },
+        {
+          "label": "C",
+          "text": "withhold"
+        },
+        {
+          "label": "D",
+          "text": "being withheld"
+        },
+        {
+          "label": "E",
+          "text": "having withhold"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
+        "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2020-p1-q01iii",
+      "subject": "english",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "Ten years from now, my friend and I ______ in Arusha.",
+      "context": "For each of the items (i) - (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "live"
+        },
+        {
+          "label": "B",
+          "text": "have lived"
+        },
+        {
+          "label": "C",
+          "text": "will have been living"
+        },
+        {
+          "label": "D",
+          "text": "lived"
+        },
+        {
+          "label": "E",
+          "text": "will be living"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
+        "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2020-p1-q01iv",
+      "subject": "english",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Shija is ______ at Mjimwema Secondary School.",
+      "context": "For each of the items (i) - (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "studying"
+        },
+        {
+          "label": "B",
+          "text": "study"
+        },
+        {
+          "label": "C",
+          "text": "studied"
+        },
+        {
+          "label": "D",
+          "text": "being studying"
+        },
+        {
+          "label": "E",
+          "text": "studies"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
+        "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2020-p1-q01v",
+      "subject": "english",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "My school certificate ______ hanging on the wall.",
+      "context": "For each of the items (i) - (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "are"
+        },
+        {
+          "label": "B",
+          "text": "were"
+        },
+        {
+          "label": "C",
+          "text": "is"
+        },
+        {
+          "label": "D",
+          "text": "will"
+        },
+        {
+          "label": "E",
+          "text": "has"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2020.pdf",
+        "sha256": "7c1acf7f7b746cd30ee2e8d3ade1b1917b31e08ec13974a6134c51f6a2af6abc",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

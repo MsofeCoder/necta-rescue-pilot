@@ -79,7 +79,8 @@ try{
       check('Civics 2024 exposes only checked question-only records',recent>0&&await c.eval(`document.getElementById('coverage').textContent.startsWith('${recent} ')&&document.getElementById('reveal').hidden&&document.getElementById('answer').hidden`));
     }
     await c.eval(`document.getElementById('year').value='2020';document.getElementById('year').dispatchEvent(new Event('change'))`);
-    check('2020 has source references without claiming checked question coverage '+s.id,await c.eval(`document.getElementById('empty').hidden===false&&document.querySelectorAll('#papers .paper').length>0`));
+    const yearCount=await c.eval(`NECTA_BETA.cards.filter(r=>r.subject===${JSON.stringify(s.id)}&&r.year===2020).length`);
+    check('2020 filter matches checked questions and source references '+s.id,await c.eval(`document.getElementById('coverage').textContent.startsWith('${yearCount} ')&&document.getElementById('empty').hidden===${yearCount>0}&&document.querySelectorAll('#papers .paper').length>0&&(${yearCount}===0||(!document.getElementById('card').hidden&&document.getElementById('reveal').hidden&&document.getElementById('reference').textContent.startsWith('2020 · ')))`));
     await c.click('#homeButton');
   }
   check('exact counts 30 Civics and current question-only batch',answered===30&&questionOnly===release.question_only,{answered,questionOnly});
