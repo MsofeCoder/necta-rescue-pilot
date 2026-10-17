@@ -1,0 +1,286 @@
+{
+  "batch_id": "recent-core-batch-13",
+  "baseline_commit": "139166fb98eaf1fdc298b60c3c35c97446d1a13e",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical record; do not invent an ID."
+    },
+    {
+      "id": "geography-2024-p1-q01ii",
+      "reason": "Prior identity hold: canonical stem belongs to printed Q1(iii), not Q1(ii)."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "literature-2025-p1-q05d",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(d)",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            63.4,
+            585.5,
+            326.9,
+            603.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "Alliteration .",
+      "canonical_question_text_sha256": "7e26a82bae757de4a6167a8a98dc07756f0d1a374f370c824487fa8db2f323c2",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2025-p1-q05d",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(d)",
+        "parent_question": "5",
+        "subquestion": "(d)",
+        "kind": "original_exam",
+        "question": "Alliteration",
+        "context": "Define and state the use of each of the following literary devices:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove trailing OCR dot only; attach printed parent instruction, retain parent5/subquestion(d). No definition/use/answer generated.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "73578c0ff136d61bce5f59d880bc16fa4ca739bf17f61b7e0b2a25c8c5e6ae8f"
+        },
+        "boundary_assessment": "Printed Q5(d) lies within Q5 list below (c), before (e). Q5 instruction same page; preceding poem and Q4 questions are unrelated.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2025-p1-q05e",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(e)",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            63.4,
+            608.5,
+            142.8,
+            620.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Sarcasm",
+      "canonical_question_text_sha256": "06a98affcdae7352897bc80cc2298d7dc361781d4300fe1fde23c90f2c16d79f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2025-p1-q05e",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(e)",
+        "parent_question": "5",
+        "subquestion": "(e)",
+        "kind": "original_exam",
+        "question": "Sarcasm",
+        "context": "Define and state the use of each of the following literary devices:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Retain exact printed device name and attach full Q5 instruction; no answer text inferred.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "73578c0ff136d61bce5f59d880bc16fa4ca739bf17f61b7e0b2a25c8c5e6ae8f"
+        },
+        "boundary_assessment": "Printed Q5(e) between (d)/(f), below Q5 instruction. No poem dependency.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2025-p1-q05f",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(f)",
+      "canonical_source_pages": [
+        5,
+        6
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            63.6,
+            623.5,
+            154.4,
+            641.1
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            239.9,
+            15,
+            354.2,
+            27.1
+          ]
+        }
+      ],
+      "original_pipeline_text": "| Hyperbole\ni nt Gyeratare terms:",
+      "canonical_question_text_sha256": "0c8827ba53d49282db9e9294f3a4ea4a7b3f6d9a9a67a12067c118857cdc7482",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2025-p1-q05f",
+        "subject": "literature",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(f)",
+        "parent_question": "5",
+        "subquestion": "(f)",
+        "kind": "original_exam",
+        "question": "Hyperbole",
+        "context": "Define and state the use of each of the following literary devices:",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+          "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove stray leading bar and following OCR fragment; attach printed Q5 parent instruction. Preserve source ID/hierarchy, no definition/use supplied.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "73578c0ff136d61bce5f59d880bc16fa4ca739bf17f61b7e0b2a25c8c5e6ae8f"
+        },
+        "boundary_assessment": "Printed Q5(f) is final device after (e) above blank space/footer. Full Q5 instruction p5; following question is not context.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

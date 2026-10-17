@@ -206,6 +206,29 @@
         "independent_human_academic_accepted": 0,
         "total": 86
       }
+    },
+    {
+      "deployed_sha": "139166fb98eaf1fdc298b60c3c35c97446d1a13e",
+      "implementation_sha": "a9117211da0355ea8b4d6a8f64832549e9d6766e",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/20",
+      "verified_at": "2026-10-17T06:58:51.281Z",
+      "tests": "33 unit/static, 518 beta browser, 95 root browser and 51 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011839935",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39011839668",
+      "rollback_baseline": "93714557966d32dabe7e2414a87b5540fdca477a",
+      "evidence": ".workbuddy-ai/batch12-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v12 to necta-rescue-beta-v13 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next batch13 Literature2025 Q5(d)-(f), source p5 visually inspected; spec .workbuddy-ai/batch13.json. Complete printed Q5 parent instruction required, preceding poem unrelated. Next select Literature2024 Q5(vii)-(ix) on already inspected p4; verify canonical IDs before admission. No new answers.",
+      "counts": {
+        "question_only": 58,
+        "question_only_parent": 19,
+        "question_only_subquestion": 39,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 88
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 13,
+  "version": 14,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3461,6 +3461,84 @@ window.NECTA_BETA = {
         "sha256": "ded5d6d7f434d4d820c88587992f9f5820b7c30bc6fe1c2d73c075bee73b3279",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q05d",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(d)",
+      "parent_question": "5",
+      "subquestion": "(d)",
+      "kind": "original_exam",
+      "question": "Alliteration",
+      "context": "Define and state the use of each of the following literary devices:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q05e",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(e)",
+      "parent_question": "5",
+      "subquestion": "(e)",
+      "kind": "original_exam",
+      "question": "Sarcasm",
+      "context": "Define and state the use of each of the following literary devices:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2025-p1-q05f",
+      "subject": "literature",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(f)",
+      "parent_question": "5",
+      "subquestion": "(f)",
+      "kind": "original_exam",
+      "question": "Hyperbole",
+      "context": "Define and state the use of each of the following literary devices:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
+        "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          5
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
