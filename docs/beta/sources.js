@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 9,
+  "version": 10,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2981,6 +2981,150 @@ window.NECTA_BETA = {
         "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
         "pages": [
           4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01iii",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "The Form Four students were observing a photograph of an extensive land in Australia where Merino sheep are cared for production of wool. How is that type of livestock keeping called?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Transhumance"
+        },
+        {
+          "label": "B",
+          "text": "Nomadism"
+        },
+        {
+          "label": "C",
+          "text": "Pastoralism"
+        },
+        {
+          "label": "D",
+          "text": "Ranch"
+        },
+        {
+          "label": "E",
+          "text": "Sedentary"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01iv",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Asha was travelling by air across Sahara desert and had a chance to observe the crescent shaped features which were in groups and developed by an obstruction such as a rock. What could be the feature she observed?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Seif dunes"
+        },
+        {
+          "label": "B",
+          "text": "Loess"
+        },
+        {
+          "label": "C",
+          "text": "Zeugens"
+        },
+        {
+          "label": "D",
+          "text": "Barchans"
+        },
+        {
+          "label": "E",
+          "text": "Ripples"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2025-p1-q01v",
+      "subject": "geography",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Areas along the equator receive more rainfall than the areas away from it. What is the main cause of that rainfall?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "High atmospheric pressure"
+        },
+        {
+          "label": "B",
+          "text": "High humidity"
+        },
+        {
+          "label": "C",
+          "text": "Low temperature"
+        },
+        {
+          "label": "D",
+          "text": "High evaporation"
+        },
+        {
+          "label": "E",
+          "text": "Low evaporation"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+        "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

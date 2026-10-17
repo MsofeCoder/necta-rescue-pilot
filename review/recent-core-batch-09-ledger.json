@@ -1,0 +1,483 @@
+{
+  "batch_id": "recent-core-batch-09",
+  "baseline_commit": "4736510debc4456a8b845b2f1e97d4aad7b1c84a",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical record; do not invent an ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "geography-2025-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            90.2,
+            259.8,
+            527,
+            291.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            53.8,
+            275.3,
+            527.9,
+            307.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            90.3,
+            305.5,
+            170.7,
+            321.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "The Form Four students were observing a photograph of an extensive land in Australia\nwhere Merino sheep are cared for production of wool. How is that type of livestock\nkeeping called?",
+      "canonical_question_text_sha256": "737e5226d7b76003e6e857261c8b9e90671a21123b07ec7c64e106cf4e287393",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01iii",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "The Form Four students were observing a photograph of an extensive land in Australia where Merino sheep are cared for production of wool. How is that type of livestock keeping called?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Transhumance"
+          },
+          {
+            "label": "B",
+            "text": "Nomadism"
+          },
+          {
+            "label": "C",
+            "text": "Pastoralism"
+          },
+          {
+            "label": "D",
+            "text": "Ranch"
+          },
+          {
+            "label": "E",
+            "text": "Sedentary"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore all five original alternatives swallowed into the beginning of canonical q01iv; retain printed grammar and singular Ranch. No supplied-solution association or key inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f"
+        },
+        "boundary_assessment": "Printed Q1(iii) follows Q1(ii), its complete A–E choices end before Q1(iv). The photograph is described within a text scenario; no actual photograph is supplied or required on the original page.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2025-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            409.5,
+            310.2,
+            493.9,
+            326.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            234.2,
+            317.1,
+            350.3,
+            330
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            90,
+            322,
+            190.6,
+            337.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            293.5,
+            329.5,
+            344.1,
+            346.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            89.6,
+            336.3,
+            149.9,
+            352.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            91.2,
+            351.7,
+            532,
+            384.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            54.5,
+            367.7,
+            532.4,
+            400.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            91.5,
+            393.4,
+            334.5,
+            417.1
+          ]
+        }
+      ],
+      "original_pipeline_text": "C Pastoralism\ni B Nomadism\nA Transhumance\nSedentary\nD Ranch\nAsha was travelling by air across Sahara desert and had a chance to observe the\ncrescent shaped features which were in groups and developed by an obstruction such as\na rock. What could be the feature she observed?",
+      "canonical_question_text_sha256": "308ca7d1c004ff5fbf1ebcc59690d39ffbba5c8485aad0f6ffb3b6277b4e121f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01iv",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Asha was travelling by air across Sahara desert and had a chance to observe the crescent shaped features which were in groups and developed by an obstruction such as a rock. What could be the feature she observed?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Seif dunes"
+          },
+          {
+            "label": "B",
+            "text": "Loess"
+          },
+          {
+            "label": "C",
+            "text": "Zeugens"
+          },
+          {
+            "label": "D",
+            "text": "Barchans"
+          },
+          {
+            "label": "E",
+            "text": "Ripples"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove preceding Q1(iii) options and restore Q1(iv)'s own five printed alternatives held at the start of canonical q01v. Preserve source wording and exact original ID/hierarchy.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f"
+        },
+        "boundary_assessment": "Printed Q1(iv) begins at Asha after Q1(iii)'s E and ends at its own E Ripples before Q1(v). Text-only scenario, no required diagram omitted.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2025-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            409.5,
+            404.5,
+            483,
+            420.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            266.7,
+            410.5,
+            323.3,
+            424.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            94.6,
+            415.7,
+            172.7,
+            432
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            267.1,
+            423,
+            333,
+            442.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            94.1,
+            430.9,
+            166.1,
+            445.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            92.8,
+            445,
+            537.9,
+            476.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            55.2,
+            461.8,
+            71.3,
+            479.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            92.1,
+            473.4,
+            231.7,
+            492.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "C Zeugens\nB Loess\nA Seif dunes\nE Ripples\nD Barchans\nAreas along the equator receive more rainfall than the areas away from it. What is the\nmain cause of that rainfall?",
+      "canonical_question_text_sha256": "44b1a80bdc66274844f8c1921260e59da6e299c5a5c1b7026659c2083ba47f3c",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01v",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Areas along the equator receive more rainfall than the areas away from it. What is the main cause of that rainfall?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "High atmospheric pressure"
+          },
+          {
+            "label": "B",
+            "text": "High humidity"
+          },
+          {
+            "label": "C",
+            "text": "Low temperature"
+          },
+          {
+            "label": "D",
+            "text": "High evaporation"
+          },
+          {
+            "label": "E",
+            "text": "Low evaporation"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove preceding Q1(iv) alternatives and restore Q1(v)'s five printed alternatives from source, without using a numeric join to solutions or inferring an answer.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f"
+        },
+        "boundary_assessment": "Printed Q1(v) begins at Areas along the equator after Q1(iv) E and ends after E Low evaporation before Q1(vi). Complete prompt/options on p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
