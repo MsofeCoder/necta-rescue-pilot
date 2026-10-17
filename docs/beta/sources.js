@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 24,
+  "version": 25,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -5280,6 +5280,139 @@ window.NECTA_BETA = {
         "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
         "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
         "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05d",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(d)",
+      "parent_question": "5",
+      "subquestion": "(d)",
+      "kind": "original_exam",
+      "question": "Mlimokuwa mna joto sana",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05e",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(e)",
+      "parent_question": "5",
+      "subquestion": "(e)",
+      "kind": "original_exam",
+      "question": "Kijana atakayeshinda atapewa zawadi",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05f",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(f)",
+      "parent_question": "5",
+      "subquestion": "(f)",
+      "kind": "original_exam",
+      "question": "Gazeti lililochapwa limekwisha",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4,
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05g",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(g)",
+      "parent_question": "5",
+      "subquestion": "(g)",
+      "kind": "original_exam",
+      "question": "Barabara iliyofunguliwa imekamilika",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4,
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05h",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(h)",
+      "parent_question": "5",
+      "subquestion": "(h)",
+      "kind": "original_exam",
+      "question": "Magonjwa yaliyowasumbua yalitokana na athari ya mvua",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4,
           5
         ]
       },

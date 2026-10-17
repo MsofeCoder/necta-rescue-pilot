@@ -459,6 +459,29 @@
         "independent_human_academic_accepted": 0,
         "total": 134
       }
+    },
+    {
+      "deployed_sha": "5fd6b37b54f25156b6c8ace66068b2e2e5becf28",
+      "implementation_sha": "83a9ec3a3e427e667cdfd409105731013c1671dd",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/32",
+      "verified_at": "2026-10-17T07:56:09.048Z",
+      "tests": "34 unit/static, 825 beta browser, 95 root browser and 84 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39015413542",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39015413007",
+      "rollback_baseline": "d26cd2092be797ba1d56fb93b69a8d3c4673bdbc",
+      "evidence": ".workbuddy-ai/batch23-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v23 to necta-rescue-beta-v24 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: five Kiswahili2025 Q5(d)–(h) p4/5 (.workbuddy-ai/batch24.json), then History2025 Q1(vii)/(ix)/(x) p2/3 batch25.json and four History2024 Q3(a)/(b)/(c)(i)/(ii) p4 batch26.json. All prepared original-page-backed; no answers, preserve full scenario for nested records and all holds/amendments.",
+      "counts": {
+        "question_only": 111,
+        "question_only_parent": 20,
+        "question_only_subquestion": 91,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 141
+      }
     }
   ]
 }

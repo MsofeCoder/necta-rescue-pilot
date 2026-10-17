@@ -1,0 +1,424 @@
+{
+  "batch_id": "recent-core-batch-24",
+  "baseline_commit": "5fd6b37b54f25156b6c8ace66068b2e2e5becf28",
+  "counts": {
+    "added_records": 5,
+    "added_parent_questions": 0,
+    "added_subquestions": 5,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q05i",
+      "reason": "Printed Q5(i) continuation lacks standalone exact canonical ID; no new ID invented."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "kiswahili-2025-p1-q05d",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(d)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            52.4,
+            702.4,
+            215.7,
+            715.1
+          ]
+        }
+      ],
+      "original_pipeline_text": "Mlimokuwa mna joto sana",
+      "canonical_question_text_sha256": "771dcedf20cb4dc94c1e7619e8683b6af2065c6835e534a3839fce9a7f971744",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q05d",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(d)",
+        "parent_question": "5",
+        "subquestion": "(d)",
+        "kind": "original_exam",
+        "question": "Mlimokuwa mna joto sana",
+        "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore missing full parent instruction and printed sentence. Remove page footer/OCR spill from (e); for (h) repair OCR myua to printed mvua. Preserve all other printed wording/grammar and do not identify affixes or generate noun-class answers.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "b71f620a04cfd2256262796507445171dbfeaaa276129feb186ab7bf4be09a69"
+        },
+        "boundary_assessment": "Original Q5 parent instruction and (a)–(e) on p4 continue as (f)–(i) at top of p5, before Q6. This exact subquestion and parent align with canonical identity. Include p4 shared affix/ngeli instruction with each display, and only this sentence; no Q6 idioms or Q8 passage. No source diagram or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q05e",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(e)",
+      "canonical_source_pages": [
+        4,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            52.1,
+            720.3,
+            272.2,
+            733
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            210.5,
+            764.6,
+            346.8,
+            784.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            0,
+            0,
+            209.1,
+            10.1
+          ]
+        }
+      ],
+      "original_pipeline_text": "Kijana atakayeshinda atapewa zawadi\nUkurasa.\nEU —«—_ AAA",
+      "canonical_question_text_sha256": "ae1e711303ac8ab374f56b119b74d33dcf52554600116c4de002c4d4a65eb3c1",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q05e",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(e)",
+        "parent_question": "5",
+        "subquestion": "(e)",
+        "kind": "original_exam",
+        "question": "Kijana atakayeshinda atapewa zawadi",
+        "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore missing full parent instruction and printed sentence. Remove page footer/OCR spill from (e); for (h) repair OCR myua to printed mvua. Preserve all other printed wording/grammar and do not identify affixes or generate noun-class answers.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "b71f620a04cfd2256262796507445171dbfeaaa276129feb186ab7bf4be09a69"
+        },
+        "boundary_assessment": "Original Q5 parent instruction and (a)–(e) on p4 continue as (f)–(i) at top of p5, before Q6. This exact subquestion and parent align with canonical identity. Include p4 shared affix/ngeli instruction with each display, and only this sentence; no Q6 idioms or Q8 passage. No source diagram or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q05f",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(f)",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            60.8,
+            42.3,
+            243.9,
+            55.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Gazeti lililochapwa limekwisha",
+      "canonical_question_text_sha256": "9a7d52fa86955a725e891a3f0ab604a1d4e98180be6b058233806c15b0bfb2e5",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q05f",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(f)",
+        "parent_question": "5",
+        "subquestion": "(f)",
+        "kind": "original_exam",
+        "question": "Gazeti lililochapwa limekwisha",
+        "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore missing full parent instruction and printed sentence. Remove page footer/OCR spill from (e); for (h) repair OCR myua to printed mvua. Preserve all other printed wording/grammar and do not identify affixes or generate noun-class answers.",
+      "original_exam_review": {
+        "pages": [
+          4,
+          5
+        ],
+        "page_renders": {
+          "4": "b71f620a04cfd2256262796507445171dbfeaaa276129feb186ab7bf4be09a69",
+          "5": "4768c2f8c4d72c079cc0fb42666e5be3ad7a0092bbcdb5b925a28a37a30f825b"
+        },
+        "boundary_assessment": "Original Q5 parent instruction and (a)–(e) on p4 continue as (f)–(i) at top of p5, before Q6. This exact subquestion and parent align with canonical identity. Include p4 shared affix/ngeli instruction with each display, and only this sentence; no Q6 idioms or Q8 passage. No source diagram or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q05g",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(g)",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            60.8,
+            57.6,
+            272.7,
+            72.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "Barabara iliyofunguliwa imekamilika",
+      "canonical_question_text_sha256": "d0d76c4ec22248a775ce5ec81d3ed11fe461f7ffcd0f32503b3f4d5100d2c468",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q05g",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(g)",
+        "parent_question": "5",
+        "subquestion": "(g)",
+        "kind": "original_exam",
+        "question": "Barabara iliyofunguliwa imekamilika",
+        "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore missing full parent instruction and printed sentence. Remove page footer/OCR spill from (e); for (h) repair OCR myua to printed mvua. Preserve all other printed wording/grammar and do not identify affixes or generate noun-class answers.",
+      "original_exam_review": {
+        "pages": [
+          4,
+          5
+        ],
+        "page_renders": {
+          "4": "b71f620a04cfd2256262796507445171dbfeaaa276129feb186ab7bf4be09a69",
+          "5": "4768c2f8c4d72c079cc0fb42666e5be3ad7a0092bbcdb5b925a28a37a30f825b"
+        },
+        "boundary_assessment": "Original Q5 parent instruction and (a)–(e) on p4 continue as (f)–(i) at top of p5, before Q6. This exact subquestion and parent align with canonical identity. Include p4 shared affix/ngeli instruction with each display, and only this sentence; no Q6 idioms or Q8 passage. No source diagram or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q05h",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(h)",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            60.8,
+            72.6,
+            373,
+            87.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Magonjwa yaliyowasumbua yalitokana na athari ya myua",
+      "canonical_question_text_sha256": "b69ccd654a698aa822d4416f42f3bbe10080e4a3c9cc3f513fe1df2c0b9cbf79",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q05h",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "5(h)",
+        "parent_question": "5",
+        "subquestion": "(h)",
+        "kind": "original_exam",
+        "question": "Magonjwa yaliyowasumbua yalitokana na athari ya mvua",
+        "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore missing full parent instruction and printed sentence. Remove page footer/OCR spill from (e); for (h) repair OCR myua to printed mvua. Preserve all other printed wording/grammar and do not identify affixes or generate noun-class answers.",
+      "original_exam_review": {
+        "pages": [
+          4,
+          5
+        ],
+        "page_renders": {
+          "4": "b71f620a04cfd2256262796507445171dbfeaaa276129feb186ab7bf4be09a69",
+          "5": "4768c2f8c4d72c079cc0fb42666e5be3ad7a0092bbcdb5b925a28a37a30f825b"
+        },
+        "boundary_assessment": "Original Q5 parent instruction and (a)–(e) on p4 continue as (f)–(i) at top of p5, before Q6. This exact subquestion and parent align with canonical identity. Include p4 shared affix/ngeli instruction with each display, and only this sentence; no Q6 idioms or Q8 passage. No source diagram or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
