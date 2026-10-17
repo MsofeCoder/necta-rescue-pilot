@@ -22,6 +22,29 @@
         "independent_human_academic_accepted": 0,
         "total": 61
       }
+    },
+    {
+      "deployed_sha": "3b00ca7a1a2b04aef3ddf08e3b5642beabba9d52",
+      "implementation_sha": "2346132018515a876973fccb226aef4ddb5e2ed2",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/12",
+      "verified_at": "2026-10-17; live checks completed",
+      "tests": "33 unit/static, 409 beta browser, 94 root browser and 59 live HTTPS checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39009736110",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39009735837",
+      "rollback_baseline": "7a01a666b49630f9e056e6af20b4767ff2563a6e",
+      "evidence": ".workbuddy-ai/batch04-live/report.json and source renders; controlled v4-to-v5 upgrade local/CI; actual public fresh-profile offline reuse; no Android.",
+      "next_batch": "Batch 05: History 2024 Q7/Q8 and Kiswahili 2025 Q1(viii)/(x), two parent questions and two subquestions. Next review History 2024 Q9-11 on original p6. Continue first-six-subject recent coverage; no answers.",
+      "counts": {
+        "question_only": 35,
+        "question_only_parent": 14,
+        "question_only_subquestion": 21,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 65
+      }
     }
   ]
 }

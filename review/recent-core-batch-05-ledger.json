@@ -1,0 +1,579 @@
+{
+  "batch_id": "recent-core-batch-05",
+  "baseline_commit": "3b00ca7a1a2b04aef3ddf08e3b5642beabba9d52",
+  "counts": {
+    "added_records": 4,
+    "added_parent_questions": 2,
+    "added_subquestions": 2,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical record; do not invent an ID."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "history-2024-p1-q07",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            57,
+            636.8,
+            512.6,
+            656.9
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            89.9,
+            657.8,
+            179.1,
+            669
+          ]
+        }
+      ],
+      "original_pipeline_text": "Briefly, explain three forms of decolonization during the struggle for independence in\nAfrican countries.",
+      "canonical_question_text_sha256": "9c4d83af9487aa45fca33b72e85aa644eb22717197fa07df41a5df15455955b1",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2024-p1-q07",
+        "subject": "history",
+        "year": 2024,
+        "paper": "1",
+        "reference": "7",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Briefly, explain three forms of decolonization during the struggle for independence in African countries.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+          "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line break only. Canonical sequence-gap flag does not change printed Q7 identity; no subquestion invented.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "ff657136fcf39f219112c2c599051746f03b7e7d6abed5ac1250f7c89a8b6b23"
+        },
+        "boundary_assessment": "Printed top-level 7 follows Q6(c) and ends before printed 8; complete question on p5.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2024-p1-q08",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            57,
+            678,
+            512.6,
+            698.4
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            63.9,
+            692.4,
+            478.1,
+            712.2
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            259.8,
+            754.6,
+            525.3,
+            768.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            279.4,
+            788,
+            452.4,
+            795.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "Identify two societies from East Africa which were still practicing the communal way\n. of life by the 19\" century and specify the countries in which each one is found.\nPage 5 of 6 ji\n‘ . J",
+      "canonical_question_text_sha256": "368e13bc71fc28d3b8fbfcf38d60f6318403d8bb9c0659c2feff10929b5e3264",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2024-p1-q08",
+        "subject": "history",
+        "year": 2024,
+        "paper": "1",
+        "reference": "8",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Identify two societies from East Africa which were still practicing the communal way of life by the 19th century and specify the countries in which each one is found.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+          "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove stray OCR dot and page/footer noise. Restore printed superscript 19th as plain text; no answer or countries supplied.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "ff657136fcf39f219112c2c599051746f03b7e7d6abed5ac1250f7c89a8b6b23"
+        },
+        "boundary_assessment": "Printed top-level 8 follows Q7; ends at found. before page footer, no continuation.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01viii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(viii)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            35.7,
+            197.6,
+            578.3,
+            229.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            63.4,
+            222.6,
+            390.2,
+            244.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            64.8,
+            245.7,
+            239.9,
+            260.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            64.8,
+            259.8,
+            239.3,
+            274.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            64.8,
+            274.8,
+            251.4,
+            291.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            65.4,
+            289.4,
+            229.2,
+            305.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            65.4,
+            307.3,
+            240.5,
+            320
+          ]
+        }
+      ],
+      "original_pipeline_text": "Hatua mojawapo ya uendelezaji wa lugha ili itumike kitaifa na kimataifa ni kuisanifisha, 5\nJambo lipi kubwa linalofanywa katika hatua hii kati ya yafuatayo?\nA Kupunguza maneno ya kukopa\nB Kuondoa tofauti za kimsamiati\nC Kuifanya itumike na jamii ndogo\nD Kuweka tofauti za matamshi\nE Kuidhinisha tofauti za maneno",
+      "canonical_question_text_sha256": "05635c28c452fa768a741e630c613f8220a8ef4e125604974b1e2e1387749177",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q01viii",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(viii)",
+        "parent_question": "1",
+        "subquestion": "(viii)",
+        "kind": "original_exam",
+        "question": "Hatua mojawapo ya uendelezaji wa lugha ili itumike kitaifa na kimataifa ni kuisanifisha. Jambo lipi kubwa linalofanywa katika hatua hii kati ya yafuatayo?",
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Kupunguza maneno ya kukopa"
+          },
+          {
+            "label": "B",
+            "text": "Kuondoa tofauti za kimsamiati"
+          },
+          {
+            "label": "C",
+            "text": "Kuifanya itumike na jamii ndogo"
+          },
+          {
+            "label": "D",
+            "text": "Kuweka tofauti za matamshi"
+          },
+          {
+            "label": "E",
+            "text": "Kuidhinisha tofauti za maneno"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove stray OCR 5; restore printed full stop after kuisanifisha; preserve A–E wording and parent instruction.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "1406919d6be60fd4e1c5b10c32b4f6d544e3333745f9f0f8a2b2a94e54d6b0e4",
+          "3": "e67c34777f3cab11e2e0d0e54ef54ae4cb9269d8f65b855be40c6d7d4ea1fa44"
+        },
+        "boundary_assessment": "Q1(viii) after Q1(vii) ends after E Kuidhinisha tofauti za maneno before Q1(ix). Parent instruction p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "kiswahili-2025-p1-q01x",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(x)",
+      "canonical_source_pages": [
+        3,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            40,
+            447,
+            369.5,
+            469.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            73.2,
+            468.9,
+            252.6,
+            483.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            73.4,
+            488.2,
+            183.7,
+            501.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            73.7,
+            505.4,
+            170.8,
+            517.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            74,
+            522.1,
+            169.6,
+            534.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            74,
+            536.8,
+            229.8,
+            550.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            207.1,
+            753.7,
+            360.9,
+            775
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            252,
+            768.1,
+            340.4,
+            775.6
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            410.1,
+            27.1,
+            529.3,
+            37.7
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            203.6,
+            31.4,
+            408.7,
+            44.4
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            34.3,
+            37.2,
+            449.6,
+            59
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            65.1,
+            52.7,
+            342.1,
+            69.4
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            173.1,
+            76.3,
+            338.1,
+            94.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Jambo lipi si muhimu katika uandishi wa kadi ya mwaliko?\nA Jina la mwandishi na mwalikwa\nB Idadi ya waalikwa\nC Tarehe ya tukio\nD Kusudi la tukio\nE Mahali tukio linapofanyika\nUkurasa wa Bi rgeies at\nhttps://maktaba.tetéa.org\nhali husika zilizo katika\n. tan dha A na tamat\n2, Oanisha mifano ya tamathali za semi iliyo katika Oro! abu chako cha kujibia,\nOrodha B kisha andika herufi ya jibu sahihi katika kijita\ninn. |",
+      "canonical_question_text_sha256": "31b736483edd30edc2cec41bbe7662d85ab5eb84ae7f675efb8193420d2d44f3",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "kiswahili-2025-p1-q01x",
+        "subject": "kiswahili",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(x)",
+        "parent_question": "1",
+        "subquestion": "(x)",
+        "kind": "original_exam",
+        "question": "Jambo lipi si muhimu katika uandishi wa kadi ya mwaliko?",
+        "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Jina la mwandishi na mwalikwa"
+          },
+          {
+            "label": "B",
+            "text": "Idadi ya waalikwa"
+          },
+          {
+            "label": "C",
+            "text": "Tarehe ya tukio"
+          },
+          {
+            "label": "D",
+            "text": "Kusudi la tukio"
+          },
+          {
+            "label": "E",
+            "text": "Mahali tukio linapofanyika"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Kiswahili-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+          "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove footer, watermark and following Q2 matching instruction only. Preserve all five printed alternatives and negative si muhimu; no answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "1406919d6be60fd4e1c5b10c32b4f6d544e3333745f9f0f8a2b2a94e54d6b0e4",
+          "3": "e67c34777f3cab11e2e0d0e54ef54ae4cb9269d8f65b855be40c6d7d4ea1fa44"
+        },
+        "boundary_assessment": "Printed Q1(x) follows Q1(ix) and ends at E on p3. Canonical p4 Q2 instruction spillover is excluded. No continuation needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 5,
+  "version": 6,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2522,6 +2522,152 @@ window.NECTA_BETA = {
         {
           "label": "E",
           "text": "Pikisha"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q07",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "7",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Briefly, explain three forms of decolonization during the struggle for independence in African countries.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q08",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "8",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Identify two societies from East Africa which were still practicing the communal way of life by the 19th century and specify the countries in which each one is found.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q01viii",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(viii)",
+      "parent_question": "1",
+      "subquestion": "(viii)",
+      "kind": "original_exam",
+      "question": "Hatua mojawapo ya uendelezaji wa lugha ili itumike kitaifa na kimataifa ni kuisanifisha. Jambo lipi kubwa linalofanywa katika hatua hii kati ya yafuatayo?",
+      "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kupunguza maneno ya kukopa"
+        },
+        {
+          "label": "B",
+          "text": "Kuondoa tofauti za kimsamiati"
+        },
+        {
+          "label": "C",
+          "text": "Kuifanya itumike na jamii ndogo"
+        },
+        {
+          "label": "D",
+          "text": "Kuweka tofauti za matamshi"
+        },
+        {
+          "label": "E",
+          "text": "Kuidhinisha tofauti za maneno"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q01x",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(x)",
+      "parent_question": "1",
+      "subquestion": "(x)",
+      "kind": "original_exam",
+      "question": "Jambo lipi si muhimu katika uandishi wa kadi ya mwaliko?",
+      "context": "Katika vipengele (i) hadi (x), chagua herufi ya jibu sahihi kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jina la mwandishi na mwalikwa"
+        },
+        {
+          "label": "B",
+          "text": "Idadi ya waalikwa"
+        },
+        {
+          "label": "C",
+          "text": "Tarehe ya tukio"
+        },
+        {
+          "label": "D",
+          "text": "Kusudi la tukio"
+        },
+        {
+          "label": "E",
+          "text": "Mahali tukio linapofanyika"
         }
       ],
       "marks": null,
