@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 32,
+  "version": 33,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6569,6 +6569,198 @@ window.NECTA_BETA = {
         "filename": "Biology1-F4-2025.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/biology/Biology1-F4-2025.pdf",
         "sha256": "43945e14e4f821212149220882c9598f5339afcc1948a6cdaa3e53cec68a9417",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2022-p1-q01i",
+      "subject": "english",
+      "year": 2022,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Sabrina’s goat is brown and cruel. The description of Sabrina’s goat is in terms of:",
+      "context": "For each of the items (i) – (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "colour and quality"
+        },
+        {
+          "label": "B",
+          "text": "colour and size"
+        },
+        {
+          "label": "C",
+          "text": "number and quantity"
+        },
+        {
+          "label": "D",
+          "text": "shape and quantity"
+        },
+        {
+          "label": "E",
+          "text": "number and quality"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2022.pdf",
+        "sha256": "062c41bffe9317a73f15e7143b2aa97b33b63c9b0ee3a97f1e0e8f14f8435145",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2022-p1-q01ii",
+      "subject": "english",
+      "year": 2022,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "You hear an incorrect statement ‘I saw a fleet of people at the crusade meeting.’ Which sentence is correct to be said instead of the one you have heard?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "I saw a pack of people at the crusade meeting."
+        },
+        {
+          "label": "B",
+          "text": "I saw a flock of people at the crusade meeting."
+        },
+        {
+          "label": "C",
+          "text": "I saw a bunch of people at the crusade meeting."
+        },
+        {
+          "label": "D",
+          "text": "I saw a jury of people at the crusade meeting."
+        },
+        {
+          "label": "E",
+          "text": "I saw a congregation of people at the crusade meeting."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2022.pdf",
+        "sha256": "062c41bffe9317a73f15e7143b2aa97b33b63c9b0ee3a97f1e0e8f14f8435145",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2022-p1-q01iv",
+      "subject": "english",
+      "year": 2022,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Which expression describes the word \"troop\"?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "A team of lions matching together."
+        },
+        {
+          "label": "B",
+          "text": "A large group of soldiers or monkeys."
+        },
+        {
+          "label": "C",
+          "text": "A team of students performing the same task."
+        },
+        {
+          "label": "D",
+          "text": "A team of people doing a particular task."
+        },
+        {
+          "label": "E",
+          "text": "A group of hyenas hunting together."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2022.pdf",
+        "sha256": "062c41bffe9317a73f15e7143b2aa97b33b63c9b0ee3a97f1e0e8f14f8435145",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2022-p1-q01v",
+      "subject": "english",
+      "year": 2022,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Our English language teacher often teaches for an hour. Why is the article ‘an’ is used instead of other articles?",
+      "context": "For each of the items (i) – (x), choose the most correct answer from among the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "It shows time before the word ‘hour’."
+        },
+        {
+          "label": "B",
+          "text": "It indicates a singular form in a sentence."
+        },
+        {
+          "label": "C",
+          "text": "The first letter in the word ‘hour’ has vowel qualities."
+        },
+        {
+          "label": "D",
+          "text": "The word ‘hour’ is in plural form."
+        },
+        {
+          "label": "E",
+          "text": "The last letter in the word ‘hour’ has consonant qualities."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2022.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2022.pdf",
+        "sha256": "062c41bffe9317a73f15e7143b2aa97b33b63c9b0ee3a97f1e0e8f14f8435145",
         "pages": [
           2
         ]

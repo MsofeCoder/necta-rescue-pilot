@@ -643,6 +643,29 @@
         "independent_human_academic_accepted": 0,
         "total": 173
       }
+    },
+    {
+      "deployed_sha": "0a0208f0e3d6e309e1acea451dfd4f19dda3cd04",
+      "implementation_sha": "dc86bfda52db92f5d78eed388818c47478f7c0c5",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/40",
+      "verified_at": "2026-10-17T08:30:58.615Z",
+      "tests": "35 unit/static, 984 beta browser, 95 root browser and 72 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39017545468",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39017545034",
+      "rollback_baseline": "5bd02f0cdd85bf98235bf2805bf324de110f3947",
+      "evidence": ".workbuddy-ai/batch31-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v31 to necta-rescue-beta-v32 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: English2022 selected4 batch32.json p2; English2021 Q4four batch33.json/Q5three batch34.json p4; English2020 first5 batch35.json (replace hardcoded2020-empty browser assertion with real year coverage); Mathematics2025 batch36/37 four each p2/3 (engine uses preserved basic_math URL); Geography2020 first5 batch38.json p2. All sources/specs visually checked. Preserve holds and English amendment; no answers, human/phone excluded; deadline10:08UTC.",
+      "counts": {
+        "question_only": 146,
+        "question_only_parent": 29,
+        "question_only_subquestion": 117,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 176
+      }
     }
   ]
 }
