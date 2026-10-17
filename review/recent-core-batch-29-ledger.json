@@ -1,0 +1,309 @@
+{
+  "batch_id": "recent-core-batch-29",
+  "baseline_commit": "7bb6509900a618d742d351285d69748fc27de3a8",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 3,
+    "added_subquestions": 0,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "civics-2024-p1-q09",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            57.3,
+            430.8,
+            517.2,
+            444.1
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            79.8,
+            447.6,
+            517,
+            461.4
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            79.8,
+            466,
+            140,
+            477.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "The Tanzania Government is currently implementing a number of strategic development\nprojects that require massive funds. Explain five major areas in which the government can\nget the fund.",
+      "canonical_question_text_sha256": "9ce3619a81e9c83fa459edccf54d844010f105d54186d78f99a83536f0bda2cd",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "civics-2024-p1-q09",
+        "subject": "civics",
+        "year": 2024,
+        "paper": "1",
+        "reference": "9",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "The Tanzania Government is currently implementing a number of strategic development projects that require massive funds. Explain five major areas in which the government can get the fund.",
+        "context": "Answer two (2) questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Civics-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+          "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and remove footer/OCR punctuation only. Preserve printed grammar, point count, Government capitalization, student’s singular possessive and get the fund. Original question-only copy; no civic advice, points, educational answer, inferred marks or answer-key association generated.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "f17f83a58715d37cfb53ce0ef5e343846af3209240575c082270313bdb36b597"
+        },
+        "boundary_assessment": "Printed standalone Q9 on original p5, exact canonical top-level number with no child record combined. Q3–8 belong to Section B answer-all instruction; Q9–11 belong to separate Section C answer-two instruction. Include applicable original section context. Ends before next numbered question or footer after 11. No figure, table, passage or external book required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "civics-2024-p1-q10",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            58.5,
+            495.1,
+            517,
+            509.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            79.8,
+            513.8,
+            163.6,
+            525.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Explain five consequences of neglecting timely repair and maintenance of personal and\npublic properties.",
+      "canonical_question_text_sha256": "2020b7d7dfc01c2b43c3431911244394cb9c81c5285ce0c4b8737d83a4366d47",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "civics-2024-p1-q10",
+        "subject": "civics",
+        "year": 2024,
+        "paper": "1",
+        "reference": "10",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Explain five consequences of neglecting timely repair and maintenance of personal and public properties.",
+        "context": "Answer two (2) questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Civics-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+          "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and remove footer/OCR punctuation only. Preserve printed grammar, point count, Government capitalization, student’s singular possessive and get the fund. Original question-only copy; no civic advice, points, educational answer, inferred marks or answer-key association generated.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "f17f83a58715d37cfb53ce0ef5e343846af3209240575c082270313bdb36b597"
+        },
+        "boundary_assessment": "Printed standalone Q10 on original p5, exact canonical top-level number with no child record combined. Q3–8 belong to Section B answer-all instruction; Q9–11 belong to separate Section C answer-two instruction. Include applicable original section context. Ends before next numbered question or footer after 11. No figure, table, passage or external book required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "civics-2024-p1-q11",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            58.2,
+            542.3,
+            517.2,
+            557.3
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            79.8,
+            558.7,
+            464.8,
+            573.1
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            259.8,
+            755.4,
+            527.6,
+            769.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Propose five strategies that should be considered by the Government to ensure the\nsustainability in provision of clean and safe water to the majority of Tanzanians.\nPage 5 of 5 -",
+      "canonical_question_text_sha256": "2fcffe3c267d8cd623757414ec5d7219d696b8efa907208c84f644ee92e470a2",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "civics-2024-p1-q11",
+        "subject": "civics",
+        "year": 2024,
+        "paper": "1",
+        "reference": "11",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Propose five strategies that should be considered by the Government to ensure the sustainability in provision of clean and safe water to the majority of Tanzanians.",
+        "context": "Answer two (2) questions in this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Civics-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+          "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join original line breaks and remove footer/OCR punctuation only. Preserve printed grammar, point count, Government capitalization, student’s singular possessive and get the fund. Original question-only copy; no civic advice, points, educational answer, inferred marks or answer-key association generated.",
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "f17f83a58715d37cfb53ce0ef5e343846af3209240575c082270313bdb36b597"
+        },
+        "boundary_assessment": "Printed standalone Q11 on original p5, exact canonical top-level number with no child record combined. Q3–8 belong to Section B answer-all instruction; Q9–11 belong to separate Section C answer-two instruction. Include applicable original section context. Ends before next numbered question or footer after 11. No figure, table, passage or external book required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

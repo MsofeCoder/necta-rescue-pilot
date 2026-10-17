@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 29,
+  "version": 30,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -6098,6 +6098,84 @@ window.NECTA_BETA = {
       "kind": "original_exam",
       "question": "Briefly explain the role of six agents of socialization in promoting and preserving the cultural values in Tanzania.",
       "context": "Answer all questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q09",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "9",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "The Tanzania Government is currently implementing a number of strategic development projects that require massive funds. Explain five major areas in which the government can get the fund.",
+      "context": "Answer two (2) questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q10",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "10",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Explain five consequences of neglecting timely repair and maintenance of personal and public properties.",
+      "context": "Answer two (2) questions in this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q11",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "11",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Propose five strategies that should be considered by the Government to ensure the sustainability in provision of clean and safe water to the majority of Tanzanians.",
+      "context": "Answer two (2) questions in this section.",
       "marks": null,
       "answer_state": "question_only",
       "pipeline_state": "provisional_or_ambiguous",
