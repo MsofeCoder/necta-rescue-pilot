@@ -1,0 +1,664 @@
+{
+  "batch_id": "recent-core-batch-38",
+  "baseline_commit": "603c222e9ec19ac8772d2bb87aff7b1bd6ede542",
+  "counts": {
+    "added_records": 5,
+    "added_parent_questions": 0,
+    "added_subquestions": 5,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "geography-2020-p1-q01i",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            159.7,
+            454.1,
+            171.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            173.2,
+            334.5,
+            185.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            186.7,
+            379,
+            198.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            200.2,
+            426.3,
+            212.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            213.7,
+            404.1,
+            225.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            227.2,
+            442.5,
+            239.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why does the sun appear larger than other stars that are seen at night?\nA Starlight bends as it passes planets\nB The sun is closer to the earth than other stars\nC The earth’s atmosphere filters out light from other stars\nD Daylight brightens the sun making it appear larger\nE The capacity of our eyes does not view far during the night",
+      "canonical_question_text_sha256": "19e5902f68d978ca2808def0446f3f03d3974b175f7f1f9daa9b42da091a2426",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2020-p1-q01i",
+        "subject": "geography",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Why does the sun appear larger than other stars that are seen at night?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Starlight bends as it passes planets"
+          },
+          {
+            "label": "B",
+            "text": "The sun is closer to the earth than other stars"
+          },
+          {
+            "label": "C",
+            "text": "The earth’s atmosphere filters out light from other stars"
+          },
+          {
+            "label": "D",
+            "text": "Daylight brightens the sun making it appear larger"
+          },
+          {
+            "label": "E",
+            "text": "The capacity of our eyes does not view far during the night"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+          "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line wraps and separate A–E; preserve printed grammar, capitalization and punctuation (including What could the bag named and soil formation.). Retain the word not in v. No correct alternative or geographical explanation generated; marks remain null.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "73305803a0f51a3168a61e712ec8cc3ee77999c3921157016dd7e02a072c0d0d"
+        },
+        "boundary_assessment": "Original p2 printed Q1(i), exact canonical parent/numeral with full A–E alternatives and printed Q1 parent instruction. Ends before next numeral. No figure/table/passage required. Printed total ten-mark annotation is group metadata; no per-item marks inferred or assigned.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2020-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            254.2,
+            355.5,
+            266.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            267.7,
+            484.3,
+            279.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            281.2,
+            346.1,
+            293.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which layer of the earth forms the ocean floor?\nA Mantle B Sial C Sima\nD Core E Crust",
+      "canonical_question_text_sha256": "8143753bb92bbfacb700d95d01ced7497eaee06f3c550f7d4df3ea30d1aecbf6",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2020-p1-q01ii",
+        "subject": "geography",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Which layer of the earth forms the ocean floor?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Mantle"
+          },
+          {
+            "label": "B",
+            "text": "Sial"
+          },
+          {
+            "label": "C",
+            "text": "Sima"
+          },
+          {
+            "label": "D",
+            "text": "Core"
+          },
+          {
+            "label": "E",
+            "text": "Crust"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+          "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line wraps and separate A–E; preserve printed grammar, capitalization and punctuation (including What could the bag named and soil formation.). Retain the word not in v. No correct alternative or geographical explanation generated; marks remain null.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "73305803a0f51a3168a61e712ec8cc3ee77999c3921157016dd7e02a072c0d0d"
+        },
+        "boundary_assessment": "Original p2 printed Q1(ii), exact canonical parent/numeral with full A–E alternatives and printed Q1 parent instruction. Ends before next numeral. No figure/table/passage required. Printed total ten-mark annotation is group metadata; no per-item marks inferred or assigned.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2020-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            308.2,
+            539.9,
+            320.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            321.7,
+            473.9,
+            333.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            335.2,
+            524.3,
+            347.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            348.7,
+            387,
+            360.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "In the field study, students were told that, soil has certain biological, chemical and\nphysical characteristics. What is the general term for these characteristics?\nA soil profile B soil particles C soil properties\nD soil fertility E soil formation.",
+      "canonical_question_text_sha256": "74b55aa95a74ddde75e104ee0cb51467c7c960e780105f69409ea4636e6cb0ae",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2020-p1-q01iii",
+        "subject": "geography",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "In the field study, students were told that, soil has certain biological, chemical and physical characteristics. What is the general term for these characteristics?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "soil profile"
+          },
+          {
+            "label": "B",
+            "text": "soil particles"
+          },
+          {
+            "label": "C",
+            "text": "soil properties"
+          },
+          {
+            "label": "D",
+            "text": "soil fertility"
+          },
+          {
+            "label": "E",
+            "text": "soil formation."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+          "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line wraps and separate A–E; preserve printed grammar, capitalization and punctuation (including What could the bag named and soil formation.). Retain the word not in v. No correct alternative or geographical explanation generated; marks remain null.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "73305803a0f51a3168a61e712ec8cc3ee77999c3921157016dd7e02a072c0d0d"
+        },
+        "boundary_assessment": "Original p2 printed Q1(iii), exact canonical parent/numeral with full A–E alternatives and printed Q1 parent instruction. Ends before next numeral. No figure/table/passage required. Printed total ten-mark annotation is group metadata; no per-item marks inferred or assigned.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2020-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            375.7,
+            539.4,
+            387.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            389.2,
+            539.3,
+            401.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            402.7,
+            397.6,
+            414.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            416.2,
+            482.5,
+            428.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            429.7,
+            459.3,
+            441.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            443.2,
+            225.8,
+            455.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "A girl was crossing a river and accidentally dropped her school bag in the river. The girl\ncried as she observed her bag being pulled by the river water toward the river mouth.\nWhat could the bag named in relation to the river action?\nA River erosion B River transportation\nC River load D River meander\nE River bed",
+      "canonical_question_text_sha256": "8b67e9e4b8e03228b1efee42ee542fb2e0e45a36bf09366ef68c78b55178e489",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2020-p1-q01iv",
+        "subject": "geography",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "A girl was crossing a river and accidentally dropped her school bag in the river. The girl cried as she observed her bag being pulled by the river water toward the river mouth. What could the bag named in relation to the river action?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "River erosion"
+          },
+          {
+            "label": "B",
+            "text": "River transportation"
+          },
+          {
+            "label": "C",
+            "text": "River load"
+          },
+          {
+            "label": "D",
+            "text": "River meander"
+          },
+          {
+            "label": "E",
+            "text": "River bed"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+          "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line wraps and separate A–E; preserve printed grammar, capitalization and punctuation (including What could the bag named and soil formation.). Retain the word not in v. No correct alternative or geographical explanation generated; marks remain null.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "73305803a0f51a3168a61e712ec8cc3ee77999c3921157016dd7e02a072c0d0d"
+        },
+        "boundary_assessment": "Original p2 printed Q1(iv), exact canonical parent/numeral with full A–E alternatives and printed Q1 parent instruction. Ends before next numeral. No figure/table/passage required. Printed total ten-mark annotation is group metadata; no per-item marks inferred or assigned.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2020-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            469.8,
+            490.4,
+            488.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            483.7,
+            455.6,
+            495.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            497.2,
+            449.5,
+            509.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            144,
+            510.7,
+            223.3,
+            522.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which of the following factors is ​not​ the cause of desertification in Tanzania?\nA Deforestation B Urban growth\nC Shifting cultivation D Over fishing\nE Bush fire",
+      "canonical_question_text_sha256": "4011a4734eac61e56f6066ed280d51dfac184442ea46369b07ebd0bddc362b4f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2020-p1-q01v",
+        "subject": "geography",
+        "year": 2020,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Which of the following factors is not the cause of desertification in Tanzania?",
+        "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Deforestation"
+          },
+          {
+            "label": "B",
+            "text": "Urban growth"
+          },
+          {
+            "label": "C",
+            "text": "Shifting cultivation"
+          },
+          {
+            "label": "D",
+            "text": "Over fishing"
+          },
+          {
+            "label": "E",
+            "text": "Bush fire"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2020.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+          "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line wraps and separate A–E; preserve printed grammar, capitalization and punctuation (including What could the bag named and soil formation.). Retain the word not in v. No correct alternative or geographical explanation generated; marks remain null.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "73305803a0f51a3168a61e712ec8cc3ee77999c3921157016dd7e02a072c0d0d"
+        },
+        "boundary_assessment": "Original p2 printed Q1(v), exact canonical parent/numeral with full A–E alternatives and printed Q1 parent instruction. Ends before next numeral. No figure/table/passage required. Printed total ten-mark annotation is group metadata; no per-item marks inferred or assigned.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

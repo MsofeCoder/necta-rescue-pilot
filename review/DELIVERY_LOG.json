@@ -781,6 +781,29 @@
         "independent_human_academic_accepted": 0,
         "total": 196
       }
+    },
+    {
+      "deployed_sha": "603c222e9ec19ac8772d2bb87aff7b1bd6ede542",
+      "implementation_sha": "73de8b494973f4b2f0077919a4e1901d4b695861",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/46",
+      "verified_at": "2026-10-17T09:09:10.410Z",
+      "tests": "35 unit/static, 1108 beta browser, 95 root browser and 75 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019929830",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019929679",
+      "rollback_baseline": "1ab2808e40e61e4e3b1a386043d0de12cfffeca5",
+      "evidence": ".workbuddy-ai/batch37-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v37 to necta-rescue-beta-v38 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: Geography2020 batch38 five; Kiswahili2020 batch39 six; History2020 batch40 six; Literature2020 batch41 six; Civics2020 batch42 six; History2021 batch43 six; Geography2021 batch44 four; Kiswahili2021 batch45 five; Civics2021 batch46 five p4 (other specs p2). Sources checked. Literature2021 separate identity-hold ledger preserved, 31 unique additional restrictions have no admitted intersections. Add fail-closed historical-hold guard before next admission. No answers/human/phone;deadline10:08UTC.",
+      "counts": {
+        "question_only": 170,
+        "question_only_parent": 29,
+        "question_only_subquestion": 141,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 200
+      }
     }
   ]
 }

@@ -35,6 +35,12 @@ test('question-only display copies are separately ledgered; hierarchy and source
   for(const c of data.cards){const l=ledger.records.find(l=>l.record_id===c.id);assert(l);assert.deepEqual(amendedDisplay(l.display),c);assert.match(l.render_sha256||(l.original_exam_review||l.source_review).page_renders[String(c.exam.pages[0])],/^[a-f0-9]{64}$/);assert.equal(c.subquestion?!!c.parent_question:true,true);}
 });
 
+test('all recorded source and identity holds remain outside selectable content',()=>{
+  const held=new Set([...data.pending_human_review,...data.held_original_ids.map(h=>h.id),'english-2025-p1-q01iii','english-2025-p1-q01iv']);
+  for(const name of release.display_ledgers)for(const h of JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).additional_withheld||[])held.add(h.id);
+  for(const card of [...data.cards,...civics.cards])assert(!held.has(card.id),card.id);
+});
+
 test('question-only source URLs and hashes preserve the matching paper reference',()=>{
   for(const c of data.cards){
     const paper=data.papers.find(p=>p.subject===c.subject&&p.year===c.year&&p.paper===c.paper&&p.exam.filename===c.exam.filename);
