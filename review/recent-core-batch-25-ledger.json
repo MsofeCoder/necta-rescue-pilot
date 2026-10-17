@@ -1,0 +1,650 @@
+{
+  "batch_id": "recent-core-batch-25",
+  "baseline_commit": "118dd0747a5810a2817e3e71982af7d51c616aff",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 0,
+    "added_subquestions": 3,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "history-2025-p1-q01vii~2",
+      "reason": "Canonical duplicate vii is printed viii on original p3; parent/subquestion conflict, no reparenting."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "history-2025-p1-q01vii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vii)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            92.7,
+            43.4,
+            441.1,
+            68.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            147.4,
+            58.3,
+            374.3,
+            81
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            118.6,
+            65.5,
+            128.3,
+            78.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            145.1,
+            74.8,
+            378,
+            96.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            118.6,
+            81,
+            127.8,
+            94.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            145.8,
+            89.6,
+            384.9,
+            112.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            118.8,
+            96.7,
+            128.5,
+            110.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            146.2,
+            108.5,
+            336.9,
+            126.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            119.3,
+            112.7,
+            129.3,
+            126.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            149.4,
+            120.5,
+            399.3,
+            143.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            119.7,
+            128.4,
+            128.8,
+            142.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why was the 1964 revolution important to the people of Zanzibar?\nIt removed the French from the political power\nA\nIt forced the closure of the biggest slave market\nB\nIt removed the Arab regime from power by force\nC\nIt facilitated the decline of nationalism\nD\nIt allowed the re-introduction of multi-party system\nE",
+      "canonical_question_text_sha256": "49b08995262c621c7ce32b7cc6a5e7fa68fbb89d2a3721547a5807d6db4acfd1",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01vii",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vii)",
+        "parent_question": "1",
+        "subquestion": "(vii)",
+        "kind": "original_exam",
+        "question": "Why was the 1964 revolution important to the people of Zanzibar?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "It removed the French from the political power"
+          },
+          {
+            "label": "B",
+            "text": "It forced the closure of the biggest slave market"
+          },
+          {
+            "label": "C",
+            "text": "It removed the Arab regime from power by force"
+          },
+          {
+            "label": "D",
+            "text": "It facilitated the decline of nationalism"
+          },
+          {
+            "label": "E",
+            "text": "It allowed the re-introduction of multi-party system"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed wording from OCR damage, especially Portugal/pre-colonial and original alternative labels; preserve printed grammar and capitalization. Render superscript 15th in plain text with same meaning. Remove absorbed Q2 fragments in x. No answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4",
+          "3": "77b9d20f00e94784098a5e73499540258855bca90832c98ed12fdb97ac5867c4"
+        },
+        "boundary_assessment": "Printed Q1(vii) entirely on original p3, complete A–E alternatives. Parent instruction p2 included. Ends at next printed subquestion or page end after Q1(x), not Q2 matching on p4. Canonical parent/numeral aligns. No external figure/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01ix",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ix)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            97.9,
+            245.6,
+            428.4,
+            273.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            151.8,
+            262,
+            380.1,
+            284.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            125.7,
+            270.4,
+            136,
+            284.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            152.3,
+            274.7,
+            474.2,
+            298.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            125.2,
+            286.4,
+            134.9,
+            300.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            152.7,
+            291.9,
+            415.9,
+            316.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            125.6,
+            302.3,
+            135.6,
+            316.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            153.4,
+            308.3,
+            415.5,
+            333.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            126.1,
+            318.6,
+            136.4,
+            332.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            153.8,
+            326.3,
+            375.7,
+            349.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            126.6,
+            334.9,
+            135.7,
+            349
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why Pertugal considered her colonies as overseas provinces?\nShe wanted to give high status to the Africans\nA\nShe wanted them to-remain sources of raw materials and markets\nB\nShe wanted te rule them through an open door policy\nC\nShe disliked challenges from other European powers\nD\nShe wanted them tq adopt multiparty system\nE",
+      "canonical_question_text_sha256": "00b7d788fd3105e32e3a90980f373c36db99fb65a3c28674842e9597eebfdd04",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01ix",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ix)",
+        "parent_question": "1",
+        "subquestion": "(ix)",
+        "kind": "original_exam",
+        "question": "Why Portugal considered her colonies as overseas provinces?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "She wanted to give high status to the Africans"
+          },
+          {
+            "label": "B",
+            "text": "She wanted them to remain sources of raw materials and markets"
+          },
+          {
+            "label": "C",
+            "text": "She wanted to rule them through an open door policy"
+          },
+          {
+            "label": "D",
+            "text": "She disliked challenges from other European powers"
+          },
+          {
+            "label": "E",
+            "text": "She wanted them to adopt multiparty system"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed wording from OCR damage, especially Portugal/pre-colonial and original alternative labels; preserve printed grammar and capitalization. Render superscript 15th in plain text with same meaning. Remove absorbed Q2 fragments in x. No answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4",
+          "3": "77b9d20f00e94784098a5e73499540258855bca90832c98ed12fdb97ac5867c4"
+        },
+        "boundary_assessment": "Printed Q1(ix) entirely on original p3, complete A–E alternatives. Parent instruction p2 included. Ends at next printed subquestion or page end after Q1(x), not Q2 matching on p4. Canonical parent/numeral aligns. No external figure/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01x",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(x)",
+      "canonical_source_pages": [
+        3,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            126.4,
+            351,
+            503.1,
+            381.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            98.2,
+            366.1,
+            115.2,
+            381.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            155.2,
+            371.3,
+            349.5,
+            393.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            128,
+            379.1,
+            138.5,
+            393.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            155.6,
+            384.9,
+            395.5,
+            410.9
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            128.4,
+            395.9,
+            138.1,
+            410
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            156.3,
+            402.3,
+            374.4,
+            426.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            156.8,
+            416.7,
+            428.1,
+            443.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            129.3,
+            428.7,
+            139.1,
+            442.1
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            157.4,
+            435.1,
+            416.9,
+            458.9
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            64.9,
+            27.5,
+            506.6,
+            58
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            70.3,
+            43.4,
+            508,
+            71.8
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            64.5,
+            67.6,
+            162.9,
+            82.9
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            417.6,
+            91.5,
+            450.6,
+            105.2
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            197.4,
+            96.2,
+            231.3,
+            110.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why did Buganda kingdom rise and expand during the pfe-colonial period?\nBecause of good leadership of Kabaka\nA\nDue to good leadership of Mansa Kankan Musa\nB\nBecause ef the possessior of a golden stool\nDue tÍ the arrival of the Portuguese in the 15\" century\nD\nBecause of good Beadership of Omukama Kabarega\nMatch the descriptions of agricultural systems in List A with the corresponding terms in\nList B by writing the letter of the correct response beside the item number in the answer\nbooklet(s) provided.\nList B\nList A",
+      "canonical_question_text_sha256": "d90784d4cd40add8be6e0b283af7e14bdadf20aeb59eea2a8f3c43b2a5a9a1d8",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01x",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(x)",
+        "parent_question": "1",
+        "subquestion": "(x)",
+        "kind": "original_exam",
+        "question": "Why did Buganda kingdom rise and expand during the pre-colonial period?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Because of good leadership of Kabaka"
+          },
+          {
+            "label": "B",
+            "text": "Due to good leadership of Mansa Kankan Musa"
+          },
+          {
+            "label": "C",
+            "text": "Because of the possession of a golden stool"
+          },
+          {
+            "label": "D",
+            "text": "Due to the arrival of the Portuguese in the 15th century"
+          },
+          {
+            "label": "E",
+            "text": "Because of good leadership of Omukama Kabarega"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore printed wording from OCR damage, especially Portugal/pre-colonial and original alternative labels; preserve printed grammar and capitalization. Render superscript 15th in plain text with same meaning. Remove absorbed Q2 fragments in x. No answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4",
+          "3": "77b9d20f00e94784098a5e73499540258855bca90832c98ed12fdb97ac5867c4"
+        },
+        "boundary_assessment": "Printed Q1(x) entirely on original p3, complete A–E alternatives. Parent instruction p2 included. Ends at next printed subquestion or page end after Q1(x), not Q2 matching on p4. Canonical parent/numeral aligns. No external figure/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

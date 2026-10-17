@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 25,
+  "version": 26,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -5414,6 +5414,153 @@ window.NECTA_BETA = {
         "pages": [
           4,
           5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01vii",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vii)",
+      "parent_question": "1",
+      "subquestion": "(vii)",
+      "kind": "original_exam",
+      "question": "Why was the 1964 revolution important to the people of Zanzibar?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "It removed the French from the political power"
+        },
+        {
+          "label": "B",
+          "text": "It forced the closure of the biggest slave market"
+        },
+        {
+          "label": "C",
+          "text": "It removed the Arab regime from power by force"
+        },
+        {
+          "label": "D",
+          "text": "It facilitated the decline of nationalism"
+        },
+        {
+          "label": "E",
+          "text": "It allowed the re-introduction of multi-party system"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01ix",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(ix)",
+      "parent_question": "1",
+      "subquestion": "(ix)",
+      "kind": "original_exam",
+      "question": "Why Portugal considered her colonies as overseas provinces?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "She wanted to give high status to the Africans"
+        },
+        {
+          "label": "B",
+          "text": "She wanted them to remain sources of raw materials and markets"
+        },
+        {
+          "label": "C",
+          "text": "She wanted to rule them through an open door policy"
+        },
+        {
+          "label": "D",
+          "text": "She disliked challenges from other European powers"
+        },
+        {
+          "label": "E",
+          "text": "She wanted them to adopt multiparty system"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2,
+          3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01x",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(x)",
+      "parent_question": "1",
+      "subquestion": "(x)",
+      "kind": "original_exam",
+      "question": "Why did Buganda kingdom rise and expand during the pre-colonial period?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because of good leadership of Kabaka"
+        },
+        {
+          "label": "B",
+          "text": "Due to good leadership of Mansa Kankan Musa"
+        },
+        {
+          "label": "C",
+          "text": "Because of the possession of a golden stool"
+        },
+        {
+          "label": "D",
+          "text": "Due to the arrival of the Portuguese in the 15th century"
+        },
+        {
+          "label": "E",
+          "text": "Because of good leadership of Omukama Kabarega"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2,
+          3
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
