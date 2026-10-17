@@ -91,6 +91,29 @@
         "independent_human_academic_accepted": 0,
         "total": 72
       }
+    },
+    {
+      "deployed_sha": "e201bb5c64de890eb4871cbc36337b6940f975aa",
+      "implementation_sha": "afb97761b1d1d9f53825c79dfa1f272744f6fc8f",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/15",
+      "verified_at": "2026-10-17T06:35:35.457Z",
+      "tests": "33 unit/static, 455 beta browser, 94 root browser and 54 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010415849",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010415654",
+      "rollback_baseline": "0f291e617383cb9a6affab96e841d626ba744507",
+      "evidence": ".workbuddy-ai/batch07-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v7 to necta-rescue-beta-v8 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next batch08: Literature2024 Q5(iv)-(vi), original p4 inspected. Then batch09 Geography2025 Q1(iii)-(v), original p2 inspected; restore spilled options only. Keep all answers unavailable and continue other first-six-subject recent pages.",
+      "counts": {
+        "question_only": 45,
+        "question_only_parent": 19,
+        "question_only_subquestion": 26,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 75
+      }
     }
   ]
 }

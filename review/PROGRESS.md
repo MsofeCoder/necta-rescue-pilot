@@ -2,9 +2,9 @@
 
 Verified student beta: [open provisional beta](https://msofecoder.github.io/necta-rescue-pilot/beta/).
 
-Content deployment: `0f291e617383cb9a6affab96e841d626ba744507`; implementation review head: `8a1850e009fedffc7d053b01500ddfeb29e5a104`. [Release PR](https://github.com/MsofeCoder/necta-rescue-pilot/pull/14). Verified 2026-10-17T06:31:43.213Z. Later repository-only checkpoint commits do not change the student bundle.
+Content deployment: `e201bb5c64de890eb4871cbc36337b6940f975aa`; implementation review head: `afb97761b1d1d9f53825c79dfa1f272744f6fc8f`. [Release PR](https://github.com/MsofeCoder/necta-rescue-pilot/pull/15). Verified 2026-10-17T06:35:35.457Z. Later repository-only checkpoint commits do not change the student bundle.
 
-72 live items = 42 source-checked question-only + 30 provisional Civics. Question-only: 19 original parent/top-level and 23 original subquestion records. Civics originals: 5 parent/top-level and 10 subquestion records; 15 separately labelled authored variations. Prior bounded source/editorial answer review supports 30 provisional Civics cards; **zero independent human academic acceptances are claimed**. No new answers generated.
+75 live items = 45 source-checked question-only + 30 provisional Civics. Question-only: 19 original parent/top-level and 26 original subquestion records. Civics originals: 5 parent/top-level and 10 subquestion records; 15 separately labelled authored variations. Prior bounded source/editorial answer review supports 30 provisional Civics cards; **zero independent human academic acceptances are claimed**. No new answers generated.
 
 ## Actual in-app subject/year coverage
 
@@ -13,7 +13,7 @@ Cells: Q = source-checked question-only; C = original Civics with prior bounded 
 | Subject | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Kiswahili | 0 Q | 0 Q | 0 Q | 0 Q | 0 Q | 10 Q |
-| English | 0 Q | 0 Q | 0 Q | 0 Q | 0 Q | 8 Q |
+| English | 0 Q | 0 Q | 0 Q | 0 Q | 3 Q | 8 Q |
 | Civics | 0 C + 0 A | 0 C + 0 A | 3 C + 1 A | 4 C + 4 A | 0 C + 0 A | 8 C + 10 A |
 | Geography | 0 Q | 0 Q | 0 Q | 0 Q | 0 Q | 5 Q |
 | History | 0 Q | 0 Q | 0 Q | 0 Q | 5 Q | 6 Q |
@@ -23,7 +23,7 @@ Cells: Q = source-checked question-only; C = original Civics with prior bounded 
 
 ## Answer state and held evidence
 
-All 42 Q records have unavailable educational answers, regardless of association state. Association counts: missing_answer = 4; pipeline_verified = 15; provisional_or_ambiguous = 23. Pipeline verification is not academic correctness. Missing/provisional associations are not missing student progress.
+All 45 Q records have unavailable educational answers, regardless of association state. Association counts: missing_answer = 4; pipeline_verified = 15; provisional_or_ambiguous = 26. Pipeline verification is not academic correctness. Missing/provisional associations are not missing student progress.
 
 C-02/C-08 remain withheld pending human review: concept-democracy-state, concept-democracy-reasons. Six original Civics conflicts remain withheld:
 
@@ -38,14 +38,14 @@ English exact q01iii/q01iv remain withheld for printed/canonical parent conflict
 
 ## Validation and recovery
 
-Checks actually executed: 33 unit/static, 440 beta browser, 94 root browser and 54 live checks passed. [CI](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010184818). [Pages](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010184668). Public asset hashes compared to the deployment; accepted root thirteen files/fourteen-card app unchanged. Both storage keys, historical/hidden progress, combined/legacy backups and offline beta reuse preserved. Evidence/limitations: .workbuddy-ai/batch06-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v6 to necta-rescue-beta-v7 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED..
+Checks actually executed: 33 unit/static, 455 beta browser, 94 root browser and 54 live checks passed. [CI](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010415849). [Pages](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010415654). Public asset hashes compared to the deployment; accepted root thirteen files/fourteen-card app unchanged. Both storage keys, historical/hidden progress, combined/legacy backups and offline beta reuse preserved. Evidence/limitations: .workbuddy-ai/batch07-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v7 to necta-rescue-beta-v8 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED..
 
-Rollback baseline: `e5aabd7d98d703cf1178308f8a122c5894befe5c`. Revert implementation merge `0f291e617383cb9a6affab96e841d626ba744507` with first parent through reviewed PR; use a **new cache generation** in worker and readiness checks, never reuse an old generation. Preserve storage and backups; accepted root fallback remains available.
+Rollback baseline: `0f291e617383cb9a6affab96e841d626ba744507`. Revert implementation merge `e201bb5c64de890eb4871cbc36337b6940f975aa` with first parent through reviewed PR; use a **new cache generation** in worker and readiness checks, never reuse an old generation. Preserve storage and backups; accepted root fallback remains available.
 
 Human academic approval: **PENDING**. Physical Android: **NOT TESTED**, no connected ADB device. [Five-minute checklist](ANDROID_5_MINUTE_CHECK.md) retained; emulation does not pass it. Release policy and emergency-beta restrictions unchanged.
 
 ## Exact restart checkpoint
 
-Next batch07: English2024 Q1(i)-(iii), source p2 already inspected; next batch08 Literature2024 Q5(iv)-(vi), source p4 inspected. No answers. Then select recent Geography source records with intact canonical identity.
+Next batch08: Literature2024 Q5(iv)-(vi), original p4 inspected. Then batch09 Geography2025 Q1(iii)-(v), original p2 inspected; restore spilled options only. Keep all answers unavailable and continue other first-six-subject recent pages.
 
 Use the deployed SHA above as the content baseline, inspect git status before proceeding and retain unrelated review/staging files. Do not repeat admitted IDs. Use beta-current-release.json for the current bounded batch, its immutable ledger and test expectations; advance the cache, run all required suites, publish only under the exception, verify the public bytes/counts, then update this checkpoint. No overall completion percentage is inferred.
