@@ -1,8 +1,8 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 2,
+  "version": 3,
   "label": "Emergency beta — provisional",
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
   "subjects": [
     {
@@ -2151,6 +2151,102 @@ window.NECTA_BETA = {
         ]
       },
       "answer_note": "The supplied solution location was checked against the printed prompt. Its answer is not academically accepted and remains unavailable."
+    },
+    {
+      "id": "english-2025-p1-q01i",
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Your friend asks you to write his personal information at the back of his diary. What is the suitable term for such information?",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": [
+          2
+        ]
+      },
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "References"
+        },
+        {
+          "label": "B",
+          "text": "Autobiography"
+        },
+        {
+          "label": "C",
+          "text": "Bibliography"
+        },
+        {
+          "label": "D",
+          "text": "Abstract"
+        },
+        {
+          "label": "E",
+          "text": "Biography"
+        }
+      ],
+      "answer_note": "Original question checked against PDF page 2. No educational answer has been checked or accepted; the answer remains unavailable."
+    },
+    {
+      "id": "english-2025-p1-q01ii",
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Which of the following is the correct expression?",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": [
+          2
+        ]
+      },
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "I am as tall as him"
+        },
+        {
+          "label": "B",
+          "text": "I am as tall with him"
+        },
+        {
+          "label": "C",
+          "text": "I am as tall like him"
+        },
+        {
+          "label": "D",
+          "text": "I am tall as like him"
+        },
+        {
+          "label": "E",
+          "text": "I am tall as he"
+        }
+      ],
+      "answer_note": "Original question checked against PDF page 2. No educational answer has been checked or accepted; the answer remains unavailable."
     }
   ],
   "pending_human_review": [
