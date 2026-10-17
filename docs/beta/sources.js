@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 21,
+  "version": 22,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -4723,6 +4723,188 @@ window.NECTA_BETA = {
         "filename": "Literature-F4-2025.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2025.pdf",
         "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q03a",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(a)",
+      "parent_question": "3",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Tumia mzizi chez- kuunda vitenzi viwili kwa kila kauli kama zilivyoorodheshwa:\n(i) Kauli ya kutendeana\n(ii) Kauli ya kutendana\n(iii) Kauli ya kutendeka\n(iv) Kauli ya kutendewa",
+      "context": "Jibu maswali yote katika sehemu hii.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q03b",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "3(b)",
+      "parent_question": "3",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "Unda nomino moja kwa kila kitenzi.\n(i) Zaa\n(ii) Kimbia\n(iii) Shikilia\n(iv) Elekeza\n(v) Penda",
+      "context": "Jibu maswali yote katika sehemu hii.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q04a",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "4(a)",
+      "parent_question": "4",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Fafanua vyanzo vinne vya misimu kwa kutoa mfano mmoja kwa kila chanzo cha msimu husika.",
+      "context": "Jibu maswali yote katika sehemu hii.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q04b",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "4(b)",
+      "parent_question": "4",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "Eleza maana mbili kwa kila neno.\n(i) Kaka\n(ii) Kito\n(iii) Mkaa\n(iv) Mkwaju\n(v) Babu",
+      "context": "Jibu maswali yote katika sehemu hii.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05a",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(a)",
+      "parent_question": "5",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Udongo ulioleta umekauka",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05b",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(b)",
+      "parent_question": "5",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "Kioo kilichovunjika kimeletwa",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q05c",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "5(c)",
+      "parent_question": "5",
+      "subquestion": "(c)",
+      "kind": "original_exam",
+      "question": "Karatasi zilizokauka zimetumika",
+      "context": "Bainisha viambishi vya o - rejeshi katika kila sentensi kwa kuvipigia mstari kisha taja ngeli husika kwa kila kirejeshi.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
         "pages": [
           4
         ]
