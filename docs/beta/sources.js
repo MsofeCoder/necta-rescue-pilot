@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 14,
+  "version": 15,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3539,6 +3539,84 @@ window.NECTA_BETA = {
         "sha256": "ab549c000f42d060cfaefa78a5cb1a063d7ff23618b2a90be3b86ebbae86a419",
         "pages": [
           5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05vii",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(vii)",
+      "parent_question": "5",
+      "subquestion": "(vii)",
+      "kind": "original_exam",
+      "question": "The short stories which are not based on facts often with animal characters which convey a moral message to the audience.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05viii",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(viii)",
+      "parent_question": "5",
+      "subquestion": "(viii)",
+      "kind": "original_exam",
+      "question": "The short stories used to illustrate a moral or spiritual lesson.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q05ix",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "5(ix)",
+      "parent_question": "5",
+      "subquestion": "(ix)",
+      "kind": "original_exam",
+      "question": "The songs sung to soothe babies.",
+      "context": "Write a term that stands for each of the following descriptions.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          4
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
