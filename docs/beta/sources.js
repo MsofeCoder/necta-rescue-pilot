@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 23,
+  "version": 24,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -5099,6 +5099,188 @@ window.NECTA_BETA = {
         "sha256": "a5274f04d69b55ffc7a28f137a1ec0f651811be7c90b858e6eb59d3c81b3281e",
         "pages": [
           2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06a",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(a)",
+      "parent_question": "6",
+      "subquestion": "(a)",
+      "kind": "original_exam",
+      "question": "Juma ana mkono wa birika",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06b",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(b)",
+      "parent_question": "6",
+      "subquestion": "(b)",
+      "kind": "original_exam",
+      "question": "Kaka amepata jiko",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06c",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(c)",
+      "parent_question": "6",
+      "subquestion": "(c)",
+      "kind": "original_exam",
+      "question": "Mjomba amepiga maji",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06d",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(d)",
+      "parent_question": "6",
+      "subquestion": "(d)",
+      "kind": "original_exam",
+      "question": "Mwizi amekata mguu",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06e",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(e)",
+      "parent_question": "6",
+      "subquestion": "(e)",
+      "kind": "original_exam",
+      "question": "Mtoto amevimba kichwa",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06f",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(f)",
+      "parent_question": "6",
+      "subquestion": "(f)",
+      "kind": "original_exam",
+      "question": "Beka ana mkono mrefu",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2025-p1-q06h",
+      "subject": "kiswahili",
+      "year": 2025,
+      "paper": "1",
+      "reference": "6(h)",
+      "parent_question": "6",
+      "subquestion": "(h)",
+      "kind": "original_exam",
+      "question": "Kijana amepiga kete",
+      "context": "Eleza kwa kifupi maana ya nahau zifuatazo:",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2025.pdf",
+        "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
+        "pages": [
+          5
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

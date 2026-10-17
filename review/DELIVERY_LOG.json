@@ -436,6 +436,29 @@
         "independent_human_academic_accepted": 0,
         "total": 130
       }
+    },
+    {
+      "deployed_sha": "d26cd2092be797ba1d56fb93b69a8d3c4673bdbc",
+      "implementation_sha": "eee2931b253f31af50b2e9a443d811588ad5d9c8",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/31",
+      "verified_at": "2026-10-17T07:52:15.409Z",
+      "tests": "34 unit/static, 778 beta browser, 95 root browser and 73 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39015172497",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39015172073",
+      "rollback_baseline": "fe5a94771f5b1dcd0986d01b772c34695a1c917f",
+      "evidence": ".workbuddy-ai/batch22-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v22 to necta-rescue-beta-v23 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: seven Kiswahili2025 Q6(a)–(f)/(h) p5 (.workbuddy-ai/batch23.json), then five Q5(d)–(h) p4/5 batch24.json; then three History2025 Q1(vii)/(ix)/(x) p2/3 batch25.json. All prepared with original page evidence; no answers. Missing standalone IDs remain held; preserve English amendment.",
+      "counts": {
+        "question_only": 104,
+        "question_only_parent": 20,
+        "question_only_subquestion": 84,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 134
+      }
     }
   ]
 }
