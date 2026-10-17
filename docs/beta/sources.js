@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 38,
+  "version": 39,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -7397,6 +7397,246 @@ window.NECTA_BETA = {
         "pages": [
           2,
           3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2020-p1-q01i",
+      "subject": "geography",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Why does the sun appear larger than other stars that are seen at night?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Starlight bends as it passes planets"
+        },
+        {
+          "label": "B",
+          "text": "The sun is closer to the earth than other stars"
+        },
+        {
+          "label": "C",
+          "text": "The earth’s atmosphere filters out light from other stars"
+        },
+        {
+          "label": "D",
+          "text": "Daylight brightens the sun making it appear larger"
+        },
+        {
+          "label": "E",
+          "text": "The capacity of our eyes does not view far during the night"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+        "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2020-p1-q01ii",
+      "subject": "geography",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Which layer of the earth forms the ocean floor?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mantle"
+        },
+        {
+          "label": "B",
+          "text": "Sial"
+        },
+        {
+          "label": "C",
+          "text": "Sima"
+        },
+        {
+          "label": "D",
+          "text": "Core"
+        },
+        {
+          "label": "E",
+          "text": "Crust"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+        "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2020-p1-q01iii",
+      "subject": "geography",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "In the field study, students were told that, soil has certain biological, chemical and physical characteristics. What is the general term for these characteristics?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "soil profile"
+        },
+        {
+          "label": "B",
+          "text": "soil particles"
+        },
+        {
+          "label": "C",
+          "text": "soil properties"
+        },
+        {
+          "label": "D",
+          "text": "soil fertility"
+        },
+        {
+          "label": "E",
+          "text": "soil formation."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+        "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2020-p1-q01iv",
+      "subject": "geography",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "A girl was crossing a river and accidentally dropped her school bag in the river. The girl cried as she observed her bag being pulled by the river water toward the river mouth. What could the bag named in relation to the river action?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "River erosion"
+        },
+        {
+          "label": "B",
+          "text": "River transportation"
+        },
+        {
+          "label": "C",
+          "text": "River load"
+        },
+        {
+          "label": "D",
+          "text": "River meander"
+        },
+        {
+          "label": "E",
+          "text": "River bed"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+        "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "geography-2020-p1-q01v",
+      "subject": "geography",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Which of the following factors is not the cause of desertification in Tanzania?",
+      "context": "For each of the items (i) - (x), choose the correct answer from among the given alternatives and write its letter in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deforestation"
+        },
+        {
+          "label": "B",
+          "text": "Urban growth"
+        },
+        {
+          "label": "C",
+          "text": "Shifting cultivation"
+        },
+        {
+          "label": "D",
+          "text": "Over fishing"
+        },
+        {
+          "label": "E",
+          "text": "Bush fire"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Geography-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
+        "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

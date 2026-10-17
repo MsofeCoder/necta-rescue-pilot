@@ -2,9 +2,9 @@
 
 Verified student beta: [open provisional beta](https://msofecoder.github.io/necta-rescue-pilot/beta/).
 
-Content deployment: `1ab2808e40e61e4e3b1a386043d0de12cfffeca5`; implementation review head: `15920b28eadc32a3cc3794ad20a563b3005ee3e9`. [Release PR](https://github.com/MsofeCoder/necta-rescue-pilot/pull/45). Verified 2026-10-17T09:00:09.132Z. Later repository-only checkpoint commits do not change the student bundle.
+Content deployment: `603c222e9ec19ac8772d2bb87aff7b1bd6ede542`; implementation review head: `73de8b494973f4b2f0077919a4e1901d4b695861`. [Release PR](https://github.com/MsofeCoder/necta-rescue-pilot/pull/46). Verified 2026-10-17T09:09:10.410Z. Later repository-only checkpoint commits do not change the student bundle.
 
-196 live items = 166 source-checked question-only + 30 provisional Civics. Question-only: 29 original parent/top-level and 137 original subquestion records. Civics originals: 5 parent/top-level and 10 subquestion records; 15 separately labelled authored variations. Prior bounded source/editorial answer review supports 30 provisional Civics cards; **zero independent human academic acceptances are claimed**. No new answers generated.
+200 live items = 170 source-checked question-only + 30 provisional Civics. Question-only: 29 original parent/top-level and 141 original subquestion records. Civics originals: 5 parent/top-level and 10 subquestion records; 15 separately labelled authored variations. Prior bounded source/editorial answer review supports 30 provisional Civics cards; **zero independent human academic acceptances are claimed**. No new answers generated.
 
 ## Actual in-app subject/year coverage
 
@@ -19,11 +19,11 @@ Cells: Q = source-checked question-only; C = original Civics with prior bounded 
 | History | 0 Q | 0 Q | 0 Q | 0 Q | 9 Q | 15 Q |
 | Literature in English | 0 Q | 0 Q | 0 Q | 0 Q | 15 Q | 12 Q |
 | Biology | 0 Q | 0 Q | 0 Q | 0 Q | 0 Q | 5 Q |
-| Basic Mathematics | 0 Q | 0 Q | 0 Q | 2 Q | 0 Q | 4 Q |
+| Basic Mathematics | 0 Q | 0 Q | 0 Q | 2 Q | 0 Q | 8 Q |
 
 ## Answer state and held evidence
 
-All 166 Q records have unavailable educational answers, regardless of association state. Association counts: missing_answer = 4; pipeline_verified = 15; provisional_or_ambiguous = 147. Pipeline verification is not academic correctness. Missing/provisional associations are not missing student progress.
+All 170 Q records have unavailable educational answers, regardless of association state. Association counts: missing_answer = 4; pipeline_verified = 15; provisional_or_ambiguous = 151. Pipeline verification is not academic correctness. Missing/provisional associations are not missing student progress.
 
 C-02/C-08 remain withheld pending human review: concept-democracy-state, concept-democracy-reasons. Six original Civics conflicts remain withheld:
 
@@ -38,7 +38,7 @@ English 2025 exact q01iii/q01iv remain withheld for printed/canonical parent con
 
 ## Validation and recovery
 
-Checks actually executed: 35 unit/static, 1088 beta browser, 95 root browser and 75 live checks passed. [CI](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019365716). [Pages](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019364927). Public asset hashes compared to the deployment; accepted root thirteen files/fourteen-card app unchanged. Both storage keys, historical/hidden progress, combined/legacy backups and offline beta reuse preserved. Evidence/limitations: .workbuddy-ai/batch36-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v36 to necta-rescue-beta-v37 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED..
+Checks actually executed: 35 unit/static, 1108 beta browser, 95 root browser and 75 live checks passed. [CI](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019929830). [Pages](https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39019929679). Public asset hashes compared to the deployment; accepted root thirteen files/fourteen-card app unchanged. Both storage keys, historical/hidden progress, combined/legacy backups and offline beta reuse preserved. Evidence/limitations: .workbuddy-ai/batch37-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v37 to necta-rescue-beta-v38 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED..
 
 Additional source restrictions from immutable ledgers (an absent standalone ID is not an invented canonical record):
 
@@ -67,15 +67,21 @@ Additional source restrictions from immutable ledgers (an absent standalone ID i
 - english-2021-p1-q05iii: Printed Q5(iii) absorbed by canonical ii, no standalone exact ID exists; no invented ID.
 - basic_mathematics-2025-p1-q04a: Question requires original triangle diagram; not admitted to plain-text batch without full figure evidence in UI.
 - basic_mathematics-2025-p1-q07a: Printed Q7(a) absorbed in canonical Q6(b); standalone exact ID absent, no invented ID.
+- literature-2021-p1-q01i: Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.
+- literature-2021-p1-q01ii: Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.
+- literature-2021-p1-q01iii: Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.
+- literature-2021-p1-q01iv: Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.
+- literature-2021-p1-q01v: Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.
+- literature-2021-p1-q01vi: Original Literature-F4-2021.pdf cover says Year2021/barcodecsee2021, but p2 footer says csee2020. Text/numeral is legible; no source-year inference made for admission during this sprint. Withheld pending clearer document-identity evidence; existing reference retained.
 
 Display corrections are separately traceable in [english-2024-parent-instruction-amendment.json](english-2024-parent-instruction-amendment.json). Historical ledgers remain unchanged; these amendments do not accept answers.
 
-Rollback baseline: `1a96752075d0f1d4a0a728d3b1126af2f1e92b16`. Revert implementation merge `1ab2808e40e61e4e3b1a386043d0de12cfffeca5` with first parent through reviewed PR; use a **new cache generation** in worker and readiness checks, never reuse an old generation. Preserve storage and backups; accepted root fallback remains available.
+Rollback baseline: `1ab2808e40e61e4e3b1a386043d0de12cfffeca5`. Revert implementation merge `603c222e9ec19ac8772d2bb87aff7b1bd6ede542` with first parent through reviewed PR; use a **new cache generation** in worker and readiness checks, never reuse an old generation. Preserve storage and backups; accepted root fallback remains available.
 
 Human academic approval: **PENDING**. Physical Android: **NOT TESTED**, device testing excluded by the owner for this delivery window. [Five-minute checklist](ANDROID_5_MINUTE_CHECK.md) retained; emulation does not pass it. Release policy and emergency-beta restrictions unchanged.
 
 ## Exact restart checkpoint
 
-Next: Math2025 batch37 four p2/3, then Geography2020 batch38 five; Kiswahili2020 batch39 six; History2020 batch40 six; Literature2020 batch41 six; Civics2020 batch42 six; History2021 batch43 six; Geography2021 batch44 four; Kiswahili2021 batch45 five (all p2). Prepared specs/source renders visually checked. Initial PR45 CI startup race fixed in15920b2 with bounded debug-HTTP readiness wait; failed log retained; all new CI/local/live passed. No answers/human/phone; preserve holds/amendments;deadline10:08UTC.
+Next: Geography2020 batch38 five; Kiswahili2020 batch39 six; History2020 batch40 six; Literature2020 batch41 six; Civics2020 batch42 six; History2021 batch43 six; Geography2021 batch44 four; Kiswahili2021 batch45 five; Civics2021 batch46 five p4 (other specs p2). Sources checked. Literature2021 separate identity-hold ledger preserved, 31 unique additional restrictions have no admitted intersections. Add fail-closed historical-hold guard before next admission. No answers/human/phone;deadline10:08UTC.
 
 Use the deployed SHA above as the content baseline, inspect git status before proceeding and retain unrelated review/staging files. Do not repeat admitted IDs. Use beta-current-release.json for the current bounded batch, its immutable ledger and test expectations; advance the cache, run all required suites, publish only under the exception, verify the public bytes/counts, then update this checkpoint. No overall completion percentage is inferred.
