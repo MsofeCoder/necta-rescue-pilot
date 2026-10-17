@@ -1,0 +1,441 @@
+{
+  "batch_id": "english-2025-source-review-2026-10-17",
+  "baseline_commit": "20f3a79a15ef027871c46b4cd41d19bd31e297e0",
+  "queue_status": "Named attachment not found in accessible local workspace; exact four IDs in owner instruction independently reviewed against original PDF.",
+  "counts": {
+    "reviewed": 4,
+    "approved_for_question_only": 2,
+    "withheld": 2,
+    "added_parent_records": 0,
+    "added_subquestion_records": 2,
+    "distinct_existing_parents": 1,
+    "new_accepted_answers": 0,
+    "total_question_only": 28,
+    "total_beta_cards": 58
+  },
+  "source_boundary": "All printed Q1(i)–(iv) are on PDF page 2. Requested canonical iii/iv instead point to Q2 table on PDF page 3. Canonical hierarchy and IDs unchanged; those records withheld.",
+  "related_records_held": [
+    "english-2025-p1-q01ii~2",
+    "english-2025-p1-q01i~2",
+    "english-2025-p1-q01ii~3"
+  ],
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ]
+  },
+  "preservation_before": {
+    "canonical": {
+      "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+      "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+      "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+      "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+      "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+      "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+      "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+      "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+      "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+      "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+    },
+    "pdf": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1"
+  },
+  "android": {
+    "status": "NOT TESTED",
+    "reason": "adb devices -l returned no connected devices on 2026-10-17. Browser emulation is not Android evidence.",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md",
+    "steps": {
+      "access_backup": "NOT TESTED",
+      "read_navigate": "NOT TESTED",
+      "civics_progress": "NOT TESTED",
+      "landscape_restart": "NOT TESTED",
+      "offline_restart": "NOT TESTED"
+    }
+  },
+  "records": [
+    {
+      "record_id": "english-2025-p1-q01i",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(i)",
+      "canonical_source_page": 2,
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            109.4,
+            105.7,
+            559,
+            123.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            141.1,
+            123.8,
+            427.4,
+            138.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            141.1,
+            135.4,
+            470,
+            151.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            141.1,
+            153.8,
+            322.8,
+            166.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "What is the suitable term for such information? _\nA References B Autobiography C Bibliography\nD Abstract E Biography",
+      "canonical_question_text_sha256": "19231866c096fc79a1d724c86be6f4a6d43e96b6e9f0b9c8ad32cfac44685c39",
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED",
+      "source_review": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "visually_inspected_pdf_pages": [
+          2,
+          3
+        ],
+        "printed_page_numbers": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0",
+          "3": "946f897590089bd3d232e2625f3e3b894118be41c7833ab8883a7fbf1be55a80"
+        },
+        "render_method": "PyMuPDF 1.7x full page, original PDF; no solution text used",
+        "reviewer": "Codex sole engineering agent self-review; no independent human certification",
+        "reviewed_on": "2026-10-17"
+      },
+      "display": {
+        "id": "english-2025-p1-q01i",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Your friend asks you to write his personal information at the back of his diary. What is the suitable term for such information?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            2
+          ]
+        },
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "References"
+          },
+          {
+            "label": "B",
+            "text": "Autobiography"
+          },
+          {
+            "label": "C",
+            "text": "Bibliography"
+          },
+          {
+            "label": "D",
+            "text": "Abstract"
+          },
+          {
+            "label": "E",
+            "text": "Biography"
+          }
+        ],
+        "answer_note": "Original question checked against PDF page 2. No educational answer has been checked or accepted; the answer remains unavailable."
+      },
+      "display_correction": "Restore missing first stem sentence from page 2; separate exact A–E alternatives and remove OCR underscore.",
+      "proposed_display_if_hierarchy_separately_reconciled": null
+    },
+    {
+      "record_id": "english-2025-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_page": 2,
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            108,
+            179.7,
+            385.3,
+            195.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            140.3,
+            196.1,
+            253.2,
+            205.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            140.3,
+            212.8,
+            264.7,
+            222.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            139.7,
+            229,
+            260.6,
+            238.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            139.7,
+            245.1,
+            260.6,
+            254.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            139.1,
+            261.8,
+            231.6,
+            271.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which of the following is the correct expression?\nA lamas tall as him\nB Tamas tall with him\nC [amas tall like him\nD [am tall as like him\nE Jam tall as he",
+      "canonical_question_text_sha256": "0989c646d9f9ee2df5badea0f79c3c7cf70330e04088501c8a8cfb08eb0f613f",
+      "decision": "approved_for_question_only",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED",
+      "source_review": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "visually_inspected_pdf_pages": [
+          2,
+          3
+        ],
+        "printed_page_numbers": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0",
+          "3": "946f897590089bd3d232e2625f3e3b894118be41c7833ab8883a7fbf1be55a80"
+        },
+        "render_method": "PyMuPDF 1.7x full page, original PDF; no solution text used",
+        "reviewer": "Codex sole engineering agent self-review; no independent human certification",
+        "reviewed_on": "2026-10-17"
+      },
+      "display": {
+        "id": "english-2025-p1-q01ii",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Which of the following is the correct expression?",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            2
+          ]
+        },
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "I am as tall as him"
+          },
+          {
+            "label": "B",
+            "text": "I am as tall with him"
+          },
+          {
+            "label": "C",
+            "text": "I am as tall like him"
+          },
+          {
+            "label": "D",
+            "text": "I am tall as like him"
+          },
+          {
+            "label": "E",
+            "text": "I am tall as he"
+          }
+        ],
+        "answer_note": "Original question checked against PDF page 2. No educational answer has been checked or accepted; the answer remains unavailable."
+      },
+      "display_correction": "Restore printed I am in all five alternatives; retain printed grammar, including E: I am tall as he.",
+      "proposed_display_if_hierarchy_separately_reconciled": null
+    },
+    {
+      "record_id": "english-2025-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_page": 3,
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            88.1,
+            635,
+            408.7,
+            649.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "He might be right. D Ask for permission",
+      "canonical_question_text_sha256": "692d63e83737014baa07e4c73a3f10776b0805b2370c48aed70322d30bce5ed3",
+      "decision": "withheld_identity_hierarchy_conflict",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED",
+      "source_review": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "visually_inspected_pdf_pages": [
+          2,
+          3
+        ],
+        "printed_page_numbers": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0",
+          "3": "946f897590089bd3d232e2625f3e3b894118be41c7833ab8883a7fbf1be55a80"
+        },
+        "render_method": "PyMuPDF 1.7x full page, original PDF; no solution text used",
+        "reviewer": "Codex sole engineering agent self-review; no independent human certification",
+        "reviewed_on": "2026-10-17"
+      },
+      "display": null,
+      "display_correction": "Canonical text is printed Q2(iii), List A: He might be right. The adjacent List B D Ask for permission is an independent choice, not its answer. Printed Q1(iii) occurs on page 2 inside q01ii~2. No substitution permitted.",
+      "proposed_display_if_hierarchy_separately_reconciled": {
+        "printed_parent_question": "2",
+        "printed_subquestion": "(iii)",
+        "question": "He might be right.",
+        "requires": "Full Q2 matching instruction and complete List B A–H; separate hierarchy approval required. Do not display as Q1 or pair adjacent columns as an answer."
+      }
+    },
+    {
+      "record_id": "english-2025-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_page": 3,
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            88.1,
+            655.5,
+            409,
+            672.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "Ican solve the problem. E Express movement",
+      "canonical_question_text_sha256": "30b044e79efd490eabf8e3eb78a6d89d3e01b5584fb971ff66f56bb5d0662ebc",
+      "decision": "withheld_identity_hierarchy_conflict",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED",
+      "source_review": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "visually_inspected_pdf_pages": [
+          2,
+          3
+        ],
+        "printed_page_numbers": [
+          2,
+          3
+        ],
+        "page_renders": {
+          "2": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0",
+          "3": "946f897590089bd3d232e2625f3e3b894118be41c7833ab8883a7fbf1be55a80"
+        },
+        "render_method": "PyMuPDF 1.7x full page, original PDF; no solution text used",
+        "reviewer": "Codex sole engineering agent self-review; no independent human certification",
+        "reviewed_on": "2026-10-17"
+      },
+      "display": null,
+      "display_correction": "Canonical text is printed Q2(iv), List A: I can solve the problem. The adjacent List B E Express movement is an independent choice, not its answer. Printed Q1(iv) occurs on page 2 inside q01ii~2. No substitution permitted.",
+      "proposed_display_if_hierarchy_separately_reconciled": {
+        "printed_parent_question": "2",
+        "printed_subquestion": "(iv)",
+        "question": "I can solve the problem.",
+        "requires": "Full Q2 matching instruction and complete List B A–H; separate hierarchy approval required. Do not display as Q1 or pair adjacent columns as an answer."
+      }
+    }
+  ]
+}

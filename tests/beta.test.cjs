@@ -20,19 +20,20 @@ test('Civics beta is exactly the corrected 32-card baseline minus two disputed a
   for(const h of data.held_original_ids)assert(!civics.cards.some(c=>c.id===h.id||c.derivedFrom===h.id));
 });
 test('all eight subjects and six years have genuine source references; no missing answer is invented',()=>{
-  assert.equal(data.subjects.length,8);assert.equal(data.papers.length,64);assert.equal(data.cards.length,26);
+  assert.equal(data.subjects.length,8);assert.equal(data.papers.length,64);assert.equal(data.cards.length,28);
   for(const subject of data.subjects)for(let year=2020;year<=2025;year++)assert(data.papers.some(p=>p.subject===subject.id&&p.year===year));
   for(const c of data.cards){assert.equal(c.kind,'original_exam');assert.equal(c.answer_state,'question_only');assert.equal(c.question_review,'source_page_checked');assert(!('answer'in c));assert(!('correctOption'in c));assert.equal(c.marks,null);assert(c.exam.pages.every(p=>Number.isInteger(p)&&p>0));assert.match(c.exam.sha256,/^[a-f0-9]{64}$/);assert.match(c.exam.url,/^https:\/\/maktaba\.tetea\.org\/past-papers\/csee\//);}
-  assert.equal(new Set(data.cards.map(c=>c.id)).size,26);
+  assert.equal(new Set(data.cards.map(c=>c.id)).size,28);
   assert(data.papers.some(p=>p.subject==='basic_mathematics'&&p.year===2025&&!p.solution));
 });
 test('question-only display copies are separately ledgered; hierarchy and source pages retained',()=>{
   const first=JSON.parse(fs.readFileSync(path.join(root,'review/emergency-beta-question-ledger.json'),'utf8'));
   const second=JSON.parse(fs.readFileSync(path.join(root,'review/beta-2025-batch-02-ledger.json'),'utf8'));
   assert.equal(first.records.length,14);assert.equal(second.records.length,12);
-  const ledger={records:[...first.records,...second.records]};
-  assert.equal(ledger.records.length,26);
-  for(const c of data.cards){const l=ledger.records.find(l=>l.record_id===c.id);assert(l);assert.deepEqual(l.display,c);assert.match(l.render_sha256||l.original_exam_review.page_renders[String(c.exam.pages[0])],/^[a-f0-9]{64}$/);assert.equal(c.subquestion?!!c.parent_question:true,true);}
+  const third=JSON.parse(fs.readFileSync(path.join(root,'review/english-2025-source-review-ledger.json'),'utf8'));
+  const ledger={records:[...first.records,...second.records,...third.records.filter(r=>r.display)]};
+  assert.equal(ledger.records.length,28);
+  for(const c of data.cards){const l=ledger.records.find(l=>l.record_id===c.id);assert(l);assert.deepEqual(l.display,c);assert.match(l.render_sha256||(l.original_exam_review||l.source_review).page_renders[String(c.exam.pages[0])],/^[a-f0-9]{64}$/);assert.equal(c.subquestion?!!c.parent_question:true,true);}
 });
 test('beta assets are explicit; worker cannot purge accepted app caches or expose private sources',()=>{
   assert.deepEqual(fs.readdirSync(dir).sort(),['index.html','beta.css','beta.js','core.js','civics.js','sources.js','sw.js'].sort());
@@ -45,11 +46,27 @@ test('2025 batch is additive, preserves source hierarchy and withholds all twelv
   const prior=JSON.parse(JSON.stringify(baseline.window.NECTA_BETA));
   assert.deepEqual(data.papers,prior.papers);assert.deepEqual(data.pending_human_review,prior.pending_human_review);assert.deepEqual(data.held_original_ids,prior.held_original_ids);
   for(const c of prior.cards)assert.deepEqual(data.cards.find(n=>n.id===c.id),c);
-  const added=data.cards.filter(c=>!prior.cards.some(p=>p.id===c.id));assert.equal(added.length,12);
+  const added=data.cards.filter(c=>!prior.cards.some(p=>p.id===c.id)&&!['english-2025-p1-q01i','english-2025-p1-q01ii'].includes(c.id));assert.equal(added.length,12);
   assert.equal(added.filter(c=>!c.subquestion).length,3);assert.equal(added.filter(c=>c.subquestion).length,9);
   assert.deepEqual(Object.fromEntries(['kiswahili','english','geography','history','literature'].map(s=>[s,added.filter(c=>c.subject===s).length])),{kiswahili:3,english:2,geography:3,history:2,literature:2});
   for(const c of added){assert.equal(c.year,2025);assert.equal(c.paper,'1');assert.equal(c.answer_state,'question_only');assert.equal(c.marks,null);assert(!('answer'in c));assert(!('correctOption'in c));if(c.subquestion){assert(c.context);assert.equal(c.reference,String(c.parent_question)+c.subquestion);}if(c.options)assert.deepEqual(c.options.map(o=>o.label),['A','B','C','D','E']);}
   for(const id of ['geography-2025-p1-q01i','geography-2025-p1-q01ii']){const c=added.find(c=>c.id===id);assert(!c.solution);assert(c.answer_note.includes('conflicts'));assert.equal(c.options.length,5);}
   assert(!added.some(c=>c.id.startsWith('geography-2025-p1-q07')));
-  const sw=fs.readFileSync(path.join(dir,'sw.js'),'utf8'),ui=fs.readFileSync(path.join(dir,'beta.js'),'utf8');assert(sw.includes("CACHE='necta-rescue-beta-v2'"));assert(ui.includes("caches.open('necta-rescue-beta-v2')"));
+  const sw=fs.readFileSync(path.join(dir,'sw.js'),'utf8'),ui=fs.readFileSync(path.join(dir,'beta.js'),'utf8');assert(sw.includes("CACHE='necta-rescue-beta-v3'"));assert(ui.includes("caches.open('necta-rescue-beta-v3')"));
+});
+
+test('English exact-ID review admits only two intact-hierarchy records and preserves merged baseline',()=>{
+  const old={window:{}};vm.runInNewContext(execFileSync('git',['show','20f3a79a15ef027871c46b4cd41d19bd31e297e0:docs/beta/sources.js'],{cwd:root,encoding:'utf8'}),old);
+  const prior=JSON.parse(JSON.stringify(old.window.NECTA_BETA));
+  for(const key of ['papers','subjects','pending_human_review','held_original_ids'])assert.deepEqual(data[key],prior[key]);
+  for(const c of prior.cards)assert.deepEqual(data.cards.find(n=>n.id===c.id),c);
+  const ledger=JSON.parse(fs.readFileSync(path.join(root,'review/english-2025-source-review-ledger.json'),'utf8'));
+  assert.equal(ledger.records.length,4);assert.equal(ledger.records.filter(r=>r.display).length,2);
+  const added=data.cards.filter(c=>!prior.cards.some(p=>p.id===c.id));assert.equal(added.length,2);
+  for(const r of ledger.records){const c=data.cards.find(c=>c.id===r.record_id);if(r.decision==='approved_for_question_only'){
+    assert.deepEqual(c,r.display);assert.equal(c.parent_question,r.canonical_parent_question);assert.equal(c.subquestion,r.canonical_subquestion);
+    assert.deepEqual(c.exam.pages,[2]);assert.equal(c.exam.sha256,'a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1');
+    assert.deepEqual(c.options.map(o=>o.label),['A','B','C','D','E']);assert.equal(c.answer_state,'question_only');assert(!c.solution);assert(!c.answer);assert(!c.correctOption);
+  }else{assert(!c);assert.equal(r.display,null);assert.equal(r.canonical_parent_question,'1');assert.equal(r.proposed_display_if_hierarchy_separately_reconciled.printed_parent_question,'2');}}
+  assert.equal(ledger.android.status,'NOT TESTED');
 });
