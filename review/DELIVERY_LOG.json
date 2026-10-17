@@ -68,6 +68,29 @@
         "independent_human_academic_accepted": 0,
         "total": 69
       }
+    },
+    {
+      "deployed_sha": "0f291e617383cb9a6affab96e841d626ba744507",
+      "implementation_sha": "8a1850e009fedffc7d053b01500ddfeb29e5a104",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/14",
+      "verified_at": "2026-10-17T06:31:43.213Z",
+      "tests": "33 unit/static, 440 beta browser, 94 root browser and 54 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010184818",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39010184668",
+      "rollback_baseline": "e5aabd7d98d703cf1178308f8a122c5894befe5c",
+      "evidence": ".workbuddy-ai/batch06-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v6 to necta-rescue-beta-v7 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next batch07: English2024 Q1(i)-(iii), source p2 already inspected; next batch08 Literature2024 Q5(iv)-(vi), source p4 inspected. No answers. Then select recent Geography source records with intact canonical identity.",
+      "counts": {
+        "question_only": 42,
+        "question_only_parent": 19,
+        "question_only_subquestion": 23,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 72
+      }
     }
   ]
 }

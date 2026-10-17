@@ -1,7 +1,7 @@
 {
-  "batch_id": "recent-core-batch-06",
-  "baseline_commit": "e5aabd7d98d703cf1178308f8a122c5894befe5c",
-  "latest_ledger": "review/recent-core-batch-06-ledger.json",
+  "batch_id": "recent-core-batch-07",
+  "baseline_commit": "0f291e617383cb9a6affab96e841d626ba744507",
+  "latest_ledger": "review/recent-core-batch-07-ledger.json",
   "display_ledgers": [
     "review/emergency-beta-question-ledger.json",
     "review/beta-2025-batch-02-ledger.json",
@@ -9,18 +9,19 @@
     "review/core-three-integration-ledger.json",
     "review/recent-core-batch-04-ledger.json",
     "review/recent-core-batch-05-ledger.json",
-    "review/recent-core-batch-06-ledger.json"
+    "review/recent-core-batch-06-ledger.json",
+    "review/recent-core-batch-07-ledger.json"
   ],
-  "cache": "necta-rescue-beta-v7",
-  "prior_cache": "necta-rescue-beta-v6",
-  "prior_question_only": 39,
-  "question_only": 42,
+  "cache": "necta-rescue-beta-v8",
+  "prior_cache": "necta-rescue-beta-v7",
+  "prior_question_only": 42,
+  "question_only": 45,
   "parent_questions": 19,
-  "subquestions": 23,
-  "total_beta_items": 72,
+  "subquestions": 26,
+  "total_beta_items": 75,
   "subject_counts": {
     "kiswahili": 10,
-    "english": 8,
+    "english": 11,
     "civics": 30,
     "geography": 5,
     "history": 11,

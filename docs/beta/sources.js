@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 7,
+  "version": 8,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2759,6 +2759,150 @@ window.NECTA_BETA = {
         "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
         "pages": [
           6
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01i",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "The term adjacent is synonymous to",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "behind"
+        },
+        {
+          "label": "B",
+          "text": "beside"
+        },
+        {
+          "label": "C",
+          "text": "near"
+        },
+        {
+          "label": "D",
+          "text": "besides"
+        },
+        {
+          "label": "E",
+          "text": "in front of"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01ii",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Ally told Mary that, he preferred studying in the morning. If Mary preferred the same, how would she refer back to Ally’s statement?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "So would I"
+        },
+        {
+          "label": "B",
+          "text": "So am I"
+        },
+        {
+          "label": "C",
+          "text": "So have I"
+        },
+        {
+          "label": "D",
+          "text": "So could I"
+        },
+        {
+          "label": "E",
+          "text": "So do I"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "english-2024-p1-q01iii",
+      "subject": "english",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "Why is R.S.V.P important in an invitation card?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "It specifies the date of an event"
+        },
+        {
+          "label": "B",
+          "text": "It shows the contacts of the hosts"
+        },
+        {
+          "label": "C",
+          "text": "It shows the venue of an event"
+        },
+        {
+          "label": "D",
+          "text": "It shows the deadline for contributions"
+        },
+        {
+          "label": "E",
+          "text": "It specifies the contact address for replies"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "English-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+        "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
