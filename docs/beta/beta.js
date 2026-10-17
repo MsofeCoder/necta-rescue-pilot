@@ -6,6 +6,7 @@
   const excluded=new Set(data.pending_human_review),held=new Set(data.held_original_ids.map(x=>x.id));
   const civics=core.eligibleCards(window.NECTA_CIVICS).filter(c=>!excluded.has(c.id)&&!held.has(c.id)).map(c=>({...c,subject:'civics',year:c.year||window.NECTA_CIVICS.cards.find(p=>p.id===c.derivedFrom)?.year,paper:c.paper||'1',answer_state:'source_checked_answer'}));
   const practice=data.cards.filter(c=>c.question_review==='source_page_checked'&&!held.has(c.id)&&!excluded.has(c.id));
+  $('coverageSummary').textContent=(civics.length+practice.length)+' practice items: '+civics.length+' provisional Civics cards + '+practice.length+' question-only records. Original source references span 2020–2025.';
   let subject='',selection=[],index=0;
   const current=()=>selection[index];
   function link(label,url){const a=make('a',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;}
@@ -59,7 +60,7 @@
   $('import').onchange=async()=>{const file=$('import').files[0];if(!file)return;try{if(file.size>core.MAX_BACKUP_BYTES)throw Error('File exceeds the 16 MB limit.');const value=JSON.parse(await file.text());if(!core.validBackup(value))throw Error('Invalid backup. Existing data preserved.');if(!confirm('Replace the records included in this backup? Export your current data first.'))return;const oldLegacy=localStorage.getItem(LEGACY),oldLearning=localStorage.getItem(KEY);try{localStorage.setItem(LEGACY,JSON.stringify(value.records));if(Object.hasOwn(value,'learning'))localStorage.setItem(KEY,JSON.stringify(value.learning));}catch(error){try{for(const [k,v]of [[LEGACY,oldLegacy],[KEY,oldLearning]]){if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v);}}catch{throw Error('Restore failed and rollback could not complete. Keep both backups; use recovery in the accepted app.');}throw error;}$('backupStatus').textContent='Backup restored. Hidden and historical card IDs retained.';updateSaved();}catch(e){$('backupStatus').textContent='Cannot import: '+e.message;}finally{$('import').value='';}};
   window.addEventListener('storage',()=>updateSaved());
   if('serviceWorker' in navigator){
-    const ready=async()=>{try{if(!navigator.serviceWorker.controller?.scriptURL.endsWith('/beta/sw.js'))return;const cache=await caches.open('necta-rescue-beta-v15');if((await cache.keys()).length===7)$('offline').textContent='Beta files ready for offline practice. Original PDF links still need internet.';}catch{$('offline').textContent='Offline verification failed. Keep this page open while online.';}};
+    const ready=async()=>{try{if(!navigator.serviceWorker.controller?.scriptURL.endsWith('/beta/sw.js'))return;const cache=await caches.open('necta-rescue-beta-v16');if((await cache.keys()).length===7)$('offline').textContent='Beta files ready for offline practice. Original PDF links still need internet.';}catch{$('offline').textContent='Offline verification failed. Keep this page open while online.';}};
     navigator.serviceWorker.addEventListener('controllerchange',ready);
     navigator.serviceWorker.register('./sw.js',{scope:'./'}).then(()=>navigator.serviceWorker.ready).then(ready).catch(()=>{$('offline').textContent='Offline setup unavailable. Keep this page open while online.';});
   }else $('offline').textContent='Offline service worker unavailable in this browser.';

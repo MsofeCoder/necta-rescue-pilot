@@ -1,0 +1,955 @@
+{
+  "batch_id": "recent-core-batch-15",
+  "baseline_commit": "05cf730697b3255b513f663b672bda7bc4ba5a29",
+  "counts": {
+    "added_records": 7,
+    "added_parent_questions": 1,
+    "added_subquestions": 6,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2025-p1-q01i",
+      "reason": "Prior identity hold: canonical matching fragment, not printed Q1(i)."
+    },
+    {
+      "id": "history-2025-p1-q10",
+      "reason": "Prior hold: no standalone canonical ID for printed Q10."
+    },
+    {
+      "id": "geography-2024-p1-q01ii",
+      "reason": "Prior identity hold: canonical text points to printed Q1(iii)/(iv)."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "literature-2024-p1-q04",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            73.4,
+            296.1,
+            437.8,
+            308.7
+          ]
+        }
+      ],
+      "original_pipeline_text": "Briefly explain six criteria for describing characters in literary works.",
+      "canonical_question_text_sha256": "307dab2e91f7b3c2deb2d6276d35a5c81aa8d825d336dffe571f5c27e315ec39",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q04",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "4",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Briefly explain six criteria for describing characters in literary works.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "No wording change. Preserve top-level Q4 identity; six criteria are explicitly printed, no mark or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Printed top-level Q4 follows Q3(b)(ii) and ends before Q5 instruction; complete standalone prompt on p4.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q05i",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            119.2,
+            351.4,
+            356.8,
+            362.6
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            148.9,
+            363.5,
+            470,
+            369.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "The prayer songs sung for religious purposes.\n1 ; - \\",
+      "canonical_question_text_sha256": "81ddf85bbf0629c28281f83c5b23e80fca4b9ed1e44e101c2630e0b93284fbaa",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q05i",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(i)",
+        "parent_question": "5",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "The prayer songs sung for religious purposes.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove stray OCR characters after printed purposes. and attach exact Q5 parent instruction; no answer term supplied.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Printed Q5(i), first description below Q5 instruction and above (ii); later story belongs to Q6.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q05ii",
+      "canonical_parent_question": "5",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        4,
+        4
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 4,
+          "bbox": [
+            119.2,
+            371.2,
+            468.9,
+            383.6
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            26.8,
+            392,
+            496.5,
+            404.4
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            28.5,
+            411.6,
+            402.3,
+            430
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            418.2,
+            426.2,
+            421.9,
+            433.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "The songs of lamentation sung at the funeral of someone by mourners.\nj (iii) The artistic phrases whose meanings are not clear from the individual words\n| constructing them. , j\n/",
+      "canonical_question_text_sha256": "525fce22398851af732cbd03c9567a249ae5101cfe584c593a248867996ba16c",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q05ii",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "5(ii)",
+        "parent_question": "5",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "The songs of lamentation sung at the funeral of someone by mourners.",
+        "context": "Write a term that stands for each of the following descriptions.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            4
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove absorbed Q5(iii) phrase and OCR noise only. Retain exact parent/subquestion and complete Q5 instruction, no inferred literary term.",
+      "original_exam_review": {
+        "pages": [
+          4
+        ],
+        "page_renders": {
+          "4": "5ae68860aafff8de23ef8ca941bf97860f006a51069bde43f61abf85a94164a8"
+        },
+        "boundary_assessment": "Printed Q5(ii) after (i), ends at mourners. before Q5(iii); original parent5 instruction same page.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2024-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            102.5,
+            342.1,
+            502.6,
+            359.7
+          ]
+        }
+      ],
+      "original_pipeline_text": "Asa dictionary user, how can you easily locate a word on a dictionary page?",
+      "canonical_question_text_sha256": "8a81677d6750673e48973ca139f2e4a993617f59672cfbe07797ac2931f430d1",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2024-p1-q01iv",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "As a dictionary user, how can you easily locate a word on a dictionary page?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Use the table of contents"
+          },
+          {
+            "label": "B",
+            "text": "Use the word class"
+          },
+          {
+            "label": "C",
+            "text": "Use the words on top of a dictionary page"
+          },
+          {
+            "label": "D",
+            "text": "Use example sentences"
+          },
+          {
+            "label": "E",
+            "text": "Use the meaning and pronunciation of the word"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore space in As a; restore all five printed alternatives carried by canonical q01v. Preserve exact source ID/hierarchy and no solution/answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "2913b2e2735ed9edba3590a4f490bcc64628a74a47651d8d3e8cf6c003b4d939"
+        },
+        "boundary_assessment": "Printed Q1(iv) after Q1(iii), ends after E before Q1(v); parent Q1 instruction same p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "english-2024-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            134.5,
+            357.1,
+            275.6,
+            367.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.5,
+            371.8,
+            247.4,
+            382.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            78.9,
+            386.5,
+            401.5,
+            401.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.5,
+            401.8,
+            268.1,
+            414.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            416.7,
+            389.4,
+            429.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            102,
+            436.3,
+            334.1,
+            454.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            453.9,
+            466.8,
+            471.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            468.9,
+            392.8,
+            482.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133.9,
+            484.1,
+            245.1,
+            496.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            499.4,
+            255.7,
+            512.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            514.4,
+            269,
+            527.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "A Use the table of contents\nB Use the word class\ntah ses C Use the words on top of a dictionary page an\nD Use example sentences\nE Use the meaning and pronunciation of the word:\n| Which sentence shows a repeated action?\nA She has already helped people . ;\nB She is always helping people ii\nC She helped people\nD She will help people\nE She should help people",
+      "canonical_question_text_sha256": "a2564cb7a372a03ad4cda5089c3f395981d1235d0f10e2a3f03c301d9a9cb79f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "english-2024-p1-q01v",
+        "subject": "english",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "Which sentence shows a repeated action?",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "She has already helped people"
+          },
+          {
+            "label": "B",
+            "text": "She is always helping people"
+          },
+          {
+            "label": "C",
+            "text": "She helped people"
+          },
+          {
+            "label": "D",
+            "text": "She will help people"
+          },
+          {
+            "label": "E",
+            "text": "She should help people"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "English-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2024.pdf",
+          "sha256": "570ab9f645b1607ff635a446f1ac970c63b2545774f334f31fdd3b7986f6d54f",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Remove preceding Q1(iv) choices and OCR bar/punctuation. Retain printed Q1(v) stem and A–E choices; do not include or reconstruct Q1(vi) table.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "2913b2e2735ed9edba3590a4f490bcc64628a74a47651d8d3e8cf6c003b4d939"
+        },
+        "boundary_assessment": "Printed Q1(v) begins at Which sentence after previous E; ends at its own E before Q1(vi) table. No table needed for Q1(v).",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2025-p1-q01ix",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ix)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            71,
+            230.7,
+            502.4,
+            265.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            34.8,
+            250.4,
+            54.7,
+            267.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            71.7,
+            253.8,
+            342.8,
+            280.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            292.9,
+            268.3,
+            368.9,
+            285.1
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            268.6,
+            273.4,
+            278,
+            287.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            75.2,
+            279.5,
+            372,
+            296.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            269.2,
+            287.5,
+            278.1,
+            299.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            97.6,
+            291.8,
+            157.9,
+            308.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            97.8,
+            304,
+            192.9,
+            320.4
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            74.9,
+            309.6,
+            83.5,
+            323
+          ]
+        }
+      ],
+      "original_pipeline_text": "The rocks that are folded with ohÃ 'sid\u0017' of the limb being steeper than the other side\ndepending on the intensity of force involved are called\nOverthrust fold\nB\nA Over fold Horizontal fold\nD\nSimple fold\nAsymmetrical fold\nE",
+      "canonical_question_text_sha256": "0eb80bc3c94822bf10f6f09c0301c50434d66ad0950e010c08292d146856c27c",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01ix",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ix)",
+        "parent_question": "1",
+        "subquestion": "(ix)",
+        "kind": "original_exam",
+        "question": "The rocks that are folded with one side of the limb being steeper than the other side depending on the intensity of force involved are called",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Over fold"
+          },
+          {
+            "label": "B",
+            "text": "Overthrust fold"
+          },
+          {
+            "label": "C",
+            "text": "Simple fold"
+          },
+          {
+            "label": "D",
+            "text": "Horizontal fold"
+          },
+          {
+            "label": "E",
+            "text": "Asymmetrical fold"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore damaged one side and printed reading order/labels from page. Keep original grammar and no invented terminal punctuation; no diagram or answer supplied.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f",
+          "3": "261fa7e2de217db616709a6bca4ed110750b93bf0ef3e6bf252b745746bebec5"
+        },
+        "boundary_assessment": "Printed Q1(ix) after Q1(viii), ends after E Asymmetrical fold before Q1(x); complete text-only prompt, Q1 instruction p2.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "geography-2025-p1-q01x",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(x)",
+      "canonical_source_pages": [
+        3,
+        3
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 3,
+          "bbox": [
+            73.3,
+            318.6,
+            509.1,
+            351.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            36.9,
+            338.6,
+            53.3,
+            355.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            73.8,
+            350.3,
+            475.3,
+            370.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            290.9,
+            357,
+            333.3,
+            377.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            262.8,
+            361.6,
+            272.5,
+            375.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            105.6,
+            365.3,
+            153.4,
+            386.6
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            76.6,
+            370.1,
+            341.3,
+            390.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            107.6,
+            379.6,
+            170.5,
+            400.2
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            76.1,
+            384.2,
+            86.3,
+            398.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            38.8,
+            395,
+            516,
+            432.3
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            39.2,
+            413.5,
+            497.3,
+            449.7
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            415.3,
+            438.9,
+            448.8,
+            453
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            174.8,
+            450.6,
+            502.7,
+            467.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            353.2,
+            458,
+            363.7,
+            472.5
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            74.9,
+            463.1,
+            285.1,
+            486.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "Mama Huruma has given birth to twelve children. The ability of mama Huruma to give\nbirth is referred as C Population.\nFertility.\nB\nMortality.\nA \u0012 Migration.\nDemography.\nD\nMatch the description of time zone in List A with its respèctive name in List B by writing a\nletter of corresponding response beside the item number in the answer booklet(s) provided.\nList B\nList A Greenwich Mean Time\nA\nTime recorded along the same longitude.",
+      "canonical_question_text_sha256": "694e12c94084e67a6bc3e8714301e2b52b1a49174d7c635d6c62e0ff4f44d904",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "geography-2025-p1-q01x",
+        "subject": "geography",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(x)",
+        "parent_question": "1",
+        "subquestion": "(x)",
+        "kind": "original_exam",
+        "question": "Mama Huruma has given birth to twelve children. The ability of mama Huruma to give birth is referred as",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Mortality."
+          },
+          {
+            "label": "B",
+            "text": "Fertility."
+          },
+          {
+            "label": "C",
+            "text": "Population."
+          },
+          {
+            "label": "D",
+            "text": "Demography."
+          },
+          {
+            "label": "E",
+            "text": "Migration."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Geography-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2025.pdf",
+          "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
+          "pages": [
+            3
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore A–E reading order and labels, remove following matching instruction/table fragment. Preserve printed mama/as wording and alternative full stops; no answer key inferred.",
+      "original_exam_review": {
+        "pages": [
+          3
+        ],
+        "page_renders": {
+          "2": "0a09961d03410e7e79b92e802a1b121f33f4b8d894befaf4a325c831d244c86f",
+          "3": "261fa7e2de217db616709a6bca4ed110750b93bf0ef3e6bf252b745746bebec5"
+        },
+        "boundary_assessment": "Printed Q1(x) after (ix), ends after E Migration. before separate matching exercise instruction and table. No table needed for this MCQ.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
