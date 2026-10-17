@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 39,
+  "version": 40,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -7635,6 +7635,294 @@ window.NECTA_BETA = {
         "filename": "Geography-F4-2020.pdf",
         "url": "https://maktaba.tetea.org/past-papers/csee/geography/Geography-F4-2020.pdf",
         "sha256": "4b990f7fe0a43c4d4d1ca3033b1c31268a693483f7ff1fa06fe0d0129eea87be",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2020-p1-q01i",
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Ni neno lipi linalotoa taarifa kuhusu nomino?",
+      "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kitenzi"
+        },
+        {
+          "label": "B",
+          "text": "Kielezi"
+        },
+        {
+          "label": "C",
+          "text": "Kivumishi"
+        },
+        {
+          "label": "D",
+          "text": "Kiwakilishi"
+        },
+        {
+          "label": "E",
+          "text": "Kiunganishi"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2020-p1-q01ii",
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Katika lugha ya Kiswahili kuna aina ngapi za vitenzi?",
+      "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "mbili"
+        },
+        {
+          "label": "B",
+          "text": "tano"
+        },
+        {
+          "label": "C",
+          "text": "sita"
+        },
+        {
+          "label": "D",
+          "text": "tatu"
+        },
+        {
+          "label": "E",
+          "text": "nne"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2020-p1-q01iii",
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "Maneno yepi kati ya yafuatayo yametokana na lugha za Kibantu?",
+      "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kitindamimba na bendera"
+        },
+        {
+          "label": "B",
+          "text": "Hela na mtutu"
+        },
+        {
+          "label": "C",
+          "text": "Kitivo na ngeli"
+        },
+        {
+          "label": "D",
+          "text": "Godoro na sharubati"
+        },
+        {
+          "label": "E",
+          "text": "Bunge na shule"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2020-p1-q01iv",
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Ni mambo gani muhimu ya kuzingatia katika kuteua maneno na miundo ya tungo wakati wa mazungumzo?",
+      "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mada, muktadha na mazungumzo ya ana kwa ana."
+        },
+        {
+          "label": "B",
+          "text": "Mada, mazungumzo na uhusiano wa wazungumzaji."
+        },
+        {
+          "label": "C",
+          "text": "Mada, mzungumzaji na muktadha wa mazungumzo."
+        },
+        {
+          "label": "D",
+          "text": "Mada, mzungumzaji na uhusiano wa wazungumzaji."
+        },
+        {
+          "label": "E",
+          "text": "Mada, muktadha na uhusiano wa wazungumzaji."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2020-p1-q01v",
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "Bainisha kauli inayoonesha dhima muhimu za vitendawili katika jamii:",
+      "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kuhimiza umoja na ushirikiano."
+        },
+        {
+          "label": "B",
+          "text": "Kupanga watu katika marika yao."
+        },
+        {
+          "label": "C",
+          "text": "Kuchochea udadisi wa mambo."
+        },
+        {
+          "label": "D",
+          "text": "Kuchochea uwongo wa mambo."
+        },
+        {
+          "label": "E",
+          "text": "Kukosoa wadadisi wa mambo."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "kiswahili-2020-p1-q01vi",
+      "subject": "kiswahili",
+      "year": 2020,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "Njia mojawapo ya kuzuia utata katika lugha ya mazungumzo ni ipi kati ya zifuatazo?",
+      "context": "Chagua herufi ya jibu sahihi katika vipengele (i) hadi (x), kisha andika herufi ya jibu hilo katika kijitabu chako cha kujibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kuepuka makosa ya kisarufi na kimantiki."
+        },
+        {
+          "label": "B",
+          "text": "Kutumia neno lenye maana zaidi ya moja."
+        },
+        {
+          "label": "C",
+          "text": "Kutumia kiwakilishi kiambata katika neno."
+        },
+        {
+          "label": "D",
+          "text": "Kuweka msisitizo au ufafanuzi zaidi."
+        },
+        {
+          "label": "E",
+          "text": "Kutumia mofimu sahihi za wakati."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Kiswahili-F4-2020.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/kiswahili/Kiswahili-F4-2020.pdf",
+        "sha256": "c65b550b59d83a733f1c88a6f1626b8adfb2f262879f474262323d3ddb2d8ccb",
         "pages": [
           2
         ]
