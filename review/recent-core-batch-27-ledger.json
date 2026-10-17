@@ -1,0 +1,813 @@
+{
+  "batch_id": "recent-core-batch-27",
+  "baseline_commit": "cadf7911ad6bb1026f8b69d8a62564a6117782eb",
+  "counts": {
+    "added_records": 6,
+    "added_parent_questions": 0,
+    "added_subquestions": 6,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "literature-2024-p1-q01i",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            116.6,
+            152.9,
+            472,
+            167.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.3,
+            169.9,
+            320,
+            182
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            185.5,
+            338.1,
+            197.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.3,
+            200.7,
+            348.2,
+            214
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            216.3,
+            316.8,
+            229
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.9,
+            231.8,
+            363.5,
+            244.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "A People in the society produce it\nB Certain people in the society own it\nC It reflects what happens in the society\nD _Itis sold and bought by people\nE _Ithelps people to be strong economically",
+      "canonical_question_text_sha256": "c1df9f385833c429a82dbc1da7ae261ac9aacf18c81f566503c6bfe20e6a330b",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q01i",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Why is literature referred to as a mirror of the society?",
+        "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "People in the society produce it"
+          },
+          {
+            "label": "B",
+            "text": "Certain people in the society own it"
+          },
+          {
+            "label": "C",
+            "text": "It reflects what happens in the society"
+          },
+          {
+            "label": "D",
+            "text": "It is sold and bought by people"
+          },
+          {
+            "label": "E",
+            "text": "It helps people to be strong economically"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore missing stem from original printed Q1(i), not from supplied solutions. Remove underscore OCR debris in D/E; separate A–E. Preserve original parent wording For each of items and booklet(s). No answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "b54c875e4969bd6a69e514d021d5fd264c9115d26c98629e8d192a6be69a8a31"
+        },
+        "boundary_assessment": "Printed Q1(i) on original p2 with full parent Q1 instruction and complete A–E alternatives; ends before next numeral or page footer after vi. Exact canonical parent/numeral aligns; canonical i lacks stem but original source supplies it. No matching Q2 table, book, poem, figure or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            117.2,
+            262.4,
+            554.4,
+            275.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            277.6,
+            192.1,
+            289.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            293.2,
+            491.6,
+            305.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            307,
+            337.2,
+            318.8
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which one of the following distinguishes literature from other works of art like\ndrawing?\nA Creativity B_ Aesthetic C Originality\nD Application E Diction",
+      "canonical_question_text_sha256": "7a92ab591608319c952a832ab38a309acb0fa1f55677633df42a448aa6c05a2f",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q01ii",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "Which one of the following distinguishes literature from other works of art like drawing?",
+        "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Creativity"
+          },
+          {
+            "label": "B",
+            "text": "Aesthetic"
+          },
+          {
+            "label": "C",
+            "text": "Originality"
+          },
+          {
+            "label": "D",
+            "text": "Application"
+          },
+          {
+            "label": "E",
+            "text": "Diction"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line breaks, remove stray OCR marks/footer and separate A–E. Preserve printed wording, grammar and capitalization, including Persona and organised. No option selected, marking scheme or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "b54c875e4969bd6a69e514d021d5fd264c9115d26c98629e8d192a6be69a8a31"
+        },
+        "boundary_assessment": "Printed Q1(ii) on original p2 with full parent Q1 instruction and complete A–E alternatives; ends before next numeral or page footer after vi. Exact canonical parent/numeral aligns; canonical i lacks stem but original source supplies it. No matching Q2 table, book, poem, figure or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            117.5,
+            336.7,
+            553.5,
+            349.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.9,
+            351.6,
+            369.5,
+            363.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            149.2,
+            367.2,
+            395.1,
+            378.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.9,
+            383.9,
+            446.4,
+            395.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            149.2,
+            400.9,
+            251.4,
+            412.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "You are reading a novel and you reach a point where the characters are involved in\nserious conflict. Which stage of the plot is that?\nA Climax stage B Resolution stage\nC Rising action stage D Falling action stage '\nE Exposition stage",
+      "canonical_question_text_sha256": "35acaf3b807777cc531e7546a60f5c1a38dd5240f5ea3055545a25a66c2aaeba",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q01iii",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "You are reading a novel and you reach a point where the characters are involved in serious conflict. Which stage of the plot is that?",
+        "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Climax stage"
+          },
+          {
+            "label": "B",
+            "text": "Resolution stage"
+          },
+          {
+            "label": "C",
+            "text": "Rising action stage"
+          },
+          {
+            "label": "D",
+            "text": "Falling action stage"
+          },
+          {
+            "label": "E",
+            "text": "Exposition stage"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line breaks, remove stray OCR marks/footer and separate A–E. Preserve printed wording, grammar and capitalization, including Persona and organised. No option selected, marking scheme or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "b54c875e4969bd6a69e514d021d5fd264c9115d26c98629e8d192a6be69a8a31"
+        },
+        "boundary_assessment": "Printed Q1(iii) on original p2 with full parent Q1 instruction and complete A–E alternatives; ends before next numeral or page footer after vi. Exact canonical parent/numeral aligns; canonical i lacks stem but original source supplies it. No matching Q2 table, book, poem, figure or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            117.8,
+            430.6,
+            555,
+            443.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.9,
+            445.5,
+            555.3,
+            456.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.9,
+            461.4,
+            175.1,
+            470
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            475.2,
+            458.8,
+            487.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.6,
+            489.6,
+            330,
+            501.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Literary artists sometimes skip certain events or incidents in presenting their message\nfor the audience to become curious. Which literary term do we use to refer to such a\nstate?\nA Anxiety B_ Exposition C Conflict\nD Suspense E Protest",
+      "canonical_question_text_sha256": "2170ca4705b9cc0abf6428c31be6754af9d946c41cc1bd141dd361a58a437599",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q01iv",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "Literary artists sometimes skip certain events or incidents in presenting their message for the audience to become curious. Which literary term do we use to refer to such a state?",
+        "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Anxiety"
+          },
+          {
+            "label": "B",
+            "text": "Exposition"
+          },
+          {
+            "label": "C",
+            "text": "Conflict"
+          },
+          {
+            "label": "D",
+            "text": "Suspense"
+          },
+          {
+            "label": "E",
+            "text": "Protest"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line breaks, remove stray OCR marks/footer and separate A–E. Preserve printed wording, grammar and capitalization, including Persona and organised. No option selected, marking scheme or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "b54c875e4969bd6a69e514d021d5fd264c9115d26c98629e8d192a6be69a8a31"
+        },
+        "boundary_assessment": "Printed Q1(iv) on original p2 with full parent Q1 instruction and complete A–E alternatives; ends before next numeral or page footer after vi. Exact canonical parent/numeral aligns; canonical i lacks stem but original source supplies it. No matching Q2 table, book, poem, figure or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            117.2,
+            518.4,
+            303.3,
+            529.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            147.7,
+            532.5,
+            287.7,
+            546.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148.3,
+            549.2,
+            271,
+            560.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            147.5,
+            563.6,
+            423.4,
+            575.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148,
+            579.2,
+            269.6,
+            590.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            148,
+            594.4,
+            305.6,
+            605.7
+          ]
+        }
+      ],
+      "original_pipeline_text": "How do novels differ from plays?\nA __ They are well organised.\nB They are in chapters.\nC They are orally presented. ;\nD They are for society.\nE They educate society. ;",
+      "canonical_question_text_sha256": "678cafc38aadeab346b744e69f52151e8d7b1bf5e128a8ab2a1065a095ab70a3",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q01v",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "How do novels differ from plays?",
+        "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "They are well organised."
+          },
+          {
+            "label": "B",
+            "text": "They are in chapters."
+          },
+          {
+            "label": "C",
+            "text": "They are orally presented."
+          },
+          {
+            "label": "D",
+            "text": "They are for society."
+          },
+          {
+            "label": "E",
+            "text": "They educate society."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line breaks, remove stray OCR marks/footer and separate A–E. Preserve printed wording, grammar and capitalization, including Persona and organised. No option selected, marking scheme or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "b54c875e4969bd6a69e514d021d5fd264c9115d26c98629e8d192a6be69a8a31"
+        },
+        "boundary_assessment": "Printed Q1(v) on original p2 with full parent Q1 instruction and complete A–E alternatives; ends before next numeral or page footer after vi. Exact canonical parent/numeral aligns; canonical i lacks stem but original source supplies it. No matching Q2 table, book, poem, figure or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "literature-2024-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            116.6,
+            624.4,
+            557,
+            637.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            147.2,
+            640.2,
+            180,
+            648.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            147.5,
+            654.3,
+            459.9,
+            668.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            147.5,
+            669.3,
+            347.3,
+            678.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            283.1,
+            762,
+            550.4,
+            777.9
+          ]
+        }
+      ],
+      "original_pipeline_text": "How are the people who are involved in various events and incidents in the novel\ncalled?\nA __ Actresses B_ Actors C Persona\nD Narrators E Characters\nPage 2 of 6 .",
+      "canonical_question_text_sha256": "cf0389fb9cfda752d07c069ae64f647bbee57b807494b0597c5a529ed451feb5",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "literature-2024-p1-q01vi",
+        "subject": "literature",
+        "year": 2024,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "How are the people who are involved in various events and incidents in the novel called?",
+        "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Actresses"
+          },
+          {
+            "label": "B",
+            "text": "Actors"
+          },
+          {
+            "label": "C",
+            "text": "Persona"
+          },
+          {
+            "label": "D",
+            "text": "Narrators"
+          },
+          {
+            "label": "E",
+            "text": "Characters"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "Literature-F4-2024.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+          "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Join line breaks, remove stray OCR marks/footer and separate A–E. Preserve printed wording, grammar and capitalization, including Persona and organised. No option selected, marking scheme or answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "b54c875e4969bd6a69e514d021d5fd264c9115d26c98629e8d192a6be69a8a31"
+        },
+        "boundary_assessment": "Printed Q1(vi) on original p2 with full parent Q1 instruction and complete A–E alternatives; ends before next numeral or page footer after vi. Exact canonical parent/numeral aligns; canonical i lacks stem but original source supplies it. No matching Q2 table, book, poem, figure or passage required.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}

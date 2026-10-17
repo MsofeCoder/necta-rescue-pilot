@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 27,
+  "version": 28,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -5665,6 +5665,294 @@ window.NECTA_BETA = {
         "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
         "pages": [
           4
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q01i",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Why is literature referred to as a mirror of the society?",
+      "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "People in the society produce it"
+        },
+        {
+          "label": "B",
+          "text": "Certain people in the society own it"
+        },
+        {
+          "label": "C",
+          "text": "It reflects what happens in the society"
+        },
+        {
+          "label": "D",
+          "text": "It is sold and bought by people"
+        },
+        {
+          "label": "E",
+          "text": "It helps people to be strong economically"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q01ii",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Which one of the following distinguishes literature from other works of art like drawing?",
+      "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Creativity"
+        },
+        {
+          "label": "B",
+          "text": "Aesthetic"
+        },
+        {
+          "label": "C",
+          "text": "Originality"
+        },
+        {
+          "label": "D",
+          "text": "Application"
+        },
+        {
+          "label": "E",
+          "text": "Diction"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q01iii",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "You are reading a novel and you reach a point where the characters are involved in serious conflict. Which stage of the plot is that?",
+      "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Climax stage"
+        },
+        {
+          "label": "B",
+          "text": "Resolution stage"
+        },
+        {
+          "label": "C",
+          "text": "Rising action stage"
+        },
+        {
+          "label": "D",
+          "text": "Falling action stage"
+        },
+        {
+          "label": "E",
+          "text": "Exposition stage"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q01iv",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Literary artists sometimes skip certain events or incidents in presenting their message for the audience to become curious. Which literary term do we use to refer to such a state?",
+      "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anxiety"
+        },
+        {
+          "label": "B",
+          "text": "Exposition"
+        },
+        {
+          "label": "C",
+          "text": "Conflict"
+        },
+        {
+          "label": "D",
+          "text": "Suspense"
+        },
+        {
+          "label": "E",
+          "text": "Protest"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q01v",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "How do novels differ from plays?",
+      "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are well organised."
+        },
+        {
+          "label": "B",
+          "text": "They are in chapters."
+        },
+        {
+          "label": "C",
+          "text": "They are orally presented."
+        },
+        {
+          "label": "D",
+          "text": "They are for society."
+        },
+        {
+          "label": "E",
+          "text": "They educate society."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "literature-2024-p1-q01vi",
+      "subject": "literature",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "How are the people who are involved in various events and incidents in the novel called?",
+      "context": "For each of items (i) - (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Actresses"
+        },
+        {
+          "label": "B",
+          "text": "Actors"
+        },
+        {
+          "label": "C",
+          "text": "Persona"
+        },
+        {
+          "label": "D",
+          "text": "Narrators"
+        },
+        {
+          "label": "E",
+          "text": "Characters"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Literature-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/literature/Literature-F4-2024.pdf",
+        "sha256": "8febdfbbd2ba5aa4fad45c3b9a5b7b87cc32d4e7e683fbe65780d8f202ec2fa7",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
