@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 6,
+  "version": 7,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2681,6 +2681,84 @@ window.NECTA_BETA = {
         "sha256": "a3188910ba317f0a6299a070a99af85ace3a689f16624da4449b2d09cf05403e",
         "pages": [
           3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q09",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "9",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "“Colonial transport and communication networks affected Africa.” Justify this statement by giving six points.",
+      "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          6
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q10",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "10",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Explain six challenges which face Africa due to her participation in the United Nations’ Organization.",
+      "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          6
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2024-p1-q11",
+      "subject": "history",
+      "year": 2024,
+      "paper": "1",
+      "reference": "11",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "In six points, explain the effects of slave trade in East Africa.",
+      "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2024.pdf",
+        "sha256": "a72cdff3f401ef924cc930840772ba0d2d1be0da4f11ff788c21c44f09aebc1b",
+        "pages": [
+          6
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
