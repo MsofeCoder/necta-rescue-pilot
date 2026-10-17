@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 16,
+  "version": 17,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -3886,6 +3886,150 @@ window.NECTA_BETA = {
         "sha256": "e02722ca14bb9473a8056e10c5ee377943d38828157871b31beaf564a28d8b44",
         "pages": [
           3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q01ii",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "Neema was quoted saying “At our school there is fair treatment of both girls and boys to make us fulfill our academic goal”. Which concept best explain Neema’s observation?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gender equality"
+        },
+        {
+          "label": "B",
+          "text": "Gender analysis"
+        },
+        {
+          "label": "C",
+          "text": "Gender stereotype"
+        },
+        {
+          "label": "D",
+          "text": "Gender blindness"
+        },
+        {
+          "label": "E",
+          "text": "Gender equity"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q01iii",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "Suppose three sovereign countries have surrendered their total independence and autonomy to form one country, what will be the form of a newly formed government?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Federal government"
+        },
+        {
+          "label": "B",
+          "text": "Republic government"
+        },
+        {
+          "label": "C",
+          "text": "Union government"
+        },
+        {
+          "label": "D",
+          "text": "Transitional government"
+        },
+        {
+          "label": "E",
+          "text": "Monarch government"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "civics-2024-p1-q01iv",
+      "subject": "civics",
+      "year": 2024,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "Which term is a best description of a situation where people lack access to education, health services, productive skills, information and political freedom?",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Income poverty"
+        },
+        {
+          "label": "B",
+          "text": "Non- material poverty"
+        },
+        {
+          "label": "C",
+          "text": "Material poverty"
+        },
+        {
+          "label": "D",
+          "text": "Absolute poverty"
+        },
+        {
+          "label": "E",
+          "text": "Vicious circle of poverty"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "Civics-F4-2024.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2024.pdf",
+        "sha256": "67aa0b7fd052ae52f567c570e611de988344df49c4a56fe2ec7e419446134fc8",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
