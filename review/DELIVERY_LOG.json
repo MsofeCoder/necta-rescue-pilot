@@ -45,6 +45,29 @@
         "independent_human_academic_accepted": 0,
         "total": 65
       }
+    },
+    {
+      "deployed_sha": "e5aabd7d98d703cf1178308f8a122c5894befe5c",
+      "implementation_sha": "174cd9c6d0c2d31907420e65417cfbc2c74a1998",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/13",
+      "verified_at": "2026-10-17; live checks completed",
+      "tests": "33 unit/static, 429 beta browser, 94 root browser and 59 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39009994962",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39009994688",
+      "rollback_baseline": "3b00ca7a1a2b04aef3ddf08e3b5642beabba9d52",
+      "evidence": ".workbuddy-ai/batch05-live/report.json, local exact-head reports and source renders. Controlled v5-to-v6 upgrade local/CI; live fresh-profile offline use. PR CI required one unchanged rerun for Chrome startup failure.",
+      "next_batch": "Batch06: History2024 Q9-11 original p6, three parent questions. Next: English2024 Q1(i)-(iii) original p2, then Literature2024 Q5(iv)-(vi) original p4. Both next pages already visually inspected; recheck canonical IDs before integration. All answers unavailable.",
+      "counts": {
+        "question_only": 39,
+        "question_only_parent": 16,
+        "question_only_subquestion": 23,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 69
+      }
     }
   ]
 }
