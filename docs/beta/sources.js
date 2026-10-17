@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 3,
+  "version": 4,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -2247,6 +2247,105 @@ window.NECTA_BETA = {
         }
       ],
       "answer_note": "Original question checked against PDF page 2. No educational answer has been checked or accepted; the answer remains unavailable."
+    },
+    {
+      "id": "english-2025-p1-q01v",
+      "subject": "english",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "The following are the uses of the dictionary except:",
+      "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "identifying the usage of a given word"
+        },
+        {
+          "label": "B",
+          "text": "knowing how a word is pronounced"
+        },
+        {
+          "label": "C",
+          "text": "understanding the correct spelling of a word"
+        },
+        {
+          "label": "D",
+          "text": "showing the number of words of a language"
+        },
+        {
+          "label": "E",
+          "text": "understanding the meaning of the given word"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "English-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+        "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "history-2025-p1-q08",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "8",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Briefly explain three ways through which slaves were obtained during the slave trade period.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "history-2025-p1-q09",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "9",
+      "parent_question": "",
+      "subquestion": "",
+      "kind": "original_exam",
+      "question": "Why were Africans defeated by the colonialists during the establishment of colonial rule? Explain by giving six points.",
+      "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          5
+        ]
+      },
+      "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
+      "reviewed_on": "2026-10-17"
     }
   ],
   "pending_human_review": [

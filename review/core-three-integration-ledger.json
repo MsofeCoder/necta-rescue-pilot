@@ -1,0 +1,529 @@
+{
+  "batch_id": "core-three-question-only-2026-10-17",
+  "baseline_commit": "03f64944e3712cb0bcd3beb4281c109ea6fad41f",
+  "prepared_ledger_commit": "2c748e55657396ec02b6e1579eb4f1cf4523c0ab",
+  "prepared_ledger_sha256": "c4ec19f26d49b2d691373df73164c297b8199440b82c01ec86ce4e3fde4602e2",
+  "counts": {
+    "added_records": 3,
+    "added_parent_questions": 2,
+    "added_subquestions": 1,
+    "new_accepted_answers": 0,
+    "total_question_only": 31,
+    "total_question_only_parent_questions": 14,
+    "total_question_only_subquestions": 17,
+    "total_provisional_civics": 30,
+    "total_beta_items": 61
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "android": {
+    "status": "NOT TESTED",
+    "reason": "adb devices -l returned no connected devices; physical offline restart and progress checks not executed.",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "english-2025-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            102.5,
+            516.4,
+            396,
+            530.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.8,
+            529.9,
+            345.6,
+            544.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.8,
+            544.6,
+            338.1,
+            560.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            134.2,
+            561.9,
+            380.2,
+            576
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133.9,
+            577.2,
+            379,
+            592.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133.9,
+            592.7,
+            386.8,
+            607.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "The following are the uses of the dictionary except:\nA _ identifying the usage of a given word\nB knowing how a word is pronounced\nC understanding the correct spelling of a word\nD + showing the number of words of a language\nE understanding the meaning of the given word",
+      "canonical_question_text_sha256": "88de08df8b15824e3c4475ee13dc890cfc9922b74cda8ec5e6a6d72c468992ad",
+      "display_correction": "Remove OCR underscores/plus sign only; restore exact A–E boundaries and retain printed except emphasis as text. No answer inferred.",
+      "decision": "approved_for_question_only",
+      "reviewed_on": "2026-10-17",
+      "reviewer": "Codex sole engineering agent; no human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED; no educational answer generated",
+      "source_review": {
+        "pages": [
+          2
+        ],
+        "render_sha256": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0",
+        "method": "Full original PDF page rendered with PyMuPDF at 1.7x and visually inspected; no solution candidate text used",
+        "boundary_assessment": "Q1(v) starts below Q1(iv) and ends before Q1(vi). No matching fragment.",
+        "dependencies": "Self-contained prompt; no omitted passage, diagram, map or table."
+      },
+      "proposed_display": {
+        "id": "english-2025-p1-q01v",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "The following are the uses of the dictionary except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "identifying the usage of a given word"
+          },
+          {
+            "label": "B",
+            "text": "knowing how a word is pronounced"
+          },
+          {
+            "label": "C",
+            "text": "understanding the correct spelling of a word"
+          },
+          {
+            "label": "D",
+            "text": "showing the number of words of a language"
+          },
+          {
+            "label": "E",
+            "text": "understanding the meaning of the given word"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Prepared source-checked question-only candidate. No educational answer has been checked or accepted."
+      },
+      "display": {
+        "id": "english-2025-p1-q01v",
+        "subject": "english",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "The following are the uses of the dictionary except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from the given alternatives and write its letter beside the item number in the answer booklet provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "identifying the usage of a given word"
+          },
+          {
+            "label": "B",
+            "text": "knowing how a word is pronounced"
+          },
+          {
+            "label": "C",
+            "text": "understanding the correct spelling of a word"
+          },
+          {
+            "label": "D",
+            "text": "showing the number of words of a language"
+          },
+          {
+            "label": "E",
+            "text": "understanding the meaning of the given word"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "English-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/english/English-F4-2025.pdf",
+          "sha256": "a85ce4cac21318c1ef9d93f02f9609de5fc659bb35c7384dfd71c943d30089b1",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
+        "reviewed_on": "2026-10-17"
+      },
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "0262a4abd4173da58294e35ce392e1b5e76ace046a62e6b32f1dec72d2cfbfd0"
+        },
+        "boundary_recheck": "Q1(v) starts below Q1(iv) and ends before Q1(vi). No matching fragment.",
+        "review_method": "Fresh full original PDF render visually inspected on 17 October 2026 by sole engineering agent; no independent human certification."
+      }
+    },
+    {
+      "record_id": "history-2025-p1-q08",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            53.2,
+            164.7,
+            496.9,
+            205.3
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            51.5,
+            172.7,
+            104.8,
+            180
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            16.5,
+            192.8,
+            24,
+            206.2
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            53.5,
+            203.2,
+            89.9,
+            219.6
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            152.2,
+            241.9,
+            371.2,
+            266.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "Briefly explain three ways through which slaves were obtained during the slave trade\nstatement.\nperiod.\nAnswer twe (2) questions from this section.",
+      "canonical_question_text_sha256": "8c3abc339c63e705175f33846e17b7e144caf2dd3376aea9e44625b25f743750",
+      "display_correction": "Remove Q7 tail word statement. and following Section C instruction; join printed final word period. to Q8. No mark inferred from section totals.",
+      "decision": "approved_for_question_only",
+      "reviewed_on": "2026-10-17",
+      "reviewer": "Codex sole engineering agent; no human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED; no educational answer generated",
+      "source_review": {
+        "pages": [
+          5
+        ],
+        "render_sha256": "ca33c1084687ee250dd9554c7d825f20d50fea4b7311f546d330f1fa563e4f93",
+        "method": "Full original PDF page rendered with PyMuPDF at 1.7x and visually inspected; no solution candidate text used",
+        "boundary_assessment": "Q8 starts after Q7 statement. and ends before SECTION C.",
+        "dependencies": "Self-contained prompt; no omitted passage, diagram, map or table."
+      },
+      "proposed_display": {
+        "id": "history-2025-p1-q08",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "8",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Briefly explain three ways through which slaves were obtained during the slave trade period.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Prepared source-checked question-only candidate. No educational answer has been checked or accepted."
+      },
+      "display": {
+        "id": "history-2025-p1-q08",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "8",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Briefly explain three ways through which slaves were obtained during the slave trade period.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
+        "reviewed_on": "2026-10-17"
+      },
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "ca33c1084687ee250dd9554c7d825f20d50fea4b7311f546d330f1fa563e4f93"
+        },
+        "boundary_recheck": "Q8 starts after Q7 statement. and ends before SECTION C.",
+        "review_method": "Fresh full original PDF render visually inspected on 17 October 2026 by sole engineering agent; no independent human certification."
+      }
+    },
+    {
+      "record_id": "history-2025-p1-q09",
+      "canonical_parent_question": "",
+      "canonical_subquestion": "",
+      "canonical_source_pages": [
+        5,
+        5
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 5,
+          "bbox": [
+            65.3,
+            258.8,
+            505.2,
+            301.9
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            24.1,
+            288.2,
+            31.5,
+            303.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            58,
+            293.7,
+            508.3,
+            335.2
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            60.6,
+            319.3,
+            356.9,
+            349.7
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            23.4,
+            322.6,
+            47.4,
+            338.6
+          ]
+        }
+      ],
+      "original_pipeline_text": "Why were Africans defeated by the colonialists during the establishment of colonial rule?\nExplain by giving six peints.Africa was seriously affected by the Great Economic Depression that occurred between\n1929 and 1933.\" Justify this statement by giving six points.\n10. .",
+      "canonical_question_text_sha256": "76a59da4fa5ed37f432f8d7cc9cd54a9929a6554f2390c52fec7bd27e2eadd8b",
+      "display_correction": "Separate Q9 from printed Q10 Great Economic Depression prompt and trailing 10. label. Restore printed points from OCR peints. Section marks are context only, not an item allocation.",
+      "decision": "approved_for_question_only",
+      "reviewed_on": "2026-10-17",
+      "reviewer": "Codex sole engineering agent; no human academic certification",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED; no educational answer generated",
+      "source_review": {
+        "pages": [
+          5
+        ],
+        "render_sha256": "ca33c1084687ee250dd9554c7d825f20d50fea4b7311f546d330f1fa563e4f93",
+        "method": "Full original PDF page rendered with PyMuPDF at 1.7x and visually inspected; no solution candidate text used",
+        "boundary_assessment": "Q9 lies after SECTION C instruction and before printed Q10.",
+        "dependencies": "Self-contained prompt; no omitted passage, diagram, map or table."
+      },
+      "proposed_display": {
+        "id": "history-2025-p1-q09",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "9",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Why were Africans defeated by the colonialists during the establishment of colonial rule? Explain by giving six points.",
+        "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Prepared source-checked question-only candidate. No educational answer has been checked or accepted."
+      },
+      "display": {
+        "id": "history-2025-p1-q09",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "9",
+        "parent_question": "",
+        "subquestion": "",
+        "kind": "original_exam",
+        "question": "Why were Africans defeated by the colonialists during the establishment of colonial rule? Explain by giving six points.",
+        "context": "SECTION C (30 Marks). Answer two (2) questions from this section.",
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            5
+          ]
+        },
+        "answer_note": "Original question checked against the printed page. No educational answer has been checked or accepted; the answer remains unavailable.",
+        "reviewed_on": "2026-10-17"
+      },
+      "original_exam_review": {
+        "pages": [
+          5
+        ],
+        "page_renders": {
+          "5": "ca33c1084687ee250dd9554c7d825f20d50fea4b7311f546d330f1fa563e4f93"
+        },
+        "boundary_recheck": "Q9 lies after SECTION C instruction and before printed Q10.",
+        "review_method": "Fresh full original PDF render visually inspected on 17 October 2026 by sole engineering agent; no independent human certification."
+      }
+    }
+  ]
+}
