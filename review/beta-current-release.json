@@ -1,7 +1,10 @@
 {
-  "batch_id": "recent-core-batch-17",
-  "baseline_commit": "d0cce38e8d6a1db8299b95d7c1c0c7f07414b303",
-  "latest_ledger": "review/recent-core-batch-17-ledger.json",
+  "display_amendments": [
+    "review/english-2024-parent-instruction-amendment.json"
+  ],
+  "batch_id": "recent-core-batch-18",
+  "baseline_commit": "405a8f8bdacde223039780a69cd531f6c457a5ab",
+  "latest_ledger": "review/recent-core-batch-18-ledger.json",
   "display_ledgers": [
     "review/emergency-beta-question-ledger.json",
     "review/beta-2025-batch-02-ledger.json",
@@ -20,27 +23,25 @@
     "review/recent-core-batch-14-ledger.json",
     "review/recent-core-batch-15-ledger.json",
     "review/recent-core-batch-16-ledger.json",
-    "review/recent-core-batch-17-ledger.json"
+    "review/recent-core-batch-17-ledger.json",
+    "review/recent-core-batch-18-ledger.json"
   ],
-  "cache": "necta-rescue-beta-v18",
-  "prior_cache": "necta-rescue-beta-v17",
-  "prior_question_only": 74,
-  "question_only": 77,
+  "cache": "necta-rescue-beta-v19",
+  "prior_cache": "necta-rescue-beta-v18",
+  "prior_question_only": 77,
+  "question_only": 83,
   "parent_questions": 20,
-  "subquestions": 57,
-  "total_beta_items": 107,
+  "subquestions": 63,
+  "total_beta_items": 113,
   "subject_counts": {
     "kiswahili": 12,
     "english": 16,
     "civics": 33,
     "geography": 15,
-    "history": 11,
+    "history": 17,
     "literature": 16,
     "biology": 2,
     "basic_mathematics": 2
   },
-  "rollback": "Revert implementation merge with first parent and use a fresh beta cache generation; preserve storage.",
-  "display_amendments": [
-    "review/english-2024-parent-instruction-amendment.json"
-  ]
+  "rollback": "Revert implementation merge with first parent and use a fresh beta cache generation; preserve storage."
 }

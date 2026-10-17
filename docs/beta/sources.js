@@ -1,6 +1,6 @@
 /* Explicit reviewed subset and public source references; no raw corpus or generated answers. */
 window.NECTA_BETA = {
-  "version": 18,
+  "version": 19,
   "label": "Emergency beta — provisional",
   "date": "2026-10-17",
   "civics_baseline": "8140fc5c9b0e0c46a3d4a15a234979b196b605f0",
@@ -4177,6 +4177,294 @@ window.NECTA_BETA = {
         "pages": [
           2,
           3
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01i",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(i)",
+      "parent_question": "1",
+      "subquestion": "(i)",
+      "kind": "original_exam",
+      "question": "Many pre-colonial African societies handed down historical information by word of mouth from one generation to another. Which term befits such a source of historical information?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Archaeology"
+        },
+        {
+          "label": "B",
+          "text": "Oral traditions"
+        },
+        {
+          "label": "C",
+          "text": "Archives"
+        },
+        {
+          "label": "D",
+          "text": "Museums"
+        },
+        {
+          "label": "E",
+          "text": "Anthropology"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01ii",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(ii)",
+      "parent_question": "1",
+      "subquestion": "(ii)",
+      "kind": "original_exam",
+      "question": "The following are the importance of the discovery of fire to ancient human beings during the Middle Stone Age, except:",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "it helped human beings to scare away wild animals."
+        },
+        {
+          "label": "B",
+          "text": "it provided warmth to humans during cold seasons."
+        },
+        {
+          "label": "C",
+          "text": "it helped human beings to fell trees and clear the land."
+        },
+        {
+          "label": "D",
+          "text": "it enabled humans to make and use guns in wars."
+        },
+        {
+          "label": "E",
+          "text": "it enabled humans to roast food instead of eating it raw."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01iii",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(iii)",
+      "parent_question": "1",
+      "subquestion": "(iii)",
+      "kind": "original_exam",
+      "question": "Which statement best classifies Hehe resistance of 1891 - 1898?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "A direct military confrontation between the Hehe and the Portuguese"
+        },
+        {
+          "label": "B",
+          "text": "A passive resistance of the Hehe against the British colonialists"
+        },
+        {
+          "label": "C",
+          "text": "A direct military confrontation between the Hehe and the Germans"
+        },
+        {
+          "label": "D",
+          "text": "A passive resistance of the Hehe against the French colonialists"
+        },
+        {
+          "label": "E",
+          "text": "A direct military confrontation between the Hehe and the Arabs"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01iv",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(iv)",
+      "parent_question": "1",
+      "subquestion": "(iv)",
+      "kind": "original_exam",
+      "question": "The following were the major weakness of colonial education except:",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was based on race, religion and gender"
+        },
+        {
+          "label": "B",
+          "text": "It was provided to few Africans"
+        },
+        {
+          "label": "C",
+          "text": "It was examination-based"
+        },
+        {
+          "label": "D",
+          "text": "It emphasized practical aspects"
+        },
+        {
+          "label": "E",
+          "text": "It was given equally to children of all races"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01v",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(v)",
+      "parent_question": "1",
+      "subquestion": "(v)",
+      "kind": "original_exam",
+      "question": "The following were the features of colonial economy in Africa except:",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "it improved African local industries."
+        },
+        {
+          "label": "B",
+          "text": "it was export-import oriented."
+        },
+        {
+          "label": "C",
+          "text": "it was money-oriented."
+        },
+        {
+          "label": "D",
+          "text": "it involved land alienation."
+        },
+        {
+          "label": "E",
+          "text": "it was monoculture."
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2
+        ]
+      },
+      "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+    },
+    {
+      "id": "history-2025-p1-q01vi",
+      "subject": "history",
+      "year": 2025,
+      "paper": "1",
+      "reference": "1(vi)",
+      "parent_question": "1",
+      "subquestion": "(vi)",
+      "kind": "original_exam",
+      "question": "Which of the following was the feature of the first exploitative mode of production?",
+      "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Collective ownership of the major means of production"
+        },
+        {
+          "label": "B",
+          "text": "Presence of workers and owners of industries"
+        },
+        {
+          "label": "C",
+          "text": "Presence of landlords and peasants"
+        },
+        {
+          "label": "D",
+          "text": "Exploitation of the slaves by the slave masters"
+        },
+        {
+          "label": "E",
+          "text": "Exploitation of peasants through rent payment"
+        }
+      ],
+      "marks": null,
+      "answer_state": "question_only",
+      "pipeline_state": "provisional_or_ambiguous",
+      "question_review": "source_page_checked",
+      "reviewed_on": "2026-10-17",
+      "exam": {
+        "filename": "History-F4-2025.pdf",
+        "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+        "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+        "pages": [
+          2
         ]
       },
       "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."

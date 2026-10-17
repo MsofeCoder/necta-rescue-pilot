@@ -321,6 +321,29 @@
         "independent_human_academic_accepted": 0,
         "total": 104
       }
+    },
+    {
+      "deployed_sha": "405a8f8bdacde223039780a69cd531f6c457a5ab",
+      "implementation_sha": "ffe218e5b3ce94f2b9ca991eb603c3daac633944",
+      "pr_url": "https://github.com/MsofeCoder/necta-rescue-pilot/pull/26",
+      "verified_at": "2026-10-17T07:27:14.531Z",
+      "tests": "34 unit/static, 639 beta browser, 95 root browser and 70 live checks passed",
+      "ci_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39013623885",
+      "pages_url": "https://github.com/MsofeCoder/necta-rescue-pilot/actions/runs/39013623762",
+      "rollback_baseline": "d0cce38e8d6a1db8299b95d7c1c0c7f07414b303",
+      "evidence": ".workbuddy-ai/batch17-live/report.json, published asset fingerprints and screenshots; necta-rescue-beta-v17 to necta-rescue-beta-v18 upgrade tested on controlled local origin and CI, actual public fresh-profile offline/progress/backup checks; Android NOT TESTED.",
+      "next_batch": "Next: six History 2025 Q1(i)–(vi) from original p2 (.workbuddy-ai/batch18.json); then Geography 2025 Q4(a)/(b), Q5(a)/(b)/(c) p4 (.workbuddy-ai/batch19.json). Carry display_amendments forward and do not rerun admitted queue.",
+      "counts": {
+        "question_only": 77,
+        "question_only_parent": 20,
+        "question_only_subquestion": 57,
+        "civics_original_parent": 5,
+        "civics_original_subquestion": 10,
+        "authored": 15,
+        "prior_source_editorial_answers": 30,
+        "independent_human_academic_accepted": 0,
+        "total": 107
+      }
     }
   ]
 }

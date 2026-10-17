@@ -1,0 +1,880 @@
+{
+  "batch_id": "recent-core-batch-18",
+  "baseline_commit": "405a8f8bdacde223039780a69cd531f6c457a5ab",
+  "counts": {
+    "added_records": 6,
+    "added_parent_questions": 0,
+    "added_subquestions": 6,
+    "new_accepted_answers": 0
+  },
+  "canonical_fingerprints": {
+    "answers.jsonl": "5fa291952e32c2063b6bdfbd3cd233251c3c2195abde5d02a73c8c2c6cc6ef52",
+    "CIVICS_2025_REVIEW_CONTINUATION.jsonl": "d0088543dcc5c142b4a9b555f6dcdb6782d40bfd7775b3675a232bf96f3978c3",
+    "doc_gaps.jsonl": "6e5a412a01e13172d0e92298c95de86896a28a86f48f71ea6bbc1c6cbf78f10b",
+    "ENGLISH_2024_REVIEW_CONTINUATION.jsonl": "f0019b4b2bbaaa5b6b3f7c104e48623bc7c3a7f16566f8437e4dd3a25bc4a8bd",
+    "GEOGRAPHY_2025_REVIEW_CONTINUATION.jsonl": "3c2972f21ce6dfc1de4e1ab460fb5d5591b3b13e39c331a0bb00d337daf4fa78",
+    "inventory.jsonl": "d9c539f68989b600541dfc088834332aaaf31e011d0a1456d84bfee2336a412d",
+    "KISWAHILI_2025_REVIEW_CONTINUATION.jsonl": "4daa4832c4d5d048f9f8a16fb2f6d78df28e5175da4a89be6c3fc70cc8acce08",
+    "questions.jsonl": "61603edca4bd77f4ebd98ebb024b559c79fd7ad8351fd1e7b222d70af17cd0bc",
+    "review.jsonl": "130bbd04066b9d6c8c9176d1c63e4c581ce62a4d98a77a8f83f68d2d558fa3fa",
+    "solution_links.jsonl": "0a39d52c8dbcb6ba1c81505364a24bdddd37376587a94a8aee619efffe2bbbe6"
+  },
+  "preserved_holds": {
+    "pending_human_review": [
+      "concept-democracy-state",
+      "concept-democracy-reasons"
+    ],
+    "held_original_ids": [
+      {
+        "id": "civics-2023-p1-q01ii",
+        "status": "withheld",
+        "reason": "Supplied key D describes directions to a location, while the mandatory-sign stem calls for what users must do (printed B). Withhold rather than silently replacing the key. Printed “future” also requires transcription review."
+      },
+      {
+        "id": "civics-2022-p1-q01vi",
+        "status": "withheld",
+        "reason": "The complete negotiation scenario is printed in the exam, but the supplied solution omits it and labels a different culture stem (vi). No verified supplied answer alignment; candidate excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01i",
+        "status": "withheld",
+        "reason": "Printed question asks for the government’s official seal and badge (Coat of Arms, D); supplied answer A is the Uhuru Torch. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2023-p1-q01v",
+        "status": "withheld",
+        "reason": "Political-threat stem asks about sovereignty; supplied A describes investment inflows instead of the listed sovereignty risk. Contradiction unresolved; excluded."
+      },
+      {
+        "id": "civics-2025-p1-q01v",
+        "status": "withheld",
+        "reason": "Prior hold retained: stem asks for a challenge avoided; supplied D gives increased lifespan and beauty, which are benefits. A checked 2023 maintenance item does not repair or approve this source."
+      },
+      {
+        "id": "civics-2025-p1-q01viii",
+        "status": "withheld",
+        "reason": "Prior hold retained: source scenario and supplied explanation do not establish a unique reliable cause among the options. No inferred replacement key or medical claim is released."
+      }
+    ],
+    "english_withheld": [
+      "english-2025-p1-q01iii",
+      "english-2025-p1-q01iv"
+    ]
+  },
+  "additional_withheld": [
+    {
+      "id": "kiswahili-2024-p1-q01",
+      "reason": "Q1 parent canonical container absorbs printed Q1(i); standalone Q1(i) ID unavailable, no invented subquestion ID."
+    },
+    {
+      "id": "kiswahili-2024-p1-q02",
+      "reason": "Canonical Q2 container is an extraction of Q1(v)–(vii), rather than printed Q2 matching; hierarchy cannot be admitted unchanged."
+    },
+    {
+      "id": "kiswahili-2024-p1-q02viii",
+      "reason": "Canonical parent Q2 disagrees with printed Q1(viii) on original p2; no reparenting."
+    }
+  ],
+  "android": {
+    "status": "NOT TESTED",
+    "checklist": "review/ANDROID_5_MINUTE_CHECK.md"
+  },
+  "human_academic_approval": "PENDING",
+  "records": [
+    {
+      "record_id": "history-2025-p1-q01i",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(i)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            80.3,
+            113.3,
+            534.1,
+            133.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108.6,
+            127.2,
+            533.4,
+            150.1
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108.5,
+            144,
+            174.4,
+            160.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108.8,
+            157,
+            437.2,
+            178.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            239.3,
+            160.2,
+            335.9,
+            174.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            108.8,
+            171.8,
+            331.6,
+            193.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "Many pre-colonial African societies handed down historical information by word of\nmouth from one generation to another. Which term befits such a source of historical\ninformation?\nA Archaeology C Archives\nB Oral traditions\nD Museums E Anthropology",
+      "canonical_question_text_sha256": "76e640c0d4e470d1075402e29599f9d0f5b5b03d8d514d8c9359e7f578e6a689",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01i",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(i)",
+        "parent_question": "1",
+        "subquestion": "(i)",
+        "kind": "original_exam",
+        "question": "Many pre-colonial African societies handed down historical information by word of mouth from one generation to another. Which term befits such a source of historical information?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Archaeology"
+          },
+          {
+            "label": "B",
+            "text": "Oral traditions"
+          },
+          {
+            "label": "C",
+            "text": "Archives"
+          },
+          {
+            "label": "D",
+            "text": "Museums"
+          },
+          {
+            "label": "E",
+            "text": "Anthropology"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore original printed words/labels from OCR damage and join layout line breaks; separate A–E. Retain original grammar, capitalization and punctuation. No option selected and no educational answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4"
+        },
+        "boundary_assessment": "Printed Q1(i) on original p2, complete stem and A–E alternatives; ends after E before the next printed subquestion. Parent Q1 instruction is on the same page. Canonical parent/subquestion align; no external figure/table/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01ii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(ii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            79.2,
+            200.5,
+            532.9,
+            220.3
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.1,
+            213.7,
+            298,
+            232.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107,
+            230.1,
+            395.2,
+            248.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            106.9,
+            243.6,
+            390.3,
+            263.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107.3,
+            258.5,
+            408.3,
+            276.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            106.2,
+            272.9,
+            382,
+            288.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            106.2,
+            286.7,
+            415.1,
+            306.5
+          ]
+        }
+      ],
+      "original_pipeline_text": "The following are the importance of the discovery of fire to ancient human beings\nduring the Middle Stone Age, except:\nA it helped human beings to scare away wild animals.\nB it provided warmth to humans during cold seasons.\nC it helped human beings to fell trees and clear the land.\nD it enabled humans to make and use guns in wars.\nE it enabled humans to roast food instead of eating it raw.",
+      "canonical_question_text_sha256": "38080816e13f058ecc38d64ff8791fafe08f27b8dfda598e91f4ab261cfbd1a8",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01ii",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(ii)",
+        "parent_question": "1",
+        "subquestion": "(ii)",
+        "kind": "original_exam",
+        "question": "The following are the importance of the discovery of fire to ancient human beings during the Middle Stone Age, except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "it helped human beings to scare away wild animals."
+          },
+          {
+            "label": "B",
+            "text": "it provided warmth to humans during cold seasons."
+          },
+          {
+            "label": "C",
+            "text": "it helped human beings to fell trees and clear the land."
+          },
+          {
+            "label": "D",
+            "text": "it enabled humans to make and use guns in wars."
+          },
+          {
+            "label": "E",
+            "text": "it enabled humans to roast food instead of eating it raw."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore original printed words/labels from OCR damage and join layout line breaks; separate A–E. Retain original grammar, capitalization and punctuation. No option selected and no educational answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4"
+        },
+        "boundary_assessment": "Printed Q1(ii) on original p2, complete stem and A–E alternatives; ends after E before the next printed subquestion. Parent Q1 instruction is on the same page. Canonical parent/subquestion align; no external figure/table/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01iii",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iii)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            77.6,
+            315.7,
+            431.7,
+            333.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            107,
+            329.7,
+            484.6,
+            349.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133.5,
+            344.6,
+            456.3,
+            362.9
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            133,
+            358.6,
+            473.7,
+            377.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            104.6,
+            373.8,
+            457,
+            392.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            104.2,
+            387.6,
+            458.3,
+            407
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which statement best classifies Hehe resistance of 1891 - 1898?\nA A direct military confrontation between the Hehe and the Portuguese\nA passive re[istance of the Hehe against the British colonialists\nA direct military confrontation between the Hehe and the Germans\nD A passive resistance of the Hehe against the French colonialists\nE A direct military confrontation between the Hehe and the Arabs",
+      "canonical_question_text_sha256": "7941ad43bce747f5f83ac78a8084306146682af6481d3c261ea9ffd8eb8df4d0",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01iii",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iii)",
+        "parent_question": "1",
+        "subquestion": "(iii)",
+        "kind": "original_exam",
+        "question": "Which statement best classifies Hehe resistance of 1891 - 1898?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "A direct military confrontation between the Hehe and the Portuguese"
+          },
+          {
+            "label": "B",
+            "text": "A passive resistance of the Hehe against the British colonialists"
+          },
+          {
+            "label": "C",
+            "text": "A direct military confrontation between the Hehe and the Germans"
+          },
+          {
+            "label": "D",
+            "text": "A passive resistance of the Hehe against the French colonialists"
+          },
+          {
+            "label": "E",
+            "text": "A direct military confrontation between the Hehe and the Arabs"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore original printed words/labels from OCR damage and join layout line breaks; separate A–E. Retain original grammar, capitalization and punctuation. No option selected and no educational answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4"
+        },
+        "boundary_assessment": "Printed Q1(iii) on original p2, complete stem and A–E alternatives; ends after E before the next printed subquestion. Parent Q1 instruction is on the same page. Canonical parent/subquestion align; no external figure/table/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01iv",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(iv)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            75.7,
+            415.3,
+            461.6,
+            436.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            104.2,
+            429.9,
+            342,
+            450.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            104.4,
+            445.9,
+            294.7,
+            463.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            103.9,
+            460.5,
+            263.9,
+            476.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            104,
+            473.7,
+            290,
+            493.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            131.1,
+            490,
+            352.4,
+            508.3
+          ]
+        }
+      ],
+      "original_pipeline_text": "The following were the major weakness of colonial education except:\nA It was based on race, religion and gender\nB It was provided to few Africans\nC It was examination-based\nD It emphasized practical aspects\nIt was given equally to children of all races",
+      "canonical_question_text_sha256": "69e96b3396acd5c22b17a57ae2d4df9cbe770cdf0f450c8bdce8788ee19e35c3",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01iv",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(iv)",
+        "parent_question": "1",
+        "subquestion": "(iv)",
+        "kind": "original_exam",
+        "question": "The following were the major weakness of colonial education except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "It was based on race, religion and gender"
+          },
+          {
+            "label": "B",
+            "text": "It was provided to few Africans"
+          },
+          {
+            "label": "C",
+            "text": "It was examination-based"
+          },
+          {
+            "label": "D",
+            "text": "It emphasized practical aspects"
+          },
+          {
+            "label": "E",
+            "text": "It was given equally to children of all races"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore original printed words/labels from OCR damage and join layout line breaks; separate A–E. Retain original grammar, capitalization and punctuation. No option selected and no educational answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4"
+        },
+        "boundary_assessment": "Printed Q1(iv) on original p2, complete stem and A–E alternatives; ends after E before the next printed subquestion. Parent Q1 instruction is on the same page. Canonical parent/subquestion align; no external figure/table/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01v",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(v)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            73.7,
+            516.9,
+            465.9,
+            535.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            103.1,
+            532.9,
+            316.9,
+            551.6
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            102.8,
+            548.4,
+            283.6,
+            567.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            102.1,
+            562.8,
+            249.2,
+            582
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            102.1,
+            577.6,
+            265.3,
+            594.4
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            101.7,
+            592.6,
+            232.2,
+            610.2
+          ]
+        }
+      ],
+      "original_pipeline_text": "The following were the features of colonial econonmy in Africa except:\nA it improved African local industries.\nB it was export-import oriented.\nC it was money-oriented.\nD it involved land alienation.\nE it was monoculture.",
+      "canonical_question_text_sha256": "9266370046b3634ad641b76748a47c7915602a30600941d13fcb1f0c3c13a357",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01v",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(v)",
+        "parent_question": "1",
+        "subquestion": "(v)",
+        "kind": "original_exam",
+        "question": "The following were the features of colonial economy in Africa except:",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "it improved African local industries."
+          },
+          {
+            "label": "B",
+            "text": "it was export-import oriented."
+          },
+          {
+            "label": "C",
+            "text": "it was money-oriented."
+          },
+          {
+            "label": "D",
+            "text": "it involved land alienation."
+          },
+          {
+            "label": "E",
+            "text": "it was monoculture."
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore original printed words/labels from OCR damage and join layout line breaks; separate A–E. Retain original grammar, capitalization and punctuation. No option selected and no educational answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4"
+        },
+        "boundary_assessment": "Printed Q1(v) on original p2, complete stem and A–E alternatives; ends after E before the next printed subquestion. Parent Q1 instruction is on the same page. Canonical parent/subquestion align; no external figure/table/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    },
+    {
+      "record_id": "history-2025-p1-q01vi",
+      "canonical_parent_question": "1",
+      "canonical_subquestion": "(vi)",
+      "canonical_source_pages": [
+        2,
+        2
+      ],
+      "canonical_page_spans": [
+        {
+          "page": 2,
+          "bbox": [
+            71.4,
+            618.5,
+            537.2,
+            646.2
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            100.8,
+            633.9,
+            415.8,
+            660.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            128.6,
+            652,
+            363.6,
+            673.8
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            99.8,
+            668.8,
+            307.8,
+            692.5
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            99.6,
+            686.3,
+            367.3,
+            711.7
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            99.4,
+            703.2,
+            368.2,
+            730.4
+          ]
+        }
+      ],
+      "original_pipeline_text": "Which of the following was the feature of the first exploitative mode of production?\nA Collective ownership of the major means of production\nPresence of workers and owners of industries\nC Presence of landlords and peasants\nD Exploitation of the slaves by the slave masters\nE Exploitation of peasants through rent payment",
+      "canonical_question_text_sha256": "3d3b51b5a6ba537b8f33777211b60641c539a32433b99d723da1c9304f099bd6",
+      "decision": "approved_for_question_only",
+      "display": {
+        "id": "history-2025-p1-q01vi",
+        "subject": "history",
+        "year": 2025,
+        "paper": "1",
+        "reference": "1(vi)",
+        "parent_question": "1",
+        "subquestion": "(vi)",
+        "kind": "original_exam",
+        "question": "Which of the following was the feature of the first exploitative mode of production?",
+        "context": "For each of the items (i) – (x), choose the correct answer from among the given alternatives and write its letter beside the item number in the answer booklet(s) provided.",
+        "options": [
+          {
+            "label": "A",
+            "text": "Collective ownership of the major means of production"
+          },
+          {
+            "label": "B",
+            "text": "Presence of workers and owners of industries"
+          },
+          {
+            "label": "C",
+            "text": "Presence of landlords and peasants"
+          },
+          {
+            "label": "D",
+            "text": "Exploitation of the slaves by the slave masters"
+          },
+          {
+            "label": "E",
+            "text": "Exploitation of peasants through rent payment"
+          }
+        ],
+        "marks": null,
+        "answer_state": "question_only",
+        "pipeline_state": "provisional_or_ambiguous",
+        "question_review": "source_page_checked",
+        "reviewed_on": "2026-10-17",
+        "exam": {
+          "filename": "History-F4-2025.pdf",
+          "url": "https://maktaba.tetea.org/past-papers/csee/history/History-F4-2025.pdf",
+          "sha256": "7ca2966f82b4a49734f181fc95e91887831f9cad33fbabe625f6051c9187f106",
+          "pages": [
+            2
+          ]
+        },
+        "answer_note": "Original printed question checked by Codex. No educational answer checked or accepted; answer unavailable."
+      },
+      "display_correction": "Restore original printed words/labels from OCR damage and join layout line breaks; separate A–E. Retain original grammar, capitalization and punctuation. No option selected and no educational answer inferred.",
+      "original_exam_review": {
+        "pages": [
+          2
+        ],
+        "page_renders": {
+          "2": "8ae54eade1365fc2644b2803c047cdf2a704a570e3d2991be2316fc3ab7b4bf4"
+        },
+        "boundary_assessment": "Printed Q1(vi) on original p2, complete stem and A–E alternatives; ends after E before page break; Q1(vii) follows on p3. Parent Q1 instruction is on the same page. Canonical parent/subquestion align; no external figure/table/passage needed.",
+        "method": "Full original PDF render visually inspected; no supplied solution used for transcription.",
+        "dependencies": "No omitted required figure, table or passage."
+      },
+      "reviewer": "Codex sole engineering agent self-review; no independent human academic certification",
+      "reviewed_on": "2026-10-17",
+      "answer_acceptance": "NOT CHECKED / NOT ACCEPTED"
+    }
+  ]
+}
